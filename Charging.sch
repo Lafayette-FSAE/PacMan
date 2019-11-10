@@ -5,12 +5,12 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 3 6
-Title ""
+Title "PacMan: Charging"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "0.1"
+Comp "Lafayette College"
+Comment1 "Charging: Controls charging relays and measure charging current"
+Comment2 "Jon Abel"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -94,35 +94,35 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	1    2750 3600
 	-1   0    0    -1  
 $EndComp
-Text HLabel 1400 1150 0    50   Input ~ 0
+Text HLabel 1350 1550 0    50   Input ~ 0
 CHRG_IN+
-Text HLabel 1400 1250 0    50   Input ~ 0
+Text HLabel 1350 1650 0    50   Input ~ 0
 CHRG_IN-
-Text HLabel 1400 1400 0    50   Input ~ 0
+Text HLabel 1350 1800 0    50   Input ~ 0
 CHRG_OUT+
-Text HLabel 1400 1500 0    50   Input ~ 0
+Text HLabel 1350 1900 0    50   Input ~ 0
 CHRG_OUT-
-Text Label 1500 1150 0    50   ~ 0
+Text Label 1450 1550 0    50   ~ 0
 CHRG_IN+
-Text Label 1500 1250 0    50   ~ 0
+Text Label 1450 1650 0    50   ~ 0
 CHRG_IN-
 Wire Wire Line
-	1500 1250 1400 1250
+	1450 1650 1350 1650
 Wire Wire Line
-	1500 1150 1400 1150
-Text Label 1500 1400 0    50   ~ 0
+	1450 1550 1350 1550
+Text Label 1450 1800 0    50   ~ 0
 CHRG_OUT+
-Text Label 1500 1500 0    50   ~ 0
+Text Label 1450 1900 0    50   ~ 0
 CHRG_OUT-
 Wire Wire Line
-	1400 1400 1500 1400
+	1350 1800 1450 1800
 Wire Wire Line
-	1400 1500 1500 1500
-Text HLabel 9400 1700 2    50   Input ~ 0
+	1350 1900 1450 1900
+Text HLabel 9200 1700 2    50   Input ~ 0
 EN_CHRG
 Wire Wire Line
-	9400 1700 9300 1700
-Text Label 9300 1700 2    50   ~ 0
+	9200 1700 9100 1700
+Text Label 9100 1700 2    50   ~ 0
 EN_CHRG
 Text Label 6150 3050 0    50   ~ 0
 EN_CHRG
@@ -137,18 +137,16 @@ F 3 "~" H 5900 3050 50  0001 C CNN
 	1    5900 3050
 	0    1    -1   0   
 $EndComp
-Text Label 6150 3250 0    50   ~ 0
-PAC_RTN
 Wire Wire Line
 	6050 3050 6150 3050
 Text Label 4950 3250 2    50   ~ 0
 CHRG_IN-
-Text HLabel 9400 1800 2    50   Input ~ 0
-PAC_RTN
+Text HLabel 9200 1800 2    50   Input ~ 0
+LV_RTN
 Wire Wire Line
-	9400 1800 9300 1800
-Text Label 9300 1800 2    50   ~ 0
-PAC_RTN
+	9200 1800 9100 1800
+Text Label 9100 1800 2    50   ~ 0
+LV_RTN
 Text Label 4350 3650 0    50   ~ 0
 CHRG_IN+
 Text Label 5000 3950 2    50   ~ 0
@@ -206,8 +204,6 @@ F 3 "~" H 6150 4650 50  0001 C CNN
 	1    6150 4650
 	1    0    0    -1  
 $EndComp
-Text Label 7250 4900 0    50   ~ 0
-PAC_RTN
 Wire Wire Line
 	5800 4500 5900 4500
 Wire Wire Line
@@ -306,24 +302,22 @@ Wire Wire Line
 	3950 2050 3850 2050
 Wire Wire Line
 	3850 2150 3950 2150
-Text Notes 7050 900  0    100  ~ 20
+Text Notes 5450 900  0    100  ~ 20
 GLV
-Text Notes 2350 900  0    100  ~ 20
+Text Notes 5250 900  2    100  ~ 20
 TSV
-Text Label 9300 1600 2    50   ~ 0
+Text Label 9100 1600 2    50   ~ 0
 CHRG_CURRENT
 Wire Wire Line
-	9300 1600 9400 1600
-Text HLabel 9400 1600 2    50   Input ~ 0
+	9100 1600 9200 1600
+Text HLabel 9200 1600 2    50   Input ~ 0
 CHRG_CURRENT
-Text HLabel 9400 1500 2    50   Input ~ 0
-PAC_5V
-Text Label 9300 1500 2    50   ~ 0
-PAC_5V
+Text HLabel 9200 1500 2    50   Input ~ 0
+LV_5V
+Text Label 9100 1500 2    50   ~ 0
+LV_5V
 Wire Wire Line
-	9300 1500 9400 1500
-Text Label 6600 4100 2    50   ~ 0
-PAC_5V
+	9100 1500 9200 1500
 Wire Wire Line
 	4950 3250 5050 3250
 Wire Wire Line
@@ -356,4 +350,10 @@ Wire Notes Line
 	5350 2750 5350 750 
 Wire Notes Line
 	5350 4600 5350 5750
+Text Label 7250 4900 0    50   ~ 0
+LV_RTN
+Text Label 6150 3250 0    50   ~ 0
+LV_RTN
+Text Label 6600 4100 2    50   ~ 0
+LV_5V
 $EndSCHEMATC
