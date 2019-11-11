@@ -271,17 +271,6 @@ F 3 "~" H 1150 1850 50  0001 C CNN
 	1    1150 1850
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J?
-U 1 1 5DCA5D15
-P 10200 4650
-F 0 "J?" H 10150 5100 50  0000 L CNN
-F 1 "Display" H 10050 5000 50  0000 L CNN
-F 2 "" H 10200 4650 50  0001 C CNN
-F 3 "~" H 10200 4650 50  0001 C CNN
-	1    10200 4650
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 4500 3150 1700 850 
 U 5DCA6D60
@@ -299,10 +288,8 @@ F10 "~CHRG_DETECT" I R 6200 3400 50
 F11 "LV_RTN" I R 6200 3900 50 
 F12 "LV_5V" I R 6200 3250 50 
 $EndSheet
-Text Label 9900 6550 2    50   ~ 0
+Text Label 9950 4700 0    50   ~ 0
 TSV_LIVE
-Text Label 9900 6650 2    50   ~ 0
-LV_RTN
 Text Label 1450 1850 0    50   ~ 0
 PACK+
 Text Label 1450 1950 0    50   ~ 0
@@ -401,12 +388,12 @@ F2 "TSV_RTN" I L 4500 1650 50
 F3 "TSV_5V" I L 4500 1450 50 
 F4 "GLV_24V" I R 6200 950 50 
 F5 "GLV_RTN" I R 6200 1050 50 
-F6 "PACK_FUSED_CS" I L 4500 1150 50 
-F7 "PACK_RTN" I L 4500 1250 50 
-F8 "PAC_CURRENT" I L 4500 950 50 
-F9 "TSV_9V" I L 4500 1550 50 
-F10 "LV_RTN" I R 6200 1650 50 
-F11 "LV_5V" I R 6200 1550 50 
+F6 "PACK_FUSED_CS" I L 4500 950 50 
+F7 "PACK_RTN" I L 4500 1050 50 
+F8 "TSV_9V" I L 4500 1550 50 
+F9 "LV_RTN" I R 6200 1650 50 
+F10 "LV_5V" I R 6200 1450 50 
+F11 "LV_24V" I R 6200 1550 50 
 $EndSheet
 $Comp
 L Connector_Generic:Conn_01x02 J?
@@ -503,17 +490,6 @@ Wire Notes Line
 Wire Notes Line
 	5350 6300 5350 7950
 $Comp
-L Connector_Generic:Conn_01x06 J?
-U 1 1 5DC8C9D0
-P 10200 5600
-F 0 "J?" H 10150 6050 50  0000 L CNN
-F 1 "Buttons" H 10050 5950 50  0000 L CNN
-F 2 "" H 10200 5600 50  0001 C CNN
-F 3 "~" H 10200 5600 50  0001 C CNN
-	1    10200 5600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Lafayette_Electric_Car_Internals:LeopardPawLogo LOGO?
 U 1 1 5DCDE04E
 P 1950 7600
@@ -550,42 +526,60 @@ F 3 "" H 1150 7650 50  0001 C CNN
 	1    1150 7650
 	1    0    0    -1  
 $EndComp
-Text Label 9900 5400 2    50   ~ 0
+Text Label 9250 4900 2    50   ~ 0
 BTN_LEFT
-Text Label 9900 5500 2    50   ~ 0
+Text Label 9250 5000 2    50   ~ 0
 BTN_RIGHT
-Text Label 9900 5600 2    50   ~ 0
+Text Label 9250 5100 2    50   ~ 0
 BTN_UP
-Text Label 9900 5700 2    50   ~ 0
+Text Label 9250 5200 2    50   ~ 0
 BTN_DOWN
-Text Label 9900 5800 2    50   ~ 0
+Text Label 9250 5300 2    50   ~ 0
 BTN_CENTER
-Text Label 9900 6450 2    50   ~ 0
+Text Label 9950 4600 0    50   ~ 0
 CHRG_LED
-Text Label 9900 6350 2    50   ~ 0
+Text Label 9250 4600 2    50   ~ 0
 LV_24V
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 5DD065DC
-P 10200 6450
-F 0 "J?" H 10150 6800 50  0000 L CNN
-F 1 "LEDs" H 10100 6700 50  0000 L CNN
-F 2 "" H 10200 6450 50  0001 C CNN
-F 3 "~" H 10200 6450 50  0001 C CNN
-	1    10200 6450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 6350 10000 6350
-Wire Wire Line
-	9900 6450 10000 6450
-Wire Wire Line
-	9900 6550 10000 6550
-Wire Wire Line
-	9900 6650 10000 6650
 Wire Wire Line
 	5800 7450 5800 7100
 Connection ~ 5800 7450
 Wire Wire Line
 	5800 7450 6000 7450
+Text Label 9250 4700 2    50   ~ 0
+LV_3V3
+Text Label 9250 4800 2    50   ~ 0
+LV_RTN
+Text Label 9950 4800 0    50   ~ 0
+DISP_DIN
+Text Label 9950 4900 0    50   ~ 0
+DISP_CLK
+Text Label 9950 5000 0    50   ~ 0
+DISP_CS
+Text Label 9950 5100 0    50   ~ 0
+DISP_DC
+Text Label 9950 5200 0    50   ~ 0
+DISP_RST
+Text Label 9950 5300 0    50   ~ 0
+DISP_BUSY
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J?
+U 1 1 5DCA5E9D
+P 9550 4900
+F 0 "J?" H 9600 5450 50  0000 C CNN
+F 1 "Panel" H 9600 5350 50  0000 C CNN
+F 2 "" H 9550 4900 50  0001 C CNN
+F 3 "~" H 9550 4900 50  0001 C CNN
+	1    9550 4900
+	1    0    0    -1  
+$EndComp
+Text Label 10300 5400 2    50   ~ 0
+BTN_LEFT
+Text Label 10300 5500 2    50   ~ 0
+BTN_RIGHT
+Text Label 10300 5600 2    50   ~ 0
+BTN_UP
+Text Label 10300 5700 2    50   ~ 0
+BTN_DOWN
+Text Label 10300 5800 2    50   ~ 0
+BTN_CENTER
 $EndSCHEMATC

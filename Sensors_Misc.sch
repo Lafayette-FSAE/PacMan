@@ -17,94 +17,92 @@ $EndDescr
 $Comp
 L Analog_ADC:ADS1015IDGS U?
 U 1 1 5DC8DD71
-P 5950 3050
-F 0 "U?" H 5600 3650 50  0000 C CNN
-F 1 "ADS1015IDGS" H 5600 3550 50  0000 C CNN
-F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 5950 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ads1015.pdf" H 5900 2150 50  0001 C CNN
-	1    5950 3050
+P -2100 4400
+F 0 "U?" H -2450 5000 50  0000 C CNN
+F 1 "ADS1015IDGS" H -2450 4900 50  0000 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H -2100 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1015.pdf" H -2150 3500 50  0001 C CNN
+	1    -2100 4400
 	1    0    0    -1  
 $EndComp
-Text Label 6450 3150 0    50   ~ 0
+Text Label -1600 4500 0    50   ~ 0
 SDA_TSV
-Text Label 6450 3050 0    50   ~ 0
+Text Label -1600 4400 0    50   ~ 0
 SCL_TSV
 Wire Wire Line
-	6450 3150 6350 3150
+	-1600 4500 -1700 4500
 Wire Wire Line
-	6350 3050 6450 3050
-Text Label 5950 2450 0    50   ~ 0
+	-1700 4400 -1600 4400
+Text Label -2100 3800 0    50   ~ 0
 TSV_5V
 Wire Wire Line
-	5950 2450 5950 2550
-Text Label 6050 3550 0    50   ~ 0
+	-2100 3800 -2100 3900
+Text Label -2000 4900 0    50   ~ 0
 TSV_RTN
 Wire Wire Line
-	6050 3550 5950 3550
+	-2000 4900 -2100 4900
 Wire Wire Line
-	5950 3550 5950 3450
-Text Label 5450 4300 2    50   ~ 0
+	-2100 4900 -2100 4800
+Text Label 3950 3150 2    50   ~ 0
 SDA_TSV
-Text Label 5450 4400 2    50   ~ 0
+Text Label 3950 3250 2    50   ~ 0
 SCL_TSV
 Wire Wire Line
-	5450 4300 5550 4300
+	3950 3150 4050 3150
 Wire Wire Line
-	5450 4400 5550 4400
-Text Label 6050 5200 0    50   ~ 0
+	3950 3250 4050 3250
+Text Label 4550 4050 0    50   ~ 0
 TSV_RTN
 Wire Wire Line
-	6050 5200 5950 5200
+	4550 4050 4450 4050
 Wire Wire Line
-	5950 5200 5950 5100
-Text Label 5950 4000 0    50   ~ 0
+	4450 4050 4450 3950
+Text Label 4450 2850 0    50   ~ 0
 TSV_5V
 Wire Wire Line
-	5950 4000 5950 4100
-Text Label 5450 3050 2    50   ~ 0
+	4450 2850 4450 2950
+Text Label -550 3250 2    50   ~ 0
 PAC_CURRENT
-Text Label 4600 2500 2    50   ~ 0
+Text Label -1400 2700 2    50   ~ 0
 PACK_VOLTAGE
-Text Label 5450 3250 2    50   ~ 0
+Text Label -2600 4600 2    50   ~ 0
 DCHRG_A2
-Text Label 5450 3150 2    50   ~ 0
+Text Label -2600 4500 2    50   ~ 0
 DCHRG_A1
 Wire Wire Line
-	5450 3150 5550 3150
+	-2600 4500 -2500 4500
 Wire Wire Line
-	5450 3250 5550 3250
-Wire Wire Line
-	5450 3050 5550 3050
-Text Label 2200 3850 0    50   ~ 0
+	-2600 4600 -2500 4600
+Text Label -1400 2400 0    50   ~ 0
 PAC_CURRENT
-Text Label 2200 3750 0    50   ~ 0
+Text Label -1400 2300 0    50   ~ 0
 PACK_VOLTAGE
-Text Label 2200 4050 0    50   ~ 0
+Text Label -2150 5300 0    50   ~ 0
 DCHRG_A2
-Text Label 2200 3950 0    50   ~ 0
+Text Label -2150 5200 0    50   ~ 0
 DCHRG_A1
-Text HLabel 2100 3750 0    50   Input ~ 0
+Text HLabel -1500 2300 0    50   Input ~ 0
 PACK_VOLTAGE
-Text HLabel 2100 3850 0    50   Input ~ 0
+Text HLabel -1500 2400 0    50   Input ~ 0
 PAC_CURRENT
-Text HLabel 2100 3950 0    50   Input ~ 0
+Text HLabel -2250 5200 0    50   Input ~ 0
 DCHRG_A1
-Text HLabel 2100 4050 0    50   Input ~ 0
+Text HLabel -2250 5300 0    50   Input ~ 0
 DCHRG_A2
 Wire Wire Line
-	2100 4050 2200 4050
+	-2250 5300 -2150 5300
 Wire Wire Line
-	2200 3950 2100 3950
+	-2150 5200 -2250 5200
 Wire Wire Line
-	2100 3850 2200 3850
+	-1500 2400 -1400 2400
 Wire Wire Line
-	2200 3750 2100 3750
+	-1400 2300 -1500 2300
 Wire Wire Line
 	2200 3600 2100 3600
 Text HLabel 2100 3600 0    50   Input ~ 0
 SCL_TSV
-NoConn ~ 6350 4600
-NoConn ~ 6350 2850
+NoConn ~ 4850 3450
+NoConn ~ -1700 4200
 Text HLabel 2100 3500 0    50   Input ~ 0
 SDA_TSV
 Wire Wire Line
@@ -128,122 +126,122 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5DD00DF7
-P 4600 2750
-F 0 "R?" H 4670 2796 50  0000 L CNN
-F 1 "150k" H 4670 2705 50  0000 L CNN
-F 2 "" V 4530 2750 50  0001 C CNN
-F 3 "~" H 4600 2750 50  0001 C CNN
-	1    4600 2750
+P -1400 2950
+F 0 "R?" H -1330 2996 50  0000 L CNN
+F 1 "150k" H -1330 2905 50  0000 L CNN
+F 2 "" V -1470 2950 50  0001 C CNN
+F 3 "~" H -1400 2950 50  0001 C CNN
+	1    -1400 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5DD0108A
-P 4600 3150
-F 0 "R?" H 4670 3196 50  0000 L CNN
-F 1 "10k" H 4670 3105 50  0000 L CNN
-F 2 "" V 4530 3150 50  0001 C CNN
-F 3 "~" H 4600 3150 50  0001 C CNN
-	1    4600 3150
+P -1400 3350
+F 0 "R?" H -1330 3396 50  0000 L CNN
+F 1 "10k" H -1330 3305 50  0000 L CNN
+F 2 "" V -1470 3350 50  0001 C CNN
+F 3 "~" H -1400 3350 50  0001 C CNN
+	1    -1400 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 2500 4600 2600
+	-1400 2700 -1400 2800
 Wire Wire Line
-	4600 2900 4600 2950
-Text Label 4500 3400 2    50   ~ 0
+	-1400 3100 -1400 3150
+Text Label -1500 3600 2    50   ~ 0
 TSV_RTN
 Wire Wire Line
-	4500 3400 4600 3400
+	-1500 3600 -1400 3600
 Wire Wire Line
-	4600 3400 4600 3300
+	-1400 3600 -1400 3500
 Wire Wire Line
-	4600 2950 5550 2950
-Connection ~ 4600 2950
+	-1400 3150 -450 3150
+Connection ~ -1400 3150
 Wire Wire Line
-	4600 2950 4600 3000
+	-1400 3150 -1400 3200
 Text Notes 550  700  0    100  ~ 20
 TSV
-Text Label 6450 3250 0    50   ~ 0
+Text Label -1600 4600 0    50   ~ 0
 TSV_RTN
 Wire Wire Line
-	6450 3250 6350 3250
-Text Notes 6450 3450 0    50   ~ 0
+	-1600 4600 -1700 4600
+Text Notes -1600 4800 0    50   ~ 0
 I2C Address:\n1001000
 Wire Wire Line
-	5550 4700 5450 4700
+	4050 3550 3950 3550
 Wire Wire Line
-	5450 4700 5450 4800
+	3950 3550 3950 3650
 Wire Wire Line
-	5550 4900 5450 4900
-Connection ~ 5450 4900
+	4050 3750 3950 3750
+Connection ~ 3950 3750
 Wire Wire Line
-	5450 4900 5450 5200
+	3950 3750 3950 4050
 Wire Wire Line
-	5450 4800 5550 4800
-Connection ~ 5450 4800
+	3950 3650 4050 3650
+Connection ~ 3950 3650
 Wire Wire Line
-	5450 4800 5450 4900
+	3950 3650 3950 3750
 Wire Wire Line
-	5450 5200 5950 5200
-Connection ~ 5950 5200
-Text Notes 5500 4650 2    50   ~ 0
+	3950 4050 4450 4050
+Connection ~ 4450 4050
+Text Notes 4000 3500 2    50   ~ 0
 I2C Address:\n0011000
 $Comp
 L Sensor_Temperature:MCP9804_MSOP U?
 U 1 1 5DC8DD80
-P 5950 4600
-F 0 "U?" H 5500 5200 50  0000 L CNN
-F 1 "MCP9804_MSOP" H 5250 5100 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 4950 4100 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 5700 5050 50  0001 C CNN
-	1    5950 4600
+P 4450 3450
+F 0 "U?" H 4000 4050 50  0000 L CNN
+F 1 "MCP9804_MSOP" H 3750 3950 50  0000 L CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 3450 2950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 4200 3900 50  0001 C CNN
+	1    4450 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DCE6208
-P 6750 4600
-F 0 "C?" H 6865 4646 50  0000 L CNN
-F 1 "0.1u" H 6865 4555 50  0000 L CNN
-F 2 "" H 6788 4450 50  0001 C CNN
-F 3 "~" H 6750 4600 50  0001 C CNN
-	1    6750 4600
+P 5250 3450
+F 0 "C?" H 5365 3496 50  0000 L CNN
+F 1 "0.1u" H 5365 3405 50  0000 L CNN
+F 2 "" H 5288 3300 50  0001 C CNN
+F 3 "~" H 5250 3450 50  0001 C CNN
+	1    5250 3450
 	1    0    0    -1  
 $EndComp
-Text Label 6850 4850 0    50   ~ 0
+Text Label 5350 3700 0    50   ~ 0
 TSV_RTN
-Text Label 6850 4350 0    50   ~ 0
+Text Label 5350 3200 0    50   ~ 0
 TSV_5V
 Wire Wire Line
-	6850 4350 6750 4350
+	5350 3200 5250 3200
 Wire Wire Line
-	6750 4350 6750 4450
+	5250 3200 5250 3300
 Wire Wire Line
-	6750 4750 6750 4850
+	5250 3600 5250 3700
 Wire Wire Line
-	6750 4850 6850 4850
+	5250 3700 5350 3700
 $Comp
 L Device:C C?
 U 1 1 5DCE8265
-P 7100 3000
-F 0 "C?" H 7215 3046 50  0000 L CNN
-F 1 "0.1u" H 7215 2955 50  0000 L CNN
-F 2 "" H 7138 2850 50  0001 C CNN
-F 3 "~" H 7100 3000 50  0001 C CNN
-	1    7100 3000
+P -950 4350
+F 0 "C?" H -835 4396 50  0000 L CNN
+F 1 "0.1u" H -835 4305 50  0000 L CNN
+F 2 "" H -912 4200 50  0001 C CNN
+F 3 "~" H -950 4350 50  0001 C CNN
+	1    -950 4350
 	1    0    0    -1  
 $EndComp
-Text Label 7200 3250 0    50   ~ 0
+Text Label -850 4600 0    50   ~ 0
 TSV_RTN
-Text Label 7200 2750 0    50   ~ 0
+Text Label -850 4100 0    50   ~ 0
 TSV_5V
 Wire Wire Line
-	7200 2750 7100 2750
+	-850 4100 -950 4100
 Wire Wire Line
-	7100 2750 7100 2850
+	-950 4100 -950 4200
 Wire Wire Line
-	7100 3150 7100 3250
+	-950 4500 -950 4600
 Wire Wire Line
-	7100 3250 7200 3250
+	-950 4600 -850 4600
 $EndSCHEMATC

@@ -37,13 +37,13 @@ Text Label 1750 3750 2    50   ~ 0
 PACK_RTN
 Text Label 1750 3450 2    50   ~ 0
 PACK_FUSED_CS
-Text HLabel 1550 1050 0    50   Input ~ 0
+Text HLabel 1350 1000 0    50   Input ~ 0
 PACK_FUSED_CS
-Text HLabel 1550 1150 0    50   Input ~ 0
+Text HLabel 1350 1100 0    50   Input ~ 0
 PACK_RTN
-Text HLabel 1550 1500 0    50   Input ~ 0
+Text HLabel 1350 1450 0    50   Input ~ 0
 TSV_RTN
-Text HLabel 1550 1300 0    50   Input ~ 0
+Text HLabel 1350 1250 0    50   Input ~ 0
 TSV_5V
 Text HLabel 9800 4850 2    50   Input ~ 0
 LV_RTN
@@ -63,22 +63,22 @@ Wire Wire Line
 	9800 5000 9700 5000
 Wire Wire Line
 	9700 4850 9800 4850
-Text Label 1650 1050 0    50   ~ 0
+Text Label 1450 1000 0    50   ~ 0
 PACK_FUSED_CS
-Text Label 1650 1150 0    50   ~ 0
+Text Label 1450 1100 0    50   ~ 0
 PACK_RTN
-Text Label 1650 1500 0    50   ~ 0
+Text Label 1450 1450 0    50   ~ 0
 TSV_RTN
-Text Label 1650 1300 0    50   ~ 0
+Text Label 1450 1250 0    50   ~ 0
 TSV_5V
 Wire Wire Line
-	1650 1300 1550 1300
+	1450 1250 1350 1250
 Wire Wire Line
-	1550 1500 1650 1500
+	1350 1450 1450 1450
 Wire Wire Line
-	1650 1150 1550 1150
+	1450 1100 1350 1100
 Wire Wire Line
-	1550 1050 1650 1050
+	1350 1000 1450 1000
 $Comp
 L Device:D_Schottky D?
 U 1 1 5DC5E727
@@ -129,7 +129,7 @@ L Device:R R?
 U 1 1 5DC9A764
 P 2050 3450
 F 0 "R?" V 1843 3450 50  0000 C CNN
-F 1 "R" V 1934 3450 50  0000 C CNN
+F 1 "0.82" V 1934 3450 50  0000 C CNN
 F 2 "" V 1980 3450 50  0001 C CNN
 F 3 "~" H 2050 3450 50  0001 C CNN
 	1    2050 3450
@@ -141,71 +141,57 @@ Text Label 9700 4750 2    50   ~ 0
 LV_5V
 Wire Wire Line
 	9800 4750 9700 4750
-Text HLabel 1550 1400 0    50   Input ~ 0
+Text HLabel 1350 1350 0    50   Input ~ 0
 TSV_9V
 Wire Wire Line
-	1550 1400 1650 1400
-Text Label 1650 1400 0    50   ~ 0
+	1350 1350 1450 1350
+Text Label 1450 1350 0    50   ~ 0
 TSV_9V
 Wire Wire Line
-	2200 3450 2250 3450
+	-1750 3350 -1750 2950
 Wire Wire Line
-	1750 3450 1850 3450
+	-1750 2950 -1650 2950
 Wire Wire Line
-	1850 3450 1850 3050
+	-1350 3350 -1350 2950
 Wire Wire Line
-	1850 3050 1950 3050
-Connection ~ 1850 3450
+	-1350 2950 -1450 2950
 Wire Wire Line
-	1850 3450 1900 3450
-Wire Wire Line
-	2250 3450 2250 3050
-Wire Wire Line
-	2250 3050 2150 3050
-Connection ~ 2250 3450
-Wire Wire Line
-	2700 2650 2450 2650
-Text Label 1650 2650 2    50   ~ 0
+	-900 2550 -1150 2550
+Text Label -1950 2550 2    50   ~ 0
 TSV_5V
 Wire Wire Line
-	1650 2650 1750 2650
+	-1950 2550 -1850 2550
 Wire Wire Line
-	2450 2650 2450 2550
+	-1150 2550 -1150 2450
 Wire Wire Line
-	2450 2550 2350 2550
-Connection ~ 2450 2650
+	-1150 2450 -1250 2450
+Connection ~ -1150 2550
 Wire Wire Line
-	2450 2650 2350 2650
+	-1150 2550 -1250 2550
 Wire Wire Line
-	2450 2550 2450 2450
+	-1150 2450 -1150 2350
 Wire Wire Line
-	2450 2450 2350 2450
-Connection ~ 2450 2550
-Text Label 2050 2050 0    50   ~ 0
+	-1150 2350 -1250 2350
+Connection ~ -1150 2450
+Text Label -1550 1950 0    50   ~ 0
 PAC_CURRENT
 Wire Wire Line
-	2050 2050 2050 2250
+	-1550 1950 -1550 2150
 Wire Wire Line
-	2150 3050 2150 2850
+	-1450 2950 -1450 2750
 Wire Wire Line
-	1950 3050 1950 2850
+	-1650 2950 -1650 2750
 $Comp
 L Amplifier_Current:INA282 U?
 U 1 1 5DC756B6
-P 2050 2550
-F 0 "U?" V 2400 2850 50  0000 C CNN
-F 1 "INA282" V 2300 2850 50  0000 C CNN
-F 2 "" H 2050 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 2050 2550 50  0001 C CNN
-	1    2050 2550
+P -1550 2450
+F 0 "U?" V -1200 2750 50  0000 C CNN
+F 1 "INA282" V -1300 2750 50  0000 C CNN
+F 2 "" H -1550 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H -1550 2450 50  0001 C CNN
+	1    -1550 2450
 	0    -1   -1   0   
 $EndComp
-Text Label 1650 1650 0    50   ~ 0
-PAC_CURRENT
-Wire Wire Line
-	1650 1650 1550 1650
-Text HLabel 1550 1650 0    50   Input ~ 0
-PAC_CURRENT
 $Comp
 L Lafayette_Electric_Car_Internals:V7805-500 U?
 U 1 1 5DC77BCA
@@ -299,8 +285,6 @@ F 3 "~" H 3150 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3500 3600
-Wire Wire Line
-	2250 3450 3150 3450
 Wire Wire Line
 	1750 3750 3150 3750
 Connection ~ 3150 3450
@@ -456,29 +440,29 @@ Connection ~ 6300 5000
 Wire Wire Line
 	6300 5000 6750 5000
 Wire Wire Line
-	2700 2550 2700 2650
+	-900 2450 -900 2550
 Wire Wire Line
-	2700 2150 2700 2250
+	-900 2050 -900 2150
 Wire Wire Line
-	2800 2650 2700 2650
-Text Label 2800 2650 0    50   ~ 0
+	-800 2550 -900 2550
+Text Label -800 2550 0    50   ~ 0
 TSV_RTN
 Wire Wire Line
-	2800 2150 2700 2150
-Text Label 2800 2150 0    50   ~ 0
+	-800 2050 -900 2050
+Text Label -800 2050 0    50   ~ 0
 TSV_5V
 $Comp
 L Device:C C?
 U 1 1 5DC79A2C
-P 2700 2400
-F 0 "C?" H 2585 2354 50  0000 R CNN
-F 1 "0.1u" H 2585 2445 50  0000 R CNN
-F 2 "" H 2738 2250 50  0001 C CNN
-F 3 "~" H 2700 2400 50  0001 C CNN
-	1    2700 2400
+P -900 2300
+F 0 "C?" H -1015 2254 50  0000 R CNN
+F 1 "0.1u" H -1015 2345 50  0000 R CNN
+F 2 "" H -862 2150 50  0001 C CNN
+F 3 "~" H -900 2300 50  0001 C CNN
+	1    -900 2300
 	-1   0    0    1   
 $EndComp
-Connection ~ 2700 2650
+Connection ~ -900 2550
 $Comp
 L Lafayette_Electric_Car_Internals:PDQE10-Q48-S24-D U?
 U 1 1 5DC71CEE
@@ -609,4 +593,170 @@ Wire Wire Line
 	3550 5850 3650 5850
 Wire Wire Line
 	3650 5850 3650 5750
+$Comp
+L Lafayette_Electric_Car_Internals:LTC4151 U?
+U 1 1 5DCBEA30
+P 2550 2100
+F 0 "U?" H 2950 2267 50  0000 C CNN
+F 1 "LTC4151" H 2950 2176 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 2950 2200 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4151ff.pdf" H 2950 2200 50  0001 C CNN
+	1    2550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3450 2250 3450
+Wire Wire Line
+	1750 3450 1850 3450
+Wire Wire Line
+	2250 3450 2250 2600
+Wire Wire Line
+	2250 2600 2450 2600
+Connection ~ 2250 3450
+Wire Wire Line
+	2250 3450 3150 3450
+Wire Wire Line
+	1850 3450 1850 2500
+Wire Wire Line
+	1850 2500 2450 2500
+Connection ~ 1850 3450
+Wire Wire Line
+	1850 3450 1900 3450
+Wire Wire Line
+	2450 2400 1850 2400
+Wire Wire Line
+	1850 2400 1850 2500
+Connection ~ 1850 2500
+Text Label 3550 2600 0    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	3550 2600 3450 2600
+Text Label 5400 2800 2    50   ~ 0
+PACK_RTN
+Text Label 5500 2800 0    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	5500 2800 5400 2800
+Text Label 3550 2400 0    50   ~ 0
+SDA_TSV
+Text Label 3550 2500 0    50   ~ 0
+SCL_TSV
+NoConn ~ 3450 2300
+Wire Wire Line
+	3550 2400 3450 2400
+Wire Wire Line
+	3450 2500 3550 2500
+Text Label 2250 2300 2    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	2250 2300 2350 2300
+Wire Wire Line
+	2350 2300 2350 2200
+Wire Wire Line
+	2350 2200 2450 2200
+Connection ~ 2350 2300
+Wire Wire Line
+	2350 2300 2450 2300
+Text Notes 2300 2150 2    50   ~ 0
+I2C Address:\n1101111
+Text HLabel 9800 4650 2    50   Input ~ 0
+LV_24V
+Text Label 9700 4650 2    50   ~ 0
+LV_24V
+Wire Wire Line
+	9800 4650 9700 4650
+$Comp
+L Lafayette_Electric_Car_Internals:INA592 U?
+U 1 1 5DDD805B
+P 5850 1550
+F 0 "U?" H 6400 1750 50  0000 C CNN
+F 1 "INA592" H 6400 1650 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 6350 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina592.pdf" H 6350 1700 50  0001 C CNN
+	1    5850 1550
+	1    0    0    -1  
+$EndComp
+Text Label 6150 1350 2    50   ~ 0
+TSV_5V
+Wire Wire Line
+	6150 1350 6150 1450
+Text Label 6250 2150 0    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	6250 2150 6150 2150
+Wire Wire Line
+	6150 2150 6150 2050
+Text Label 5650 1850 2    50   ~ 0
+DCHRG_A2
+Text Label 5650 1650 2    50   ~ 0
+DCHRG_A1
+Wire Wire Line
+	5650 1850 5750 1850
+Wire Wire Line
+	5750 1650 5650 1650
+Text Label 6850 1850 0    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	6850 1850 6650 1850
+Wire Wire Line
+	6650 1750 6750 1750
+Wire Wire Line
+	6750 1750 6750 1650
+Wire Wire Line
+	6750 1650 6650 1650
+Connection ~ 6750 1750
+Wire Wire Line
+	6750 1750 6850 1750
+Text Label 6850 1750 0    50   ~ 0
+DCHRG_CURRENT
+Text Label 3550 2200 0    50   ~ 0
+DCHRG_CURRENT
+Wire Wire Line
+	3550 2200 3450 2200
+$Comp
+L Device:C C?
+U 1 1 5DE13C16
+P 6900 1200
+F 0 "C?" H 7015 1246 50  0000 L CNN
+F 1 "0.1u" H 7015 1155 50  0000 L CNN
+F 2 "" H 6938 1050 50  0001 C CNN
+F 3 "~" H 6900 1200 50  0001 C CNN
+	1    6900 1200
+	1    0    0    -1  
+$EndComp
+Text Label 6950 1000 0    50   ~ 0
+TSV_5V
+Text Label 6950 1400 0    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	6950 1400 6900 1400
+Wire Wire Line
+	6900 1400 6900 1350
+Wire Wire Line
+	6950 1000 6900 1000
+Wire Wire Line
+	6900 1000 6900 1050
+$Comp
+L Device:C C?
+U 1 1 5DE23D3A
+P 3400 1700
+F 0 "C?" H 3515 1746 50  0000 L CNN
+F 1 "0.1u" H 3515 1655 50  0000 L CNN
+F 2 "" H 3438 1550 50  0001 C CNN
+F 3 "~" H 3400 1700 50  0001 C CNN
+	1    3400 1700
+	1    0    0    -1  
+$EndComp
+Text Label 3450 1500 0    50   ~ 0
+TSV_5V
+Text Label 3450 1900 0    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	3450 1900 3400 1900
+Wire Wire Line
+	3400 1900 3400 1850
+Wire Wire Line
+	3450 1500 3400 1500
+Wire Wire Line
+	3400 1500 3400 1550
 $EndSCHEMATC
