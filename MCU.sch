@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 2 6
 Title "PacMan: MCU, SLOOP, CANBus"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp "Lafayette College"
 Comment1 "MCU, SLOOP, CANBus: Contains the controlling MCU, SLOOP relay, and CAN tranceiver"
 Comment2 "Jon Abel"
@@ -17,67 +17,52 @@ $EndDescr
 $Comp
 L Lafayette_Electric_Car_Internals:T9AS1D12 K?
 U 1 1 5DC9CC3A
-P 2250 3050
+P 2550 3400
 AR Path="/5DC9CC3A" Ref="K?"  Part="1" 
 AR Path="/5DC1F176/5DC9CC3A" Ref="K?"  Part="1" 
-F 0 "K?" H 2450 3225 50  0000 C CNN
-F 1 "G5Q-1A4 DC24" H 2450 3134 50  0000 C CNN
-F 2 "" H 2245 3050 50  0001 C CNN
-F 3 "" H 2245 3050 50  0001 C CNN
-	1    2250 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_DGS Q?
-U 1 1 5DC9CC41
-P 1950 3700
-AR Path="/5DC9CC41" Ref="Q?"  Part="1" 
-AR Path="/5DC1F176/5DC9CC41" Ref="Q?"  Part="1" 
-F 0 "Q?" H 2156 3746 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 2156 3655 50  0000 L CNN
-F 2 "" H 2150 3800 50  0001 C CNN
-F 3 "~" H 1950 3700 50  0001 C CNN
-	1    1950 3700
+F 0 "K?" H 2750 3575 50  0000 C CNN
+F 1 "G5Q-1A4 DC24" H 2750 3484 50  0000 C CNN
+F 2 "" H 2545 3400 50  0001 C CNN
+F 3 "" H 2545 3400 50  0001 C CNN
+	1    2550 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 3400 2050 3400
+	2450 3750 2350 3750
 Wire Wire Line
-	2050 3400 2050 3500
+	2350 3250 2350 3450
 Wire Wire Line
-	2050 3000 2050 3100
-Wire Wire Line
-	2050 3100 2150 3100
-Text Notes 2300 3550 0    50   ~ 0
+	2350 3450 2450 3450
+Text Notes 2600 3900 0    50   ~ 0
 R=2880
 Text Label 5650 2700 2    50   ~ 0
 SLOOP_EN
 $Comp
 L Device:D D?
 U 1 1 5DC9CC50
-P 2050 3250
+P 2350 3600
 AR Path="/5DC1121D/5DC9CC50" Ref="D?"  Part="1" 
 AR Path="/5DC9CC50" Ref="D?"  Part="1" 
 AR Path="/5DC1F176/5DC9CC50" Ref="D?"  Part="1" 
-F 0 "D?" V 2004 3171 50  0000 R CNN
-F 1 "S1B" V 2095 3171 50  0000 R CNN
-F 2 "" H 2050 3250 50  0001 C CNN
-F 3 "~" H 2050 3250 50  0001 C CNN
-	1    2050 3250
+F 0 "D?" V 2304 3521 50  0000 R CNN
+F 1 "S1B" V 2395 3521 50  0000 R CNN
+F 2 "" H 2350 3600 50  0001 C CNN
+F 3 "~" H 2350 3600 50  0001 C CNN
+	1    2350 3600
 	0    1    1    0   
 $EndComp
-Connection ~ 2050 3100
-Connection ~ 2050 3400
-Text Label 2850 3100 0    50   ~ 0
+Connection ~ 2350 3450
+Connection ~ 2350 3750
+Text Label 3150 3450 0    50   ~ 0
 SLOOP1_IN
-Text Label 2850 3400 0    50   ~ 0
+Text Label 3150 3750 0    50   ~ 0
 SLOOP1_OUT
 Wire Wire Line
-	2850 3400 2750 3400
+	3150 3750 3050 3750
 Wire Wire Line
-	2750 3100 2850 3100
+	3050 3450 3150 3450
 Wire Wire Line
-	1650 3700 1750 3700
+	1850 3050 1950 3050
 Text Label 1650 1500 0    50   ~ 0
 SLOOP1_IN
 Text Label 1650 1600 0    50   ~ 0
@@ -102,39 +87,39 @@ Wire Wire Line
 	1650 1600 1550 1600
 Wire Wire Line
 	1650 1500 1550 1500
-Text Label 1650 3700 2    50   ~ 0
+Text Label 1850 3050 2    50   ~ 0
 SLOOP_EN
 $Comp
 L Device:LED D?
 U 1 1 5DCA44E3
-P 9100 4700
-F 0 "D?" H 9093 4916 50  0000 C CNN
-F 1 "LED" H 9093 4825 50  0000 C CNN
-F 2 "" H 9100 4700 50  0001 C CNN
-F 3 "~" H 9100 4700 50  0001 C CNN
-	1    9100 4700
+P 9200 3250
+F 0 "D?" H 9193 3466 50  0000 C CNN
+F 1 "LED" H 9193 3375 50  0000 C CNN
+F 2 "" H 9200 3250 50  0001 C CNN
+F 3 "~" H 9200 3250 50  0001 C CNN
+	1    9200 3250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5DCA4657
-P 9100 5100
-F 0 "D?" H 9093 5316 50  0000 C CNN
-F 1 "LED" H 9093 5225 50  0000 C CNN
-F 2 "" H 9100 5100 50  0001 C CNN
-F 3 "~" H 9100 5100 50  0001 C CNN
-	1    9100 5100
+P 9200 3650
+F 0 "D?" H 9193 3866 50  0000 C CNN
+F 1 "LED" H 9193 3775 50  0000 C CNN
+F 2 "" H 9200 3650 50  0001 C CNN
+F 3 "~" H 9200 3650 50  0001 C CNN
+	1    9200 3650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5DCA4D97
-P 8700 5100
-F 0 "R?" V 8493 5100 50  0000 C CNN
-F 1 "270" V 8584 5100 50  0000 C CNN
-F 2 "" V 8630 5100 50  0001 C CNN
-F 3 "~" H 8700 5100 50  0001 C CNN
-	1    8700 5100
+P 8800 3650
+F 0 "R?" V 8593 3650 50  0000 C CNN
+F 1 "270" V 8684 3650 50  0000 C CNN
+F 2 "" V 8730 3650 50  0001 C CNN
+F 3 "~" H 8800 3650 50  0001 C CNN
+	1    8800 3650
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -148,9 +133,9 @@ F 3 "" H 6250 2250 50  0001 C CNN
 	1    6500 2050
 	1    0    0    -1  
 $EndComp
-Text Label 5650 2200 2    50   ~ 0
+Text Label 5700 1350 2    50   ~ 0
 EN_CHRG
-Text Label 5650 2100 2    50   ~ 0
+Text Label 5650 2200 2    50   ~ 0
 WATCHDOG
 Text Label 5650 2400 2    50   ~ 0
 CHRG_CURRENT
@@ -158,9 +143,9 @@ Text Label 5650 2500 2    50   ~ 0
 SDA_PAC
 Text Label 5650 2600 2    50   ~ 0
 SCL_PAC
-Text Label 8450 4700 2    50   ~ 0
+Text Label 8550 3250 2    50   ~ 0
 LED1
-Text Label 8450 5100 2    50   ~ 0
+Text Label 8550 3650 2    50   ~ 0
 LED2
 Text Label 1300 5100 2    50   ~ 0
 AIRS+
@@ -184,7 +169,7 @@ L Device:R R?
 U 1 1 5DD3CFF4
 P 1550 5100
 F 0 "R?" V 1343 5100 50  0000 C CNN
-F 1 "R" V 1434 5100 50  0000 C CNN
+F 1 "4.7k" V 1434 5100 50  0000 C CNN
 F 2 "" V 1480 5100 50  0001 C CNN
 F 3 "~" H 1550 5100 50  0001 C CNN
 	1    1550 5100
@@ -252,14 +237,12 @@ Text Label 1650 1100 0    50   ~ 0
 GLV_RTN
 Wire Wire Line
 	1550 1100 1650 1100
-Text Label 2050 3000 2    50   ~ 0
+Text Label 2350 2450 2    50   ~ 0
 GLV_24V
-Text Label 1950 4000 2    50   ~ 0
+Text Label 2250 3950 2    50   ~ 0
 GLV_RTN
 Wire Wire Line
-	1950 4000 2050 4000
-Wire Wire Line
-	2050 4000 2050 3900
+	2250 3950 2350 3950
 Text Label 5650 2800 2    50   ~ 0
 AIRS_STATUS
 Text Label 3050 950  0    50   ~ 0
@@ -389,12 +372,12 @@ Do not populate!\nFootprint is left open for debugging.
 $Comp
 L Device:R R?
 U 1 1 5DCA488F
-P 8700 4700
-F 0 "R?" V 8493 4700 50  0000 C CNN
-F 1 "270" V 8584 4700 50  0000 C CNN
-F 2 "" V 8630 4700 50  0001 C CNN
-F 3 "~" H 8700 4700 50  0001 C CNN
-	1    8700 4700
+P 8800 3250
+F 0 "R?" V 8593 3250 50  0000 C CNN
+F 1 "270" V 8684 3250 50  0000 C CNN
+F 2 "" V 8730 3250 50  0001 C CNN
+F 3 "~" H 8800 3250 50  0001 C CNN
+	1    8800 3250
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -499,26 +482,26 @@ LV_5V
 Wire Wire Line
 	7050 1850 7050 1950
 Wire Wire Line
-	8450 4700 8550 4700
+	8550 3250 8650 3250
 Wire Wire Line
-	8450 5100 8550 5100
+	8550 3650 8650 3650
 Wire Wire Line
-	8850 5100 8950 5100
+	8950 3650 9050 3650
 Wire Wire Line
-	8850 4700 8950 4700
+	8950 3250 9050 3250
 Wire Wire Line
-	9250 4700 9350 4700
+	9350 3250 9450 3250
 Wire Wire Line
-	9250 5100 9350 5100
+	9350 3650 9450 3650
 Text Label 1050 6550 0    50   ~ 0
 LV_5V
 Text Label 1050 7050 0    50   ~ 0
 LV_RTN
 Text Label 6050 5900 0    50   ~ 0
 LV_RTN
-Text Label 9350 5100 0    50   ~ 0
+Text Label 9450 3650 0    50   ~ 0
 LV_RTN
-Text Label 9350 4700 0    50   ~ 0
+Text Label 9450 3250 0    50   ~ 0
 LV_RTN
 Text Label 7350 3650 0    50   ~ 0
 LV_RTN
@@ -526,4 +509,92 @@ Text Label 2450 7300 0    50   ~ 0
 LV_RTN
 Text Notes 10150 700  0    100  ~ 20
 GLV
+$Comp
+L Connector_Generic:Conn_01x06 U?
+U 1 1 5DC90143
+P 10000 6100
+F 0 "U?" H 10080 6092 50  0000 L CNN
+F 1 "RTC" H 10080 6001 50  0000 L CNN
+F 2 "" H 10000 6100 50  0001 C CNN
+F 3 "~" H 10000 6100 50  0001 C CNN
+	1    10000 6100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9800 5900
+NoConn ~ 9800 6000
+Text Label 9700 6100 2    50   ~ 0
+SCL_GLV
+Text Label 9700 6200 2    50   ~ 0
+SDA_GLV
+Text Label 9700 6300 2    50   ~ 0
+LV_5V
+Text Label 9700 6400 2    50   ~ 0
+LV_RTN
+Wire Wire Line
+	9700 6100 9800 6100
+Wire Wire Line
+	9700 6200 9800 6200
+Wire Wire Line
+	9700 6300 9800 6300
+Wire Wire Line
+	9700 6400 9800 6400
+$Comp
+L Device:R R?
+U 1 1 5DCFAFBE
+P 5800 1600
+F 0 "R?" H 5870 1646 50  0000 L CNN
+F 1 "10k" H 5870 1555 50  0000 L CNN
+F 2 "" V 5730 1600 50  0001 C CNN
+F 3 "~" H 5800 1600 50  0001 C CNN
+	1    5800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1450 5800 1350
+Wire Wire Line
+	5800 1350 5700 1350
+Text Label 5700 1850 2    50   ~ 0
+LV_RTN
+Wire Wire Line
+	5700 1850 5800 1850
+Wire Wire Line
+	5800 1850 5800 1750
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 5DD250EE
+P 2250 3050
+F 0 "Q?" H 2456 3096 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 2456 3005 50  0000 L CNN
+F 2 "" H 2450 3150 50  0001 C CNN
+F 3 "~" H 2250 3050 50  0001 C CNN
+	1    2250 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3750 2350 3950
+$Comp
+L Device:R R?
+U 1 1 5DD2B7F6
+P 1950 2800
+F 0 "R?" H 2020 2846 50  0000 L CNN
+F 1 "10k" H 2020 2755 50  0000 L CNN
+F 2 "" V 1880 2800 50  0001 C CNN
+F 3 "~" H 1950 2800 50  0001 C CNN
+	1    1950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2950 1950 3050
+Wire Wire Line
+	1950 3050 2050 3050
+Wire Wire Line
+	2350 2850 2350 2550
+Wire Wire Line
+	2350 2550 1950 2550
+Wire Wire Line
+	1950 2550 1950 2650
+Wire Wire Line
+	2350 2450 2350 2550
+Connection ~ 2350 2550
+Connection ~ 1950 3050
 $EndSCHEMATC

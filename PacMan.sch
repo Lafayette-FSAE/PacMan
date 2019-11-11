@@ -7,157 +7,155 @@ encoding utf-8
 Sheet 1 6
 Title "PacMan"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp "Lafayette College"
 Comment1 "PacMan accumulator management board"
 Comment2 "Jon Abel"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 9750 3950 2    50   ~ 0
+Text Label 9900 2550 2    50   ~ 0
 CAN_H
-Text Label 9750 4050 2    50   ~ 0
+Text Label 9900 2650 2    50   ~ 0
 CAN_L
-Text Label 9750 4150 2    50   ~ 0
+Text Label 9900 2750 2    50   ~ 0
 CAN_SHIELD
-Text Label 9750 4250 2    50   ~ 0
+Text Label 9900 2850 2    50   ~ 0
 GLV_24V
-Text Label 9750 4350 2    50   ~ 0
+Text Label 9900 2950 2    50   ~ 0
 GLV_RTN
-Text Label 9750 4450 2    50   ~ 0
+Text Label 9900 3050 2    50   ~ 0
 CHS_GND
-Text Label 9750 4900 2    50   ~ 0
+Text Label 9900 3500 2    50   ~ 0
 CAN_H
-Text Label 9750 5000 2    50   ~ 0
+Text Label 9900 3600 2    50   ~ 0
 CAN_L
-Text Label 9750 5100 2    50   ~ 0
+Text Label 9900 3700 2    50   ~ 0
 CAN_SHIELD
-Text Label 9750 5200 2    50   ~ 0
+Text Label 9900 3800 2    50   ~ 0
 GLV_24V
-Text Label 9750 5300 2    50   ~ 0
+Text Label 9900 3900 2    50   ~ 0
 GLV_RTN
-Text Label 9750 5400 2    50   ~ 0
+Text Label 9900 4000 2    50   ~ 0
 CHS_GND
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 5DB646E5
-P 10050 2550
-F 0 "J?" H 10050 2900 50  0000 C CNN
-F 1 "SLOOP IN" H 10050 2800 50  0000 C CNN
-F 2 "" H 10050 2550 50  0001 C CNN
-F 3 "~" H 10050 2550 50  0001 C CNN
-	1    10050 2550
+P 10200 1150
+F 0 "J?" H 10200 1500 50  0000 C CNN
+F 1 "SLOOP IN" H 10200 1400 50  0000 C CNN
+F 2 "" H 10200 1150 50  0001 C CNN
+F 3 "~" H 10200 1150 50  0001 C CNN
+	1    10200 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 5DB64E95
-P 10050 3300
-F 0 "J?" H 10000 3650 50  0000 L CNN
-F 1 "SLOOP OUT" H 9850 3550 50  0000 L CNN
-F 2 "" H 10050 3300 50  0001 C CNN
-F 3 "~" H 10050 3300 50  0001 C CNN
-	1    10050 3300
+P 10200 1900
+F 0 "J?" H 10150 2250 50  0000 L CNN
+F 1 "SLOOP OUT" H 10000 2150 50  0000 L CNN
+F 2 "" H 10200 1900 50  0001 C CNN
+F 3 "~" H 10200 1900 50  0001 C CNN
+	1    10200 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x06 J?
 U 1 1 5DB65BCA
-P 10050 4150
-F 0 "J?" H 10050 4600 50  0000 C CNN
-F 1 "GLV/CAN IN" H 10050 4500 50  0000 C CNN
-F 2 "" H 10050 4150 50  0001 C CNN
-F 3 "~" H 10050 4150 50  0001 C CNN
-	1    10050 4150
+P 10200 2750
+F 0 "J?" H 10200 3200 50  0000 C CNN
+F 1 "GLV/CAN IN" H 10200 3100 50  0000 C CNN
+F 2 "" H 10200 2750 50  0001 C CNN
+F 3 "~" H 10200 2750 50  0001 C CNN
+	1    10200 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x06 J?
 U 1 1 5DB666F2
-P 10050 5100
-F 0 "J?" H 10000 5550 50  0000 L CNN
-F 1 "GLV/CAN OUT" H 9800 5450 50  0000 L CNN
-F 2 "" H 10050 5100 50  0001 C CNN
-F 3 "~" H 10050 5100 50  0001 C CNN
-	1    10050 5100
+P 10200 3700
+F 0 "J?" H 10150 4150 50  0000 L CNN
+F 1 "GLV/CAN OUT" H 9950 4050 50  0000 L CNN
+F 2 "" H 10200 3700 50  0001 C CNN
+F 3 "~" H 10200 3700 50  0001 C CNN
+	1    10200 3700
 	1    0    0    -1  
 $EndComp
-Text Label 9750 2450 2    50   ~ 0
+Text Label 9900 1050 2    50   ~ 0
 SLOOP1_IN
-Text Label 9750 2550 2    50   ~ 0
+Text Label 9900 1150 2    50   ~ 0
 SLOOP2
-Text Label 9750 2650 2    50   ~ 0
+Text Label 9900 1250 2    50   ~ 0
 AIRS+
-Text Label 9750 2750 2    50   ~ 0
+Text Label 9900 1350 2    50   ~ 0
 AIRS-
-Text Label 9750 3200 2    50   ~ 0
+Text Label 9900 1800 2    50   ~ 0
 SLOOP1_OUT
-Text Label 9750 3300 2    50   ~ 0
+Text Label 9900 1900 2    50   ~ 0
 SLOOP2
-Text Label 9750 3400 2    50   ~ 0
+Text Label 9900 2000 2    50   ~ 0
 AIRS+
-Text Label 9750 3500 2    50   ~ 0
+Text Label 9900 2100 2    50   ~ 0
 AIRS-
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 5DB7AEB3
-P 7750 5750
-F 0 "H?" H 7550 5800 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7850 5708 50  0001 L CNN
-F 2 "" H 7750 5750 50  0001 C CNN
-F 3 "~" H 7750 5750 50  0001 C CNN
-	1    7750 5750
+P 5600 7300
+F 0 "H?" H 5400 7350 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5700 7258 50  0001 L CNN
+F 2 "" H 5600 7300 50  0001 C CNN
+F 3 "~" H 5600 7300 50  0001 C CNN
+	1    5600 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 5DB7B312
-P 8100 5750
-F 0 "H?" H 8200 5800 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8200 5708 50  0001 L CNN
-F 2 "" H 8100 5750 50  0001 C CNN
-F 3 "~" H 8100 5750 50  0001 C CNN
-	1    8100 5750
+P 6000 7300
+F 0 "H?" H 6100 7350 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6100 7258 50  0001 L CNN
+F 2 "" H 6000 7300 50  0001 C CNN
+F 3 "~" H 6000 7300 50  0001 C CNN
+	1    6000 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 5DB7B4D8
-P 7750 6050
-F 0 "H?" H 7950 6100 50  0000 R CNN
-F 1 "MountingHole_Pad" H 7850 6008 50  0001 L CNN
-F 2 "" H 7750 6050 50  0001 C CNN
-F 3 "~" H 7750 6050 50  0001 C CNN
-	1    7750 6050
+P 5600 7600
+F 0 "H?" H 5800 7650 50  0000 R CNN
+F 1 "MountingHole_Pad" H 5700 7558 50  0001 L CNN
+F 2 "" H 5600 7600 50  0001 C CNN
+F 3 "~" H 5600 7600 50  0001 C CNN
+	1    5600 7600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 5DB7B6E5
-P 8100 6050
-F 0 "H?" H 8000 6100 50  0000 R CNN
-F 1 "MountingHole_Pad" H 8200 6008 50  0001 L CNN
-F 2 "" H 8100 6050 50  0001 C CNN
-F 3 "~" H 8100 6050 50  0001 C CNN
-	1    8100 6050
+P 6000 7600
+F 0 "H?" H 5900 7650 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6100 7558 50  0001 L CNN
+F 2 "" H 6000 7600 50  0001 C CNN
+F 3 "~" H 6000 7600 50  0001 C CNN
+	1    6000 7600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8100 5850 8100 5900
+	6000 7400 6000 7450
 Wire Wire Line
-	7750 5850 7750 5900
+	5600 7400 5600 7450
 Wire Wire Line
-	7750 5900 8100 5900
-Connection ~ 7750 5900
+	5600 7450 5800 7450
+Connection ~ 5600 7450
 Wire Wire Line
-	7750 5900 7750 5950
-Connection ~ 8100 5900
+	5600 7450 5600 7500
+Connection ~ 6000 7450
 Wire Wire Line
-	8100 5900 8100 5950
-Text Label 7650 5900 2    50   ~ 0
+	6000 7450 6000 7500
+Text Label 5800 7100 2    50   ~ 0
 CHS_GND
-Wire Wire Line
-	7650 5900 7750 5900
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5DBAC4DA
@@ -247,21 +245,21 @@ F8 "LV_RTN" I R 6200 2650 50
 F9 "LV_5V" I R 6200 2250 50 
 $EndSheet
 Wire Wire Line
-	9750 2450 9850 2450
+	9900 1050 10000 1050
 Wire Wire Line
-	9850 2550 9750 2550
+	10000 1150 9900 1150
 Wire Wire Line
-	9750 2650 9850 2650
+	9900 1250 10000 1250
 Wire Wire Line
-	9850 2750 9750 2750
+	10000 1350 9900 1350
 Wire Wire Line
-	9750 3200 9850 3200
+	9900 1800 10000 1800
 Wire Wire Line
-	9850 3300 9750 3300
+	10000 1900 9900 1900
 Wire Wire Line
-	9750 3400 9850 3400
+	9900 2000 10000 2000
 Wire Wire Line
-	9850 3500 9750 3500
+	10000 2100 9900 2100
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5DC21D16
@@ -276,12 +274,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x06 J?
 U 1 1 5DCA5D15
-P 10050 6050
-F 0 "J?" H 10000 6500 50  0000 L CNN
-F 1 "Panel" H 9900 6400 50  0000 L CNN
-F 2 "" H 10050 6050 50  0001 C CNN
-F 3 "~" H 10050 6050 50  0001 C CNN
-	1    10050 6050
+P 10200 4650
+F 0 "J?" H 10150 5100 50  0000 L CNN
+F 1 "Display" H 10050 5000 50  0000 L CNN
+F 2 "" H 10200 4650 50  0001 C CNN
+F 3 "~" H 10200 4650 50  0001 C CNN
+	1    10200 4650
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -301,9 +299,9 @@ F10 "~CHRG_DETECT" I R 6200 3400 50
 F11 "LV_RTN" I R 6200 3900 50 
 F12 "LV_5V" I R 6200 3250 50 
 $EndSheet
-Text Label 9750 6250 2    50   ~ 0
+Text Label 9900 6550 2    50   ~ 0
 TSV_LIVE
-Text Label 9750 6350 2    50   ~ 0
+Text Label 9900 6650 2    50   ~ 0
 LV_RTN
 Text Label 1450 1850 0    50   ~ 0
 PACK+
@@ -356,29 +354,29 @@ Wire Wire Line
 Wire Wire Line
 	1800 4750 1900 4750
 Wire Wire Line
-	9750 3950 9850 3950
+	9900 2550 10000 2550
 Wire Wire Line
-	9750 4050 9850 4050
+	9900 2650 10000 2650
 Wire Wire Line
-	9750 4150 9850 4150
+	9900 2750 10000 2750
 Wire Wire Line
-	9750 4250 9850 4250
+	9900 2850 10000 2850
 Wire Wire Line
-	9750 4350 9850 4350
+	9900 2950 10000 2950
 Wire Wire Line
-	9750 4450 9850 4450
+	9900 3050 10000 3050
 Wire Wire Line
-	9750 5400 9850 5400
+	9900 4000 10000 4000
 Wire Wire Line
-	9850 5300 9750 5300
+	10000 3900 9900 3900
 Wire Wire Line
-	9750 5200 9850 5200
+	9900 3800 10000 3800
 Wire Wire Line
-	9750 5100 9850 5100
+	9900 3700 10000 3700
 Wire Wire Line
-	9850 5000 9750 5000
+	10000 3600 9900 3600
 Wire Wire Line
-	9750 4900 9850 4900
+	9900 3500 10000 3500
 $Comp
 L Connector_Generic:Conn_01x06 J?
 U 1 1 5DDD27D7
@@ -430,18 +428,18 @@ Wire Wire Line
 Wire Wire Line
 	1350 2850 1450 2850
 $Sheet
-S 1650 6250 1100 500 
+S 2300 5650 1100 500 
 U 5DC814A3
 F0 "Sensors_Misc" 50
 F1 "Sensors_Misc.sch" 50
-F2 "PACK_VOLTAGE" I L 1650 6350 50 
-F3 "PAC_CURRENT" I L 1650 6450 50 
-F4 "DCHRG_A1" I L 1650 6550 50 
-F5 "DCHRG_A2" I L 1650 6650 50 
-F6 "SCL_TSV" I R 2750 6350 50 
-F7 "SDA_TSV" I R 2750 6450 50 
-F8 "TSV_5V" I R 2750 6550 50 
-F9 "TSV_RTN" I R 2750 6650 50 
+F2 "PACK_VOLTAGE" I L 2300 5750 50 
+F3 "PAC_CURRENT" I L 2300 5850 50 
+F4 "DCHRG_A1" I L 2300 5950 50 
+F5 "DCHRG_A2" I L 2300 6050 50 
+F6 "SCL_TSV" I R 3400 5750 50 
+F7 "SDA_TSV" I R 3400 5850 50 
+F8 "TSV_5V" I R 3400 5950 50 
+F9 "TSV_RTN" I R 3400 6050 50 
 $EndSheet
 $Comp
 L Lafayette_Electric_Car_Internals:LittelfuseHolder F?
@@ -504,4 +502,90 @@ Wire Notes Line
 	5350 4050 5350 5500
 Wire Notes Line
 	5350 6300 5350 7950
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5DC8C9D0
+P 10200 5600
+F 0 "J?" H 10150 6050 50  0000 L CNN
+F 1 "Buttons" H 10050 5950 50  0000 L CNN
+F 2 "" H 10200 5600 50  0001 C CNN
+F 3 "~" H 10200 5600 50  0001 C CNN
+	1    10200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lafayette_Electric_Car_Internals:LeopardPawLogo LOGO?
+U 1 1 5DCDE04E
+P 1950 7600
+F 0 "LOGO?" H 1800 7800 60  0000 L CNN
+F 1 "LeopardPawLogo" H 1950 7733 60  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Paw" H 1950 7600 50  0001 C CNN
+F 3 "" H 1950 7600 50  0001 C CNN
+	1    1950 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lafayette_Electric_Car_Internals:DangerHighVoltageLogo LOGO?
+U 1 1 5DCDE69E
+P 2450 7650
+F 0 "LOGO?" H 2300 7950 60  0000 L CNN
+F 1 "DangerHighVoltageLogo" H 2450 7861 60  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:highvoltagesmall" H 2450 7650 50  0001 C CNN
+F 3 "" H 2450 7650 50  0001 C CNN
+	1    2450 7650
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	550  7200 2750 7200
+Wire Notes Line
+	2750 7200 2750 7950
+$Comp
+L Lafayette_Electric_Car_Internals:LafECEDepLogo LOGO?
+U 1 1 5DCDD6EC
+P 1150 7650
+F 0 "LOGO?" H 1147 7899 60  0000 C CNN
+F 1 "LafECEDepLogo" H 1150 7792 60  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:ECE_Logo_Jon" H 1150 7650 50  0001 C CNN
+F 3 "" H 1150 7650 50  0001 C CNN
+	1    1150 7650
+	1    0    0    -1  
+$EndComp
+Text Label 9900 5400 2    50   ~ 0
+BTN_LEFT
+Text Label 9900 5500 2    50   ~ 0
+BTN_RIGHT
+Text Label 9900 5600 2    50   ~ 0
+BTN_UP
+Text Label 9900 5700 2    50   ~ 0
+BTN_DOWN
+Text Label 9900 5800 2    50   ~ 0
+BTN_CENTER
+Text Label 9900 6450 2    50   ~ 0
+CHRG_LED
+Text Label 9900 6350 2    50   ~ 0
+LV_24V
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5DD065DC
+P 10200 6450
+F 0 "J?" H 10150 6800 50  0000 L CNN
+F 1 "LEDs" H 10100 6700 50  0000 L CNN
+F 2 "" H 10200 6450 50  0001 C CNN
+F 3 "~" H 10200 6450 50  0001 C CNN
+	1    10200 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 6350 10000 6350
+Wire Wire Line
+	9900 6450 10000 6450
+Wire Wire Line
+	9900 6550 10000 6550
+Wire Wire Line
+	9900 6650 10000 6650
+Wire Wire Line
+	5800 7450 5800 7100
+Connection ~ 5800 7450
+Wire Wire Line
+	5800 7450 6000 7450
 $EndSCHEMATC

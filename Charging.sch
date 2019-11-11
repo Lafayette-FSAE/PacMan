@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 3 6
 Title "PacMan: Charging"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp "Lafayette College"
 Comment1 "Charging: Controls charging relays and measure charging current"
 Comment2 "Jon Abel"
@@ -32,7 +32,7 @@ L Device:R R?
 U 1 1 5DC13191
 P 3650 2800
 F 0 "R?" H 3720 2846 50  0000 L CNN
-F 1 "10k" H 3720 2755 50  0000 L CNN
+F 1 "1k" H 3720 2755 50  0000 L CNN
 F 2 "" V 3580 2800 50  0001 C CNN
 F 3 "~" H 3650 2800 50  0001 C CNN
 	1    3650 2800
@@ -118,34 +118,19 @@ Wire Wire Line
 	1350 1800 1450 1800
 Wire Wire Line
 	1350 1900 1450 1900
-Text HLabel 9200 1700 2    50   Input ~ 0
-EN_CHRG
-Wire Wire Line
-	9200 1700 9100 1700
-Text Label 9100 1700 2    50   ~ 0
-EN_CHRG
-Text Label 6150 3050 0    50   ~ 0
-EN_CHRG
-$Comp
-L Device:R R?
-U 1 1 5DC26EC7
-P 5900 3050
-F 0 "R?" V 6107 3050 50  0000 C CNN
-F 1 "R" V 6016 3050 50  0000 C CNN
-F 2 "" V 5830 3050 50  0001 C CNN
-F 3 "~" H 5900 3050 50  0001 C CNN
-	1    5900 3050
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	6050 3050 6150 3050
-Text Label 4950 3250 2    50   ~ 0
-CHRG_IN-
 Text HLabel 9200 1800 2    50   Input ~ 0
-LV_RTN
+EN_CHRG
 Wire Wire Line
 	9200 1800 9100 1800
 Text Label 9100 1800 2    50   ~ 0
+EN_CHRG
+Text Label 4950 3250 2    50   ~ 0
+CHRG_IN-
+Text HLabel 9200 1600 2    50   Input ~ 0
+LV_RTN
+Wire Wire Line
+	9200 1600 9100 1600
+Text Label 9100 1600 2    50   ~ 0
 LV_RTN
 Text Label 4350 3650 0    50   ~ 0
 CHRG_IN+
@@ -306,11 +291,11 @@ Text Notes 5450 900  0    100  ~ 20
 GLV
 Text Notes 5250 900  2    100  ~ 20
 TSV
-Text Label 9100 1600 2    50   ~ 0
+Text Label 9100 1700 2    50   ~ 0
 CHRG_CURRENT
 Wire Wire Line
-	9100 1600 9200 1600
-Text HLabel 9200 1600 2    50   Input ~ 0
+	9100 1700 9200 1700
+Text HLabel 9200 1700 2    50   Input ~ 0
 CHRG_CURRENT
 Text HLabel 9200 1500 2    50   Input ~ 0
 LV_5V
@@ -320,10 +305,6 @@ Wire Wire Line
 	9100 1500 9200 1500
 Wire Wire Line
 	4950 3250 5050 3250
-Wire Wire Line
-	6150 3250 5650 3250
-Wire Wire Line
-	5650 3050 5750 3050
 $Comp
 L Isolator:TLP291 ISO?
 U 1 1 5DC27D8A
@@ -352,8 +333,64 @@ Wire Notes Line
 	5350 4600 5350 5750
 Text Label 7250 4900 0    50   ~ 0
 LV_RTN
-Text Label 6150 3250 0    50   ~ 0
-LV_RTN
 Text Label 6600 4100 2    50   ~ 0
 LV_5V
+Text HLabel 9200 1400 2    50   Input ~ 0
+LV_24V
+Text Label 9100 1400 2    50   ~ 0
+LV_24V
+Wire Wire Line
+	9100 1400 9200 1400
+Text Label 9100 1900 2    50   ~ 0
+CHRG_LED
+Text HLabel 9200 1900 2    50   Input ~ 0
+CHRG_LED
+Wire Wire Line
+	9100 1900 9200 1900
+Wire Wire Line
+	5650 3050 5750 3050
+Wire Wire Line
+	6150 3250 5650 3250
+Text Label 7100 1850 0    50   ~ 0
+EN_CHRG
+Text Label 6700 1550 0    50   ~ 0
+CHRG_LED
+Text Label 6150 3050 0    50   ~ 0
+EN_CHRG
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5DCEBF2A
+P 6800 1850
+F 0 "Q?" H 7006 1896 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 7006 1805 50  0000 L CNN
+F 2 "" H 7000 1950 50  0001 C CNN
+F 3 "~" H 6800 1850 50  0001 C CNN
+	1    6800 1850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1850 7000 1850
+Text Label 6800 2150 0    50   ~ 0
+LV_RTN
+Wire Wire Line
+	6800 2150 6700 2150
+Wire Wire Line
+	6700 2150 6700 2050
+Wire Wire Line
+	6700 1550 6700 1650
+Text Label 6150 3250 0    50   ~ 0
+LV_RTN
+$Comp
+L Device:R R?
+U 1 1 5DCF544F
+P 5900 3050
+F 0 "R?" V 5693 3050 50  0000 C CNN
+F 1 "390" V 5784 3050 50  0000 C CNN
+F 2 "" V 5830 3050 50  0001 C CNN
+F 3 "~" H 5900 3050 50  0001 C CNN
+	1    5900 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 3050 6050 3050
 $EndSCHEMATC

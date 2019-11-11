@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 5 6
 Title "PacMan: Power"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp "Lafayette College"
 Comment1 "Power: Creates the necessary power rails for PacMan and CellMen"
 Comment2 "Jon Abel"
@@ -490,4 +490,123 @@ F 3 "https://www.cui.com/product/resource/pdqe10-d.pdf" H 3100 3350 50  0001 C C
 	1    3600 3350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DCA5799
+P 4250 5750
+F 0 "TP?" H 4308 5868 50  0000 L CNN
+F 1 "TestPoint" H 4308 5777 50  0000 L CNN
+F 2 "" H 4450 5750 50  0001 C CNN
+F 3 "~" H 4450 5750 50  0001 C CNN
+	1    4250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DCA5C36
+P 4250 6100
+F 0 "TP?" H 4308 6218 50  0000 L CNN
+F 1 "TestPoint" H 4308 6127 50  0000 L CNN
+F 2 "" H 4450 6100 50  0001 C CNN
+F 3 "~" H 4450 6100 50  0001 C CNN
+	1    4250 6100
+	1    0    0    -1  
+$EndComp
+Text Label 4350 5850 0    50   ~ 0
+LV_RTN
+Text Label 4350 6200 0    50   ~ 0
+LV_5V
+Wire Wire Line
+	4350 6200 4250 6200
+Wire Wire Line
+	4250 6200 4250 6100
+Wire Wire Line
+	4350 5850 4250 5850
+Wire Wire Line
+	4250 5850 4250 5750
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DCACD71
+P 4250 6450
+F 0 "TP?" H 4308 6568 50  0000 L CNN
+F 1 "TestPoint" H 4308 6477 50  0000 L CNN
+F 2 "" H 4450 6450 50  0001 C CNN
+F 3 "~" H 4450 6450 50  0001 C CNN
+	1    4250 6450
+	1    0    0    -1  
+$EndComp
+Text Label 4350 6550 0    50   ~ 0
+LV_24V
+Wire Wire Line
+	4350 6550 4250 6550
+Wire Wire Line
+	4250 6550 4250 6450
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DCAF4E1
+P 4250 6800
+F 0 "TP?" H 4308 6918 50  0000 L CNN
+F 1 "TestPoint" H 4308 6827 50  0000 L CNN
+F 2 "" H 4450 6800 50  0001 C CNN
+F 3 "~" H 4450 6800 50  0001 C CNN
+	1    4250 6800
+	1    0    0    -1  
+$EndComp
+Text Label 4350 6900 0    50   ~ 0
+GLV_24V
+Wire Wire Line
+	4350 6900 4250 6900
+Wire Wire Line
+	4250 6900 4250 6800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DCB539A
+P 3650 6100
+F 0 "TP?" H 3708 6218 50  0000 L CNN
+F 1 "TestPoint" H 3708 6127 50  0000 L CNN
+F 2 "" H 3850 6100 50  0001 C CNN
+F 3 "~" H 3850 6100 50  0001 C CNN
+	1    3650 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DCB53A4
+P 3650 6450
+F 0 "TP?" H 3708 6568 50  0000 L CNN
+F 1 "TestPoint" H 3708 6477 50  0000 L CNN
+F 2 "" H 3850 6450 50  0001 C CNN
+F 3 "~" H 3850 6450 50  0001 C CNN
+	1    3650 6450
+	-1   0    0    -1  
+$EndComp
+Text Label 3550 6200 2    50   ~ 0
+TSV_5V
+Text Label 3550 6550 2    50   ~ 0
+TSV_9V
+Wire Wire Line
+	3550 6550 3650 6550
+Wire Wire Line
+	3650 6550 3650 6450
+Wire Wire Line
+	3550 6200 3650 6200
+Wire Wire Line
+	3650 6200 3650 6100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DCB8929
+P 3650 5750
+F 0 "TP?" H 3708 5868 50  0000 L CNN
+F 1 "TestPoint" H 3708 5777 50  0000 L CNN
+F 2 "" H 3850 5750 50  0001 C CNN
+F 3 "~" H 3850 5750 50  0001 C CNN
+	1    3650 5750
+	-1   0    0    -1  
+$EndComp
+Text Label 3550 5850 2    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	3550 5850 3650 5850
+Wire Wire Line
+	3650 5850 3650 5750
 $EndSCHEMATC

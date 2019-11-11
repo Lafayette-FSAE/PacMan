@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 2 6
 Title "PacMan: MCU, SLOOP, CANBus"
 Date ""
-Rev "1.0"
+Rev "0.2"
 Comp "Lafayette College"
 Comment1 "MCU, SLOOP, CANBus: Contains the controlling MCU, SLOOP relay, and CAN tranceiver"
 Comment2 "Jon Abel"
@@ -107,34 +107,34 @@ SLOOP_EN
 $Comp
 L Device:LED D?
 U 1 1 5DCA44E3
-P 9100 4700
-F 0 "D?" H 9093 4916 50  0000 C CNN
-F 1 "LED" H 9093 4825 50  0000 C CNN
-F 2 "" H 9100 4700 50  0001 C CNN
-F 3 "~" H 9100 4700 50  0001 C CNN
-	1    9100 4700
+P 9200 3250
+F 0 "D?" H 9193 3466 50  0000 C CNN
+F 1 "LED" H 9193 3375 50  0000 C CNN
+F 2 "" H 9200 3250 50  0001 C CNN
+F 3 "~" H 9200 3250 50  0001 C CNN
+	1    9200 3250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5DCA4657
-P 9100 5100
-F 0 "D?" H 9093 5316 50  0000 C CNN
-F 1 "LED" H 9093 5225 50  0000 C CNN
-F 2 "" H 9100 5100 50  0001 C CNN
-F 3 "~" H 9100 5100 50  0001 C CNN
-	1    9100 5100
+P 9200 3650
+F 0 "D?" H 9193 3866 50  0000 C CNN
+F 1 "LED" H 9193 3775 50  0000 C CNN
+F 2 "" H 9200 3650 50  0001 C CNN
+F 3 "~" H 9200 3650 50  0001 C CNN
+	1    9200 3650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5DCA4D97
-P 8700 5100
-F 0 "R?" V 8493 5100 50  0000 C CNN
-F 1 "270" V 8584 5100 50  0000 C CNN
-F 2 "" V 8630 5100 50  0001 C CNN
-F 3 "~" H 8700 5100 50  0001 C CNN
-	1    8700 5100
+P 8800 3650
+F 0 "R?" V 8593 3650 50  0000 C CNN
+F 1 "270" V 8684 3650 50  0000 C CNN
+F 2 "" V 8730 3650 50  0001 C CNN
+F 3 "~" H 8800 3650 50  0001 C CNN
+	1    8800 3650
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -148,9 +148,9 @@ F 3 "" H 6250 2250 50  0001 C CNN
 	1    6500 2050
 	1    0    0    -1  
 $EndComp
-Text Label 5650 2200 2    50   ~ 0
+Text Label 5700 1350 2    50   ~ 0
 EN_CHRG
-Text Label 5650 2100 2    50   ~ 0
+Text Label 5650 2200 2    50   ~ 0
 WATCHDOG
 Text Label 5650 2400 2    50   ~ 0
 CHRG_CURRENT
@@ -158,9 +158,9 @@ Text Label 5650 2500 2    50   ~ 0
 SDA_PAC
 Text Label 5650 2600 2    50   ~ 0
 SCL_PAC
-Text Label 8450 4700 2    50   ~ 0
+Text Label 8550 3250 2    50   ~ 0
 LED1
-Text Label 8450 5100 2    50   ~ 0
+Text Label 8550 3650 2    50   ~ 0
 LED2
 Text Label 1300 5100 2    50   ~ 0
 AIRS+
@@ -389,12 +389,12 @@ Do not populate!\nFootprint is left open for debugging.
 $Comp
 L Device:R R?
 U 1 1 5DCA488F
-P 8700 4700
-F 0 "R?" V 8493 4700 50  0000 C CNN
-F 1 "270" V 8584 4700 50  0000 C CNN
-F 2 "" V 8630 4700 50  0001 C CNN
-F 3 "~" H 8700 4700 50  0001 C CNN
-	1    8700 4700
+P 8800 3250
+F 0 "R?" V 8593 3250 50  0000 C CNN
+F 1 "270" V 8684 3250 50  0000 C CNN
+F 2 "" V 8730 3250 50  0001 C CNN
+F 3 "~" H 8800 3250 50  0001 C CNN
+	1    8800 3250
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -499,26 +499,26 @@ LV_5V
 Wire Wire Line
 	7050 1850 7050 1950
 Wire Wire Line
-	8450 4700 8550 4700
+	8550 3250 8650 3250
 Wire Wire Line
-	8450 5100 8550 5100
+	8550 3650 8650 3650
 Wire Wire Line
-	8850 5100 8950 5100
+	8950 3650 9050 3650
 Wire Wire Line
-	8850 4700 8950 4700
+	8950 3250 9050 3250
 Wire Wire Line
-	9250 4700 9350 4700
+	9350 3250 9450 3250
 Wire Wire Line
-	9250 5100 9350 5100
+	9350 3650 9450 3650
 Text Label 1050 6550 0    50   ~ 0
 LV_5V
 Text Label 1050 7050 0    50   ~ 0
 LV_RTN
 Text Label 6050 5900 0    50   ~ 0
 LV_RTN
-Text Label 9350 5100 0    50   ~ 0
+Text Label 9450 3650 0    50   ~ 0
 LV_RTN
-Text Label 9350 4700 0    50   ~ 0
+Text Label 9450 3250 0    50   ~ 0
 LV_RTN
 Text Label 7350 3650 0    50   ~ 0
 LV_RTN
@@ -526,4 +526,54 @@ Text Label 2450 7300 0    50   ~ 0
 LV_RTN
 Text Notes 10150 700  0    100  ~ 20
 GLV
+$Comp
+L Connector_Generic:Conn_01x06 U?
+U 1 1 5DC90143
+P 10000 6100
+F 0 "U?" H 10080 6092 50  0000 L CNN
+F 1 "RTC" H 10080 6001 50  0000 L CNN
+F 2 "" H 10000 6100 50  0001 C CNN
+F 3 "~" H 10000 6100 50  0001 C CNN
+	1    10000 6100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9800 5900
+NoConn ~ 9800 6000
+Text Label 9700 6100 2    50   ~ 0
+SCL_GLV
+Text Label 9700 6200 2    50   ~ 0
+SDA_GLV
+Text Label 9700 6300 2    50   ~ 0
+LV_5V
+Text Label 9700 6400 2    50   ~ 0
+LV_RTN
+Wire Wire Line
+	9700 6100 9800 6100
+Wire Wire Line
+	9700 6200 9800 6200
+Wire Wire Line
+	9700 6300 9800 6300
+Wire Wire Line
+	9700 6400 9800 6400
+$Comp
+L Device:R R?
+U 1 1 5DCFAFBE
+P 5800 1600
+F 0 "R?" H 5870 1646 50  0000 L CNN
+F 1 "10k" H 5870 1555 50  0000 L CNN
+F 2 "" V 5730 1600 50  0001 C CNN
+F 3 "~" H 5800 1600 50  0001 C CNN
+	1    5800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1450 5800 1350
+Wire Wire Line
+	5800 1350 5700 1350
+Text Label 5700 1850 2    50   ~ 0
+LV_RTN
+Wire Wire Line
+	5700 1850 5800 1850
+Wire Wire Line
+	5800 1850 5800 1750
 $EndSCHEMATC
