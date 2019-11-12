@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title "PacMan"
 Date ""
 Rev "0.2"
@@ -14,195 +14,193 @@ Comment2 "Jon Abel"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 9900 2550 2    50   ~ 0
+Text Label 9750 2750 2    50   ~ 0
 CAN_H
-Text Label 9900 2650 2    50   ~ 0
+Text Label 9750 2850 2    50   ~ 0
 CAN_L
-Text Label 9900 2750 2    50   ~ 0
+Text Label 9750 2950 2    50   ~ 0
 CAN_SHIELD
-Text Label 9900 2850 2    50   ~ 0
+Text Label 9750 3050 2    50   ~ 0
 GLV_24V
-Text Label 9900 2950 2    50   ~ 0
+Text Label 9750 3150 2    50   ~ 0
 GLV_RTN
-Text Label 9900 3050 2    50   ~ 0
+Text Label 9750 3250 2    50   ~ 0
 CHS_GND
-Text Label 9900 3500 2    50   ~ 0
+Text Label 9750 3700 2    50   ~ 0
 CAN_H
-Text Label 9900 3600 2    50   ~ 0
+Text Label 9750 3800 2    50   ~ 0
 CAN_L
-Text Label 9900 3700 2    50   ~ 0
+Text Label 9750 3900 2    50   ~ 0
 CAN_SHIELD
-Text Label 9900 3800 2    50   ~ 0
+Text Label 9750 4000 2    50   ~ 0
 GLV_24V
-Text Label 9900 3900 2    50   ~ 0
+Text Label 9750 4100 2    50   ~ 0
 GLV_RTN
-Text Label 9900 4000 2    50   ~ 0
+Text Label 9750 4200 2    50   ~ 0
 CHS_GND
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J8
 U 1 1 5DB646E5
-P 10200 1150
-F 0 "J?" H 10200 1500 50  0000 C CNN
-F 1 "SLOOP IN" H 10200 1400 50  0000 C CNN
-F 2 "" H 10200 1150 50  0001 C CNN
-F 3 "~" H 10200 1150 50  0001 C CNN
-	1    10200 1150
+P 10050 1350
+F 0 "J8" H 10050 1700 50  0000 C CNN
+F 1 "SLOOP IN" H 10050 1600 50  0000 C CNN
+F 2 "" H 10050 1350 50  0001 C CNN
+F 3 "~" H 10050 1350 50  0001 C CNN
+	1    10050 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J9
 U 1 1 5DB64E95
-P 10200 1900
-F 0 "J?" H 10150 2250 50  0000 L CNN
-F 1 "SLOOP OUT" H 10000 2150 50  0000 L CNN
-F 2 "" H 10200 1900 50  0001 C CNN
-F 3 "~" H 10200 1900 50  0001 C CNN
-	1    10200 1900
+P 10050 2100
+F 0 "J9" H 10000 2450 50  0000 L CNN
+F 1 "SLOOP OUT" H 9850 2350 50  0000 L CNN
+F 2 "" H 10050 2100 50  0001 C CNN
+F 3 "~" H 10050 2100 50  0001 C CNN
+	1    10050 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J10
 U 1 1 5DB65BCA
-P 10200 2750
-F 0 "J?" H 10200 3200 50  0000 C CNN
-F 1 "GLV/CAN IN" H 10200 3100 50  0000 C CNN
-F 2 "" H 10200 2750 50  0001 C CNN
-F 3 "~" H 10200 2750 50  0001 C CNN
-	1    10200 2750
+P 10050 2950
+F 0 "J10" H 10050 3400 50  0000 C CNN
+F 1 "GLV/CAN IN" H 10050 3300 50  0000 C CNN
+F 2 "" H 10050 2950 50  0001 C CNN
+F 3 "~" H 10050 2950 50  0001 C CNN
+	1    10050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J11
 U 1 1 5DB666F2
-P 10200 3700
-F 0 "J?" H 10150 4150 50  0000 L CNN
-F 1 "GLV/CAN OUT" H 9950 4050 50  0000 L CNN
-F 2 "" H 10200 3700 50  0001 C CNN
-F 3 "~" H 10200 3700 50  0001 C CNN
-	1    10200 3700
+P 10050 3900
+F 0 "J11" H 10000 4350 50  0000 L CNN
+F 1 "GLV/CAN OUT" H 9800 4250 50  0000 L CNN
+F 2 "" H 10050 3900 50  0001 C CNN
+F 3 "~" H 10050 3900 50  0001 C CNN
+	1    10050 3900
 	1    0    0    -1  
 $EndComp
-Text Label 9900 1050 2    50   ~ 0
+Text Label 9750 1250 2    50   ~ 0
 SLOOP1_IN
-Text Label 9900 1150 2    50   ~ 0
+Text Label 9750 1350 2    50   ~ 0
 SLOOP2
-Text Label 9900 1250 2    50   ~ 0
+Text Label 9750 1450 2    50   ~ 0
 AIRS+
-Text Label 9900 1350 2    50   ~ 0
+Text Label 9750 1550 2    50   ~ 0
 AIRS-
-Text Label 9900 1800 2    50   ~ 0
+Text Label 9750 2000 2    50   ~ 0
 SLOOP1_OUT
-Text Label 9900 1900 2    50   ~ 0
+Text Label 9750 2100 2    50   ~ 0
 SLOOP2
-Text Label 9900 2000 2    50   ~ 0
+Text Label 9750 2200 2    50   ~ 0
 AIRS+
-Text Label 9900 2100 2    50   ~ 0
+Text Label 9750 2300 2    50   ~ 0
 AIRS-
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H1
 U 1 1 5DB7AEB3
-P 5600 7300
-F 0 "H?" H 5400 7350 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5700 7258 50  0001 L CNN
-F 2 "" H 5600 7300 50  0001 C CNN
-F 3 "~" H 5600 7300 50  0001 C CNN
-	1    5600 7300
+P 6650 6000
+F 0 "H1" H 6450 6050 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6750 5958 50  0001 L CNN
+F 2 "" H 6650 6000 50  0001 C CNN
+F 3 "~" H 6650 6000 50  0001 C CNN
+	1    6650 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H3
 U 1 1 5DB7B312
-P 6000 7300
-F 0 "H?" H 6100 7350 50  0000 L CNN
-F 1 "MountingHole_Pad" H 6100 7258 50  0001 L CNN
-F 2 "" H 6000 7300 50  0001 C CNN
-F 3 "~" H 6000 7300 50  0001 C CNN
-	1    6000 7300
+P 7050 6000
+F 0 "H3" H 7150 6050 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7150 5958 50  0001 L CNN
+F 2 "" H 7050 6000 50  0001 C CNN
+F 3 "~" H 7050 6000 50  0001 C CNN
+	1    7050 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 5DB7B4D8
-P 5600 7600
-F 0 "H?" H 5800 7650 50  0000 R CNN
-F 1 "MountingHole_Pad" H 5700 7558 50  0001 L CNN
-F 2 "" H 5600 7600 50  0001 C CNN
-F 3 "~" H 5600 7600 50  0001 C CNN
-	1    5600 7600
+P 6650 6300
+F 0 "H2" H 6850 6350 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6750 6258 50  0001 L CNN
+F 2 "" H 6650 6300 50  0001 C CNN
+F 3 "~" H 6650 6300 50  0001 C CNN
+	1    6650 6300
 	-1   0    0    1   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H4
 U 1 1 5DB7B6E5
-P 6000 7600
-F 0 "H?" H 5900 7650 50  0000 R CNN
-F 1 "MountingHole_Pad" H 6100 7558 50  0001 L CNN
-F 2 "" H 6000 7600 50  0001 C CNN
-F 3 "~" H 6000 7600 50  0001 C CNN
-	1    6000 7600
+P 7050 6300
+F 0 "H4" H 6950 6350 50  0000 R CNN
+F 1 "MountingHole_Pad" H 7150 6258 50  0001 L CNN
+F 2 "" H 7050 6300 50  0001 C CNN
+F 3 "~" H 7050 6300 50  0001 C CNN
+	1    7050 6300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6000 7400 6000 7450
+	7050 6100 7050 6150
 Wire Wire Line
-	5600 7400 5600 7450
+	6650 6100 6650 6150
+Connection ~ 6650 6150
 Wire Wire Line
-	5600 7450 5800 7450
-Connection ~ 5600 7450
+	6650 6150 6650 6200
+Connection ~ 7050 6150
 Wire Wire Line
-	5600 7450 5600 7500
-Connection ~ 6000 7450
-Wire Wire Line
-	6000 7450 6000 7500
-Text Label 5800 7100 2    50   ~ 0
+	7050 6150 7050 6200
+Text Label 7150 6150 0    50   ~ 0
 CHS_GND
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5DBAC4DA
-P 1150 1350
-F 0 "J?" H 1150 1600 50  0000 C CNN
-F 1 "CHRG IN" H 1150 1500 50  0000 C CNN
-F 2 "" H 1150 1350 50  0001 C CNN
-F 3 "~" H 1150 1350 50  0001 C CNN
-	1    1150 1350
+P 1150 1600
+F 0 "J2" H 1150 1850 50  0000 C CNN
+F 1 "CHRG IN" H 1150 1750 50  0000 C CNN
+F 2 "" H 1150 1600 50  0001 C CNN
+F 3 "~" H 1150 1600 50  0001 C CNN
+	1    1150 1600
 	-1   0    0    -1  
 $EndComp
-Text Label 1450 1350 0    50   ~ 0
+Text Label 1450 1600 0    50   ~ 0
 CHRG_IN+
-Text Label 1450 1450 0    50   ~ 0
+Text Label 1450 1700 0    50   ~ 0
 CHRG_IN-
 Wire Wire Line
-	1450 1450 1350 1450
+	1450 1700 1350 1700
 Wire Wire Line
-	1450 1350 1350 1350
+	1450 1600 1350 1600
 Text Notes 10150 700  0    100  ~ 20
 GLV
 Text Notes 550  700  0    100  ~ 20
 TSV
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J4
 U 1 1 5DC0F40F
-P 1150 2350
-F 0 "J?" H 1150 2600 50  0000 C CNN
-F 1 "TSV IN" H 1150 2500 50  0000 C CNN
-F 2 "" H 1150 2350 50  0001 C CNN
-F 3 "~" H 1150 2350 50  0001 C CNN
-	1    1150 2350
+P 1150 2750
+F 0 "J4" H 1150 3000 50  0000 C CNN
+F 1 "TSV IN" H 1150 2900 50  0000 C CNN
+F 2 "" H 1150 2750 50  0001 C CNN
+F 3 "~" H 1150 2750 50  0001 C CNN
+	1    1150 2750
 	-1   0    0    -1  
 $EndComp
-Text Label 1450 2350 0    50   ~ 0
+Text Label 1450 2750 0    50   ~ 0
 TSV_VEHICLE+
-Text Label 1450 2450 0    50   ~ 0
+Text Label 1450 2850 0    50   ~ 0
 TSV_VEHICLE-
 Wire Wire Line
-	1450 2450 1350 2450
+	1450 2850 1350 2850
 Wire Wire Line
-	1450 2350 1350 2350
+	1450 2750 1350 2750
 $Comp
-L Connector:RJ12_Shielded J?
+L Connector:RJ12_Shielded J6
 U 1 1 5DC1E4A1
 P 1400 4650
-F 0 "J?" H 1457 5217 50  0000 C CNN
+F 0 "J6" H 1457 5217 50  0000 C CNN
 F 1 "RJ12_Shielded" H 1457 5126 50  0000 C CNN
 F 2 "" V 1400 4675 50  0001 C CNN
 F 3 "~" V 1400 4675 50  0001 C CNN
@@ -210,117 +208,114 @@ F 3 "~" V 1400 4675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 7600 850  1150 1150
+S 7250 800  1300 1700
 U 5DC1F176
 F0 "MCU" 50
 F1 "MCU.sch" 50
-F2 "SLOOP1_IN" I L 7600 950 50 
-F3 "SLOOP1_OUT" I L 7600 1050 50 
-F4 "AIRS+" I L 7600 1150 50 
-F5 "AIRS-" I L 7600 1250 50 
-F6 "GLV_24V" I R 8750 1200 50 
-F7 "GLV_RTN" I R 8750 1300 50 
-F8 "EN_CHRG" I L 7600 1450 50 
-F9 "CHRG_CURRENT" I L 7600 1650 50 
-F10 "SDA_GLV" I L 7600 1800 50 
-F11 "SCL_GLV" I L 7600 1900 50 
-F12 "~CHRG_DETECT" I L 7600 1550 50 
-F13 "CAN_H" I R 8750 1450 50 
-F14 "CAN_L" I R 8750 1550 50 
-F15 "LV_5V" I R 8750 950 50 
-F16 "LV_RTN" I R 8750 1050 50 
+F2 "SLOOP1_IN" I R 8550 900 50 
+F3 "SLOOP1_OUT" I R 8550 1000 50 
+F4 "AIRS+" I R 8550 1150 50 
+F5 "AIRS-" I R 8550 1250 50 
+F6 "GLV_24V" I L 7250 1150 50 
+F7 "GLV_RTN" I L 7250 1250 50 
+F8 "EN_CHRG" I L 7250 1400 50 
+F9 "CHRG_CURRENT" I L 7250 1600 50 
+F10 "SDA_GLV" I L 7250 1750 50 
+F11 "SCL_GLV" I L 7250 1850 50 
+F12 "~CHRG_DETECT" I L 7250 1500 50 
+F13 "CAN_H" I R 8550 1400 50 
+F14 "CAN_L" I R 8550 1500 50 
+F15 "LV_5V" I L 7250 900 50 
+F16 "LV_RTN" I L 7250 1000 50 
+F17 "BTN_LEFT" I L 7250 2000 50 
+F18 "BTN_RIGHT" I L 7250 2100 50 
+F19 "BTN_UP" I L 7250 2200 50 
+F20 "BTN_DOWN" I L 7250 2300 50 
+F21 "BTN_CENTER" I L 7250 2400 50 
+F22 "DISP_DIN" I R 8550 2250 50 
+F23 "DISP_CLK" I R 8550 2150 50 
+F24 "DISP_CS" I R 8550 2050 50 
+F25 "DISP_DC" I R 8550 1950 50 
+F26 "DISP_RST" I R 8550 1850 50 
+F27 "DISP_BUSY" I R 8550 1750 50 
+F28 "CAN_SHIELD" I R 8550 1600 50 
+F29 "LV_3V3" I R 8550 2400 50 
 $EndSheet
 $Sheet
-S 4500 2150 1700 600 
+S 4150 2300 1700 650 
 U 5DC1121D
 F0 "Charging" 50
 F1 "Charging.sch" 50
-F2 "CHRG_IN+" I L 4500 2250 50 
-F3 "CHRG_IN-" I L 4500 2350 50 
-F4 "CHRG_OUT+" I L 4500 2550 50 
-F5 "CHRG_OUT-" I L 4500 2650 50 
-F6 "EN_CHRG" I R 6200 2400 50 
-F7 "CHRG_CURRENT" I R 6200 2500 50 
-F8 "LV_RTN" I R 6200 2650 50 
-F9 "LV_5V" I R 6200 2250 50 
+F2 "CHRG_IN+" I L 4150 2400 50 
+F3 "CHRG_IN-" I L 4150 2500 50 
+F4 "CHRG_OUT+" I L 4150 2750 50 
+F5 "CHRG_OUT-" I L 4150 2850 50 
+F6 "EN_CHRG" I R 5850 2650 50 
+F7 "CHRG_CURRENT" I R 5850 2750 50 
+F8 "LV_RTN" I R 5850 2500 50 
+F9 "LV_5V" I R 5850 2400 50 
+F10 "CHRG_LED" I R 5850 2850 50 
 $EndSheet
 Wire Wire Line
-	9900 1050 10000 1050
+	9750 1250 9850 1250
 Wire Wire Line
-	10000 1150 9900 1150
+	9850 1350 9750 1350
 Wire Wire Line
-	9900 1250 10000 1250
+	9750 1450 9850 1450
 Wire Wire Line
-	10000 1350 9900 1350
+	9850 1550 9750 1550
 Wire Wire Line
-	9900 1800 10000 1800
+	9750 2000 9850 2000
 Wire Wire Line
-	10000 1900 9900 1900
+	9850 2100 9750 2100
 Wire Wire Line
-	9900 2000 10000 2000
+	9750 2200 9850 2200
 Wire Wire Line
-	10000 2100 9900 2100
+	9850 2300 9750 2300
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J3
 U 1 1 5DC21D16
-P 1150 1850
-F 0 "J?" H 1150 2100 50  0000 C CNN
-F 1 "VPACK" H 1150 2000 50  0000 C CNN
-F 2 "" H 1150 1850 50  0001 C CNN
-F 3 "~" H 1150 1850 50  0001 C CNN
-	1    1150 1850
+P 1150 2250
+F 0 "J3" H 1150 2500 50  0000 C CNN
+F 1 "VPACK" H 1150 2400 50  0000 C CNN
+F 2 "" H 1150 2250 50  0001 C CNN
+F 3 "~" H 1150 2250 50  0001 C CNN
+	1    1150 2250
 	-1   0    0    -1  
 $EndComp
-$Sheet
-S 4500 3150 1700 850 
-U 5DCA6D60
-F0 "I2CIsolator" 50
-F1 "I2CIsolator.sch" 50
-F2 "SDA_GLV" I R 6200 3650 50 
-F3 "SCL_GLV" I R 6200 3750 50 
-F4 "TSV_5V" I L 4500 3250 50 
-F5 "SDA_TSV" I L 4500 3650 50 
-F6 "SCL_TSV" I L 4500 3750 50 
-F7 "TSV_RTN" I L 4500 3900 50 
-F8 "CHRG_DETECT-" I L 4500 3500 50 
-F9 "CHRG_DETECT+" I L 4500 3400 50 
-F10 "~CHRG_DETECT" I R 6200 3400 50 
-F11 "LV_RTN" I R 6200 3900 50 
-F12 "LV_5V" I R 6200 3250 50 
-$EndSheet
-Text Label 9950 4700 0    50   ~ 0
+Text Label 9050 5200 2    50   ~ 0
 TSV_LIVE
-Text Label 1450 1850 0    50   ~ 0
+Text Label 1450 2250 0    50   ~ 0
 PACK+
-Text Label 1450 1950 0    50   ~ 0
+Text Label 1450 2350 0    50   ~ 0
 PACK-
 $Comp
-L Lafayette_Electric_Car_Internals:TEC2-4815WI U?
+L Lafayette_Electric_Car_Internals:TEC2-4815WI U2
 U 1 1 5DC4ACDE
-P 5000 5750
-F 0 "U?" H 5325 5917 50  0000 C CNN
-F 1 "TEC2-4815WI" H 5325 5826 50  0000 C CNN
-F 2 "Package_SIP:SIP-8_19x3mm_P2.54mm" H 4500 5800 50  0001 C CNN
-F 3 "https://www.tracopower.com/products/tec2wi.pdf" H 4500 5800 50  0001 C CNN
-	1    5000 5750
+P 4650 4850
+F 0 "U2" H 4975 5017 50  0000 C CNN
+F 1 "TEC2-4815WI" H 4975 4926 50  0000 C CNN
+F 2 "Package_SIP:SIP-8_19x3mm_P2.54mm" H 4150 4900 50  0001 C CNN
+F 3 "https://www.tracopower.com/products/tec2wi.pdf" H 4150 4900 50  0001 C CNN
+	1    4650 4850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4900 5950
-Text Label 5850 5850 0    50   ~ 0
+NoConn ~ 4550 5050
+Text Label 5550 4950 0    50   ~ 0
 TSV_LIVE
 Wire Wire Line
-	5850 5850 5750 5850
-Text Label 5850 6150 0    50   ~ 0
+	5550 4950 5450 4950
+Text Label 5550 5250 0    50   ~ 0
 LV_RTN
 Wire Wire Line
-	5850 6150 5750 6150
+	5550 5250 5450 5250
 Wire Wire Line
-	4800 6150 4900 6150
+	4450 5250 4550 5250
 Wire Wire Line
-	4800 5850 4900 5850
-Text Label 4800 5850 2    50   ~ 0
+	4450 4950 4550 4950
+Text Label 4450 4950 2    50   ~ 0
 TSV_VEHICLE+
-Text Label 4800 6150 2    50   ~ 0
+Text Label 4450 5250 2    50   ~ 0
 TSV_VEHICLE-
 NoConn ~ 1800 4850
 NoConn ~ 1800 4350
@@ -331,7 +326,7 @@ DCHRG_A1
 Text Label 1900 4550 0    50   ~ 0
 TSV_RTN
 Text Label 1900 4450 0    50   ~ 0
-TSV_5V
+TSV_5V_AMPS
 Wire Wire Line
 	1800 4450 1900 4450
 Wire Wire Line
@@ -341,34 +336,34 @@ Wire Wire Line
 Wire Wire Line
 	1800 4750 1900 4750
 Wire Wire Line
-	9900 2550 10000 2550
+	9750 2750 9850 2750
 Wire Wire Line
-	9900 2650 10000 2650
+	9750 2850 9850 2850
 Wire Wire Line
-	9900 2750 10000 2750
+	9750 2950 9850 2950
 Wire Wire Line
-	9900 2850 10000 2850
+	9750 3050 9850 3050
 Wire Wire Line
-	9900 2950 10000 2950
+	9750 3150 9850 3150
 Wire Wire Line
-	9900 3050 10000 3050
+	9750 3250 9850 3250
 Wire Wire Line
-	9900 4000 10000 4000
+	9750 4200 9850 4200
 Wire Wire Line
-	10000 3900 9900 3900
+	9850 4100 9750 4100
 Wire Wire Line
-	9900 3800 10000 3800
+	9750 4000 9850 4000
 Wire Wire Line
-	9900 3700 10000 3700
+	9750 3900 9850 3900
 Wire Wire Line
-	10000 3600 9900 3600
+	9850 3800 9750 3800
 Wire Wire Line
-	9900 3500 10000 3500
+	9750 3700 9850 3700
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J5
 U 1 1 5DDD27D7
 P 1150 3550
-F 0 "J?" H 1150 4000 50  0000 C CNN
+F 0 "J5" H 1150 4000 50  0000 C CNN
 F 1 "CellMen" H 1150 3900 50  0000 C CNN
 F 2 "" H 1150 3550 50  0001 C CNN
 F 3 "~" H 1150 3550 50  0001 C CNN
@@ -380,120 +375,92 @@ SDA_TSV
 Text Label 1450 3450 0    50   ~ 0
 SCL_TSV
 $Sheet
-S 4500 850  1700 900 
+S 4150 800  1700 1150
 U 5DD31136
 F0 "Power" 50
 F1 "Power.sch" 50
-F2 "TSV_RTN" I L 4500 1650 50 
-F3 "TSV_5V" I L 4500 1450 50 
-F4 "GLV_24V" I R 6200 950 50 
-F5 "GLV_RTN" I R 6200 1050 50 
-F6 "PACK_FUSED_CS" I L 4500 950 50 
-F7 "PACK_RTN" I L 4500 1050 50 
-F8 "TSV_9V" I L 4500 1550 50 
-F9 "LV_RTN" I R 6200 1650 50 
-F10 "LV_5V" I R 6200 1450 50 
-F11 "LV_24V" I R 6200 1550 50 
+F2 "TSV_RTN" I L 4150 1350 50 
+F3 "TSV_5V" I L 4150 1250 50 
+F4 "GLV_24V" I R 5850 900 50 
+F5 "GLV_RTN" I R 5850 1000 50 
+F6 "PACK_RTN" I L 4150 1000 50 
+F7 "TSV_9V" I L 4150 1150 50 
+F8 "LV_RTN" I R 5850 1350 50 
+F9 "LV_5V" I R 5850 1250 50 
+F10 "LV_24V" I R 5850 1150 50 
+F11 "DCHRG_A1" I L 4150 1750 50 
+F12 "DCHRG_A2" I L 4150 1850 50 
+F13 "SDA_TSV" I L 4150 1500 50 
+F14 "SCL_TSV" I L 4150 1600 50 
+F15 "PACK_FUSED" I L 4150 900 50 
 $EndSheet
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J1
 U 1 1 5DDF48B0
-P 1150 2850
-F 0 "J?" H 1150 3100 50  0000 C CNN
-F 1 "Charge Detection" H 1150 3000 50  0000 C CNN
-F 2 "" H 1150 2850 50  0001 C CNN
-F 3 "~" H 1150 2850 50  0001 C CNN
-	1    1150 2850
+P 1150 1100
+F 0 "J1" H 1150 1350 50  0000 C CNN
+F 1 "Charge Detection" H 1150 1250 50  0000 C CNN
+F 2 "" H 1150 1100 50  0001 C CNN
+F 3 "~" H 1150 1100 50  0001 C CNN
+	1    1150 1100
 	-1   0    0    -1  
 $EndComp
-Text Label 1450 2850 0    50   ~ 0
+Text Label 1450 1100 0    50   ~ 0
 CHRG_DETECT+
-Text Label 1450 2950 0    50   ~ 0
+Text Label 1450 1200 0    50   ~ 0
 CHRG_DETECT-
 Wire Wire Line
-	1450 2950 1350 2950
+	1450 1200 1350 1200
 Wire Wire Line
-	1350 2850 1450 2850
-$Sheet
-S 2300 5650 1100 500 
-U 5DC814A3
-F0 "Sensors_Misc" 50
-F1 "Sensors_Misc.sch" 50
-F2 "PACK_VOLTAGE" I L 2300 5750 50 
-F3 "PAC_CURRENT" I L 2300 5850 50 
-F4 "DCHRG_A1" I L 2300 5950 50 
-F5 "DCHRG_A2" I L 2300 6050 50 
-F6 "SCL_TSV" I R 3400 5750 50 
-F7 "SDA_TSV" I R 3400 5850 50 
-F8 "TSV_5V" I R 3400 5950 50 
-F9 "TSV_RTN" I R 3400 6050 50 
-$EndSheet
+	1350 1100 1450 1100
 $Comp
 L Lafayette_Electric_Car_Internals:LittelfuseHolder F?
 U 1 1 5DCA8E12
-P 1850 1950
+P 1850 2350
 AR Path="/5DD31136/5DCA8E12" Ref="F?"  Part="1" 
-AR Path="/5DCA8E12" Ref="F?"  Part="1" 
-F 0 "F?" H 1900 1750 50  0000 C CNN
-F 1 "Pack-" H 1900 1850 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:fuse_holder_smd_littelfuse" H 2000 2250 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 2200 2100 50  0001 C CNN
-F 4 "Digikey" H 1000 2150 50  0001 C CNN "Vendor"
-F 5 "F6776CT-ND" H 1150 2150 50  0001 C CNN "Vendor Part"
-F 6 "Littelfuse Inc." H 1150 2150 50  0001 C CNN "Manufacturer"
-F 7 "0154.500DRL" H 1150 2150 50  0001 C CNN "Manufacturer Part"
-	1    1850 1950
+AR Path="/5DCA8E12" Ref="F2"  Part="1" 
+F 0 "F2" H 1900 2150 50  0000 C CNN
+F 1 "Pack-" H 1900 2250 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:fuse_holder_smd_littelfuse" H 2000 2650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 2200 2500 50  0001 C CNN
+F 4 "Digikey" H 1000 2550 50  0001 C CNN "Vendor"
+F 5 "F6776CT-ND" H 1150 2550 50  0001 C CNN "Vendor Part"
+F 6 "Littelfuse Inc." H 1150 2550 50  0001 C CNN "Manufacturer"
+F 7 "0154.500DRL" H 1150 2550 50  0001 C CNN "Manufacturer Part"
+	1    1850 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lafayette_Electric_Car_Internals:LittelfuseHolder F?
 U 1 1 5DCA8E1C
-P 1850 1850
+P 1850 2250
 AR Path="/5DD31136/5DCA8E1C" Ref="F?"  Part="1" 
-AR Path="/5DCA8E1C" Ref="F?"  Part="1" 
-F 0 "F?" H 1900 2100 50  0000 C CNN
-F 1 "Pack+" H 1900 2000 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:fuse_holder_smd_littelfuse" H 2000 2150 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 2200 2000 50  0001 C CNN
-F 4 "Digikey" H 1000 2050 50  0001 C CNN "Vendor"
-F 5 "F6776CT-ND" H 1150 2050 50  0001 C CNN "Vendor Part"
-F 6 "Littelfuse Inc." H 1150 2050 50  0001 C CNN "Manufacturer"
-F 7 "0154.500DRL" H 1150 2050 50  0001 C CNN "Manufacturer Part"
-	1    1850 1850
+AR Path="/5DCA8E1C" Ref="F1"  Part="1" 
+F 0 "F1" H 1900 2500 50  0000 C CNN
+F 1 "Pack+" H 1900 2400 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:fuse_holder_smd_littelfuse" H 2000 2550 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 2200 2400 50  0001 C CNN
+F 4 "Digikey" H 1000 2450 50  0001 C CNN "Vendor"
+F 5 "F6776CT-ND" H 1150 2450 50  0001 C CNN "Vendor Part"
+F 6 "Littelfuse Inc." H 1150 2450 50  0001 C CNN "Manufacturer"
+F 7 "0154.500DRL" H 1150 2450 50  0001 C CNN "Manufacturer Part"
+	1    1850 2250
 	1    0    0    -1  
 $EndComp
-Text Label 2100 1950 0    50   ~ 0
-PACK_RTN
-Text Label 2100 1850 0    50   ~ 0
-PACK_FUSED_CS
 Wire Wire Line
-	2100 1950 2000 1950
+	1350 2250 1750 2250
 Wire Wire Line
-	2000 1850 2100 1850
-Wire Wire Line
-	1350 1850 1750 1850
-Wire Wire Line
-	1350 1950 1750 1950
+	1350 2350 1750 2350
 NoConn ~ 1400 5050
 Text Label 1450 3550 0    50   ~ 0
 TSV_9V
 Text Label 1450 3650 0    50   ~ 0
 TSV_RTN
-Wire Notes Line
-	5350 550  5350 800 
-Wire Notes Line
-	5350 1800 5350 2100
-Wire Notes Line
-	5350 2800 5350 3100
-Wire Notes Line
-	5350 4050 5350 5500
-Wire Notes Line
-	5350 6300 5350 7950
 $Comp
-L Lafayette_Electric_Car_Internals:LeopardPawLogo LOGO?
+L Lafayette_Electric_Car_Internals:LeopardPawLogo LOGO2
 U 1 1 5DCDE04E
 P 1950 7600
-F 0 "LOGO?" H 1800 7800 60  0000 L CNN
+F 0 "LOGO2" H 1800 7800 60  0000 L CNN
 F 1 "LeopardPawLogo" H 1950 7733 60  0001 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:Paw" H 1950 7600 50  0001 C CNN
 F 3 "" H 1950 7600 50  0001 C CNN
@@ -501,10 +468,10 @@ F 3 "" H 1950 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lafayette_Electric_Car_Internals:DangerHighVoltageLogo LOGO?
+L Lafayette_Electric_Car_Internals:DangerHighVoltageLogo LOGO3
 U 1 1 5DCDE69E
 P 2450 7650
-F 0 "LOGO?" H 2300 7950 60  0000 L CNN
+F 0 "LOGO3" H 2300 7950 60  0000 L CNN
 F 1 "DangerHighVoltageLogo" H 2450 7861 60  0001 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:highvoltagesmall" H 2450 7650 50  0001 C CNN
 F 3 "" H 2450 7650 50  0001 C CNN
@@ -516,70 +483,525 @@ Wire Notes Line
 Wire Notes Line
 	2750 7200 2750 7950
 $Comp
-L Lafayette_Electric_Car_Internals:LafECEDepLogo LOGO?
+L Lafayette_Electric_Car_Internals:LafECEDepLogo LOGO1
 U 1 1 5DCDD6EC
 P 1150 7650
-F 0 "LOGO?" H 1147 7899 60  0000 C CNN
+F 0 "LOGO1" H 1147 7899 60  0000 C CNN
 F 1 "LafECEDepLogo" H 1150 7792 60  0001 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:ECE_Logo_Jon" H 1150 7650 50  0001 C CNN
 F 3 "" H 1150 7650 50  0001 C CNN
 	1    1150 7650
 	1    0    0    -1  
 $EndComp
-Text Label 9250 4900 2    50   ~ 0
+Text Label 9050 5500 2    50   ~ 0
 BTN_LEFT
-Text Label 9250 5000 2    50   ~ 0
+Text Label 9050 5600 2    50   ~ 0
 BTN_RIGHT
-Text Label 9250 5100 2    50   ~ 0
+Text Label 9050 5700 2    50   ~ 0
 BTN_UP
-Text Label 9250 5200 2    50   ~ 0
+Text Label 9050 5800 2    50   ~ 0
 BTN_DOWN
-Text Label 9250 5300 2    50   ~ 0
+Text Label 9050 5900 2    50   ~ 0
 BTN_CENTER
-Text Label 9950 4600 0    50   ~ 0
+Text Label 9050 5100 2    50   ~ 0
 CHRG_LED
-Text Label 9250 4600 2    50   ~ 0
+Text Label 9050 5300 2    50   ~ 0
 LV_24V
-Wire Wire Line
-	5800 7450 5800 7100
-Connection ~ 5800 7450
-Wire Wire Line
-	5800 7450 6000 7450
-Text Label 9250 4700 2    50   ~ 0
+Text Label 9050 5400 2    50   ~ 0
 LV_3V3
-Text Label 9250 4800 2    50   ~ 0
+Text Label 9750 5100 0    50   ~ 0
 LV_RTN
-Text Label 9950 4800 0    50   ~ 0
+Text Label 9750 5200 0    50   ~ 0
 DISP_DIN
-Text Label 9950 4900 0    50   ~ 0
+Text Label 9750 5400 0    50   ~ 0
 DISP_CLK
-Text Label 9950 5000 0    50   ~ 0
+Text Label 9750 5600 0    50   ~ 0
 DISP_CS
-Text Label 9950 5100 0    50   ~ 0
+Text Label 9750 5800 0    50   ~ 0
 DISP_DC
-Text Label 9950 5200 0    50   ~ 0
+Text Label 9750 6000 0    50   ~ 0
 DISP_RST
-Text Label 9950 5300 0    50   ~ 0
+Text Label 9050 6000 2    50   ~ 0
 DISP_BUSY
 $Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J?
+L Connector_Generic:Conn_02x10_Counter_Clockwise J7
 U 1 1 5DCA5E9D
-P 9550 4900
-F 0 "J?" H 9600 5450 50  0000 C CNN
-F 1 "Panel" H 9600 5350 50  0000 C CNN
-F 2 "" H 9550 4900 50  0001 C CNN
-F 3 "~" H 9550 4900 50  0001 C CNN
-	1    9550 4900
+P 9350 5500
+F 0 "J7" H 9400 6150 50  0000 C CNN
+F 1 "Panel" H 9400 6050 50  0000 C CNN
+F 2 "" H 9350 5500 50  0001 C CNN
+F 3 "~" H 9350 5500 50  0001 C CNN
+	1    9350 5500
 	1    0    0    -1  
 $EndComp
-Text Label 10300 5400 2    50   ~ 0
+Text Label 9750 5300 0    50   ~ 0
+LV_RTN
+Text Label 9750 5500 0    50   ~ 0
+LV_RTN
+Text Label 9750 5700 0    50   ~ 0
+LV_RTN
+Text Label 9750 5900 0    50   ~ 0
+LV_RTN
+$Sheet
+S 4150 3300 1700 950 
+U 5DCA6D60
+F0 "Isolation" 50
+F1 "Isolation.sch" 50
+F2 "SDA_GLV" I R 5850 3800 50 
+F3 "SCL_GLV" I R 5850 3900 50 
+F4 "TSV_5V" I L 4150 3400 50 
+F5 "SDA_TSV" I L 4150 3900 50 
+F6 "SCL_TSV" I L 4150 4000 50 
+F7 "TSV_RTN" I L 4150 3500 50 
+F8 "CHRG_DETECT-" I L 4150 3750 50 
+F9 "CHRG_DETECT+" I L 4150 3650 50 
+F10 "~CHRG_DETECT" I R 5850 3650 50 
+F11 "LV_RTN" I R 5850 3500 50 
+F12 "LV_5V" I R 5850 3400 50 
+F13 "AIRS+" I R 5850 4050 50 
+F14 "AIRS-" I R 5850 4150 50 
+F15 "TSV_5V_AMPS" I L 4150 4150 50 
+$EndSheet
+Text Label 2300 5550 0    50   ~ 0
+TSV_5V
+$Comp
+L Device:C C?
+U 1 1 5E5467E9
+P 2200 6500
+AR Path="/5DC814A3/5E5467E9" Ref="C?"  Part="1" 
+AR Path="/5E5467E9" Ref="C1"  Part="1" 
+F 0 "C1" H 2315 6546 50  0000 L CNN
+F 1 "0.1u" H 2315 6455 50  0000 L CNN
+F 2 "" H 2238 6350 50  0001 C CNN
+F 3 "~" H 2200 6500 50  0001 C CNN
+	1    2200 6500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2100 6150
+Text Label 1200 5850 2    50   ~ 0
+SDA_TSV
+Text Label 1200 5950 2    50   ~ 0
+SCL_TSV
+Wire Wire Line
+	1200 5850 1300 5850
+Wire Wire Line
+	1200 5950 1300 5950
+Text Label 2300 6750 0    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	2300 6750 2200 6750
+Wire Wire Line
+	1700 6750 1700 6650
+Wire Wire Line
+	1700 5550 1700 5650
+Wire Wire Line
+	1300 6250 1200 6250
+Wire Wire Line
+	1200 6250 1200 6350
+Wire Wire Line
+	1300 6450 1200 6450
+Connection ~ 1200 6450
+Wire Wire Line
+	1200 6450 1200 6750
+Wire Wire Line
+	1200 6350 1300 6350
+Connection ~ 1200 6350
+Wire Wire Line
+	1200 6350 1200 6450
+Wire Wire Line
+	1200 6750 1700 6750
+Connection ~ 1700 6750
+Text Notes 1250 6200 2    50   ~ 0
+I2C Address:\n0011000
+$Comp
+L Sensor_Temperature:MCP9804_MSOP U?
+U 1 1 5E5467EF
+P 1700 6150
+AR Path="/5DC814A3/5E5467EF" Ref="U?"  Part="1" 
+AR Path="/5E5467EF" Ref="U1"  Part="1" 
+F 0 "U1" H 1250 6750 50  0000 L CNN
+F 1 "MCP9804_MSOP" H 1000 6650 50  0000 L CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 700 5650 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 1450 6600 50  0001 C CNN
+	1    1700 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6650 2200 6750
+Connection ~ 2200 6750
+Wire Wire Line
+	2200 6750 1700 6750
+Wire Wire Line
+	2200 5550 2200 6350
+Wire Wire Line
+	1700 5550 2200 5550
+Wire Wire Line
+	2300 5550 2200 5550
+Connection ~ 2200 5550
+Wire Notes Line
+	5000 3250 5000 3000
+Wire Notes Line
+	5000 4300 5000 4600
+Wire Notes Line
+	5000 2250 5000 2000
+Wire Notes Line
+	5000 750  5000 550 
+Wire Notes Line
+	5000 5400 5000 7900
+Wire Wire Line
+	7150 6150 7050 6150
+Wire Wire Line
+	6650 6150 7050 6150
+Text Label 4050 3650 2    50   ~ 0
+CHRG_DETECT+
+Text Label 4050 3750 2    50   ~ 0
+CHRG_DETECT-
+Wire Wire Line
+	4050 3750 4150 3750
+Wire Wire Line
+	4150 3650 4050 3650
+Text Label 4050 3500 2    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	4150 3500 4050 3500
+Text Label 4050 1850 2    50   ~ 0
+DCHRG_A2
+Text Label 4050 1750 2    50   ~ 0
+DCHRG_A1
+Wire Wire Line
+	4150 1750 4050 1750
+Wire Wire Line
+	4150 1850 4050 1850
+Text Label 4050 1500 2    50   ~ 0
+SDA_TSV
+Text Label 4050 1600 2    50   ~ 0
+SCL_TSV
+Wire Wire Line
+	4050 1500 4150 1500
+Wire Wire Line
+	4150 1600 4050 1600
+Text Label 4050 1150 2    50   ~ 0
+TSV_9V
+Text Label 4050 1350 2    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	4050 1150 4150 1150
+Wire Wire Line
+	4050 1350 4150 1350
+Text Label 4050 4150 2    50   ~ 0
+TSV_5V_AMPS
+Wire Wire Line
+	4150 4150 4050 4150
+Text Label 4050 3900 2    50   ~ 0
+SDA_TSV
+Text Label 4050 4000 2    50   ~ 0
+SCL_TSV
+Wire Wire Line
+	4050 3900 4150 3900
+Wire Wire Line
+	4150 4000 4050 4000
+Text Label 4050 2400 2    50   ~ 0
+CHRG_IN+
+Text Label 4050 2500 2    50   ~ 0
+CHRG_IN-
+Wire Wire Line
+	4050 2500 4150 2500
+Wire Wire Line
+	4050 2400 4150 2400
+Text Label 4050 2750 2    50   ~ 0
+PACK+
+Text Label 4050 2850 2    50   ~ 0
+PACK-
+Wire Wire Line
+	4050 2750 4150 2750
+Wire Wire Line
+	4150 2850 4050 2850
+Wire Wire Line
+	2000 2250 2100 2250
+Wire Wire Line
+	2100 2350 2000 2350
+Text Label 2100 2250 0    50   ~ 0
+PACK_FUSED
+Text Label 2100 2350 0    50   ~ 0
+PACK_RTN
+Wire Wire Line
+	4150 900  4050 900 
+Wire Wire Line
+	4050 1000 4150 1000
+Text Label 4050 900  2    50   ~ 0
+PACK_FUSED
+Text Label 4050 1000 2    50   ~ 0
+PACK_RTN
+Text Label 4050 3400 2    50   ~ 0
+TSV_5V
+Wire Wire Line
+	4050 3400 4150 3400
+Text Label 4050 1250 2    50   ~ 0
+TSV_5V
+Wire Wire Line
+	4050 1250 4150 1250
+Wire Wire Line
+	1350 3350 1450 3350
+Wire Wire Line
+	1350 3450 1450 3450
+Wire Wire Line
+	1350 3550 1450 3550
+Wire Wire Line
+	1350 3650 1450 3650
+NoConn ~ 1350 3750
+NoConn ~ 1350 3850
+Text Label 8650 900  0    50   ~ 0
+SLOOP1_IN
+Wire Wire Line
+	8650 900  8550 900 
+Text Label 8650 1000 0    50   ~ 0
+SLOOP1_OUT
+Wire Wire Line
+	8650 1000 8550 1000
+Text Label 8650 1150 0    50   ~ 0
+AIRS+
+Text Label 8650 1250 0    50   ~ 0
+AIRS-
+Wire Wire Line
+	8650 1150 8550 1150
+Wire Wire Line
+	8550 1250 8650 1250
+Text Label 8650 1400 0    50   ~ 0
+CAN_H
+Text Label 8650 1500 0    50   ~ 0
+CAN_L
+Wire Wire Line
+	8650 1400 8550 1400
+Wire Wire Line
+	8650 1500 8550 1500
+Text Label 8650 2250 0    50   ~ 0
+DISP_DIN
+Text Label 8650 2150 0    50   ~ 0
+DISP_CLK
+Text Label 8650 2050 0    50   ~ 0
+DISP_CS
+Text Label 8650 1950 0    50   ~ 0
+DISP_DC
+Text Label 8650 1850 0    50   ~ 0
+DISP_RST
+Text Label 8650 1750 0    50   ~ 0
+DISP_BUSY
+Wire Wire Line
+	8550 2250 8650 2250
+Wire Wire Line
+	8650 2150 8550 2150
+Wire Wire Line
+	8550 2050 8650 2050
+Wire Wire Line
+	8650 1950 8550 1950
+Wire Wire Line
+	8550 1850 8650 1850
+Wire Wire Line
+	8650 1750 8550 1750
+Text Label 7150 1750 2    50   ~ 0
+SDA_GLV
+Text Label 7150 1850 2    50   ~ 0
+SCL_GLV
+Wire Wire Line
+	7150 1750 7250 1750
+Wire Wire Line
+	7250 1850 7150 1850
+Text Label 7150 2000 2    50   ~ 0
 BTN_LEFT
-Text Label 10300 5500 2    50   ~ 0
+Text Label 7150 2100 2    50   ~ 0
 BTN_RIGHT
-Text Label 10300 5600 2    50   ~ 0
+Text Label 7150 2200 2    50   ~ 0
 BTN_UP
-Text Label 10300 5700 2    50   ~ 0
+Text Label 7150 2300 2    50   ~ 0
 BTN_DOWN
-Text Label 10300 5800 2    50   ~ 0
+Text Label 7150 2400 2    50   ~ 0
 BTN_CENTER
+Wire Wire Line
+	7150 2000 7250 2000
+Wire Wire Line
+	7250 2100 7150 2100
+Wire Wire Line
+	7150 2200 7250 2200
+Wire Wire Line
+	7250 2300 7150 2300
+Wire Wire Line
+	7150 2400 7250 2400
+Wire Wire Line
+	8550 1600 8650 1600
+Text Label 8650 1600 0    50   ~ 0
+CAN_SHIELD
+Text Label 7150 1150 2    50   ~ 0
+GLV_24V
+Text Label 7150 1250 2    50   ~ 0
+GLV_RTN
+Wire Wire Line
+	7150 1150 7250 1150
+Wire Wire Line
+	7150 1250 7250 1250
+Text Label 7150 900  2    50   ~ 0
+LV_5V
+Text Label 7150 1000 2    50   ~ 0
+LV_RTN
+Wire Wire Line
+	7150 900  7250 900 
+Wire Wire Line
+	7150 1000 7250 1000
+Text Label 7150 1400 2    50   ~ 0
+EN_CHRG
+Text Label 7150 1500 2    50   ~ 0
+~CHRG_DETECT
+Text Label 7150 1600 2    50   ~ 0
+CHRG_CURRENT
+Wire Wire Line
+	7150 1400 7250 1400
+Wire Wire Line
+	7250 1500 7150 1500
+Wire Wire Line
+	7150 1600 7250 1600
+Wire Wire Line
+	9650 6000 9750 6000
+Wire Wire Line
+	9750 5900 9650 5900
+Wire Wire Line
+	9650 5800 9750 5800
+Wire Wire Line
+	9750 5700 9650 5700
+Wire Wire Line
+	9650 5600 9750 5600
+Wire Wire Line
+	9750 5500 9650 5500
+Wire Wire Line
+	9650 5400 9750 5400
+Wire Wire Line
+	9750 5300 9650 5300
+Wire Wire Line
+	9650 5200 9750 5200
+Wire Wire Line
+	9750 5100 9650 5100
+Wire Wire Line
+	9150 5100 9050 5100
+Wire Wire Line
+	9050 5200 9150 5200
+Wire Wire Line
+	9150 5300 9050 5300
+Wire Wire Line
+	9050 5400 9150 5400
+Wire Wire Line
+	9050 5500 9150 5500
+Wire Wire Line
+	9150 5600 9050 5600
+Wire Wire Line
+	9050 5700 9150 5700
+Wire Wire Line
+	9150 5800 9050 5800
+Wire Wire Line
+	9050 5900 9150 5900
+Wire Wire Line
+	9150 6000 9050 6000
+Text Label 5950 1250 0    50   ~ 0
+LV_5V
+Text Label 5950 1350 0    50   ~ 0
+LV_RTN
+Wire Wire Line
+	5950 1250 5850 1250
+Wire Wire Line
+	5950 1350 5850 1350
+Text Label 5950 2400 0    50   ~ 0
+LV_5V
+Text Label 5950 2500 0    50   ~ 0
+LV_RTN
+Wire Wire Line
+	5950 2400 5850 2400
+Wire Wire Line
+	5950 2500 5850 2500
+Text Label 5950 3400 0    50   ~ 0
+LV_5V
+Text Label 5950 3500 0    50   ~ 0
+LV_RTN
+Wire Wire Line
+	5950 3400 5850 3400
+Wire Wire Line
+	5950 3500 5850 3500
+Text Label 5950 900  0    50   ~ 0
+GLV_24V
+Text Label 5950 1000 0    50   ~ 0
+GLV_RTN
+Wire Wire Line
+	5950 900  5850 900 
+Wire Wire Line
+	5950 1000 5850 1000
+Text Label 5950 1150 0    50   ~ 0
+LV_24V
+Wire Wire Line
+	5850 1150 5950 1150
+Text Label 5950 3650 0    50   ~ 0
+~CHRG_DETECT
+Wire Wire Line
+	5850 3650 5950 3650
+Text Label 5950 3800 0    50   ~ 0
+SDA_GLV
+Text Label 5950 3900 0    50   ~ 0
+SCL_GLV
+Wire Wire Line
+	5950 3800 5850 3800
+Wire Wire Line
+	5850 3900 5950 3900
+Text Label 5950 4050 0    50   ~ 0
+AIRS+
+Text Label 5950 4150 0    50   ~ 0
+AIRS-
+Wire Wire Line
+	5950 4050 5850 4050
+Wire Wire Line
+	5850 4150 5950 4150
+Text Label 5950 2650 0    50   ~ 0
+EN_CHRG
+Text Label 5950 2750 0    50   ~ 0
+CHRG_CURRENT
+Wire Wire Line
+	5950 2650 5850 2650
+Wire Wire Line
+	5850 2750 5950 2750
+Wire Wire Line
+	5950 2850 5850 2850
+Text Label 5950 2850 0    50   ~ 0
+CHRG_LED
+Text Label 8650 2400 0    50   ~ 0
+LV_3V3
+Wire Wire Line
+	8650 2400 8550 2400
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5E90542B
+P 3600 6250
+F 0 "#FLG01" H 3600 6325 50  0001 C CNN
+F 1 "PWR_FLAG" H 3600 6423 50  0000 C CNN
+F 2 "" H 3600 6250 50  0001 C CNN
+F 3 "~" H 3600 6250 50  0001 C CNN
+	1    3600 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5E90549E
+P 3850 6350
+F 0 "#FLG02" H 3850 6425 50  0001 C CNN
+F 1 "PWR_FLAG" H 3850 6523 50  0000 C CNN
+F 2 "" H 3850 6350 50  0001 C CNN
+F 3 "~" H 3850 6350 50  0001 C CNN
+	1    3850 6350
+	1    0    0    -1  
+$EndComp
+Text Label 3500 6350 2    50   ~ 0
+TSV_VEHICLE+
+Text Label 3500 6450 2    50   ~ 0
+TSV_VEHICLE-
+Wire Wire Line
+	3500 6350 3600 6350
+Wire Wire Line
+	3600 6350 3600 6250
+Wire Wire Line
+	3500 6450 3850 6450
+Wire Wire Line
+	3850 6450 3850 6350
 $EndSCHEMATC
