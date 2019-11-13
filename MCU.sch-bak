@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 2 5
 Title "PacMan: MCU, SLOOP, CANBus"
 Date ""
-Rev "0.2"
+Rev "0.3"
 Comp "Lafayette College"
 Comment1 "MCU, SLOOP, CANBus: Contains the controlling MCU, SLOOP relay, and CAN tranceiver"
 Comment2 "Jon Abel"

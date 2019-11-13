@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 3 5
 Title "PacMan: Charging"
 Date ""
-Rev "0.2"
+Rev "0.3"
 Comp "Lafayette College"
 Comment1 "Charging: Controls charging relays and measure charging current"
 Comment2 "Jon Abel"
@@ -86,6 +86,10 @@ F 0 "K3" H 3950 4225 50  0000 C CNN
 F 1 "T9AS1D12-48" H 3950 4134 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:T9AS1D12" H 3745 4050 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 3745 4050 50  0001 C CNN
+F 4 "TE Connectivity" H 3750 4050 50  0001 C CNN "Manufacturer"
+F 5 "T9AS1D12-48" H 3750 4050 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3750 4050 50  0001 C CNN "Vendor"
+F 7 "PB1013-ND" H 3750 4050 50  0001 C CNN "Vendor Part"
 	1    3750 4050
 	1    0    0    -1  
 $EndComp
@@ -97,6 +101,10 @@ F 0 "K2" H 2950 4225 50  0000 C CNN
 F 1 "T9AS1D12-48" H 2950 4134 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:T9AS1D12" H 2745 4050 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 2745 4050 50  0001 C CNN
+F 4 "TE Connectivity" H 2750 4050 50  0001 C CNN "Manufacturer"
+F 5 "T9AS1D12-48" H 2750 4050 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 2750 4050 50  0001 C CNN "Vendor"
+F 7 "PB1013-ND" H 2750 4050 50  0001 C CNN "Vendor Part"
 	1    2750 4050
 	-1   0    0    -1  
 $EndComp
@@ -284,7 +292,7 @@ U 1 1 5DC7EC2D
 P 950 3050
 F 0 "J12" H 868 3267 50  0000 C CNN
 F 1 "CHRG TEST" H 868 3176 50  0000 C CNN
-F 2 "" H 950 3050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 950 3050 50  0001 C CNN
 F 3 "~" H 950 3050 50  0001 C CNN
 	1    950  3050
 	-1   0    0    -1  

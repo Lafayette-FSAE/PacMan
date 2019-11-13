@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 5
 Title "PacMan"
 Date ""
-Rev "0.2"
+Rev "0.3"
 Comp "Lafayette College"
 Comment1 "PacMan accumulator management board"
 Comment2 "Jon Abel"
@@ -44,8 +44,12 @@ U 1 1 5DB646E5
 P 10050 1350
 F 0 "J8" H 10050 1700 50  0000 C CNN
 F 1 "SLOOP IN" H 10050 1600 50  0000 C CNN
-F 2 "" H 10050 1350 50  0001 C CNN
-F 3 "~" H 10050 1350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A2_2x02_P4.20mm_Vertical" H 10050 1350 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/462070004_sd.pdf" H 10050 1350 50  0001 C CNN
+F 4 "Molex" H 10050 1350 50  0001 C CNN "Manufacturer"
+F 5 "0462070004" H 10050 1350 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 10050 1350 50  0001 C CNN "Vendor"
+F 7 "WM21375-ND" H 10050 1350 50  0001 C CNN "Vendor Part"
 	1    10050 1350
 	1    0    0    -1  
 $EndComp
@@ -55,8 +59,12 @@ U 1 1 5DB64E95
 P 10050 2100
 F 0 "J9" H 10000 2450 50  0000 L CNN
 F 1 "SLOOP OUT" H 9850 2350 50  0000 L CNN
-F 2 "" H 10050 2100 50  0001 C CNN
-F 3 "~" H 10050 2100 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A2_2x02_P4.20mm_Vertical" H 10050 2100 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/462070004_sd.pdf" H 10050 2100 50  0001 C CNN
+F 4 "Molex" H 10050 2100 50  0001 C CNN "Manufacturer"
+F 5 "0462070004" H 10050 2100 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 10050 2100 50  0001 C CNN "Vendor"
+F 7 "WM21375-ND" H 10050 2100 50  0001 C CNN "Vendor Part"
 	1    10050 2100
 	1    0    0    -1  
 $EndComp
@@ -66,8 +74,12 @@ U 1 1 5DB65BCA
 P 10050 2950
 F 0 "J10" H 10050 3400 50  0000 C CNN
 F 1 "GLV/CAN IN" H 10050 3300 50  0000 C CNN
-F 2 "" H 10050 2950 50  0001 C CNN
-F 3 "~" H 10050 2950 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical" H 10050 2950 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/462070004_sd.pdf" H 10050 2950 50  0001 C CNN
+F 4 "Molex" H 10050 2950 50  0001 C CNN "Manufacturer"
+F 5 "0462070006" H 10050 2950 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 10050 2950 50  0001 C CNN "Vendor"
+F 7 "WM21376-ND" H 10050 2950 50  0001 C CNN "Vendor Part"
 	1    10050 2950
 	1    0    0    -1  
 $EndComp
@@ -77,8 +89,12 @@ U 1 1 5DB666F2
 P 10050 3900
 F 0 "J11" H 10000 4350 50  0000 L CNN
 F 1 "GLV/CAN OUT" H 9800 4250 50  0000 L CNN
-F 2 "" H 10050 3900 50  0001 C CNN
-F 3 "~" H 10050 3900 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical" H 10050 3900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/462070004_sd.pdf" H 10050 3900 50  0001 C CNN
+F 4 "Molex" H 10050 3900 50  0001 C CNN "Manufacturer"
+F 5 "0462070006" H 10050 3900 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 10050 3900 50  0001 C CNN "Vendor"
+F 7 "WM21376-ND" H 10050 3900 50  0001 C CNN "Vendor Part"
 	1    10050 3900
 	1    0    0    -1  
 $EndComp
@@ -202,8 +218,12 @@ U 1 1 5DC1E4A1
 P 1400 4650
 F 0 "J6" H 1457 5217 50  0000 C CNN
 F 1 "RJ12_Shielded" H 1457 5126 50  0000 C CNN
-F 2 "" V 1400 4675 50  0001 C CNN
-F 3 "~" V 1400 4675 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:MOLEX_RJ11" V 1400 4675 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/855135002_sd.pdf" V 1400 4675 50  0001 C CNN
+F 4 "Molex" H 1400 4650 50  0001 C CNN "Manufacturer"
+F 5 "0855135002" H 1400 4650 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1400 4650 50  0001 C CNN "Vendor"
+F 7 "WM3789CT-ND" H 1400 4650 50  0001 C CNN "Vendor Part"
 	1    1400 4650
 	1    0    0    -1  
 $EndComp
@@ -278,7 +298,7 @@ U 1 1 5DC21D16
 P 1150 2250
 F 0 "J3" H 1150 2500 50  0000 C CNN
 F 1 "VPACK" H 1150 2400 50  0000 C CNN
-F 2 "" H 1150 2250 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:DF22-2P-7.92" H 1150 2250 50  0001 C CNN
 F 3 "~" H 1150 2250 50  0001 C CNN
 	1    1150 2250
 	-1   0    0    -1  
@@ -369,8 +389,12 @@ U 1 1 5DDD27D7
 P 1150 3550
 F 0 "J5" H 1150 4000 50  0000 C CNN
 F 1 "CellMen" H 1150 3900 50  0000 C CNN
-F 2 "" H 1150 3550 50  0001 C CNN
-F 3 "~" H 1150 3550 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 1150 3550 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 1150 3550 50  0001 C CNN
+F 4 "Amphenol ICC" H 1150 3550 50  0001 C CNN "Manufacturer"
+F 5 "75869-131LF" H 1150 3550 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1150 3550 50  0001 C CNN "Vendor"
+F 7 "609-2845-ND" H 1150 3550 50  0001 C CNN "Vendor Part"
 	1    1150 3550
 	-1   0    0    -1  
 $EndComp

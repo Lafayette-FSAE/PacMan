@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 2 5
 Title "PacMan: MCU, SLOOP, CANBus"
 Date ""
-Rev "0.2"
+Rev "0.3"
 Comp "Lafayette College"
 Comment1 "MCU, SLOOP, CANBus: Contains the controlling MCU, SLOOP relay, and CAN tranceiver"
 Comment2 "Jon Abel"
@@ -22,7 +22,7 @@ AR Path="/5DC9CC3A" Ref="K?"  Part="1"
 AR Path="/5DC1F176/5DC9CC3A" Ref="K1"  Part="1" 
 F 0 "K1" H 4450 5825 50  0000 C CNN
 F 1 "G5Q-1A4 DC24" H 4450 5734 50  0000 C CNN
-F 2 "" H 4245 5650 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:G5Q-1A4" H 4245 5650 50  0001 C CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" H 4245 5650 50  0001 C CNN
 F 4 "Omron Electronics" H 4250 5650 50  0001 C CNN "Manufacturer"
 F 5 "G5Q-1A4 DC24" H 4250 5650 50  0001 C CNN "Manufacturer Part"

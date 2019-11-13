@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 4 5
 Title "PacMan: Power"
 Date ""
-Rev "0.2"
+Rev "0.3"
 Comp "Lafayette College"
 Comment1 "Power: Creates the necessary power rails for PacMan and CellMen"
 Comment2 "Jon Abel"
@@ -281,8 +281,8 @@ L Connector:TestPoint TP4
 U 1 1 5DCA5799
 P 4200 6350
 F 0 "TP4" H 4258 6468 50  0000 L CNN
-F 1 "TestPoint" H 4258 6377 50  0000 L CNN
-F 2 "" H 4400 6350 50  0001 C CNN
+F 1 "TP_LV_RTN" H 4258 6377 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4400 6350 50  0001 C CNN
 F 3 "~" H 4400 6350 50  0001 C CNN
 	1    4200 6350
 	1    0    0    -1  
@@ -292,8 +292,8 @@ L Connector:TestPoint TP5
 U 1 1 5DCA5C36
 P 4750 6350
 F 0 "TP5" H 4808 6468 50  0000 L CNN
-F 1 "TestPoint" H 4808 6377 50  0000 L CNN
-F 2 "" H 4950 6350 50  0001 C CNN
+F 1 "TP_LV_5V" H 4808 6377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4950 6350 50  0001 C CNN
 F 3 "~" H 4950 6350 50  0001 C CNN
 	1    4750 6350
 	1    0    0    -1  
@@ -315,8 +315,8 @@ L Connector:TestPoint TP6
 U 1 1 5DCACD71
 P 5300 6350
 F 0 "TP6" H 5358 6468 50  0000 L CNN
-F 1 "TestPoint" H 5358 6377 50  0000 L CNN
-F 2 "" H 5500 6350 50  0001 C CNN
+F 1 "TP_LV_24V" H 5358 6377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5500 6350 50  0001 C CNN
 F 3 "~" H 5500 6350 50  0001 C CNN
 	1    5300 6350
 	1    0    0    -1  
@@ -332,8 +332,8 @@ L Connector:TestPoint TP7
 U 1 1 5DCAF4E1
 P 5850 6350
 F 0 "TP7" H 5908 6468 50  0000 L CNN
-F 1 "TestPoint" H 5908 6377 50  0000 L CNN
-F 2 "" H 6050 6350 50  0001 C CNN
+F 1 "TP_GLV_24V" H 5908 6377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6050 6350 50  0001 C CNN
 F 3 "~" H 6050 6350 50  0001 C CNN
 	1    5850 6350
 	1    0    0    -1  
@@ -349,8 +349,8 @@ L Connector:TestPoint TP2
 U 1 1 5DCB539A
 P 3150 6350
 F 0 "TP2" H 3208 6468 50  0000 L CNN
-F 1 "TestPoint" H 3208 6377 50  0000 L CNN
-F 2 "" H 3350 6350 50  0001 C CNN
+F 1 "TP_TSV_5V" H 3208 6377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3350 6350 50  0001 C CNN
 F 3 "~" H 3350 6350 50  0001 C CNN
 	1    3150 6350
 	-1   0    0    -1  
@@ -360,8 +360,8 @@ L Connector:TestPoint TP3
 U 1 1 5DCB53A4
 P 3700 6350
 F 0 "TP3" H 3758 6468 50  0000 L CNN
-F 1 "TestPoint" H 3758 6377 50  0000 L CNN
-F 2 "" H 3900 6350 50  0001 C CNN
+F 1 "TP_TSV_9V" H 3758 6377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3900 6350 50  0001 C CNN
 F 3 "~" H 3900 6350 50  0001 C CNN
 	1    3700 6350
 	-1   0    0    -1  
@@ -383,8 +383,8 @@ L Connector:TestPoint TP1
 U 1 1 5DCB8929
 P 2600 6350
 F 0 "TP1" H 2658 6468 50  0000 L CNN
-F 1 "TestPoint" H 2658 6377 50  0000 L CNN
-F 2 "" H 2800 6350 50  0001 C CNN
+F 1 "TP_TSV_RTN" H 2658 6377 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2800 6350 50  0001 C CNN
 F 3 "~" H 2800 6350 50  0001 C CNN
 	1    2600 6350
 	-1   0    0    -1  
