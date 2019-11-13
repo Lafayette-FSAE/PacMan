@@ -449,7 +449,7 @@ AR Path="/5DD31136/5DCA8E12" Ref="F?"  Part="1"
 AR Path="/5DCA8E12" Ref="F2"  Part="1" 
 F 0 "F2" H 1900 2150 50  0000 C CNN
 F 1 "Pack-" H 1900 2250 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:fuse_holder_smd_littelfuse" H 2000 2650 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:0154.500DRL" H 2000 2650 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 2200 2500 50  0001 C CNN
 F 4 "Digikey" H 1000 2550 50  0001 C CNN "Vendor"
 F 5 "F6776CT-ND" H 1150 2550 50  0001 C CNN "Vendor Part"
@@ -466,7 +466,7 @@ AR Path="/5DD31136/5DCA8E1C" Ref="F?"  Part="1"
 AR Path="/5DCA8E1C" Ref="F1"  Part="1" 
 F 0 "F1" H 1900 2500 50  0000 C CNN
 F 1 "Pack+" H 1900 2400 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:fuse_holder_smd_littelfuse" H 2000 2550 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:0154.500DRL" H 2000 2550 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 2200 2400 50  0001 C CNN
 F 4 "Digikey" H 1000 2450 50  0001 C CNN "Vendor"
 F 5 "F6776CT-ND" H 1150 2450 50  0001 C CNN "Vendor Part"
