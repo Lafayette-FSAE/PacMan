@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -297,6 +296,10 @@ F 0 "U2" H 4975 5017 50  0000 C CNN
 F 1 "TEC2-4815WI" H 4975 4926 50  0000 C CNN
 F 2 "Package_SIP:SIP-8_19x3mm_P2.54mm" H 4150 4900 50  0001 C CNN
 F 3 "https://www.tracopower.com/products/tec2wi.pdf" H 4150 4900 50  0001 C CNN
+F 4 "Traco Power" H 4650 4850 50  0001 C CNN "Manufacturer"
+F 5 "TEC 2-4815WI" H 4650 4850 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 4650 4850 50  0001 C CNN "Vendor"
+F 7 "1951-1435-ND" H 4650 4850 50  0001 C CNN "Vendor Part"
 	1    4650 4850
 	1    0    0    -1  
 $EndComp
@@ -572,7 +575,7 @@ AR Path="/5DC814A3/5E5467E9" Ref="C?"  Part="1"
 AR Path="/5E5467E9" Ref="C1"  Part="1" 
 F 0 "C1" H 2315 6546 50  0000 L CNN
 F 1 "0.1u" H 2315 6455 50  0000 L CNN
-F 2 "" H 2238 6350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2238 6350 50  0001 C CNN
 F 3 "~" H 2200 6500 50  0001 C CNN
 	1    2200 6500
 	1    0    0    -1  
@@ -620,9 +623,13 @@ P 1700 6150
 AR Path="/5DC814A3/5E5467EF" Ref="U?"  Part="1" 
 AR Path="/5E5467EF" Ref="U1"  Part="1" 
 F 0 "U1" H 1250 6750 50  0000 L CNN
-F 1 "MCP9804_MSOP" H 1000 6650 50  0000 L CNN
+F 1 "MCP9804" H 1000 6650 50  0000 L CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 700 5650 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 1450 6600 50  0001 C CNN
+F 4 "Microchip Technology" H 1700 6150 50  0001 C CNN "Manufacturer"
+F 5 "MCP9804T-E/MS" H 1700 6150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1700 6150 50  0001 C CNN "Vendor"
+F 7 "MCP9804T-E/MSCT-ND" H 1700 6150 50  0001 C CNN "Vendor Part"
 	1    1700 6150
 	1    0    0    -1  
 $EndComp

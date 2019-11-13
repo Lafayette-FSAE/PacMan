@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -21,9 +20,13 @@ P 5050 4000
 AR Path="/5DD6FD0C" Ref="D?"  Part="1" 
 AR Path="/5DD31136/5DD6FD0C" Ref="D5"  Part="1" 
 F 0 "D5" H 5050 3784 50  0000 C CNN
-F 1 "D_Schottky" H 5050 3875 50  0000 C CNN
-F 2 "" H 5050 4000 50  0001 C CNN
-F 3 "~" H 5050 4000 50  0001 C CNN
+F 1 "1N5819HW" H 5050 3875 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 4000 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 5050 4000 50  0001 C CNN
+F 4 "Diodes Incorporated" H 5050 4000 50  0001 C CNN "Manufacturer"
+F 5 "1N5819HW-7-F" H 5050 4000 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5050 4000 50  0001 C CNN "Vendor"
+F 7 "1N5819HW-FDICT-ND" H 5050 4000 50  0001 C CNN "Vendor Part"
 	1    5050 4000
 	-1   0    0    1   
 $EndComp
@@ -86,9 +89,13 @@ P 5050 5150
 AR Path="/5DC5E727" Ref="D?"  Part="1" 
 AR Path="/5DD31136/5DC5E727" Ref="D6"  Part="1" 
 F 0 "D6" H 5050 4934 50  0000 C CNN
-F 1 "D_Schottky" H 5050 5025 50  0000 C CNN
-F 2 "" H 5050 5150 50  0001 C CNN
-F 3 "~" H 5050 5150 50  0001 C CNN
+F 1 "1N5819HW" H 5050 5025 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 5150 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 5050 5150 50  0001 C CNN
+F 4 "Diodes Incorporated" H 5050 5150 50  0001 C CNN "Manufacturer"
+F 5 "1N5819HW-7-F" H 5050 5150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5050 5150 50  0001 C CNN "Vendor"
+F 7 "1N5819HW-FDICT-ND" H 5050 5150 50  0001 C CNN "Vendor Part"
 	1    5050 5150
 	-1   0    0    1   
 $EndComp
@@ -130,7 +137,7 @@ U 1 1 5DC9A764
 P 1900 4000
 F 0 "R26" V 1693 4000 50  0000 C CNN
 F 1 "0.82" V 1784 4000 50  0000 C CNN
-F 2 "" V 1830 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 4000 50  0001 C CNN
 F 3 "~" H 1900 4000 50  0001 C CNN
 	1    1900 4000
 	0    1    1    0   
@@ -155,6 +162,10 @@ F 0 "U13" H 6750 5217 50  0000 C CNN
 F 1 "V7805-500" H 6750 5126 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:VX7805-500" H 6000 5150 50  0001 C CNN
 F 3 "https://www.cui.com/product/resource/v78-500.pdf" H 6000 5150 50  0001 C CNN
+F 4 "CUI Inc." H 6500 5050 50  0001 C CNN "Manufacturer"
+F 5 "V7805-500" H 6500 5050 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 6500 5050 50  0001 C CNN "Vendor"
+F 7 "102-1709-ND" H 6500 5050 50  0001 C CNN "Vendor Part"
 	1    6500 5050
 	1    0    0    -1  
 $EndComp
@@ -255,8 +266,12 @@ U 1 1 5DC71CEE
 P 3600 3900
 F 0 "U9" H 3950 4067 50  0000 C CNN
 F 1 "PDQE10-Q48-S24-D" H 3950 3976 50  0000 C CNN
-F 2 "" H 3100 3900 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:PDQE10-DIP6" H 3100 3900 50  0001 C CNN
 F 3 "https://www.cui.com/product/resource/pdqe10-d.pdf" H 3100 3900 50  0001 C CNN
+F 4 "CUI Inc." H 3600 3900 50  0001 C CNN "Manufacturer"
+F 5 "PDQE10-Q48-S24-D" H 3600 3900 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3600 3900 50  0001 C CNN "Vendor"
+F 7 "102-4874-ND" H 3600 3900 50  0001 C CNN "Vendor Part"
 	1    3600 3900
 	1    0    0    -1  
 $EndComp
@@ -387,6 +402,10 @@ F 0 "U10" H 5350 2417 50  0000 C CNN
 F 1 "LTC4151" H 5350 2326 50  0000 C CNN
 F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 5350 2350 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4151ff.pdf" H 5350 2350 50  0001 C CNN
+F 4 "Linear Technology/Analog Devices" H 4950 2250 50  0001 C CNN "Manufacturer"
+F 5 "LTC4151IMS#TRPBF" H 4950 2250 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 4950 2250 50  0001 C CNN "Vendor"
+F 7 "LTC4151IMS#TRPBFCT-ND" H 4950 2250 50  0001 C CNN "Vendor Part"
 	1    4950 2250
 	1    0    0    -1  
 $EndComp
@@ -436,6 +455,10 @@ F 0 "U11" H 5550 1450 50  0000 C CNN
 F 1 "INA592" H 5550 1350 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 5500 1400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina592.pdf" H 5500 1400 50  0001 C CNN
+F 4 "Texas Instruments" H 5000 1250 50  0001 C CNN "Manufacturer"
+F 5 "INA592IDGKR" H 5000 1250 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5000 1250 50  0001 C CNN "Vendor"
+F 7 "296-INA592IDGKRCT-ND" H 5000 1250 50  0001 C CNN "Vendor Part"
 	1    5000 1250
 	1    0    0    -1  
 $EndComp
@@ -498,8 +521,12 @@ U 1 1 5DC70E28
 P 6250 3900
 F 0 "U12" H 6600 4067 50  0000 C CNN
 F 1 "PDQE10-Q24-S9-D" H 6600 3976 50  0000 C CNN
-F 2 "" H 5750 3900 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:PDQE10-DIP6" H 5750 3900 50  0001 C CNN
 F 3 "https://www.cui.com/product/resource/pdqe10-d.pdf" H 5750 3900 50  0001 C CNN
+F 4 "CUI Inc." H 6250 3900 50  0001 C CNN "Manufacturer"
+F 5 "PDQE10-Q24-S9-D" H 6250 3900 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 6250 3900 50  0001 C CNN "Vendor"
+F 7 "102-4862-ND" H 6250 3900 50  0001 C CNN "Vendor Part"
 	1    6250 3900
 	1    0    0    -1  
 $EndComp
@@ -537,6 +564,10 @@ F 0 "U14" H 8500 4042 50  0000 C CNN
 F 1 "L78L05_SO8" H 8500 3951 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8600 4000 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 8700 3800 50  0001 C CNN
+F 4 "STMicroelectronics" H 8500 3800 50  0001 C CNN "Manufacturer"
+F 5 "L78L05ACUTR" H 8500 3800 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8500 3800 50  0001 C CNN "Vendor"
+F 7 "497-1183-1-ND" H 8500 3800 50  0001 C CNN "Vendor Part"
 	1    8500 3800
 	1    0    0    -1  
 $EndComp
@@ -546,7 +577,7 @@ U 1 1 5DC67B6A
 P 8900 4050
 F 0 "C22" H 9015 4096 50  0000 L CNN
 F 1 "0.1u" H 9015 4005 50  0000 L CNN
-F 2 "" H 8938 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 3900 50  0001 C CNN
 F 3 "~" H 8900 4050 50  0001 C CNN
 	1    8900 4050
 	1    0    0    -1  
@@ -602,7 +633,7 @@ U 1 1 5E141DE6
 P 5050 1050
 F 0 "C16" V 4798 1050 50  0000 C CNN
 F 1 "0.1u" V 4889 1050 50  0000 C CNN
-F 2 "" H 5088 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5088 900 50  0001 C CNN
 F 3 "~" H 5050 1050 50  0001 C CNN
 	1    5050 1050
 	0    -1   1    0   
@@ -682,7 +713,7 @@ AR Path="/5DCA6D60/5E201304" Ref="ISO?"  Part="1"
 AR Path="/5DD31136/5E201304" Ref="ISO3"  Part="1" 
 F 0 "ISO3" H 3950 5725 50  0000 C CNN
 F 1 "TLP293" H 3950 5634 50  0000 C CNN
-F 2 "" H 3750 5200 50  0001 L CIN
+F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 3750 5200 50  0001 L CIN
 F 3 "" H 3950 5400 50  0001 L CNN
 	1    3950 5400
 	-1   0    0    -1  
@@ -697,7 +728,7 @@ U 1 1 5E22D7C8
 P 3150 4150
 F 0 "R27" V 3050 4150 50  0000 C CNN
 F 1 "R" V 3150 4150 50  0000 C CNN
-F 2 "" V 3080 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3080 4150 50  0001 C CNN
 F 3 "~" H 3150 4150 50  0001 C CNN
 	1    3150 4150
 	0    1    1    0   
@@ -724,7 +755,7 @@ U 1 1 5E275666
 P 4500 5300
 F 0 "R28" V 4400 5300 50  0000 C CNN
 F 1 "4.7k" V 4500 5300 50  0000 C CNN
-F 2 "" V 4430 5300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 5300 50  0001 C CNN
 F 3 "~" H 4500 5300 50  0001 C CNN
 	1    4500 5300
 	0    -1   -1   0   
