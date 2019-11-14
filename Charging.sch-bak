@@ -148,11 +148,11 @@ Text Label 9500 1700 2    50   ~ 0
 LV_RTN
 Text Label 4350 4100 0    50   ~ 0
 CHRG_IN+
-Text Label 5000 4400 2    50   ~ 0
+Text Label 4500 5200 2    50   ~ 0
 CurrentSensor+
 Wire Wire Line
 	4350 4100 4250 4100
-Text Label 2150 4100 2    50   ~ 0
+Text Label 2150 4400 2    50   ~ 0
 CHRG_IN-
 Wire Wire Line
 	2150 4100 2250 4100
@@ -160,7 +160,7 @@ Text Label 3750 2550 0    50   ~ 0
 CHRG_IN+
 Text Label 3350 4800 0    50   ~ 0
 CHRG_IN-
-Text Label 2150 4400 2    50   ~ 0
+Text Label 2150 4100 2    50   ~ 0
 CHRG_OUT-
 Wire Wire Line
 	2150 4400 2250 4400
@@ -179,31 +179,20 @@ F 7 "516-4081-ND" H 5350 4800 50  0001 C CNN "Vendor Part"
 	1    5350 4800
 	1    0    0    -1  
 $EndComp
-Text Label 5000 5200 2    50   ~ 0
+Text Label 5100 4300 2    50   ~ 0
 CHRG_OUT+
-Wire Wire Line
-	5100 4400 5100 4500
-Wire Wire Line
-	5100 4400 5200 4400
-Wire Wire Line
-	5200 4400 5200 4500
-Wire Wire Line
-	5000 5200 5100 5200
-Wire Wire Line
-	5100 5200 5100 5100
-Wire Wire Line
-	5100 5200 5200 5200
-Wire Wire Line
-	5200 5200 5200 5100
-Connection ~ 5100 5200
 $Comp
 L Device:C C12
 U 1 1 5DC374AD
 P 6150 5100
 F 0 "C12" H 6265 5146 50  0000 L CNN
 F 1 "1n" H 6265 5055 50  0000 L CNN
-F 2 "" H 6188 4950 50  0001 C CNN
-F 3 "~" H 6150 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6188 4950 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B102KBCNNNC-19.pdf" H 6150 5100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 6150 5100 50  0001 C CNN "Manufacturer"
+F 5 "CL21B102KBCNNNC" H 6150 5100 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 6150 5100 50  0001 C CNN "Vendor"
+F 7 "1276-2425-1-ND" H 6150 5100 50  0001 C CNN "Vendor Part"
 	1    6150 5100
 	1    0    0    -1  
 $EndComp
@@ -228,8 +217,12 @@ U 1 1 5DC3B1A6
 P 6600 5100
 F 0 "C13" H 6715 5146 50  0000 L CNN
 F 1 "1u" H 6715 5055 50  0000 L CNN
-F 2 "" H 6638 4950 50  0001 C CNN
-F 3 "~" H 6600 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6638 4950 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B105KBFNNNG-19.pdf" H 6600 5100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 6600 5100 50  0001 C CNN "Manufacturer"
+F 5 "CL21B105KBFNNNG" H 6600 5100 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 6600 5100 50  0001 C CNN "Vendor"
+F 7 "1276-6470-1-ND" H 6600 5100 50  0001 C CNN "Vendor Part"
 	1    6600 5100
 	1    0    0    -1  
 $EndComp
@@ -283,9 +276,6 @@ Wire Wire Line
 Connection ~ 7150 4750
 Text Label 7250 4750 0    50   ~ 0
 CHRG_CURRENT
-Wire Wire Line
-	5100 4400 4250 4400
-Connection ~ 5100 4400
 $Comp
 L Connector_Generic:Conn_01x02 J12
 U 1 1 5DC7EC2D
@@ -474,4 +464,26 @@ Wire Wire Line
 	1350 3650 1250 3650
 Wire Wire Line
 	1250 3650 1250 3550
+Wire Wire Line
+	5200 5100 5200 5200
+Wire Wire Line
+	5200 5200 5100 5200
+Wire Wire Line
+	4500 5200 4500 4400
+Wire Wire Line
+	4500 4400 4250 4400
+Wire Wire Line
+	5100 5100 5100 5200
+Connection ~ 5100 5200
+Wire Wire Line
+	5100 5200 4500 5200
+Wire Wire Line
+	5100 4300 5100 4400
+Wire Wire Line
+	5100 4400 5200 4400
+Wire Wire Line
+	5200 4400 5200 4500
+Connection ~ 5100 4400
+Wire Wire Line
+	5100 4400 5100 4500
 $EndSCHEMATC

@@ -555,16 +555,16 @@ Wire Wire Line
 Connection ~ 9150 4100
 Wire Wire Line
 	9150 4100 9050 4100
-Text Label 9650 4250 0    50   ~ 0
-BTN_LEFT_OUT
-Text Label 9650 4800 0    50   ~ 0
-BTN_RIGHT_OUT
-Text Label 9650 5350 0    50   ~ 0
-BTN_UP_OUT
-Text Label 9650 5900 0    50   ~ 0
-BTN_DOWN_OUT
-Text Label 9650 6450 0    50   ~ 0
-BTN_CENTER_OUT
+Text Label 9150 3950 2    50   ~ 0
+BTN_LEFT_MCU
+Text Label 9150 4500 2    50   ~ 0
+BTN_RIGHT_MCU
+Text Label 9150 5050 2    50   ~ 0
+BTN_UP_MCU
+Text Label 9150 5600 2    50   ~ 0
+BTN_DOWN_MCU
+Text Label 9150 6150 2    50   ~ 0
+BTN_CENTER_MCU
 Text Label 8650 4100 2    50   ~ 0
 LV_RTN
 Wire Wire Line
@@ -608,7 +608,11 @@ P 8900 4100
 F 0 "C7" V 9050 4100 50  0000 C CNN
 F 1 "0.1u" V 9150 4100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 3950 50  0001 C CNN
-F 3 "~" H 8900 4100 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 4100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8900 4100 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 8900 4100 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8900 4100 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 8900 4100 50  0001 C CNN "Vendor Part"
 	1    8900 4100
 	0    1    1    0   
 $EndComp
@@ -657,7 +661,11 @@ P 8900 5200
 F 0 "C9" V 9050 5200 50  0000 C CNN
 F 1 "0.1u" V 9150 5200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 5050 50  0001 C CNN
-F 3 "~" H 8900 5200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 5200 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8900 5200 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 8900 5200 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8900 5200 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 8900 5200 50  0001 C CNN "Vendor Part"
 	1    8900 5200
 	0    1    1    0   
 $EndComp
@@ -687,7 +695,11 @@ P 8900 5750
 F 0 "C10" V 9050 5750 50  0000 C CNN
 F 1 "0.1u" V 9150 5750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 5600 50  0001 C CNN
-F 3 "~" H 8900 5750 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 5750 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8900 5750 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 8900 5750 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8900 5750 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 8900 5750 50  0001 C CNN "Vendor Part"
 	1    8900 5750
 	0    1    1    0   
 $EndComp
@@ -700,8 +712,6 @@ Text Label 8650 6300 2    50   ~ 0
 LV_RTN
 Wire Wire Line
 	8650 6300 8750 6300
-Text Label 9650 6300 0    50   ~ 0
-LV_3V3
 Wire Wire Line
 	9650 6300 9550 6300
 Wire Wire Line
@@ -717,7 +727,11 @@ P 8900 6300
 F 0 "C11" V 9050 6300 50  0000 C CNN
 F 1 "0.1u" V 9150 6300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 6150 50  0001 C CNN
-F 3 "~" H 8900 6300 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 6300 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8900 6300 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 8900 6300 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8900 6300 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 8900 6300 50  0001 C CNN "Vendor Part"
 	1    8900 6300
 	0    1    1    0   
 $EndComp
@@ -787,7 +801,7 @@ U 1 1 5DCC133F
 P 1650 7100
 F 0 "C4" H 1765 7146 50  0000 L CNN
 F 1 "C" H 1765 7055 50  0000 L CNN
-F 2 "" H 1688 6950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1688 6950 50  0001 C CNN
 F 3 "~" H 1650 7100 50  0001 C CNN
 	1    1650 7100
 	-1   0    0    -1  
@@ -825,14 +839,6 @@ Wire Wire Line
 	1250 7350 1150 7350
 Text Label 1150 7350 2    50   ~ 0
 CAN_SHIELD
-Text Label 9150 4500 2    50   ~ 0
-BTN_RIGHT
-Text Label 9150 5050 2    50   ~ 0
-BTN_UP
-Text Label 9150 5600 2    50   ~ 0
-BTN_DOWN
-Text Label 9150 6150 2    50   ~ 0
-BTN_CENTER
 $Comp
 L Device:R R11
 U 1 1 5DD4559F
@@ -879,8 +885,6 @@ F 3 "~" H 9400 6300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9150 3950 9150 4100
-Text Label 9150 3950 2    50   ~ 0
-BTN_LEFT
 $Comp
 L Device:C C8
 U 1 1 5DD43802
@@ -888,7 +892,11 @@ P 8900 4650
 F 0 "C8" V 9050 4650 50  0000 C CNN
 F 1 "0.1u" V 9150 4650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 4500 50  0001 C CNN
-F 3 "~" H 8900 4650 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 4650 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8900 4650 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 8900 4650 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8900 4650 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 8900 4650 50  0001 C CNN "Vendor Part"
 	1    8900 4650
 	0    1    1    0   
 $EndComp
@@ -900,16 +908,6 @@ Wire Wire Line
 	9150 5600 9150 5750
 Wire Wire Line
 	9150 6150 9150 6300
-Text Label 7450 5600 0    50   ~ 0
-BTN_LEFT
-Text Label 7450 5700 0    50   ~ 0
-BTN_RIGHT
-Text Label 7450 5800 0    50   ~ 0
-BTN_UP
-Text Label 7450 5900 0    50   ~ 0
-BTN_DOWN
-Text Label 7450 6000 0    50   ~ 0
-BTN_CENTER
 $Comp
 L Lafayette_Electric_Car_Internals:MCP23008 U6
 U 1 1 5DE655B5
@@ -985,7 +983,11 @@ P 1300 4850
 F 0 "C3" V 1450 4850 50  0000 C CNN
 F 1 "0.1u" V 1550 4850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1338 4700 50  0001 C CNN
-F 3 "~" H 1300 4850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 1300 4850 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 1300 4850 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 1300 4850 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1300 4850 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 1300 4850 50  0001 C CNN "Vendor Part"
 	1    1300 4850
 	0    1    1    0   
 $EndComp
@@ -1073,7 +1075,11 @@ P 1050 4600
 F 0 "C2" H 1165 4646 50  0000 L CNN
 F 1 "0.1u" H 1165 4555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1088 4450 50  0001 C CNN
-F 3 "~" H 1050 4600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 1050 4600 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 1050 4600 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 1050 4600 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1050 4600 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 1050 4600 50  0001 C CNN "Vendor Part"
 	1    1050 4600
 	-1   0    0    -1  
 $EndComp
@@ -1096,7 +1102,11 @@ P 1950 7100
 F 0 "C5" H 2065 7146 50  0000 L CNN
 F 1 "0.1u" H 2065 7055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1988 6950 50  0001 C CNN
-F 3 "~" H 1950 7100 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 1950 7100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 1950 7100 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 1950 7100 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1950 7100 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 1950 7100 50  0001 C CNN "Vendor Part"
 	1    1950 7100
 	1    0    0    -1  
 $EndComp
@@ -1107,7 +1117,11 @@ P 5900 5800
 F 0 "C6" H 5785 5846 50  0000 R CNN
 F 1 "0.1u" H 5785 5755 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 5650 50  0001 C CNN
-F 3 "~" H 5900 5800 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 5900 5800 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5900 5800 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 5900 5800 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5900 5800 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 5900 5800 50  0001 C CNN "Vendor Part"
 	1    5900 5800
 	-1   0    0    -1  
 $EndComp
@@ -1124,32 +1138,22 @@ Wire Wire Line
 Wire Wire Line
 	5800 5550 5900 5550
 Wire Notes Line
-	5500 6250 7950 6250
+	5500 6250 8150 6250
 Wire Notes Line
-	7950 6250 7950 4800
+	8150 6250 8150 4800
 Wire Notes Line
-	7950 4800 5500 4800
+	8150 4800 5500 4800
 Wire Notes Line
 	5500 4800 5500 6250
 Text Label 3000 750  0    50   ~ 0
-BTN_LEFT_OUT
-Text Label 3000 850  0    50   ~ 0
-BTN_RIGHT_OUT
-Text Label 3000 950  0    50   ~ 0
-BTN_UP_OUT
-Text Label 3000 1050 0    50   ~ 0
-BTN_DOWN_OUT
-Text Label 3000 1150 0    50   ~ 0
-BTN_CENTER_OUT
-Text HLabel 2900 750  0    50   Input ~ 0
 BTN_LEFT
-Text HLabel 2900 850  0    50   Input ~ 0
+Text Label 3000 850  0    50   ~ 0
 BTN_RIGHT
-Text HLabel 2900 950  0    50   Input ~ 0
+Text Label 3000 950  0    50   ~ 0
 BTN_UP
-Text HLabel 2900 1050 0    50   Input ~ 0
+Text Label 3000 1050 0    50   ~ 0
 BTN_DOWN
-Text HLabel 2900 1150 0    50   Input ~ 0
+Text Label 3000 1150 0    50   ~ 0
 BTN_CENTER
 Wire Wire Line
 	2900 1150 3000 1150
@@ -1262,4 +1266,36 @@ Wire Wire Line
 NoConn ~ 7450 5300
 NoConn ~ 7450 5400
 NoConn ~ 7450 5500
+Text HLabel 2900 1150 0    50   Input ~ 0
+BTN_CENTER
+Text HLabel 2900 1050 0    50   Input ~ 0
+BTN_DOWN
+Text HLabel 2900 950  0    50   Input ~ 0
+BTN_UP
+Text HLabel 2900 850  0    50   Input ~ 0
+BTN_RIGHT
+Text HLabel 2900 750  0    50   Input ~ 0
+BTN_LEFT
+Text Label 7450 5600 0    50   ~ 0
+BTN_LEFT_MCU
+Text Label 7450 5700 0    50   ~ 0
+BTN_RIGHT_MCU
+Text Label 7450 5800 0    50   ~ 0
+BTN_UP_MCU
+Text Label 7450 5900 0    50   ~ 0
+BTN_DOWN_MCU
+Text Label 7450 6000 0    50   ~ 0
+BTN_CENTER_MCU
+Text Label 9650 4250 0    50   ~ 0
+BTN_LEFT
+Text Label 9650 4800 0    50   ~ 0
+BTN_RIGHT
+Text Label 9650 5350 0    50   ~ 0
+BTN_UP
+Text Label 9650 5900 0    50   ~ 0
+BTN_DOWN
+Text Label 9650 6450 0    50   ~ 0
+BTN_CENTER
+Text Label 9650 6300 0    50   ~ 0
+LV_3V3
 $EndSCHEMATC

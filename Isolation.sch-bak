@@ -94,7 +94,11 @@ P 5900 4550
 F 0 "C25" H 6015 4596 50  0000 L CNN
 F 1 "0.1u" H 6015 4505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 4400 50  0001 C CNN
-F 3 "~" H 5900 4550 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 5900 4550 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5900 4550 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 5900 4550 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5900 4550 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 5900 4550 50  0001 C CNN "Vendor Part"
 	1    5900 4550
 	-1   0    0    -1  
 $EndComp
@@ -105,7 +109,11 @@ P 5100 4550
 F 0 "C24" H 5215 4596 50  0000 L CNN
 F 1 "0.1u" H 5215 4505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5138 4400 50  0001 C CNN
-F 3 "~" H 5100 4550 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 5100 4550 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5100 4550 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 5100 4550 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5100 4550 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 5100 4550 50  0001 C CNN "Vendor Part"
 	1    5100 4550
 	1    0    0    -1  
 $EndComp
@@ -273,7 +281,11 @@ AR Path="/5DCA6D60/5DE82D94" Ref="C23"  Part="1"
 F 0 "C23" H 3865 3896 50  0000 L CNN
 F 1 "0.1u" H 3865 3805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3788 3700 50  0001 C CNN
-F 3 "~" H 3750 3850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 3750 3850 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3750 3850 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 3750 3850 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3750 3850 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 3750 3850 50  0001 C CNN "Vendor Part"
 	1    3750 3850
 	1    0    0    -1  
 $EndComp

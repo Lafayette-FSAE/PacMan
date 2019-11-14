@@ -120,7 +120,7 @@ U 1 1 5DB7AEB3
 P 6650 6000
 F 0 "H1" H 6450 6050 50  0000 L CNN
 F 1 "MountingHole_Pad" H 6750 5958 50  0001 L CNN
-F 2 "" H 6650 6000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 6650 6000 50  0001 C CNN
 F 3 "~" H 6650 6000 50  0001 C CNN
 	1    6650 6000
 	1    0    0    -1  
@@ -131,7 +131,7 @@ U 1 1 5DB7B312
 P 7050 6000
 F 0 "H3" H 7150 6050 50  0000 L CNN
 F 1 "MountingHole_Pad" H 7150 5958 50  0001 L CNN
-F 2 "" H 7050 6000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 7050 6000 50  0001 C CNN
 F 3 "~" H 7050 6000 50  0001 C CNN
 	1    7050 6000
 	1    0    0    -1  
@@ -142,7 +142,7 @@ U 1 1 5DB7B4D8
 P 6650 6300
 F 0 "H2" H 6850 6350 50  0000 R CNN
 F 1 "MountingHole_Pad" H 6750 6258 50  0001 L CNN
-F 2 "" H 6650 6300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 6650 6300 50  0001 C CNN
 F 3 "~" H 6650 6300 50  0001 C CNN
 	1    6650 6300
 	-1   0    0    1   
@@ -153,7 +153,7 @@ U 1 1 5DB7B6E5
 P 7050 6300
 F 0 "H4" H 6950 6350 50  0000 R CNN
 F 1 "MountingHole_Pad" H 7150 6258 50  0001 L CNN
-F 2 "" H 7050 6300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 7050 6300 50  0001 C CNN
 F 3 "~" H 7050 6300 50  0001 C CNN
 	1    7050 6300
 	-1   0    0    1   
@@ -170,25 +170,14 @@ Wire Wire Line
 	7050 6150 7050 6200
 Text Label 7150 6150 0    50   ~ 0
 CHS_GND
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5DBAC4DA
-P 1150 1600
-F 0 "J2" H 1150 1850 50  0000 C CNN
-F 1 "CHRG IN" H 1150 1750 50  0000 C CNN
-F 2 "" H 1150 1600 50  0001 C CNN
-F 3 "~" H 1150 1600 50  0001 C CNN
-	1    1150 1600
-	-1   0    0    -1  
-$EndComp
-Text Label 1450 1600 0    50   ~ 0
+Text Label 1450 1750 0    50   ~ 0
 CHRG_IN+
-Text Label 1450 1700 0    50   ~ 0
+Text Label 1450 1650 0    50   ~ 0
 CHRG_IN-
 Wire Wire Line
-	1450 1700 1350 1700
+	1450 1750 1350 1750
 Wire Wire Line
-	1450 1600 1350 1600
+	1450 1650 1350 1650
 Text Notes 10150 700  0    100  ~ 20
 GLV
 Text Notes 550  700  0    100  ~ 20
@@ -199,7 +188,7 @@ U 1 1 5DC0F40F
 P 1150 2750
 F 0 "J4" H 1150 3000 50  0000 C CNN
 F 1 "TSV IN" H 1150 2900 50  0000 C CNN
-F 2 "" H 1150 2750 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:DF22-2P-7.92" H 1150 2750 50  0001 C CNN
 F 3 "~" H 1150 2750 50  0001 C CNN
 	1    1150 2750
 	-1   0    0    -1  
@@ -315,7 +304,7 @@ U 1 1 5DC4ACDE
 P 4650 4850
 F 0 "U2" H 4975 5017 50  0000 C CNN
 F 1 "TEC2-4815WI" H 4975 4926 50  0000 C CNN
-F 2 "Package_SIP:SIP-8_19x3mm_P2.54mm" H 4150 4900 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:TEC2-4815" H 4150 4900 50  0001 C CNN
 F 3 "https://www.tracopower.com/products/tec2wi.pdf" H 4150 4900 50  0001 C CNN
 F 4 "Traco Power" H 4650 4850 50  0001 C CNN "Manufacturer"
 F 5 "TEC 2-4815WI" H 4650 4850 50  0001 C CNN "Manufacturer Part"
@@ -601,7 +590,11 @@ AR Path="/5E5467E9" Ref="C1"  Part="1"
 F 0 "C1" H 2315 6546 50  0000 L CNN
 F 1 "0.1u" H 2315 6455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2238 6350 50  0001 C CNN
-F 3 "~" H 2200 6500 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 2200 6500 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 2200 6500 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 2200 6500 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 2200 6500 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 2200 6500 50  0001 C CNN "Vendor Part"
 	1    2200 6500
 	1    0    0    -1  
 $EndComp
@@ -838,16 +831,6 @@ Wire Wire Line
 	7150 1750 7250 1750
 Wire Wire Line
 	7250 1850 7150 1850
-Text Label 7150 2000 2    50   ~ 0
-BTN_LEFT
-Text Label 7150 2100 2    50   ~ 0
-BTN_RIGHT
-Text Label 7150 2200 2    50   ~ 0
-BTN_UP
-Text Label 7150 2300 2    50   ~ 0
-BTN_DOWN
-Text Label 7150 2400 2    50   ~ 0
-BTN_CENTER
 Wire Wire Line
 	7150 2000 7250 2000
 Wire Wire Line
@@ -1036,4 +1019,67 @@ Wire Wire Line
 	3500 6450 3850 6450
 Wire Wire Line
 	3850 6450 3850 6350
+Text Label 7150 2400 2    50   ~ 0
+BTN_CENTER
+Text Label 7150 2300 2    50   ~ 0
+BTN_DOWN
+Text Label 7150 2200 2    50   ~ 0
+BTN_UP
+Text Label 7150 2100 2    50   ~ 0
+BTN_RIGHT
+Text Label 7150 2000 2    50   ~ 0
+BTN_LEFT
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5DDC4F7E
+P 1150 1650
+F 0 "J2" H 1150 1900 50  0000 C CNN
+F 1 "Charging" H 1150 1800 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:DF22-2P-7.92" H 1150 1650 50  0001 C CNN
+F 3 "~" H 1150 1650 50  0001 C CNN
+	1    1150 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5DE1A059
+P 7800 3450
+F 0 "J?" H 7880 3442 50  0000 L CNN
+F 1 "Conn_01x02" H 7880 3351 50  0000 L CNN
+F 2 "" H 7800 3450 50  0001 C CNN
+F 3 "~" H 7800 3450 50  0001 C CNN
+	1    7800 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5DE1A7ED
+P 7800 3700
+F 0 "J?" H 7880 3692 50  0000 L CNN
+F 1 "Conn_01x02" H 7880 3601 50  0000 L CNN
+F 2 "" H 7800 3700 50  0001 C CNN
+F 3 "~" H 7800 3700 50  0001 C CNN
+	1    7800 3700
+	-1   0    0    -1  
+$EndComp
+Text Notes 7850 3400 2    50   ~ 0
+AIR Left
+Text Notes 7850 3950 2    50   ~ 0
+AIR Right
+Text Label 8100 3450 0    50   ~ 0
+AIRS+
+Text Label 8100 3550 0    50   ~ 0
+AIRS-
+Wire Wire Line
+	8100 3450 8000 3450
+Wire Wire Line
+	8000 3550 8100 3550
+Text Label 8100 3700 0    50   ~ 0
+AIRS+
+Text Label 8100 3800 0    50   ~ 0
+AIRS-
+Wire Wire Line
+	8100 3700 8000 3700
+Wire Wire Line
+	8000 3800 8100 3800
 $EndSCHEMATC

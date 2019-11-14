@@ -178,7 +178,7 @@ U 1 1 5DC79B51
 P 6300 5400
 F 0 "C18" H 6050 5450 50  0000 L CNN
 F 1 "10u" H 6050 5350 50  0000 L CNN
-F 2 "" H 6338 5250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6338 5250 50  0001 C CNN
 F 3 "~" H 6300 5400 50  0001 C CNN
 	1    6300 5400
 	1    0    0    -1  
@@ -189,7 +189,7 @@ U 1 1 5DC79D9B
 P 7200 5400
 F 0 "C19" H 7315 5446 50  0000 L CNN
 F 1 "22u" H 7315 5355 50  0000 L CNN
-F 2 "" H 7238 5250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7238 5250 50  0001 C CNN
 F 3 "~" H 7200 5400 50  0001 C CNN
 	1    7200 5400
 	1    0    0    -1  
@@ -225,7 +225,7 @@ U 1 1 5DCD15A8
 P 4650 4150
 F 0 "C15" H 4765 4196 50  0000 L CNN
 F 1 "10u" H 4765 4105 50  0000 L CNN
-F 2 "" H 4688 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 4000 50  0001 C CNN
 F 3 "~" H 4650 4150 50  0001 C CNN
 	1    4650 4150
 	1    0    0    -1  
@@ -236,7 +236,7 @@ U 1 1 5DCD992D
 P 2650 4150
 F 0 "C14" H 2765 4196 50  0000 L CNN
 F 1 "22u" H 2765 4105 50  0000 L CNN
-F 2 "" H 2688 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 4000 50  0001 C CNN
 F 3 "~" H 2650 4150 50  0001 C CNN
 	1    2650 4150
 	-1   0    0    -1  
@@ -510,7 +510,7 @@ U 1 1 5DCFD834
 P 5800 4150
 F 0 "C17" H 5915 4196 50  0000 L CNN
 F 1 "22u" H 5915 4105 50  0000 L CNN
-F 2 "" H 5838 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5838 4000 50  0001 C CNN
 F 3 "~" H 5800 4150 50  0001 C CNN
 	1    5800 4150
 	1    0    0    -1  
@@ -550,7 +550,7 @@ U 1 1 5DD01B76
 P 7300 4150
 F 0 "C20" H 7415 4196 50  0000 L CNN
 F 1 "10u" H 7415 4105 50  0000 L CNN
-F 2 "" H 7338 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7338 4000 50  0001 C CNN
 F 3 "~" H 7300 4150 50  0001 C CNN
 	1    7300 4150
 	1    0    0    -1  
@@ -558,28 +558,17 @@ $EndComp
 Text Label 7450 3800 0    50   ~ 0
 TSV_9V
 $Comp
-L Regulator_Linear:L78L05_SO8 U14
-U 1 1 5DC6727B
-P 8500 3800
-F 0 "U14" H 8500 4042 50  0000 C CNN
-F 1 "L78L05_SO8" H 8500 3951 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8600 4000 50  0001 C CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 8700 3800 50  0001 C CNN
-F 4 "STMicroelectronics" H 8500 3800 50  0001 C CNN "Manufacturer"
-F 5 "L78L05ACUTR" H 8500 3800 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 8500 3800 50  0001 C CNN "Vendor"
-F 7 "497-1183-1-ND" H 8500 3800 50  0001 C CNN "Vendor Part"
-	1    8500 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C22
 U 1 1 5DC67B6A
 P 8900 4050
 F 0 "C22" H 9015 4096 50  0000 L CNN
 F 1 "0.1u" H 9015 4005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 3900 50  0001 C CNN
-F 3 "~" H 8900 4050 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 4050 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8900 4050 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 8900 4050 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8900 4050 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 8900 4050 50  0001 C CNN "Vendor Part"
 	1    8900 4050
 	1    0    0    -1  
 $EndComp
@@ -612,7 +601,7 @@ U 1 1 5DCC17D2
 P 7950 4050
 F 0 "C21" H 8065 4096 50  0000 L CNN
 F 1 "0.33u" H 8065 4005 50  0000 L CNN
-F 2 "" H 7988 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7988 3900 50  0001 C CNN
 F 3 "~" H 7950 4050 50  0001 C CNN
 	1    7950 4050
 	1    0    0    -1  
@@ -635,7 +624,11 @@ P 5050 1050
 F 0 "C16" V 4798 1050 50  0000 C CNN
 F 1 "0.1u" V 4889 1050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5088 900 50  0001 C CNN
-F 3 "~" H 5050 1050 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 5050 1050 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5050 1050 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 5050 1050 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5050 1050 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 5050 1050 50  0001 C CNN "Vendor Part"
 	1    5050 1050
 	0    -1   1    0   
 $EndComp
@@ -862,4 +855,15 @@ Wire Wire Line
 Connection ~ 9500 4300
 Wire Wire Line
 	9500 4300 8900 4300
+$Comp
+L Regulator_Linear:L78L05_SOT89 U14
+U 1 1 5DCEF66F
+P 8500 3800
+F 0 "U14" H 8500 4042 50  0000 C CNN
+F 1 "L78L05_SOT89" H 8500 3951 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 8500 4000 50  0001 C CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 8500 3750 50  0001 C CNN
+	1    8500 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
