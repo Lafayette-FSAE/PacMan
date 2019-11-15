@@ -79,10 +79,10 @@ F 7 "	S1B-FDICT-ND" H 3250 4250 50  0001 C CNN "Vendor Part"
 	0    1    1    0   
 $EndComp
 $Comp
-L Lafayette_Electric_Car_Internals:T9AS1D12 K3
+L Lafayette_Electric_Car_Internals:T9AS1D12 K2
 U 1 1 5DC131AA
 P 3750 4050
-F 0 "K3" H 3950 4225 50  0000 C CNN
+F 0 "K2" H 3950 4225 50  0000 C CNN
 F 1 "T9AS1D12-48" H 3950 4134 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:T9AS1D12" H 3745 4050 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 3745 4050 50  0001 C CNN
@@ -94,10 +94,10 @@ F 7 "PB1013-ND" H 3750 4050 50  0001 C CNN "Vendor Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lafayette_Electric_Car_Internals:T9AS1D12 K2
+L Lafayette_Electric_Car_Internals:T9AS1D12 K3
 U 1 1 5DC131B0
 P 2750 4050
-F 0 "K2" H 2950 4225 50  0000 C CNN
+F 0 "K3" H 2950 4225 50  0000 C CNN
 F 1 "T9AS1D12-48" H 2950 4134 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:T9AS1D12" H 2745 4050 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 2745 4050 50  0001 C CNN
@@ -146,12 +146,12 @@ Wire Wire Line
 	9600 1700 9500 1700
 Text Label 9500 1700 2    50   ~ 0
 LV_RTN
-Text Label 4350 4100 0    50   ~ 0
+Text Label 4350 4400 0    50   ~ 0
 CHRG_IN+
-Text Label 4500 5200 2    50   ~ 0
+Text Label 4350 4100 0    50   ~ 0
 CurrentSensor+
 Wire Wire Line
-	4350 4100 4250 4100
+	4350 4400 4250 4400
 Text Label 2150 4400 2    50   ~ 0
 CHRG_IN-
 Wire Wire Line
@@ -179,7 +179,7 @@ F 7 "516-4081-ND" H 5350 4800 50  0001 C CNN "Vendor Part"
 	1    5350 4800
 	1    0    0    -1  
 $EndComp
-Text Label 5100 4300 2    50   ~ 0
+Text Label 5000 5200 2    50   ~ 0
 CHRG_OUT+
 $Comp
 L Device:C C12
@@ -469,16 +469,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 5200 5100 5200
 Wire Wire Line
-	4500 5200 4500 4400
-Wire Wire Line
-	4500 4400 4250 4400
-Wire Wire Line
 	5100 5100 5100 5200
-Connection ~ 5100 5200
-Wire Wire Line
-	5100 5200 4500 5200
-Wire Wire Line
-	5100 4300 5100 4400
 Wire Wire Line
 	5100 4400 5200 4400
 Wire Wire Line
@@ -486,4 +477,11 @@ Wire Wire Line
 Connection ~ 5100 4400
 Wire Wire Line
 	5100 4400 5100 4500
+Wire Wire Line
+	5000 5200 5100 5200
+Connection ~ 5100 5200
+Wire Wire Line
+	5100 4100 4250 4100
+Wire Wire Line
+	5100 4100 5100 4400
 $EndSCHEMATC
