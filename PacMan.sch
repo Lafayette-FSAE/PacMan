@@ -152,7 +152,7 @@ F 3 "~" H 850 1250 50  0001 C CNN
 	1    850  1250
 	-1   0    0    1   
 $EndComp
-Text Label 9050 5200 2    50   ~ 0
+Text Label 9800 4800 0    50   ~ 0
 TSV_LIVE
 Text Label 1150 1150 0    50   ~ 0
 PACK+
@@ -324,54 +324,43 @@ F 3 "" H 1150 7650 50  0001 C CNN
 	1    1150 7650
 	1    0    0    -1  
 $EndComp
-Text Label 9050 5500 2    50   ~ 0
+Text Label 9100 4700 2    50   ~ 0
 BTN_LEFT
-Text Label 9050 5600 2    50   ~ 0
+Text Label 9100 4800 2    50   ~ 0
 BTN_RIGHT
-Text Label 9050 5700 2    50   ~ 0
+Text Label 9100 4900 2    50   ~ 0
 BTN_UP
-Text Label 9050 5800 2    50   ~ 0
+Text Label 9100 5000 2    50   ~ 0
 BTN_DOWN
-Text Label 9050 5900 2    50   ~ 0
+Text Label 9100 5100 2    50   ~ 0
 BTN_CENTER
-Text Label 9050 5100 2    50   ~ 0
+Text Label 9800 4700 0    50   ~ 0
 CHRG_LED
-Text Label 9050 5300 2    50   ~ 0
+Text Label 9800 4900 0    50   ~ 0
 LV_24V
-Text Label 9050 5400 2    50   ~ 0
+Text Label 9800 5000 0    50   ~ 0
 LV_3V3
-Text Label 9750 5100 0    50   ~ 0
+Text Label 9800 5600 0    50   ~ 0
 LV_RTN
-Text Label 9750 5200 0    50   ~ 0
+Text Label 9100 5200 2    50   ~ 0
 DISP_DIN
-Text Label 9750 5400 0    50   ~ 0
+Text Label 9100 5300 2    50   ~ 0
 DISP_CLK
-Text Label 9750 5600 0    50   ~ 0
+Text Label 9100 5500 2    50   ~ 0
 DISP_CS
-Text Label 9750 5800 0    50   ~ 0
+Text Label 9100 5400 2    50   ~ 0
 DISP_DC
-Text Label 9750 6000 0    50   ~ 0
+Text Label 9800 5100 0    50   ~ 0
 DISP_RST
-Text Label 9050 6000 2    50   ~ 0
+Text Label 9100 5600 2    50   ~ 0
 DISP_BUSY
-$Comp
-L Connector_Generic:Conn_02x10_Counter_Clockwise J7
-U 1 1 5DCA5E9D
-P 9350 5500
-F 0 "J7" H 9400 6150 50  0000 C CNN
-F 1 "Panel" H 9400 6050 50  0000 C CNN
-F 2 "" H 9350 5500 50  0001 C CNN
-F 3 "~" H 9350 5500 50  0001 C CNN
-	1    9350 5500
-	1    0    0    -1  
-$EndComp
-Text Label 9750 5300 0    50   ~ 0
+Text Label 9800 5500 0    50   ~ 0
 LV_RTN
-Text Label 9750 5500 0    50   ~ 0
+Text Label 9800 5200 0    50   ~ 0
 LV_RTN
-Text Label 9750 5700 0    50   ~ 0
+Text Label 9800 5300 0    50   ~ 0
 LV_RTN
-Text Label 9750 5900 0    50   ~ 0
+Text Label 9800 5400 0    50   ~ 0
 LV_RTN
 $Sheet
 S 4150 3300 1700 950 
@@ -682,45 +671,45 @@ Wire Wire Line
 Wire Wire Line
 	7150 1600 7250 1600
 Wire Wire Line
-	9650 6000 9750 6000
+	9700 5600 9800 5600
 Wire Wire Line
-	9750 5900 9650 5900
+	9800 5500 9700 5500
 Wire Wire Line
-	9650 5800 9750 5800
+	9700 5400 9800 5400
 Wire Wire Line
-	9750 5700 9650 5700
+	9800 5300 9700 5300
 Wire Wire Line
-	9650 5600 9750 5600
+	9700 5200 9800 5200
 Wire Wire Line
-	9750 5500 9650 5500
+	9800 5100 9700 5100
 Wire Wire Line
-	9650 5400 9750 5400
+	9700 5000 9800 5000
 Wire Wire Line
-	9750 5300 9650 5300
+	9800 4900 9700 4900
 Wire Wire Line
-	9650 5200 9750 5200
+	9700 4800 9800 4800
 Wire Wire Line
-	9750 5100 9650 5100
+	9800 4700 9700 4700
 Wire Wire Line
-	9150 5100 9050 5100
+	9200 4700 9100 4700
 Wire Wire Line
-	9050 5200 9150 5200
+	9100 4800 9200 4800
 Wire Wire Line
-	9150 5300 9050 5300
+	9200 4900 9100 4900
 Wire Wire Line
-	9050 5400 9150 5400
+	9100 5000 9200 5000
 Wire Wire Line
-	9050 5500 9150 5500
+	9100 5100 9200 5100
 Wire Wire Line
-	9150 5600 9050 5600
+	9200 5200 9100 5200
 Wire Wire Line
-	9050 5700 9150 5700
+	9100 5300 9200 5300
 Wire Wire Line
-	9150 5800 9050 5800
+	9200 5400 9100 5400
 Wire Wire Line
-	9050 5900 9150 5900
+	9100 5500 9200 5500
 Wire Wire Line
-	9150 6000 9050 6000
+	9200 5600 9100 5600
 Text Label 5950 1250 0    50   ~ 0
 LV_5V
 Text Label 5950 1350 0    50   ~ 0
@@ -1038,4 +1027,21 @@ F 3 "~" H 9400 3850 50  0001 C CNN
 $EndComp
 NoConn ~ 6650 6100
 NoConn ~ 6650 6200
+Text Notes 8650 5850 0    50   ~ 0
+Manufacturer/Digikey P/N for receptacle:\n71600-020LF, 609-1741-ND
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J7
+U 1 1 5DD804E2
+P 9400 5100
+F 0 "J7" H 9450 5717 50  0000 C CNN
+F 1 "Panel" H 9450 5626 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Amphenol_IDC-Header_2x10_P2.54mm_Vertical" H 9400 5100 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 9400 5100 50  0001 C CNN
+F 4 "Amphenol ICC" H 9400 5100 50  0001 C CNN "Manufacturer"
+F 5 "75869-304LF" H 9400 5100 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9400 5100 50  0001 C CNN "Vendor"
+F 7 "609-5118-ND" H 9400 5100 50  0001 C CNN "Vendor Part"
+	1    9400 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
