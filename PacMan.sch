@@ -251,7 +251,7 @@ U 1 1 5DDF48B0
 P 850 2650
 F 0 "J4" H 850 2900 50  0000 C CNN
 F 1 "Charge Detection" H 850 2800 50  0000 C CNN
-F 2 "" H 850 2650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 2650 50  0001 C CNN
 F 3 "~" H 850 2650 50  0001 C CNN
 	1    850  2650
 	-1   0    0    -1  
@@ -382,90 +382,6 @@ F13 "AIRS+" I R 5850 4050 50
 F14 "AIRS-" I R 5850 4150 50 
 F15 "TSV_5V_AMPS" I L 4150 4150 50 
 $EndSheet
-Text Label 2300 5550 0    50   ~ 0
-TSV_5V
-$Comp
-L Device:C C?
-U 1 1 5E5467E9
-P 2200 6500
-AR Path="/5DC814A3/5E5467E9" Ref="C?"  Part="1" 
-AR Path="/5E5467E9" Ref="C1"  Part="1" 
-F 0 "C1" H 2315 6546 50  0000 L CNN
-F 1 "0.1u" H 2315 6455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2238 6350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 2200 6500 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 2200 6500 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 2200 6500 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 2200 6500 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 2200 6500 50  0001 C CNN "Vendor Part"
-	1    2200 6500
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2100 6150
-Text Label 1200 5850 2    50   ~ 0
-SDA_TSV
-Text Label 1200 5950 2    50   ~ 0
-SCL_TSV
-Wire Wire Line
-	1200 5850 1300 5850
-Wire Wire Line
-	1200 5950 1300 5950
-Text Label 2300 6750 0    50   ~ 0
-TSV_RTN
-Wire Wire Line
-	2300 6750 2200 6750
-Wire Wire Line
-	1700 6750 1700 6650
-Wire Wire Line
-	1700 5550 1700 5650
-Wire Wire Line
-	1300 6250 1200 6250
-Wire Wire Line
-	1200 6250 1200 6350
-Wire Wire Line
-	1300 6450 1200 6450
-Connection ~ 1200 6450
-Wire Wire Line
-	1200 6450 1200 6750
-Wire Wire Line
-	1200 6350 1300 6350
-Connection ~ 1200 6350
-Wire Wire Line
-	1200 6350 1200 6450
-Wire Wire Line
-	1200 6750 1700 6750
-Connection ~ 1700 6750
-Text Notes 1250 6200 2    50   ~ 0
-I2C Address:\n0011000
-$Comp
-L Sensor_Temperature:MCP9804_MSOP U?
-U 1 1 5E5467EF
-P 1700 6150
-AR Path="/5DC814A3/5E5467EF" Ref="U?"  Part="1" 
-AR Path="/5E5467EF" Ref="U1"  Part="1" 
-F 0 "U1" H 1250 6750 50  0000 L CNN
-F 1 "MCP9804" H 1000 6650 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 700 5650 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 1450 6600 50  0001 C CNN
-F 4 "Microchip Technology" H 1700 6150 50  0001 C CNN "Manufacturer"
-F 5 "MCP9804T-E/MS" H 1700 6150 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 1700 6150 50  0001 C CNN "Vendor"
-F 7 "MCP9804T-E/MSCT-ND" H 1700 6150 50  0001 C CNN "Vendor Part"
-	1    1700 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 6650 2200 6750
-Connection ~ 2200 6750
-Wire Wire Line
-	2200 6750 1700 6750
-Wire Wire Line
-	2200 5550 2200 6350
-Wire Wire Line
-	1700 5550 2200 5550
-Wire Wire Line
-	2300 5550 2200 5550
-Connection ~ 2200 5550
 Wire Notes Line
 	5000 3250 5000 3000
 Wire Notes Line
@@ -914,9 +830,9 @@ Text Label 9100 3950 2    50   ~ 0
 CAN_L
 Text Label 9100 4150 2    50   ~ 0
 CAN_SHIELD
-Text Label 9100 3850 2    50   ~ 0
-GLV_24V
 Text Label 9100 3750 2    50   ~ 0
+GLV_24V
+Text Label 9100 3850 2    50   ~ 0
 GLV_RTN
 Text Label 9100 3650 2    50   ~ 0
 CHS_GND
@@ -926,9 +842,9 @@ Text Label 9800 3850 0    50   ~ 0
 CAN_L
 Text Label 9800 3650 0    50   ~ 0
 CAN_SHIELD
-Text Label 9800 3950 0    50   ~ 0
-GLV_24V
 Text Label 9800 4050 0    50   ~ 0
+GLV_24V
+Text Label 9800 3950 0    50   ~ 0
 GLV_RTN
 Text Label 9800 4150 0    50   ~ 0
 CHS_GND
@@ -960,17 +876,17 @@ Text Label 9800 2900 0    50   ~ 0
 SLOOP1_OUT
 Text Label 9800 3000 0    50   ~ 0
 SLOOP2
-Text Label 9800 3100 0    50   ~ 0
-AIRS+
 Text Label 9800 3200 0    50   ~ 0
+AIRS+
+Text Label 9800 3100 0    50   ~ 0
 AIRS-
 Text Label 9100 3200 2    50   ~ 0
 SLOOP1_IN
 Text Label 9100 3100 2    50   ~ 0
 SLOOP2
-Text Label 9100 3000 2    50   ~ 0
-AIRS+
 Text Label 9100 2900 2    50   ~ 0
+AIRS+
+Text Label 9100 3000 2    50   ~ 0
 AIRS-
 Wire Wire Line
 	9100 3200 9200 3200

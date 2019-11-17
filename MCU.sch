@@ -39,7 +39,7 @@ Wire Wire Line
 	4050 5700 4150 5700
 Text Notes 4300 6150 0    50   ~ 0
 R=2880
-Text Label 6300 2750 2    50   ~ 0
+Text Label 6300 2850 2    50   ~ 0
 ~SLOOP_EN
 $Comp
 L Device:D D?
@@ -253,7 +253,7 @@ Text Label 3950 6200 2    50   ~ 0
 GLV_RTN
 Wire Wire Line
 	3950 6200 4050 6200
-Text Label 6300 2850 2    50   ~ 0
+Text Label 6300 2750 2    50   ~ 0
 AIRS_STATUS
 Text Label 1600 2000 0    50   ~ 0
 EN_CHRG
@@ -1298,4 +1298,90 @@ Text Label 9650 6450 0    50   ~ 0
 BTN_CENTER
 Text Label 9650 6300 0    50   ~ 0
 LV_3V3
+Text Label 4750 2700 0    50   ~ 0
+LV_5V
+$Comp
+L Device:C C?
+U 1 1 5DD8982B
+P 4650 3650
+AR Path="/5DC814A3/5DD8982B" Ref="C?"  Part="1" 
+AR Path="/5DD8982B" Ref="C?"  Part="1" 
+AR Path="/5DC1F176/5DD8982B" Ref="C1"  Part="1" 
+F 0 "C1" H 4765 3696 50  0000 L CNN
+F 1 "0.1u" H 4765 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 3500 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 4650 3650 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4650 3650 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 4650 3650 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 4650 3650 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 4650 3650 50  0001 C CNN "Vendor Part"
+	1    4650 3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4550 3300
+Text Label 3650 3000 2    50   ~ 0
+SDA_GLV
+Text Label 3650 3100 2    50   ~ 0
+SCL_GLV
+Wire Wire Line
+	3650 3000 3750 3000
+Wire Wire Line
+	3650 3100 3750 3100
+Text Label 4750 3900 0    50   ~ 0
+LV_RTN
+Wire Wire Line
+	4750 3900 4650 3900
+Wire Wire Line
+	4150 3900 4150 3800
+Wire Wire Line
+	4150 2700 4150 2800
+Wire Wire Line
+	3750 3400 3650 3400
+Wire Wire Line
+	3650 3400 3650 3500
+Wire Wire Line
+	3750 3600 3650 3600
+Connection ~ 3650 3600
+Wire Wire Line
+	3650 3600 3650 3900
+Wire Wire Line
+	3650 3500 3750 3500
+Connection ~ 3650 3500
+Wire Wire Line
+	3650 3500 3650 3600
+Wire Wire Line
+	3650 3900 4150 3900
+Connection ~ 4150 3900
+Text Notes 3700 3350 2    50   ~ 0
+I2C Address:\n0011000
+$Comp
+L Sensor_Temperature:MCP9804_MSOP U?
+U 1 1 5DD89849
+P 4150 3300
+AR Path="/5DC814A3/5DD89849" Ref="U?"  Part="1" 
+AR Path="/5DD89849" Ref="U?"  Part="1" 
+AR Path="/5DC1F176/5DD89849" Ref="U1"  Part="1" 
+F 0 "U1" H 3700 3900 50  0000 L CNN
+F 1 "MCP9804" H 3450 3800 50  0000 L CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 3150 2800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 3900 3750 50  0001 C CNN
+F 4 "Microchip Technology" H 4150 3300 50  0001 C CNN "Manufacturer"
+F 5 "MCP9804T-E/MS" H 4150 3300 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 4150 3300 50  0001 C CNN "Vendor"
+F 7 "MCP9804T-E/MSCT-ND" H 4150 3300 50  0001 C CNN "Vendor Part"
+	1    4150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3800 4650 3900
+Connection ~ 4650 3900
+Wire Wire Line
+	4650 3900 4150 3900
+Wire Wire Line
+	4650 2700 4650 3500
+Wire Wire Line
+	4150 2700 4650 2700
+Wire Wire Line
+	4750 2700 4650 2700
+Connection ~ 4650 2700
 $EndSCHEMATC
