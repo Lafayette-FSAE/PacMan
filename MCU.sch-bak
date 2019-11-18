@@ -39,7 +39,7 @@ Wire Wire Line
 	4050 5700 4150 5700
 Text Notes 4300 6150 0    50   ~ 0
 R=2880
-Text Label 6300 2750 2    50   ~ 0
+Text Label 6300 2850 2    50   ~ 0
 ~SLOOP_EN
 $Comp
 L Device:D D?
@@ -253,7 +253,7 @@ Text Label 3950 6200 2    50   ~ 0
 GLV_RTN
 Wire Wire Line
 	3950 6200 4050 6200
-Text Label 6300 2850 2    50   ~ 0
+Text Label 6300 2750 2    50   ~ 0
 AIRS_STATUS
 Text Label 1600 2000 0    50   ~ 0
 EN_CHRG

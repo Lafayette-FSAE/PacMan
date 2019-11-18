@@ -152,7 +152,7 @@ F 3 "~" H 850 1250 50  0001 C CNN
 	1    850  1250
 	-1   0    0    1   
 $EndComp
-Text Label 9800 4800 0    50   ~ 0
+Text Label 9650 5450 0    50   ~ 0
 TSV_LIVE
 Text Label 1150 1150 0    50   ~ 0
 PACK+
@@ -251,7 +251,7 @@ U 1 1 5DDF48B0
 P 850 2650
 F 0 "J4" H 850 2900 50  0000 C CNN
 F 1 "Charge Detection" H 850 2800 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 2650 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 850 2650 50  0001 C CNN
 F 3 "~" H 850 2650 50  0001 C CNN
 	1    850  2650
 	-1   0    0    -1  
@@ -324,43 +324,43 @@ F 3 "" H 1150 7650 50  0001 C CNN
 	1    1150 7650
 	1    0    0    -1  
 $EndComp
-Text Label 9100 4700 2    50   ~ 0
+Text Label 8950 5350 2    50   ~ 0
 BTN_LEFT
-Text Label 9100 4800 2    50   ~ 0
+Text Label 8950 5450 2    50   ~ 0
 BTN_RIGHT
-Text Label 9100 4900 2    50   ~ 0
+Text Label 8950 5550 2    50   ~ 0
 BTN_UP
-Text Label 9100 5000 2    50   ~ 0
+Text Label 8950 5650 2    50   ~ 0
 BTN_DOWN
-Text Label 9100 5100 2    50   ~ 0
+Text Label 8950 5750 2    50   ~ 0
 BTN_CENTER
-Text Label 9800 4700 0    50   ~ 0
+Text Label 9650 5350 0    50   ~ 0
 CHRG_LED
-Text Label 9800 4900 0    50   ~ 0
+Text Label 9650 5550 0    50   ~ 0
 LV_24V
-Text Label 9800 5000 0    50   ~ 0
+Text Label 9650 5650 0    50   ~ 0
 LV_3V3
-Text Label 9800 5600 0    50   ~ 0
+Text Label 9650 6250 0    50   ~ 0
 LV_RTN
-Text Label 9100 5200 2    50   ~ 0
+Text Label 8950 5850 2    50   ~ 0
 DISP_DIN
-Text Label 9100 5300 2    50   ~ 0
+Text Label 8950 5950 2    50   ~ 0
 DISP_CLK
-Text Label 9100 5500 2    50   ~ 0
+Text Label 8950 6150 2    50   ~ 0
 DISP_CS
-Text Label 9100 5400 2    50   ~ 0
+Text Label 8950 6050 2    50   ~ 0
 DISP_DC
-Text Label 9800 5100 0    50   ~ 0
+Text Label 9650 5750 0    50   ~ 0
 DISP_RST
-Text Label 9100 5600 2    50   ~ 0
+Text Label 8950 6250 2    50   ~ 0
 DISP_BUSY
-Text Label 9800 5500 0    50   ~ 0
+Text Label 9650 6150 0    50   ~ 0
 LV_RTN
-Text Label 9800 5200 0    50   ~ 0
+Text Label 9650 5850 0    50   ~ 0
 LV_RTN
-Text Label 9800 5300 0    50   ~ 0
+Text Label 9650 5950 0    50   ~ 0
 LV_RTN
-Text Label 9800 5400 0    50   ~ 0
+Text Label 9650 6050 0    50   ~ 0
 LV_RTN
 $Sheet
 S 4150 3300 1700 950 
@@ -587,45 +587,45 @@ Wire Wire Line
 Wire Wire Line
 	7150 1600 7250 1600
 Wire Wire Line
-	9700 5600 9800 5600
+	9550 6250 9650 6250
 Wire Wire Line
-	9800 5500 9700 5500
+	9650 6150 9550 6150
 Wire Wire Line
-	9700 5400 9800 5400
+	9550 6050 9650 6050
 Wire Wire Line
-	9800 5300 9700 5300
+	9650 5950 9550 5950
 Wire Wire Line
-	9700 5200 9800 5200
+	9550 5850 9650 5850
 Wire Wire Line
-	9800 5100 9700 5100
+	9650 5750 9550 5750
 Wire Wire Line
-	9700 5000 9800 5000
+	9550 5650 9650 5650
 Wire Wire Line
-	9800 4900 9700 4900
+	9650 5550 9550 5550
 Wire Wire Line
-	9700 4800 9800 4800
+	9550 5450 9650 5450
 Wire Wire Line
-	9800 4700 9700 4700
+	9650 5350 9550 5350
 Wire Wire Line
-	9200 4700 9100 4700
+	9050 5350 8950 5350
 Wire Wire Line
-	9100 4800 9200 4800
+	8950 5450 9050 5450
 Wire Wire Line
-	9200 4900 9100 4900
+	9050 5550 8950 5550
 Wire Wire Line
-	9100 5000 9200 5000
+	8950 5650 9050 5650
 Wire Wire Line
-	9100 5100 9200 5100
+	8950 5750 9050 5750
 Wire Wire Line
-	9200 5200 9100 5200
+	9050 5850 8950 5850
 Wire Wire Line
-	9100 5300 9200 5300
+	8950 5950 9050 5950
 Wire Wire Line
-	9200 5400 9100 5400
+	9050 6050 8950 6050
 Wire Wire Line
-	9100 5500 9200 5500
+	8950 6150 9050 6150
 Wire Wire Line
-	9200 5600 9100 5600
+	9050 6250 8950 6250
 Text Label 5950 1250 0    50   ~ 0
 LV_5V
 Text Label 5950 1350 0    50   ~ 0
@@ -756,45 +756,41 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J13
 U 1 1 5DE1A059
-P 7800 3450
-F 0 "J13" H 7880 3442 50  0000 L CNN
-F 1 "Conn_01x02" H 7880 3351 50  0000 L CNN
-F 2 "" H 7800 3450 50  0001 C CNN
-F 3 "~" H 7800 3450 50  0001 C CNN
-	1    7800 3450
-	-1   0    0    -1  
+P 9300 2900
+F 0 "J13" H 9380 2892 50  0000 L CNN
+F 1 "AIR Left" H 9380 2801 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9300 2900 50  0001 C CNN
+F 3 "~" H 9300 2900 50  0001 C CNN
+	1    9300 2900
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J14
 U 1 1 5DE1A7ED
-P 7800 3700
-F 0 "J14" H 7880 3692 50  0000 L CNN
-F 1 "Conn_01x02" H 7880 3601 50  0000 L CNN
-F 2 "" H 7800 3700 50  0001 C CNN
-F 3 "~" H 7800 3700 50  0001 C CNN
-	1    7800 3700
-	-1   0    0    -1  
+P 9300 3150
+F 0 "J14" H 9380 3142 50  0000 L CNN
+F 1 "AIR Right" H 9380 3051 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9300 3150 50  0001 C CNN
+F 3 "~" H 9300 3150 50  0001 C CNN
+	1    9300 3150
+	1    0    0    -1  
 $EndComp
-Text Notes 7850 3400 2    50   ~ 0
-AIR Left
-Text Notes 7850 3950 2    50   ~ 0
-AIR Right
-Text Label 8100 3450 0    50   ~ 0
+Text Label 9000 2900 2    50   ~ 0
 AIRS+
-Text Label 8100 3550 0    50   ~ 0
+Text Label 9000 3000 2    50   ~ 0
 AIRS-
 Wire Wire Line
-	8100 3450 8000 3450
+	9000 2900 9100 2900
 Wire Wire Line
-	8000 3550 8100 3550
-Text Label 8100 3700 0    50   ~ 0
+	9100 3000 9000 3000
+Text Label 9000 3150 2    50   ~ 0
 AIRS+
-Text Label 8100 3800 0    50   ~ 0
+Text Label 9000 3250 2    50   ~ 0
 AIRS-
 Wire Wire Line
-	8100 3700 8000 3700
+	9000 3150 9100 3150
 Wire Wire Line
-	8000 3800 8100 3800
+	9100 3250 9000 3250
 Wire Wire Line
 	1150 1750 1050 1750
 Text Label 1150 1750 0    50   ~ 0
@@ -824,86 +820,86 @@ F 7 "0154.500DRL" H 850 1850 50  0001 C CNN "Manufacturer Part"
 $EndComp
 Text Label 1150 1650 0    50   ~ 0
 PACK-
-Text Label 9100 4050 2    50   ~ 0
+Text Label 8950 4800 2    50   ~ 0
 CAN_H
-Text Label 9100 3950 2    50   ~ 0
+Text Label 8950 4700 2    50   ~ 0
 CAN_L
-Text Label 9100 4150 2    50   ~ 0
+Text Label 8950 4900 2    50   ~ 0
 CAN_SHIELD
-Text Label 9100 3750 2    50   ~ 0
+Text Label 8950 4500 2    50   ~ 0
 GLV_24V
-Text Label 9100 3850 2    50   ~ 0
+Text Label 8950 4600 2    50   ~ 0
 GLV_RTN
-Text Label 9100 3650 2    50   ~ 0
+Text Label 8950 4400 2    50   ~ 0
 CHS_GND
-Text Label 9800 3750 0    50   ~ 0
+Text Label 9650 4500 0    50   ~ 0
 CAN_H
-Text Label 9800 3850 0    50   ~ 0
+Text Label 9650 4600 0    50   ~ 0
 CAN_L
-Text Label 9800 3650 0    50   ~ 0
+Text Label 9650 4400 0    50   ~ 0
 CAN_SHIELD
-Text Label 9800 4050 0    50   ~ 0
+Text Label 9650 4800 0    50   ~ 0
 GLV_24V
-Text Label 9800 3950 0    50   ~ 0
+Text Label 9650 4700 0    50   ~ 0
 GLV_RTN
-Text Label 9800 4150 0    50   ~ 0
+Text Label 9650 4900 0    50   ~ 0
 CHS_GND
 Wire Wire Line
-	9100 3650 9200 3650
+	8950 4400 9050 4400
 Wire Wire Line
-	9200 3750 9100 3750
+	9050 4500 8950 4500
 Wire Wire Line
-	9100 3850 9200 3850
+	8950 4600 9050 4600
 Wire Wire Line
-	9200 3950 9100 3950
+	9050 4700 8950 4700
 Wire Wire Line
-	9100 4050 9200 4050
+	8950 4800 9050 4800
 Wire Wire Line
-	9200 4150 9100 4150
+	9050 4900 8950 4900
 Wire Wire Line
-	9700 4150 9800 4150
+	9550 4900 9650 4900
 Wire Wire Line
-	9800 4050 9700 4050
+	9650 4800 9550 4800
 Wire Wire Line
-	9700 3950 9800 3950
+	9550 4700 9650 4700
 Wire Wire Line
-	9800 3850 9700 3850
+	9650 4600 9550 4600
 Wire Wire Line
-	9700 3750 9800 3750
+	9550 4500 9650 4500
 Wire Wire Line
-	9800 3650 9700 3650
-Text Label 9800 2900 0    50   ~ 0
+	9650 4400 9550 4400
+Text Label 9650 3650 0    50   ~ 0
 SLOOP1_OUT
-Text Label 9800 3000 0    50   ~ 0
+Text Label 9650 3750 0    50   ~ 0
 SLOOP2
-Text Label 9800 3200 0    50   ~ 0
+Text Label 9650 3950 0    50   ~ 0
 AIRS+
-Text Label 9800 3100 0    50   ~ 0
+Text Label 9650 3850 0    50   ~ 0
 AIRS-
-Text Label 9100 3200 2    50   ~ 0
+Text Label 8950 3950 2    50   ~ 0
 SLOOP1_IN
-Text Label 9100 3100 2    50   ~ 0
+Text Label 8950 3850 2    50   ~ 0
 SLOOP2
-Text Label 9100 2900 2    50   ~ 0
+Text Label 8950 3650 2    50   ~ 0
 AIRS+
-Text Label 9100 3000 2    50   ~ 0
+Text Label 8950 3750 2    50   ~ 0
 AIRS-
 Wire Wire Line
-	9100 3200 9200 3200
+	8950 3950 9050 3950
 Wire Wire Line
-	9200 3100 9100 3100
+	9050 3850 8950 3850
 Wire Wire Line
-	9100 3000 9200 3000
+	8950 3750 9050 3750
 Wire Wire Line
-	9200 2900 9100 2900
+	9050 3650 8950 3650
 Wire Wire Line
-	9700 2900 9800 2900
+	9550 3650 9650 3650
 Wire Wire Line
-	9800 3000 9700 3000
+	9650 3750 9550 3750
 Wire Wire Line
-	9700 3100 9800 3100
+	9550 3850 9650 3850
 Wire Wire Line
-	9800 3200 9700 3200
+	9650 3950 9550 3950
 $Comp
 L Connector:RJ12 J6
 U 1 1 5DF5CB3C
@@ -922,42 +918,42 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Counter_Clockwise J8
 U 1 1 5DF93323
-P 9400 3000
-F 0 "J8" H 9450 3317 50  0000 C CNN
-F 1 "SLOOP" H 9450 3226 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 9400 3000 50  0001 C CNN
-F 3 "~" H 9400 3000 50  0001 C CNN
-	1    9400 3000
+P 9250 3750
+F 0 "J8" H 9300 4067 50  0000 C CNN
+F 1 "SLOOP" H 9300 3976 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 9250 3750 50  0001 C CNN
+F 3 "~" H 9250 3750 50  0001 C CNN
+	1    9250 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x06_Counter_Clockwise J9
 U 1 1 5DF9AFC0
-P 9400 3850
-F 0 "J9" H 9450 4267 50  0000 C CNN
-F 1 "GLV/CAN" H 9450 4176 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A2_2x06_P4.20mm_Vertical" H 9400 3850 50  0001 C CNN
-F 3 "~" H 9400 3850 50  0001 C CNN
-	1    9400 3850
+P 9250 4600
+F 0 "J9" H 9300 5017 50  0000 C CNN
+F 1 "GLV/CAN" H 9300 4926 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A2_2x06_P4.20mm_Vertical" H 9250 4600 50  0001 C CNN
+F 3 "~" H 9250 4600 50  0001 C CNN
+	1    9250 4600
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6650 6100
 NoConn ~ 6650 6200
-Text Notes 8650 5850 0    50   ~ 0
+Text Notes 8500 6500 0    50   ~ 0
 Manufacturer/Digikey P/N for receptacle:\n71600-020LF, 609-1741-ND
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J7
 U 1 1 5DD804E2
-P 9400 5100
-F 0 "J7" H 9450 5717 50  0000 C CNN
-F 1 "Panel" H 9450 5626 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:Amphenol_IDC-Header_2x10_P2.54mm_Vertical" H 9400 5100 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 9400 5100 50  0001 C CNN
-F 4 "Amphenol ICC" H 9400 5100 50  0001 C CNN "Manufacturer"
-F 5 "75869-304LF" H 9400 5100 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9400 5100 50  0001 C CNN "Vendor"
-F 7 "609-5118-ND" H 9400 5100 50  0001 C CNN "Vendor Part"
-	1    9400 5100
+P 9250 5750
+F 0 "J7" H 9300 6367 50  0000 C CNN
+F 1 "Panel" H 9300 6276 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Amphenol_IDC-Header_2x10_P2.54mm_Vertical" H 9250 5750 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 9250 5750 50  0001 C CNN
+F 4 "Amphenol ICC" H 9250 5750 50  0001 C CNN "Manufacturer"
+F 5 "75869-304LF" H 9250 5750 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9250 5750 50  0001 C CNN "Vendor"
+F 7 "609-5118-ND" H 9250 5750 50  0001 C CNN "Vendor Part"
+	1    9250 5750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
