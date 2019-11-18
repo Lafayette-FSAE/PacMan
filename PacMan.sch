@@ -251,7 +251,7 @@ U 1 1 5DDF48B0
 P 850 2650
 F 0 "J4" H 850 2900 50  0000 C CNN
 F 1 "Charge Detection" H 850 2800 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 850 2650 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 850 2650 50  0001 C CNN
 F 3 "~" H 850 2650 50  0001 C CNN
 	1    850  2650
 	-1   0    0    -1  
@@ -759,7 +759,7 @@ U 1 1 5DE1A059
 P 9300 2900
 F 0 "J13" H 9380 2892 50  0000 L CNN
 F 1 "AIR Left" H 9380 2801 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9300 2900 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9300 2900 50  0001 C CNN
 F 3 "~" H 9300 2900 50  0001 C CNN
 	1    9300 2900
 	1    0    0    -1  
@@ -770,7 +770,7 @@ U 1 1 5DE1A7ED
 P 9300 3150
 F 0 "J14" H 9380 3142 50  0000 L CNN
 F 1 "AIR Right" H 9380 3051 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9300 3150 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9300 3150 50  0001 C CNN
 F 3 "~" H 9300 3150 50  0001 C CNN
 	1    9300 3150
 	1    0    0    -1  
@@ -921,7 +921,7 @@ U 1 1 5DF93323
 P 9250 3750
 F 0 "J8" H 9300 4067 50  0000 C CNN
 F 1 "SLOOP" H 9300 3976 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 9250 3750 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 9250 3750 50  0001 C CNN
 F 3 "~" H 9250 3750 50  0001 C CNN
 	1    9250 3750
 	1    0    0    -1  
@@ -932,7 +932,7 @@ U 1 1 5DF9AFC0
 P 9250 4600
 F 0 "J9" H 9300 5017 50  0000 C CNN
 F 1 "GLV/CAN" H 9300 4926 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A2_2x06_P4.20mm_Vertical" H 9250 4600 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-12A2_2x06_P4.20mm_Vertical" H 9250 4600 50  0001 C CNN
 F 3 "~" H 9250 4600 50  0001 C CNN
 	1    9250 4600
 	1    0    0    -1  
