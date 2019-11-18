@@ -145,15 +145,15 @@ P 6500 2050
 F 0 "U5" H 6550 2250 50  0000 C CNN
 F 1 "ESP32_TTGO_PSRAM" H 6550 2150 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:ESP32TTGOT8" H 6250 2250 50  0001 C CNN
-F 3 "" H 6250 2250 50  0001 C CNN
+F 3 "https://www.amazon.com/TTGO-ESP32-PSRAM-Antenna-Bluetooth/dp/B07B6NM1RY" H 6250 2250 50  0001 C CNN
 	1    6500 2050
 	1    0    0    -1  
 $EndComp
-Text Label 6300 2350 2    50   ~ 0
+Text Label 7950 2550 0    50   ~ 0
 EN_CHRG
-Text Label 6300 2650 2    50   ~ 0
+Text Label 6300 2350 2    50   ~ 0
 WATCHDOG
-Text Label 6300 2550 2    50   ~ 0
+Text Label 7950 2350 0    50   ~ 0
 CHRG_CURRENT
 Text Label 4900 950  2    50   ~ 0
 LED1
@@ -394,7 +394,7 @@ F 3 "~" H 5150 950 50  0001 C CNN
 	1    5150 950 
 	0    -1   1    0   
 $EndComp
-Text Label 6300 2450 2    50   ~ 0
+Text Label 7950 2450 0    50   ~ 0
 ~CHRG_DETECT
 Text Label 1600 2350 0    50   ~ 0
 CAN_H
@@ -779,15 +779,15 @@ F 3 "~" H 9400 6450 50  0001 C CNN
 	1    9400 6450
 	0    1    -1   0   
 $EndComp
-Text Label 7950 2150 0    50   ~ 0
+Text Label 7950 2850 0    50   ~ 0
 DISP_DIN
-Text Label 7950 2250 0    50   ~ 0
+Text Label 7950 2950 0    50   ~ 0
 DISP_CLK
-Text Label 7950 2350 0    50   ~ 0
+Text Label 7950 3050 0    50   ~ 0
 DISP_CS
-Text Label 7950 2450 0    50   ~ 0
+Text Label 6300 2250 2    50   ~ 0
 DISP_DC
-Text Label 7950 2550 0    50   ~ 0
+Text Label 6300 2150 2    50   ~ 0
 DISP_RST
 Text Label 7950 2650 0    50   ~ 0
 DISP_BUSY
@@ -1201,9 +1201,9 @@ Wire Wire Line
 	2900 1400 3000 1400
 Wire Wire Line
 	3000 1300 2900 1300
-Text Label 6300 2150 2    50   ~ 0
+Text Label 7950 3250 0    50   ~ 0
 SDA_GLV
-Text Label 6300 2250 2    50   ~ 0
+Text Label 7950 2250 0    50   ~ 0
 SCL_GLV
 Text Label 6550 5300 2    50   ~ 0
 SDA_GLV
@@ -1216,35 +1216,29 @@ Wire Wire Line
 Text HLabel 1500 2550 0    50   Input ~ 0
 CAN_SHIELD
 Wire Wire Line
-	7950 2150 7850 2150
+	7950 2850 7850 2850
 Wire Wire Line
-	7850 2250 7950 2250
+	7850 2950 7950 2950
 Wire Wire Line
-	7950 2350 7850 2350
-Wire Wire Line
-	7850 2450 7950 2450
-Wire Wire Line
-	7950 2550 7850 2550
-Wire Wire Line
-	7850 2650 7950 2650
-NoConn ~ 7850 2750
-NoConn ~ 7850 2850
-NoConn ~ 7850 2950
-NoConn ~ 7850 3050
-NoConn ~ 7850 3150
-NoConn ~ 7850 3250
-Wire Wire Line
-	6300 2150 6400 2150
+	7950 3050 7850 3050
 Wire Wire Line
 	6400 2250 6300 2250
 Wire Wire Line
-	6300 2350 6400 2350
+	6300 2150 6400 2150
 Wire Wire Line
-	6400 2450 6300 2450
+	7850 2650 7950 2650
 Wire Wire Line
-	6300 2550 6400 2550
+	7950 3250 7850 3250
 Wire Wire Line
-	6400 2650 6300 2650
+	7850 2250 7950 2250
+Wire Wire Line
+	7950 2550 7850 2550
+Wire Wire Line
+	7850 2450 7950 2450
+Wire Wire Line
+	7950 2350 7850 2350
+Wire Wire Line
+	6400 2350 6300 2350
 Wire Wire Line
 	6300 2750 6400 2750
 Wire Wire Line
@@ -1384,4 +1378,10 @@ Wire Wire Line
 Wire Wire Line
 	4750 2700 4650 2700
 Connection ~ 4650 2700
+NoConn ~ 7850 2150
+NoConn ~ 7850 2750
+NoConn ~ 7850 3150
+NoConn ~ 6400 2650
+NoConn ~ 6400 2450
+NoConn ~ 6400 2550
 $EndSCHEMATC
