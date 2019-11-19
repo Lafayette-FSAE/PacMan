@@ -418,7 +418,7 @@ TSV_RTN
 Wire Wire Line
 	5200 6050 5100 6050
 $Comp
-L Device:Q_PMOS_DGS Q?
+L Device:Q_PMOS_GSD Q?
 U 1 1 5DE0BD94
 P 3900 5850
 AR Path="/5DE0BD94" Ref="Q?"  Part="1" 

@@ -79,12 +79,12 @@ U 1 1 5DC0F40F
 P 850 2150
 F 0 "J3" H 850 2400 50  0000 C CNN
 F 1 "TSV IN" H 850 2300 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:DF22-2P-7.92" H 850 2150 50  0001 C CNN
-F 3 "https://www.hirose.com/product/document?clcode=CL0680-1074-0-00&productname=DF22AL-2EP-7.92C&series=DF22&documenttype=Catalog&lang=en&documentid=D31682_en" H 850 2150 50  0001 C CNN
-F 4 "Hirose Electric Co" H 850 2150 50  0001 C CNN "Manufacturer"
-F 5 "DF22-2P-7.92DSA(05)" H 850 2150 50  0001 C CNN "Manufacturer Part"
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 850 2150 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 850 2150 50  0001 C CNN
+F 4 "Molex" H 850 2150 50  0001 C CNN "Manufacturer"
+F 5 "1724470202" H 850 2150 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 850 2150 50  0001 C CNN "Vendor"
-F 7 "H10714-ND" H 850 2150 50  0001 C CNN "Vendor Part"
+F 7 "WM17931-ND" H 850 2150 50  0001 C CNN "Vendor Part"
 	1    850  2150
 	-1   0    0    -1  
 $EndComp
