@@ -266,7 +266,11 @@ P 4200 6350
 F 0 "TP4" H 4258 6468 50  0000 L CNN
 F 1 "TP_LV_RTN" H 4258 6377 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 6350 50  0001 C CNN
-F 3 "~" H 4400 6350 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4400 6350 50  0001 C CNN
+F 4 "TE Connectivity" H 4200 6350 50  0001 C CNN "Manufacturer"
+F 5 "RCT-0C" H 4200 6350 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 4200 6350 50  0001 C CNN "Vendor"
+F 7 "A106144TR-ND" H 4200 6350 50  0001 C CNN "Vendor Part"
 	1    4200 6350
 	1    0    0    -1  
 $EndComp
@@ -368,7 +372,11 @@ P 2600 6350
 F 0 "TP1" H 2658 6468 50  0000 L CNN
 F 1 "TP_TSV_RTN" H 2658 6377 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2800 6350 50  0001 C CNN
-F 3 "~" H 2800 6350 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 2800 6350 50  0001 C CNN
+F 4 "TE Connectivity" H 2600 6350 50  0001 C CNN "Manufacturer"
+F 5 "RCT-0C" H 2600 6350 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 2600 6350 50  0001 C CNN "Vendor"
+F 7 "A106144TR-ND" H 2600 6350 50  0001 C CNN "Vendor Part"
 	1    2600 6350
 	-1   0    0    -1  
 $EndComp
@@ -858,6 +866,10 @@ F 0 "U14" H 8500 4042 50  0000 C CNN
 F 1 "L78L05_SOT89" H 8500 3951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 8500 4000 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 8500 3750 50  0001 C CNN
+F 4 "STMicroelectronics" H 8500 3800 50  0001 C CNN "Manufacturer"
+F 5 "L78L05ACUTR" H 8500 3800 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8500 3800 50  0001 C CNN "Vendor"
+F 7 "497-1183-1-ND" H 8500 3800 50  0001 C CNN "Vendor Part"
 	1    8500 3800
 	1    0    0    -1  
 $EndComp

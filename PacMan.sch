@@ -962,6 +962,9 @@ F 0 "J9" H 9300 5017 50  0000 C CNN
 F 1 "GLV/CAN" H 9300 4926 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-12A2_2x06_P4.20mm_Vertical" H 9250 4600 50  0001 C CNN
 F 3 "~" H 9250 4600 50  0001 C CNN
+F 4 "Molex" H 9250 4600 50  0001 C CNN "Manufacturer"
+F 5 "1724470012" H 9250 4600 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9250 4600 50  0001 C CNN "Vendor"
 	1    9250 4600
 	1    0    0    -1  
 $EndComp

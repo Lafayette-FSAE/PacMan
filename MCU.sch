@@ -418,6 +418,10 @@ F 0 "U3" H 2050 4617 50  0000 C CNN
 F 1 "ADM6320" H 2050 4526 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2050 3900 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM6316_6318_6319_6320_6321_6322.pdf" H 1850 4600 50  0001 C CNN
+F 4 "Analog Devices Inc." H 1750 4450 50  0001 C CNN "Manufacturer"
+F 5 "ADM6320CY29ARJZ-R7" H 1750 4450 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1750 4450 50  0001 C CNN "Vendor"
+F 7 "ADM6320CY29ARJZ-R7CT-ND" H 1750 4450 50  0001 C CNN "Vendor Part"
 	1    1750 4450
 	1    0    0    -1  
 $EndComp
