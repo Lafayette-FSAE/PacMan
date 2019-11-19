@@ -186,7 +186,7 @@ L Device:C C12
 U 1 1 5DC374AD
 P 6150 5100
 F 0 "C12" H 6265 5146 50  0000 L CNN
-F 1 "1n" H 6265 5055 50  0000 L CNN
+F 1 "1n/50V" H 6265 5055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6188 4950 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B102KBCNNNC-19.pdf" H 6150 5100 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 6150 5100 50  0001 C CNN "Manufacturer"
@@ -216,7 +216,7 @@ L Device:C C13
 U 1 1 5DC3B1A6
 P 6600 5100
 F 0 "C13" H 6715 5146 50  0000 L CNN
-F 1 "1u" H 6715 5055 50  0000 L CNN
+F 1 "1u/50V" H 6715 5055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6638 4950 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B105KBFNNNG-19.pdf" H 6600 5100 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 6600 5100 50  0001 C CNN "Manufacturer"
@@ -320,7 +320,11 @@ P 5350 3150
 F 0 "ISO2" H 5350 3475 50  0000 C CNN
 F 1 "TLP293" H 5350 3384 50  0000 C CNN
 F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 5150 2950 50  0001 L CIN
-F 3 "" H 5350 3150 50  0001 L CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14419&prodName=TLP293" H 5350 3150 50  0001 L CNN
+F 4 "Toshiba Semiconductor" H 5350 3150 50  0001 C CNN "Manufacturer"
+F 5 "TLP293(GR-TPL,E" H 5350 3150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5350 3150 50  0001 C CNN "Vendor"
+F 7 "TLP293(GR-TPLECT-ND" H 5350 3150 50  0001 C CNN "Vendor Part"
 	1    5350 3150
 	-1   0    0    -1  
 $EndComp

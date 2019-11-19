@@ -170,27 +170,20 @@ F 7 "102-1709-ND" H 6500 5050 50  0001 C CNN "Vendor Part"
 	1    6500 5050
 	1    0    0    -1  
 $EndComp
-Text Label 6200 5150 2    50   ~ 0
+Text Label 6000 5150 2    50   ~ 0
 LV_24V
-$Comp
-L Device:C C18
-U 1 1 5DC79B51
-P 6300 5400
-F 0 "C18" H 6050 5450 50  0000 L CNN
-F 1 "10u" H 6050 5350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6338 5250 50  0001 C CNN
-F 3 "~" H 6300 5400 50  0001 C CNN
-	1    6300 5400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C19
 U 1 1 5DC79D9B
 P 7200 5400
 F 0 "C19" H 7315 5446 50  0000 L CNN
-F 1 "22u" H 7315 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7238 5250 50  0001 C CNN
-F 3 "~" H 7200 5400 50  0001 C CNN
+F 1 "22u/25V" H 7315 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7238 5250 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL32B226KAJNFNE-19.pdf" H 7200 5400 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7200 5400 50  0001 C CNN "Manufacturer"
+F 5 "CL32B226KAJNFNE" H 7200 5400 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 7200 5400 50  0001 C CNN "Vendor"
+F 7 "1276-3391-1-ND" H 7200 5400 50  0001 C CNN "Vendor Part"
 	1    7200 5400
 	1    0    0    -1  
 $EndComp
@@ -224,9 +217,13 @@ L Device:C C15
 U 1 1 5DCD15A8
 P 4650 4150
 F 0 "C15" H 4765 4196 50  0000 L CNN
-F 1 "10u" H 4765 4105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 4000 50  0001 C CNN
-F 3 "~" H 4650 4150 50  0001 C CNN
+F 1 "10u/50V" H 4765 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4688 4000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL32B106KBJNNWE-19.pdf" H 4650 4150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4650 4150 50  0001 C CNN "Manufacturer"
+F 5 "CL32B106KBJNNWE" H 4650 4150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 4650 4150 50  0001 C CNN "Vendor"
+F 7 "1276-3388-1-ND" H 4650 4150 50  0001 C CNN "Vendor Part"
 	1    4650 4150
 	1    0    0    -1  
 $EndComp
@@ -247,20 +244,6 @@ Wire Notes Line
 	6600 4550 10400 4550
 Wire Notes Line
 	6600 4450 6600 4550
-Wire Wire Line
-	5500 5150 6300 5150
-Wire Wire Line
-	5600 5650 6300 5650
-Wire Wire Line
-	6300 5250 6300 5150
-Connection ~ 6300 5150
-Wire Wire Line
-	6300 5150 6400 5150
-Wire Wire Line
-	6300 5550 6300 5650
-Connection ~ 6300 5650
-Wire Wire Line
-	6300 5650 6750 5650
 $Comp
 L Lafayette_Electric_Car_Internals:PDQE10-Q48-S24-D U9
 U 1 1 5DC71CEE
@@ -549,9 +532,13 @@ L Device:C C20
 U 1 1 5DD01B76
 P 7300 4150
 F 0 "C20" H 7415 4196 50  0000 L CNN
-F 1 "10u" H 7415 4105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7338 4000 50  0001 C CNN
-F 3 "~" H 7300 4150 50  0001 C CNN
+F 1 "10u/50V" H 7415 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7338 4000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL32B106KBJNNWE-19.pdf" H 7300 4150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7300 4150 50  0001 C CNN "Manufacturer"
+F 5 "CL32B106KBJNNWE" H 7300 4150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 7300 4150 50  0001 C CNN "Vendor"
+F 7 "1276-3388-1-ND" H 7300 4150 50  0001 C CNN "Vendor Part"
 	1    7300 4150
 	1    0    0    -1  
 $EndComp
@@ -562,7 +549,7 @@ L Device:C C22
 U 1 1 5DC67B6A
 P 8900 4050
 F 0 "C22" H 9015 4096 50  0000 L CNN
-F 1 "0.1u" H 9015 4005 50  0000 L CNN
+F 1 "0.1u/50V" H 9015 4005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 3900 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 4050 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 8900 4050 50  0001 C CNN "Manufacturer"
@@ -600,9 +587,13 @@ L Device:C C21
 U 1 1 5DCC17D2
 P 7950 4050
 F 0 "C21" H 8065 4096 50  0000 L CNN
-F 1 "0.33u" H 8065 4005 50  0000 L CNN
+F 1 "0.33u/50V" H 8065 4005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7988 3900 50  0001 C CNN
-F 3 "~" H 7950 4050 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B334KBFNNNE-19.pdf" H 7950 4050 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7950 4050 50  0001 C CNN "Manufacturer"
+F 5 "CL21B334KBFNNNE" H 7950 4050 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 7950 4050 50  0001 C CNN "Vendor"
+F 7 "1276-1123-1-ND" H 7950 4050 50  0001 C CNN "Vendor Part"
 	1    7950 4050
 	1    0    0    -1  
 $EndComp
@@ -622,7 +613,7 @@ L Device:C C16
 U 1 1 5E141DE6
 P 5050 1050
 F 0 "C16" V 4798 1050 50  0000 C CNN
-F 1 "0.1u" V 4889 1050 50  0000 C CNN
+F 1 "0.1u/50V" V 4889 1050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5088 900 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 5050 1050 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 5050 1050 50  0001 C CNN "Manufacturer"
@@ -708,7 +699,11 @@ AR Path="/5DD31136/5E201304" Ref="ISO3"  Part="1"
 F 0 "ISO3" H 3950 5725 50  0000 C CNN
 F 1 "TLP293" H 3950 5634 50  0000 C CNN
 F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 3750 5200 50  0001 L CIN
-F 3 "" H 3950 5400 50  0001 L CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14419&prodName=TLP293" H 3950 5400 50  0001 L CNN
+F 4 "Toshiba Semiconductor" H 3950 5400 50  0001 C CNN "Manufacturer"
+F 5 "TLP293(GR-TPL,E" H 3950 5400 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3950 5400 50  0001 C CNN "Vendor"
+F 7 "TLP293(GR-TPLECT-ND" H 3950 5400 50  0001 C CNN "Vendor Part"
 	1    3950 5400
 	-1   0    0    -1  
 $EndComp
@@ -866,4 +861,33 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e
 	1    8500 3800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C18
+U 1 1 5DD51664
+P 6000 5400
+F 0 "C18" H 6115 5446 50  0000 L CNN
+F 1 "10u/50V" H 6115 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 6038 5250 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL32B106KBJNNWE-19.pdf" H 6000 5400 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 6000 5400 50  0001 C CNN "Manufacturer"
+F 5 "CL32B106KBJNNWE" H 6000 5400 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 6000 5400 50  0001 C CNN "Vendor"
+F 7 "1276-3388-1-ND" H 6000 5400 50  0001 C CNN "Vendor Part"
+	1    6000 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5650 6000 5650
+Wire Wire Line
+	5500 5150 6000 5150
+Wire Wire Line
+	6000 5250 6000 5150
+Connection ~ 6000 5150
+Wire Wire Line
+	6000 5150 6400 5150
+Wire Wire Line
+	6000 5550 6000 5650
+Connection ~ 6000 5650
+Wire Wire Line
+	6000 5650 6750 5650
 $EndSCHEMATC

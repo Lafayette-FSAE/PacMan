@@ -172,7 +172,11 @@ AR Path="/5DC1F176/5DD3CA83" Ref="ISO1"  Part="1"
 F 0 "ISO1" H 1850 6375 50  0000 C CNN
 F 1 "TLP293" H 1850 6284 50  0000 C CNN
 F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 1650 5850 50  0001 L CIN
-F 3 "" H 1850 6050 50  0001 L CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14419&prodName=TLP293" H 1850 6050 50  0001 L CNN
+F 4 "Toshiba Semiconductor" H 1850 6050 50  0001 C CNN "Manufacturer"
+F 5 "TLP293(GR-TPL,E" H 1850 6050 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1850 6050 50  0001 C CNN "Vendor"
+F 7 "TLP293(GR-TPLECT-ND" H 1850 6050 50  0001 C CNN "Vendor Part"
 	1    1850 6050
 	1    0    0    -1  
 $EndComp
@@ -606,7 +610,7 @@ L Device:C C7
 U 1 1 5DD43126
 P 8900 4100
 F 0 "C7" V 9050 4100 50  0000 C CNN
-F 1 "0.1u" V 9150 4100 50  0000 C CNN
+F 1 "0.1u/50V" V 9150 4100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 3950 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 4100 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 8900 4100 50  0001 C CNN "Manufacturer"
@@ -659,7 +663,7 @@ L Device:C C9
 U 1 1 5DD47E8E
 P 8900 5200
 F 0 "C9" V 9050 5200 50  0000 C CNN
-F 1 "0.1u" V 9150 5200 50  0000 C CNN
+F 1 "0.1u/50V" V 9150 5200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 5050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 5200 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 8900 5200 50  0001 C CNN "Manufacturer"
@@ -693,7 +697,7 @@ L Device:C C10
 U 1 1 5DD47EB7
 P 8900 5750
 F 0 "C10" V 9050 5750 50  0000 C CNN
-F 1 "0.1u" V 9150 5750 50  0000 C CNN
+F 1 "0.1u/50V" V 9150 5750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 5600 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 5750 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 8900 5750 50  0001 C CNN "Manufacturer"
@@ -725,7 +729,7 @@ L Device:C C11
 U 1 1 5DD58422
 P 8900 6300
 F 0 "C11" V 9050 6300 50  0000 C CNN
-F 1 "0.1u" V 9150 6300 50  0000 C CNN
+F 1 "0.1u/50V" V 9150 6300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 6150 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 6300 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 8900 6300 50  0001 C CNN "Manufacturer"
@@ -890,7 +894,7 @@ L Device:C C8
 U 1 1 5DD43802
 P 8900 4650
 F 0 "C8" V 9050 4650 50  0000 C CNN
-F 1 "0.1u" V 9150 4650 50  0000 C CNN
+F 1 "0.1u/50V" V 9150 4650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 4500 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8900 4650 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 8900 4650 50  0001 C CNN "Manufacturer"
@@ -981,7 +985,7 @@ L Device:C C3
 U 1 1 5DF2261A
 P 1300 4850
 F 0 "C3" V 1450 4850 50  0000 C CNN
-F 1 "0.1u" V 1550 4850 50  0000 C CNN
+F 1 "0.1u/50V" V 1550 4850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1338 4700 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 1300 4850 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 1300 4850 50  0001 C CNN "Manufacturer"
@@ -1073,7 +1077,7 @@ L Device:C C2
 U 1 1 5DEF81CF
 P 1050 4600
 F 0 "C2" H 1165 4646 50  0000 L CNN
-F 1 "0.1u" H 1165 4555 50  0000 L CNN
+F 1 "0.1u/50V" H 1165 4555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1088 4450 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 1050 4600 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 1050 4600 50  0001 C CNN "Manufacturer"
@@ -1100,7 +1104,7 @@ L Device:C C5
 U 1 1 5DDCC89C
 P 1950 7100
 F 0 "C5" H 2065 7146 50  0000 L CNN
-F 1 "0.1u" H 2065 7055 50  0000 L CNN
+F 1 "0.1u/50V" H 2065 7055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1988 6950 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 1950 7100 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 1950 7100 50  0001 C CNN "Manufacturer"
@@ -1115,7 +1119,7 @@ L Device:C C6
 U 1 1 5E06C3B6
 P 5900 5800
 F 0 "C6" H 5785 5846 50  0000 R CNN
-F 1 "0.1u" H 5785 5755 50  0000 R CNN
+F 1 "0.1u/50V" H 5785 5755 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 5650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 5900 5800 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 5900 5800 50  0001 C CNN "Manufacturer"
@@ -1302,7 +1306,7 @@ AR Path="/5DC814A3/5DD8982B" Ref="C?"  Part="1"
 AR Path="/5DD8982B" Ref="C?"  Part="1" 
 AR Path="/5DC1F176/5DD8982B" Ref="C1"  Part="1" 
 F 0 "C1" H 4765 3696 50  0000 L CNN
-F 1 "0.1u" H 4765 3605 50  0000 L CNN
+F 1 "0.1u/50V" H 4765 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 3500 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 4650 3650 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 4650 3650 50  0001 C CNN "Manufacturer"
@@ -1383,4 +1387,5 @@ NoConn ~ 7850 2750
 NoConn ~ 7850 3150
 NoConn ~ 6400 2650
 NoConn ~ 6400 2450
+NoConn ~ 6400 2550
 $EndSCHEMATC

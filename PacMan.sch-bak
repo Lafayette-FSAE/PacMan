@@ -80,7 +80,11 @@ P 850 2150
 F 0 "J3" H 850 2400 50  0000 C CNN
 F 1 "TSV IN" H 850 2300 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:DF22-2P-7.92" H 850 2150 50  0001 C CNN
-F 3 "~" H 850 2150 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0680-1074-0-00&productname=DF22AL-2EP-7.92C&series=DF22&documenttype=Catalog&lang=en&documentid=D31682_en" H 850 2150 50  0001 C CNN
+F 4 "Hirose Electric Co" H 850 2150 50  0001 C CNN "Manufacturer"
+F 5 "DF22-2P-7.92DSA(05)" H 850 2150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 850 2150 50  0001 C CNN "Vendor"
+F 7 "H10714-ND" H 850 2150 50  0001 C CNN "Vendor Part"
 	1    850  2150
 	-1   0    0    -1  
 $EndComp
@@ -148,7 +152,11 @@ P 850 1250
 F 0 "J1" H 850 950 50  0000 C CNN
 F 1 "POWER+" H 850 1050 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:DF22-2P-7.92" H 850 1250 50  0001 C CNN
-F 3 "~" H 850 1250 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0680-1074-0-00&productname=DF22AL-2EP-7.92C&series=DF22&documenttype=Catalog&lang=en&documentid=D31682_en" H 850 1250 50  0001 C CNN
+F 4 "Hirose Electric Co" H 850 1250 50  0001 C CNN "Manufacturer"
+F 5 "DF22L-2P-7.92DSA(05)" H 850 1250 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 850 1250 50  0001 C CNN "Vendor"
+F 7 "H10722-ND" H 850 1250 50  0001 C CNN "Vendor Part"
 	1    850  1250
 	-1   0    0    1   
 $EndComp
@@ -252,7 +260,11 @@ P 850 2650
 F 0 "J4" H 850 2900 50  0000 C CNN
 F 1 "Charge Detection" H 850 2800 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 850 2650 50  0001 C CNN
-F 3 "~" H 850 2650 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 850 2650 50  0001 C CNN
+F 4 "Molex" H 850 2650 50  0001 C CNN "Manufacturer"
+F 5 "1724470202" H 850 2650 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 850 2650 50  0001 C CNN "Vendor"
+F 7 "WM17931-ND" H 850 2650 50  0001 C CNN "Vendor Part"
 	1    850  2650
 	-1   0    0    -1  
 $EndComp
@@ -749,7 +761,11 @@ P 850 1750
 F 0 "J2" H 850 1450 50  0000 C CNN
 F 1 "POWER-" H 850 1550 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:DF22-2P-7.92" H 850 1750 50  0001 C CNN
-F 3 "~" H 850 1750 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0680-1074-0-00&productname=DF22AL-2EP-7.92C&series=DF22&documenttype=Catalog&lang=en&documentid=D31682_en" H 850 1750 50  0001 C CNN
+F 4 "Hirose Electric Co" H 850 1750 50  0001 C CNN "Manufacturer"
+F 5 "DF22R-2P-7.92DSA(05)" H 850 1750 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 850 1750 50  0001 C CNN "Vendor"
+F 7 "H10718-ND" H 850 1750 50  0001 C CNN "Vendor Part"
 	1    850  1750
 	-1   0    0    1   
 $EndComp
@@ -760,7 +776,11 @@ P 9300 2900
 F 0 "J13" H 9380 2892 50  0000 L CNN
 F 1 "AIR Left" H 9380 2801 50  0000 L CNN
 F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9300 2900 50  0001 C CNN
-F 3 "~" H 9300 2900 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 9300 2900 50  0001 C CNN
+F 4 "Molex" H 9300 2900 50  0001 C CNN "Manufacturer"
+F 5 "1724470202" H 9300 2900 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9300 2900 50  0001 C CNN "Vendor"
+F 7 "WM17931-ND" H 9300 2900 50  0001 C CNN "Vendor Part"
 	1    9300 2900
 	1    0    0    -1  
 $EndComp
@@ -771,7 +791,11 @@ P 9300 3150
 F 0 "J14" H 9380 3142 50  0000 L CNN
 F 1 "AIR Right" H 9380 3051 50  0000 L CNN
 F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9300 3150 50  0001 C CNN
-F 3 "~" H 9300 3150 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 9300 3150 50  0001 C CNN
+F 4 "Molex" H 9300 3150 50  0001 C CNN "Manufacturer"
+F 5 "1724470202" H 9300 3150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9300 3150 50  0001 C CNN "Vendor"
+F 7 "WM17931-ND" H 9300 3150 50  0001 C CNN "Vendor Part"
 	1    9300 3150
 	1    0    0    -1  
 $EndComp
@@ -922,7 +946,11 @@ P 9250 3750
 F 0 "J8" H 9300 4067 50  0000 C CNN
 F 1 "SLOOP" H 9300 3976 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 9250 3750 50  0001 C CNN
-F 3 "~" H 9250 3750 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1724470002_sd.pdf" H 9250 3750 50  0001 C CNN
+F 4 "Molex" H 9250 3750 50  0001 C CNN "Manufacturer"
+F 5 "1724470008" H 9250 3750 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9250 3750 50  0001 C CNN "Vendor"
+F 7 "WM20746-ND" H 9250 3750 50  0001 C CNN "Vendor Part"
 	1    9250 3750
 	1    0    0    -1  
 $EndComp
