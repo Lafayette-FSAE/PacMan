@@ -6,8 +6,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 5
 Title "PacMan: Charging"
-Date ""
-Rev "0.3"
+Date "2019-11-19"
+Rev "1.0"
 Comp "Lafayette College"
 Comment1 "Charging: Controls charging relays and measure charging current"
 Comment2 "Jon Abel"
@@ -74,7 +74,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 3250 4250 50  0001 
 F 4 "Diodes Incorporated" H 3250 4250 50  0001 C CNN "Manufacturer"
 F 5 "S1B-13-F" H 3250 4250 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 3250 4250 50  0001 C CNN "Vendor"
-F 7 "	S1B-FDICT-ND" H 3250 4250 50  0001 C CNN "Vendor Part"
+F 7 "S1B-FDICT-ND" H 3250 4250 50  0001 C CNN "Vendor Part"
 	1    3250 4250
 	0    1    1    0   
 $EndComp

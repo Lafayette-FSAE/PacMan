@@ -6,8 +6,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 5
 Title "PacMan"
-Date ""
-Rev "0.3"
+Date "2019-11-19"
+Rev "1.0"
 Comp "Lafayette College"
 Comment1 "PacMan accumulator management board"
 Comment2 "Jon Abel"
@@ -961,10 +961,11 @@ P 9250 4600
 F 0 "J9" H 9300 5017 50  0000 C CNN
 F 1 "GLV/CAN" H 9300 4926 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-12A2_2x06_P4.20mm_Vertical" H 9250 4600 50  0001 C CNN
-F 3 "~" H 9250 4600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/462070012_sd.pdf" H 9250 4600 50  0001 C CNN
 F 4 "Molex" H 9250 4600 50  0001 C CNN "Manufacturer"
-F 5 "1724470012" H 9250 4600 50  0001 C CNN "Manufacturer Part"
+F 5 "0462070012" H 9250 4600 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 9250 4600 50  0001 C CNN "Vendor"
+F 7 "23-0462070012-ND" H 9250 4600 50  0001 C CNN "Vendor Part"
 	1    9250 4600
 	1    0    0    -1  
 $EndComp

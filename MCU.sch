@@ -6,8 +6,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 5
 Title "PacMan: MCU, SLOOP, CANBus"
-Date ""
-Rev "0.3"
+Date "2019-11-19"
+Rev "1.0"
 Comp "Lafayette College"
 Comment1 "MCU, SLOOP, CANBus: Contains the controlling MCU, SLOOP relay, and CAN tranceiver"
 Comment2 "Jon Abel"
@@ -55,7 +55,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 4050 5150 50  0001 
 F 4 "Diodes Incorporated" H 4050 5150 50  0001 C CNN "Manufacturer"
 F 5 "S1B-13-F" H 4050 5150 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 4050 5150 50  0001 C CNN "Vendor"
-F 7 "	S1B-FDICT-ND" H 4050 5150 50  0001 C CNN "Vendor Part"
+F 7 "S1B-FDICT-ND" H 4050 5150 50  0001 C CNN "Vendor Part"
 	1    4050 5150
 	0    1    1    0   
 $EndComp

@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 4 5
 Title "PacMan: Power"
 Date ""
-Rev "0.3"
+Rev "1.0"
 Comp "Lafayette College"
 Comment1 "Power: Creates the necessary power rails for PacMan and CellMen"
 Comment2 "Jon Abel"
@@ -139,7 +139,11 @@ P 1900 4000
 F 0 "R26" V 1693 4000 50  0000 C CNN
 F 1 "0.82" V 1784 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 4000 50  0001 C CNN
-F 3 "~" H 1900 4000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf" H 1900 4000 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H 1900 4000 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-6DQFR82V" H 1900 4000 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1900 4000 50  0001 C CNN "Vendor"
+F 7 "P19306CT-ND" H 1900 4000 50  0001 C CNN "Vendor Part"
 	1    1900 4000
 	0    1    1    0   
 $EndComp
@@ -232,9 +236,13 @@ L Device:C C14
 U 1 1 5DCD992D
 P 2650 4150
 F 0 "C14" H 2765 4196 50  0000 L CNN
-F 1 "22u" H 2765 4105 50  0000 L CNN
+F 1 "4.7u/100V" H 2765 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 4000 50  0001 C CNN
-F 3 "~" H 2650 4150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/library/product-catalog/__icsFiles/afieldfile/2018/11/28/MLCC.pdf" H 2650 4150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 2650 4150 50  0001 C CNN "Manufacturer"
+F 5 "CL32B475KCVZW6E" H 2650 4150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 2650 4150 50  0001 C CNN "Vendor"
+F 7 "1276-7060-1-ND" H 2650 4150 50  0001 C CNN "Vendor Part"
 	1    2650 4150
 	-1   0    0    -1  
 $EndComp
@@ -270,7 +278,7 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 F 4 "TE Connectivity" H 4200 6350 50  0001 C CNN "Manufacturer"
 F 5 "RCT-0C" H 4200 6350 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 4200 6350 50  0001 C CNN "Vendor"
-F 7 "A106144TR-ND" H 4200 6350 50  0001 C CNN "Vendor Part"
+F 7 "A106144CT-ND" H 4200 6350 50  0001 C CNN "Vendor Part"
 	1    4200 6350
 	1    0    0    -1  
 $EndComp
@@ -376,7 +384,7 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 F 4 "TE Connectivity" H 2600 6350 50  0001 C CNN "Manufacturer"
 F 5 "RCT-0C" H 2600 6350 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 2600 6350 50  0001 C CNN "Vendor"
-F 7 "A106144TR-ND" H 2600 6350 50  0001 C CNN "Vendor Part"
+F 7 "A106144CT-ND" H 2600 6350 50  0001 C CNN "Vendor Part"
 	1    2600 6350
 	-1   0    0    -1  
 $EndComp
@@ -500,9 +508,13 @@ L Device:C C17
 U 1 1 5DCFD834
 P 5800 4150
 F 0 "C17" H 5915 4196 50  0000 L CNN
-F 1 "22u" H 5915 4105 50  0000 L CNN
+F 1 "22u/50V" H 5915 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5838 4000 50  0001 C CNN
-F 3 "~" H 5800 4150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL21A475KBQNNNE.pdf" H 5800 4150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5800 4150 50  0001 C CNN "Manufacturer"
+F 5 "CL21A475KBQNNNE" H 5800 4150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5800 4150 50  0001 C CNN "Vendor"
+F 7 "1276-1248-1-ND" H 5800 4150 50  0001 C CNN "Vendor Part"
 	1    5800 4150
 	1    0    0    -1  
 $EndComp
