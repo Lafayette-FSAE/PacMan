@@ -1,4 +1,0 @@
-CAN GPIO pins
-Micro footprint size
-Capacitor footprints and parts
-Include right angle headers for RTC and straight headers for Micro

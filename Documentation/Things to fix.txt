@@ -1,0 +1,12 @@
+Confirm CAN GPIO pins on micro
+ESP32 footprint outer size
+Spec new capacitors for back of board and fix the footprints
+Include right angle headers for RTC and straight headers for Micro on BOM
+Extend the solder pads for the fuse holder footprint to help with soldering
+Verify resistor and capacitor values in schematic with what is on board
+Increase size of text
+Try to leave room for USB between micro and panel header
+Redo all micro pins
+Redo mounting holes to use Imperial system
+Make entire board smaller, width and length
+Confirm with Connor what the 6 pins are

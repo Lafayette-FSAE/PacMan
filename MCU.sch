@@ -287,9 +287,9 @@ Wire Wire Line
 	1500 1750 1600 1750
 Wire Wire Line
 	1600 1850 1500 1850
-Text Label 6300 2950 2    50   ~ 0
+Text Label 6200 2950 2    50   ~ 0
 CANTX
-Text Label 6300 3050 2    50   ~ 0
+Text Label 6200 3050 2    50   ~ 0
 CANRX
 $Comp
 L Interface_CAN_LIN:MCP2551-I-SN U4
@@ -757,9 +757,9 @@ Text Label 6300 2150 2    50   ~ 0
 DISP_RST
 Text Label 7950 2650 0    50   ~ 0
 DISP_BUSY
-Text Label 6300 3150 2    50   ~ 0
+Text Label 6200 3150 2    50   ~ 0
 LED1
-Text Label 6300 3250 2    50   ~ 0
+Text Label 6200 3250 2    50   ~ 0
 LED2
 $Comp
 L Device:C C4
