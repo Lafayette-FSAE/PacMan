@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 5
 Title "PacMan"
 Date "2019-11-19"
-Rev "1.0"
+Rev "1.1"
 Comp "Lafayette College"
 Comment1 "PacMan accumulator management board"
 Comment2 "Jon Abel"

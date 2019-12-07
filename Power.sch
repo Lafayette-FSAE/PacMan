@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 4 5
 Title "PacMan: Power"
 Date "2019-11-19"
-Rev "1.0"
+Rev "1.1"
 Comp "Lafayette College"
 Comment1 "Power: Creates the necessary power rails for PacMan and CellMen"
 Comment2 "Jon Abel"
