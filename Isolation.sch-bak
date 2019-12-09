@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 5 5
 Title "PacMan: I2C Isolation"
 Date "2019-11-19"
-Rev "1.0"
+Rev "1.1"
 Comp "Lafayette College"
 Comment1 "I2C Isolation: Isolates the I2C bus between GLV and TSV"
 Comment2 "Jon Abel"

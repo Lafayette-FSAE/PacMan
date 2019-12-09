@@ -4,9 +4,18 @@ Spec new capacitors for back of board and fix the footprints
 Include right angle headers for RTC and straight headers for Micro on BOM
 Extend the solder pads for the fuse holder footprint to help with soldering
 Verify resistor and capacitor values in schematic with what is on board
-Increase size of text
+Increase size of title and name text
 Try to leave room for USB between micro and panel header
 Redo all micro pins
 Redo mounting holes to use Imperial system
 Make entire board smaller, width and length
 Confirm with Connor what the 6 pins are
+Time delay for safety loop in the event of a firmware crash - could probably be RC circuit at gate of FET driver
+Add measurement for SLOOP points to the microcontroller
+Consider adding test points for SDA/SCL
+Add "Made in USA" text
+QRCode to GitHub project
+Include a mounting hole for RTC and mounting hardware
+Include RTC battery in BOM
+Consider normally closed SLOOP relay
+Increase capacitor sizing for bulk caps on power supplies
