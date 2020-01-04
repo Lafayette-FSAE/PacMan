@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -133,11 +132,11 @@ Wire Wire Line
 Wire Wire Line
 	1250 1550 1350 1550
 Text HLabel 9600 1350 2    50   Input ~ 0
-EN_CHRG
+CHRG_EN
 Wire Wire Line
 	9600 1350 9500 1350
 Text Label 9500 1350 2    50   ~ 0
-EN_CHRG
+CHRG_EN
 Text Label 4950 3250 2    50   ~ 0
 CHRG_IN-
 Text HLabel 9600 1700 2    50   Input ~ 0
@@ -358,11 +357,11 @@ Wire Wire Line
 Wire Wire Line
 	6150 3250 5650 3250
 Text Label 8850 3400 0    50   ~ 0
-EN_CHRG
+CHRG_EN
 Text Label 8450 3100 0    50   ~ 0
 CHRG_LED
 Text Label 6150 3050 0    50   ~ 0
-EN_CHRG
+CHRG_EN
 $Comp
 L Device:Q_NMOS_GSD Q3
 U 1 1 5DCEBF2A
