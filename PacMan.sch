@@ -19,7 +19,7 @@ U 1 1 5DB7AEB3
 P 4750 6050
 F 0 "H1" H 4550 6100 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4850 6008 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 4750 6050 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_Pad" H 4750 6050 50  0001 C CNN
 F 3 "~" H 4750 6050 50  0001 C CNN
 	1    4750 6050
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5DB7B312
 P 5250 6050
 F 0 "H3" H 5350 6100 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5350 6008 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5250 6050 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_Pad" H 5250 6050 50  0001 C CNN
 F 3 "~" H 5250 6050 50  0001 C CNN
 	1    5250 6050
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5DB7B4D8
 P 4750 6350
 F 0 "H2" H 4950 6400 50  0000 R CNN
 F 1 "MountingHole_Pad" H 4850 6308 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 4750 6350 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_Pad" H 4750 6350 50  0001 C CNN
 F 3 "~" H 4750 6350 50  0001 C CNN
 	1    4750 6350
 	-1   0    0    1   
@@ -52,7 +52,7 @@ U 1 1 5DB7B6E5
 P 5250 6350
 F 0 "H4" H 5150 6400 50  0000 R CNN
 F 1 "MountingHole_Pad" H 5350 6308 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5250 6350 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_Pad" H 5250 6350 50  0001 C CNN
 F 3 "~" H 5250 6350 50  0001 C CNN
 	1    5250 6350
 	-1   0    0    1   
@@ -98,8 +98,8 @@ F0 "MCU" 50
 F1 "MCU.sch" 50
 F2 "SLOOP1_IN" I R 8550 900 50 
 F3 "SLOOP1_OUT" I R 8550 1000 50 
-F4 "AIRS+" I R 8550 1150 50 
-F5 "AIRS-" I R 8550 1250 50 
+F4 "AIRS+" I R 8550 1200 50 
+F5 "AIRS-" I R 8550 1300 50 
 F6 "GLV_24V" I L 7250 1150 50 
 F7 "GLV_RTN" I L 7250 1250 50 
 F8 "CHRG_EN" I L 7250 1400 50 
@@ -124,6 +124,7 @@ F26 "DISP_RST" I R 8550 1850 50
 F27 "DISP_BUSY" I R 8550 1750 50 
 F28 "CAN_SHIELD" I R 8550 1600 50 
 F29 "LV_3V3" I R 8550 2400 50 
+F30 "SLOOP2" I R 8550 1100 50 
 $EndSheet
 $Sheet
 S 4150 2300 1700 650 
@@ -345,13 +346,13 @@ Text Label 9650 5650 0    50   ~ 0
 LV_3V3
 Text Label 9650 6250 0    50   ~ 0
 LV_RTN
-Text Label 8950 5850 2    50   ~ 0
-DISP_DIN
 Text Label 8950 5950 2    50   ~ 0
-DISP_CLK
-Text Label 8950 6150 2    50   ~ 0
-DISP_CS
+DISP_DIN
 Text Label 8950 6050 2    50   ~ 0
+DISP_CLK
+Text Label 8950 5850 2    50   ~ 0
+DISP_CS
+Text Label 8950 6150 2    50   ~ 0
 DISP_DC
 Text Label 9650 5750 0    50   ~ 0
 DISP_RST
@@ -499,14 +500,14 @@ Text Label 8650 1000 0    50   ~ 0
 SLOOP1_OUT
 Wire Wire Line
 	8650 1000 8550 1000
-Text Label 8650 1150 0    50   ~ 0
+Text Label 8650 1200 0    50   ~ 0
 AIRS+
-Text Label 8650 1250 0    50   ~ 0
+Text Label 8650 1300 0    50   ~ 0
 AIRS-
 Wire Wire Line
-	8650 1150 8550 1150
+	8650 1200 8550 1200
 Wire Wire Line
-	8550 1250 8650 1250
+	8550 1300 8650 1300
 Text Label 8650 1400 0    50   ~ 0
 CAN_H
 Text Label 8650 1500 0    50   ~ 0
@@ -985,4 +986,8 @@ Text Label 1350 3150 0    50   ~ 0
 CHRG_DETECT-
 Text Label 1350 3050 0    50   ~ 0
 CHRG_DETECT+
+Wire Wire Line
+	8550 1100 8650 1100
+Text Label 8650 1100 0    50   ~ 0
+SLOOP2
 $EndSCHEMATC

@@ -13,7 +13,7 @@ Comment2 "Jon Abel"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 4850 1500 2    50   ~ 0
+Text Label 4850 1800 2    50   ~ 0
 SLOOP_EN
 Text Label 1600 1250 0    50   ~ 0
 SLOOP1_IN
@@ -91,11 +91,11 @@ F 3 "https://www.amazon.com/TTGO-ESP32-PSRAM-Antenna-Bluetooth/dp/B07B6NM1RY" H 
 	1    5050 1200
 	1    0    0    -1  
 $EndComp
-Text Label 6250 3600 0    50   ~ 0
+Text Label 6500 1700 0    50   ~ 0
 CHRG_EN
-Text Label 6250 3700 0    50   ~ 0
+Text Label 6500 1300 0    50   ~ 0
 WATCHDOG
-Text Label 4850 1900 2    50   ~ 0
+Text Label 6500 1500 0    50   ~ 0
 CHRG_CURRENT
 Text Label 7550 1050 2    50   ~ 0
 LED1
@@ -129,7 +129,7 @@ Text Label 1600 1100 0    50   ~ 0
 GLV_RTN
 Wire Wire Line
 	1500 1100 1600 1100
-Text Label 4750 5900 0    50   ~ 0
+Text Label 4750 6100 0    50   ~ 0
 AIRS_STATUS
 Text Label 1600 2100 0    50   ~ 0
 CHRG_EN
@@ -264,7 +264,7 @@ F 3 "~" H 7800 1050 50  0001 C CNN
 	1    7800 1050
 	0    -1   1    0   
 $EndComp
-Text Label 4750 6200 0    50   ~ 0
+Text Label 4850 1500 2    50   ~ 0
 ~CHRG_DETECT
 Text Label 1600 2450 0    50   ~ 0
 CAN_H
@@ -929,9 +929,9 @@ Wire Wire Line
 	2900 1400 3000 1400
 Wire Wire Line
 	3000 1300 2900 1300
-Text Label 7000 2400 0    50   ~ 0
+Text Label 6500 2300 0    50   ~ 0
 SDA_GLV
-Text Label 7000 2500 0    50   ~ 0
+Text Label 6500 2400 0    50   ~ 0
 SCL_GLV
 Text Label 3850 5500 2    50   ~ 0
 SDA_GLV
@@ -998,15 +998,15 @@ Text HLabel 2900 850  0    50   Input ~ 0
 BTN_RIGHT
 Text HLabel 2900 750  0    50   Input ~ 0
 BTN_LEFT
-Text Label 4850 2000 2    50   ~ 0
-BTN_LEFT_MCU
-Text Label 4850 2100 2    50   ~ 0
-BTN_RIGHT_MCU
-Text Label 4850 2200 2    50   ~ 0
-BTN_UP_MCU
 Text Label 4850 2300 2    50   ~ 0
-BTN_DOWN_MCU
+BTN_LEFT_MCU
 Text Label 4850 2400 2    50   ~ 0
+BTN_RIGHT_MCU
+Text Label 4850 2100 2    50   ~ 0
+BTN_UP_MCU
+Text Label 4850 2200 2    50   ~ 0
+BTN_DOWN_MCU
+Text Label 4850 2000 2    50   ~ 0
 BTN_CENTER_MCU
 Text Label 2050 3850 0    50   ~ 0
 BTN_LEFT
@@ -1224,10 +1224,10 @@ Wire Wire Line
 Text Label 9650 5200 0    50   ~ 0
 LV_RTN
 $Comp
-L Device:R R?
+L Device:R R40
 U 1 1 5E1DB431
 P 9550 4750
-F 0 "R?" H 9480 4704 50  0000 R CNN
+F 0 "R40" H 9480 4704 50  0000 R CNN
 F 1 "10k" H 9480 4795 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 4750 50  0001 C CNN
 F 3 "~" H 9550 4750 50  0001 C CNN
@@ -1241,10 +1241,10 @@ Wire Wire Line
 Wire Wire Line
 	8350 5000 8450 5000
 $Comp
-L Device:R R?
+L Device:R R38
 U 1 1 5E1DB424
 P 8600 5000
-F 0 "R?" V 8393 5000 50  0000 C CNN
+F 0 "R38" V 8393 5000 50  0000 C CNN
 F 1 "4.7k" V 8484 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 5000 50  0001 C CNN
 F 3 "~" H 8600 5000 50  0001 C CNN
@@ -1256,8 +1256,8 @@ L Isolator:TLP291 ISO?
 U 1 1 5E1DB41A
 P 9150 5100
 AR Path="/5DC1121D/5E1DB41A" Ref="ISO?"  Part="1" 
-AR Path="/5DC1F176/5E1DB41A" Ref="ISO?"  Part="1" 
-F 0 "ISO?" H 9150 5425 50  0000 C CNN
+AR Path="/5DC1F176/5E1DB41A" Ref="ISO6"  Part="1" 
+F 0 "ISO6" H 9150 5425 50  0000 C CNN
 F 1 "TLP293" H 9150 5334 50  0000 C CNN
 F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 8950 4900 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14419&prodName=TLP293" H 9150 5100 50  0001 L CNN
@@ -1300,10 +1300,10 @@ Wire Wire Line
 Text Label 9650 4250 0    50   ~ 0
 LV_RTN
 $Comp
-L Device:R R?
+L Device:R R39
 U 1 1 5E135638
 P 9550 3800
-F 0 "R?" H 9480 3754 50  0000 R CNN
+F 0 "R39" H 9480 3754 50  0000 R CNN
 F 1 "10k" H 9480 3845 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 3800 50  0001 C CNN
 F 3 "~" H 9550 3800 50  0001 C CNN
@@ -1317,10 +1317,10 @@ Wire Wire Line
 Wire Wire Line
 	8350 4050 8450 4050
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 5E13562B
 P 8600 4050
-F 0 "R?" V 8393 4050 50  0000 C CNN
+F 0 "R5" V 8393 4050 50  0000 C CNN
 F 1 "4.7k" V 8484 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 4050 50  0001 C CNN
 F 3 "~" H 8600 4050 50  0001 C CNN
@@ -1332,8 +1332,8 @@ L Isolator:TLP291 ISO?
 U 1 1 5E135621
 P 9150 4150
 AR Path="/5DC1121D/5E135621" Ref="ISO?"  Part="1" 
-AR Path="/5DC1F176/5E135621" Ref="ISO?"  Part="1" 
-F 0 "ISO?" H 9150 4475 50  0000 C CNN
+AR Path="/5DC1F176/5E135621" Ref="ISO5"  Part="1" 
+F 0 "ISO5" H 9150 4475 50  0000 C CNN
 F 1 "TLP293" H 9150 4384 50  0000 C CNN
 F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 8950 3950 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14419&prodName=TLP293" H 9150 4150 50  0001 L CNN
@@ -1518,7 +1518,7 @@ Text Label 1600 1450 0    50   ~ 0
 SLOOP2
 Wire Wire Line
 	1600 1450 1500 1450
-Text Label 4750 6100 0    50   ~ 0
+Text Label 4750 5900 0    50   ~ 0
 SLOOP1_STATUS
 Text Label 4750 6000 0    50   ~ 0
 SLOOP2_STATUS
@@ -1534,4 +1534,42 @@ Wire Wire Line
 	6400 1900 6500 1900
 Wire Wire Line
 	6400 2300 6500 2300
+NoConn ~ 6500 1900
+NoConn ~ 4750 5800
+NoConn ~ 4850 1900
+NoConn ~ 4750 6200
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5E29B771
+P 9150 950
+F 0 "TP8" H 9208 1068 50  0000 L CNN
+F 1 "SDA" H 9208 977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9350 950 50  0001 C CNN
+F 3 "~" H 9350 950 50  0001 C CNN
+	1    9150 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5E29B90A
+P 9650 950
+F 0 "TP9" H 9708 1068 50  0000 L CNN
+F 1 "SCL" H 9708 977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9850 950 50  0001 C CNN
+F 3 "~" H 9850 950 50  0001 C CNN
+	1    9650 950 
+	1    0    0    -1  
+$EndComp
+Text Label 9250 1050 0    50   ~ 0
+SDA_GLV
+Text Label 9750 1050 0    50   ~ 0
+SCL_GLV
+Wire Wire Line
+	9750 1050 9650 1050
+Wire Wire Line
+	9650 1050 9650 950 
+Wire Wire Line
+	9250 1050 9150 1050
+Wire Wire Line
+	9150 1050 9150 950 
 $EndSCHEMATC

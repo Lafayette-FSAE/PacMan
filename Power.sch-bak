@@ -100,11 +100,7 @@ F 7 "1N5819HW-FDICT-ND" H 5050 5150 50  0001 C CNN "Vendor Part"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4800 5150 4900 5150
-Wire Wire Line
 	5200 5150 5400 5150
-Wire Wire Line
-	4800 5650 5300 5650
 Wire Wire Line
 	5300 4300 5300 5650
 Wire Wire Line
@@ -271,7 +267,7 @@ L Connector:TestPoint TP4
 U 1 1 5DCA5799
 P 4200 6350
 F 0 "TP4" H 4258 6468 50  0000 L CNN
-F 1 "TP_LV_RTN" H 4258 6377 50  0000 L CNN
+F 1 "LV_RTN" H 4258 6377 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 6350 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4400 6350 50  0001 C CNN
 F 4 "TE Connectivity" H 4200 6350 50  0001 C CNN "Manufacturer"
@@ -286,7 +282,7 @@ L Connector:TestPoint TP5
 U 1 1 5DCA5C36
 P 4750 6350
 F 0 "TP5" H 4808 6468 50  0000 L CNN
-F 1 "TP_LV_5V" H 4808 6377 50  0000 L CNN
+F 1 "LV_5V" H 4808 6377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4950 6350 50  0001 C CNN
 F 3 "~" H 4950 6350 50  0001 C CNN
 	1    4750 6350
@@ -309,7 +305,7 @@ L Connector:TestPoint TP6
 U 1 1 5DCACD71
 P 5300 6350
 F 0 "TP6" H 5358 6468 50  0000 L CNN
-F 1 "TP_LV_24V" H 5358 6377 50  0000 L CNN
+F 1 "LV_24V" H 5358 6377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5500 6350 50  0001 C CNN
 F 3 "~" H 5500 6350 50  0001 C CNN
 	1    5300 6350
@@ -326,7 +322,7 @@ L Connector:TestPoint TP7
 U 1 1 5DCAF4E1
 P 5850 6350
 F 0 "TP7" H 5908 6468 50  0000 L CNN
-F 1 "TP_GLV_24V" H 5908 6377 50  0000 L CNN
+F 1 "GLV_24V" H 5908 6377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6050 6350 50  0001 C CNN
 F 3 "~" H 6050 6350 50  0001 C CNN
 	1    5850 6350
@@ -343,7 +339,7 @@ L Connector:TestPoint TP2
 U 1 1 5DCB539A
 P 3150 6350
 F 0 "TP2" H 3208 6468 50  0000 L CNN
-F 1 "TP_TSV_5V" H 3208 6377 50  0000 L CNN
+F 1 "TSV_5V" H 3208 6377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3350 6350 50  0001 C CNN
 F 3 "~" H 3350 6350 50  0001 C CNN
 	1    3150 6350
@@ -354,7 +350,7 @@ L Connector:TestPoint TP3
 U 1 1 5DCB53A4
 P 3700 6350
 F 0 "TP3" H 3758 6468 50  0000 L CNN
-F 1 "TP_TSV_9V" H 3758 6377 50  0000 L CNN
+F 1 "TSV_9V" H 3758 6377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3900 6350 50  0001 C CNN
 F 3 "~" H 3900 6350 50  0001 C CNN
 	1    3700 6350
@@ -377,7 +373,7 @@ L Connector:TestPoint TP1
 U 1 1 5DCB8929
 P 2600 6350
 F 0 "TP1" H 2658 6468 50  0000 L CNN
-F 1 "TP_TSV_RTN" H 2658 6377 50  0000 L CNN
+F 1 "TSV_RTN" H 2658 6377 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2800 6350 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 2800 6350 50  0001 C CNN
 F 4 "TE Connectivity" H 2600 6350 50  0001 C CNN "Manufacturer"
@@ -702,88 +698,9 @@ Wire Wire Line
 Wire Wire Line
 	2100 4000 2650 4000
 Connection ~ 2650 4000
-Wire Wire Line
-	2650 4000 2900 4000
 Connection ~ 2650 4300
 Wire Wire Line
 	2650 4300 3500 4300
-$Comp
-L Isolator:TLP291 ISO?
-U 1 1 5E201304
-P 3950 5400
-AR Path="/5DC1121D/5E201304" Ref="ISO?"  Part="1" 
-AR Path="/5E201304" Ref="ISO?"  Part="1" 
-AR Path="/5DCA6D60/5E201304" Ref="ISO?"  Part="1" 
-AR Path="/5DD31136/5E201304" Ref="ISO3"  Part="1" 
-F 0 "ISO3" H 3950 5725 50  0000 C CNN
-F 1 "TLP293" H 3950 5634 50  0000 C CNN
-F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 3750 5200 50  0001 L CIN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14419&prodName=TLP293" H 3950 5400 50  0001 L CNN
-F 4 "Toshiba Semiconductor" H 3950 5400 50  0001 C CNN "Manufacturer"
-F 5 "TLP293(GR-TPL,E" H 3950 5400 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3950 5400 50  0001 C CNN "Vendor"
-F 7 "TLP293(GR-TPLECT-ND" H 3950 5400 50  0001 C CNN "Vendor Part"
-	1    3950 5400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 5500 3550 5500
-Text Label 3550 5500 2    50   ~ 0
-PACK_RTN
-$Comp
-L Device:R R27
-U 1 1 5E22D7C8
-P 3150 4150
-F 0 "R27" V 3050 4150 50  0000 C CNN
-F 1 "R" V 3150 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3080 4150 50  0001 C CNN
-F 3 "~" H 3150 4150 50  0001 C CNN
-	1    3150 4150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 4150 2900 4150
-Wire Wire Line
-	2900 4150 2900 4000
-Connection ~ 2900 4000
-Wire Wire Line
-	2900 4000 3500 4000
-Wire Wire Line
-	3500 4150 3400 4150
-Connection ~ 3400 4150
-Wire Wire Line
-	3400 4150 3300 4150
-Wire Wire Line
-	3400 5300 3650 5300
-Wire Wire Line
-	3400 4150 3400 5300
-$Comp
-L Device:R R28
-U 1 1 5E275666
-P 4500 5300
-F 0 "R28" V 4400 5300 50  0000 C CNN
-F 1 "4.7k" V 4500 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 5300 50  0001 C CNN
-F 3 "~" H 4500 5300 50  0001 C CNN
-	1    4500 5300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4650 5300 4800 5300
-Wire Wire Line
-	4800 5300 4800 5150
-Wire Wire Line
-	4350 5300 4250 5300
-Wire Wire Line
-	4250 5500 4800 5500
-Wire Wire Line
-	4800 5500 4800 5650
-Wire Wire Line
-	4700 5650 4800 5650
-Connection ~ 4800 5650
-Wire Wire Line
-	4700 5150 4800 5150
-Connection ~ 4800 5150
 Text Label 1450 1700 0    50   ~ 0
 DCHRG_A2
 Text Label 1450 1600 0    50   ~ 0
@@ -913,4 +830,11 @@ Wire Wire Line
 Connection ~ 6000 5650
 Wire Wire Line
 	6000 5650 6750 5650
+Wire Wire Line
+	2650 4000 3500 4000
+Wire Wire Line
+	4700 5150 4900 5150
+Wire Wire Line
+	4700 5650 5300 5650
+NoConn ~ 3500 4150
 $EndSCHEMATC

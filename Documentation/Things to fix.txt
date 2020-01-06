@@ -1,26 +1,27 @@
 To do:
 
-Confirm CAN GPIO pins on micro
+Verify resistor and capacitor values in schematic with what is on board
 ESP32 footprint outer size
 Spec new capacitors for back of board and fix the footprints
-Include right angle headers for RTC and straight headers for Micro on BOM
-Verify resistor and capacitor values in schematic with what is on board
-Increase size of title and name text
-Try to leave room for USB between micro and panel header
-Redo all micro pins
-Redo mounting holes to use Imperial system
-Make entire board smaller, width and length
+Increase capacitor sizing for bulk caps on power supplies
 Confirm with Connor what the 6 pins are
 Time delay for safety loop in the event of a firmware crash - could probably be RC circuit at gate of FET driver
-Consider adding test points for SDA/SCL
-Add "Made in USA" text
 QRCode to GitHub project
 Include a mounting hole for RTC and mounting hardware
 Include RTC battery in BOM
-Increase capacitor sizing for bulk caps on power supplies
+Include right angle headers for RTC and straight headers for Micro on BOM
+
 
 
 Complete:
 
 Extend the solder pads for the fuse holder footprint to help with soldering
 Add measurement for SLOOP points to the microcontroller
+Confirm CAN GPIO pins on micro
+Redo all micro pins
+Increase size of title and name text
+Redo mounting holes to use Imperial system
+Add "Made in USA" text
+Try to leave room for USB between micro and panel header
+Make entire board smaller, width and length
+Consider adding test points for SDA/SCL
