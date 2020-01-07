@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -494,4 +495,15 @@ Text HLabel 1500 1850 0    50   Input ~ 0
 TSV_5V_AMPS
 Wire Wire Line
 	1500 1850 1600 1850
+$Comp
+L Lafayette_Electric_Car_Internals:Si8600AC U?
+U 1 1 5E15483A
+P 7500 4150
+F 0 "U?" H 7850 4317 50  0000 C CNN
+F 1 "Si8600AC" H 7850 4226 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7350 4200 50  0001 C CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/Si860x.pdf" H 7350 4200 50  0001 C CNN
+	1    7500 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

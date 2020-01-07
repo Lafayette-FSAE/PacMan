@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -6,7 +7,7 @@ encoding utf-8
 Sheet 2 5
 Title "PacMan: MCU, SLOOP, CANBus"
 Date "2019-11-19"
-Rev "1.1"
+Rev "1.2"
 Comp "Lafayette College"
 Comment1 "MCU, SLOOP, CANBus: Contains the controlling MCU, SLOOP relay, and CAN tranceiver"
 Comment2 "Jon Abel"
