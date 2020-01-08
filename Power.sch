@@ -514,22 +514,6 @@ F 7 "1276-1248-1-ND" H 5800 4150 50  0001 C CNN "Vendor Part"
 	1    5800 4150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6150 4150
-$Comp
-L Lafayette_Electric_Car_Internals:PDQE10-Q24-S9-D U12
-U 1 1 5DC70E28
-P 6250 3900
-F 0 "U12" H 6600 4067 50  0000 C CNN
-F 1 "PDQE10-Q24-S9-D" H 6600 3976 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:PDQE10-DIP6" H 5750 3900 50  0001 C CNN
-F 3 "https://www.cui.com/product/resource/pdqe10-d.pdf" H 5750 3900 50  0001 C CNN
-F 4 "CUI Inc." H 6250 3900 50  0001 C CNN "Manufacturer"
-F 5 "PDQE10-Q24-S9-D" H 6250 3900 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 6250 3900 50  0001 C CNN "Vendor"
-F 7 "102-4862-ND" H 6250 3900 50  0001 C CNN "Vendor Part"
-	1    6250 3900
-	1    0    0    -1  
-$EndComp
 Connection ~ 7950 3800
 Wire Wire Line
 	7300 4000 7450 4000
@@ -558,8 +542,6 @@ F 7 "1276-3388-1-ND" H 7300 4150 50  0001 C CNN "Vendor Part"
 	1    7300 4150
 	1    0    0    -1  
 $EndComp
-Text Label 7450 3800 0    50   ~ 0
-TSV_9V
 $Comp
 L Device:C C22
 U 1 1 5DC67B6A
@@ -838,4 +820,22 @@ Wire Wire Line
 Wire Wire Line
 	4700 5650 5300 5650
 NoConn ~ 3500 4150
+Text Label 7450 3800 0    50   ~ 0
+TSV_9V
+NoConn ~ 6150 4150
+$Comp
+L Lafayette_Electric_Car_Internals:PDQE10-Q24-S9-D U12
+U 1 1 5DC70E28
+P 6250 3900
+F 0 "U12" H 6600 4067 50  0000 C CNN
+F 1 "PDQE10-Q24-S9-D" H 6600 3976 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:PDQE10-DIP6" H 5750 3900 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/pdqe10-d.pdf" H 5750 3900 50  0001 C CNN
+F 4 "CUI Inc." H 6250 3900 50  0001 C CNN "Manufacturer"
+F 5 "PDQE10-Q24-S9-D" H 6250 3900 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 6250 3900 50  0001 C CNN "Vendor"
+F 7 "102-4862-ND" H 6250 3900 50  0001 C CNN "Vendor Part"
+	1    6250 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

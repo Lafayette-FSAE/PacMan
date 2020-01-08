@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 3 5
 Title "PacMan: Charging"
 Date "2019-11-19"
-Rev "1.1"
+Rev "1.2"
 Comp "Lafayette College"
 Comment1 "Charging: Controls charging relays and measure charging current"
 Comment2 "Jon Abel"
@@ -58,41 +58,6 @@ Wire Wire Line
 Connection ~ 3250 4400
 Wire Wire Line
 	3650 4400 3250 4400
-Wire Wire Line
-	3250 4100 2850 4100
-Connection ~ 3250 4100
-Wire Wire Line
-	3650 4100 3250 4100
-$Comp
-L Device:D D4
-U 1 1 5DC131A4
-P 3250 4250
-F 0 "D4" V 3204 4171 50  0000 R CNN
-F 1 "S1B" V 3295 4171 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 3250 4250 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 3250 4250 50  0001 C CNN
-F 4 "Diodes Incorporated" H 3250 4250 50  0001 C CNN "Manufacturer"
-F 5 "S1B-13-F" H 3250 4250 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3250 4250 50  0001 C CNN "Vendor"
-F 7 "S1B-FDICT-ND" H 3250 4250 50  0001 C CNN "Vendor Part"
-	1    3250 4250
-	0    1    1    0   
-$EndComp
-$Comp
-L Lafayette_Electric_Car_Internals:T9AS1D12 K2
-U 1 1 5DC131AA
-P 3750 4050
-F 0 "K2" H 3950 4225 50  0000 C CNN
-F 1 "T9AS1D12-48" H 3950 4134 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:T9AS1D12" H 3745 4050 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 3745 4050 50  0001 C CNN
-F 4 "TE Connectivity" H 3750 4050 50  0001 C CNN "Manufacturer"
-F 5 "T9AS1D12-48" H 3750 4050 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3750 4050 50  0001 C CNN "Vendor"
-F 7 "PB1013-ND" H 3750 4050 50  0001 C CNN "Vendor Part"
-	1    3750 4050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Lafayette_Electric_Car_Internals:T9AS1D12 K3
 U 1 1 5DC131B0
@@ -357,37 +322,37 @@ Wire Wire Line
 	5650 3050 5750 3050
 Wire Wire Line
 	6150 3250 5650 3250
-Text Label 8850 3400 0    50   ~ 0
+Text Label 9600 4900 0    50   ~ 0
 CHRG_EN
-Text Label 8450 3100 0    50   ~ 0
+Text Label 9200 4600 0    50   ~ 0
 CHRG_LED
 Text Label 6150 3050 0    50   ~ 0
 CHRG_EN
 $Comp
 L Device:Q_NMOS_GSD Q3
 U 1 1 5DCEBF2A
-P 8550 3400
-F 0 "Q3" H 8756 3446 50  0000 L CNN
-F 1 "BSS123" H 8756 3355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 8750 3500 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30366.pdf" H 8550 3400 50  0001 C CNN
-F 4 "Diodes Incorporated" H 8550 3400 50  0001 C CNN "Manufacturer"
-F 5 "BSS123-7-F" H 8550 3400 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 8550 3400 50  0001 C CNN "Vendor"
-F 7 "BSS123-FDICT-ND" H 8550 3400 50  0001 C CNN "Vendor Part"
-	1    8550 3400
+P 9300 4900
+F 0 "Q3" H 9506 4946 50  0000 L CNN
+F 1 "BSS123" H 9506 4855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 9500 5000 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30366.pdf" H 9300 4900 50  0001 C CNN
+F 4 "Diodes Incorporated" H 9300 4900 50  0001 C CNN "Manufacturer"
+F 5 "BSS123-7-F" H 9300 4900 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9300 4900 50  0001 C CNN "Vendor"
+F 7 "BSS123-FDICT-ND" H 9300 4900 50  0001 C CNN "Vendor Part"
+	1    9300 4900
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 3400 8750 3400
-Text Label 8550 3700 0    50   ~ 0
+	9600 4900 9500 4900
+Text Label 9300 5200 0    50   ~ 0
 LV_RTN
 Wire Wire Line
-	8550 3700 8450 3700
+	9300 5200 9200 5200
 Wire Wire Line
-	8450 3700 8450 3600
+	9200 5200 9200 5100
 Wire Wire Line
-	8450 3100 8450 3200
+	9200 4600 9200 4700
 Text Label 6150 3250 0    50   ~ 0
 LV_RTN
 $Comp
@@ -403,19 +368,6 @@ F 3 "~" H 5900 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6150 3050 6050 3050
-$Comp
-L Device:R R21
-U 1 1 5DD15CF4
-P 3450 3650
-F 0 "R21" H 3520 3696 50  0000 L CNN
-F 1 "560" H 3520 3605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3380 3650 50  0001 C CNN
-F 3 "~" H 3450 3650 50  0001 C CNN
-	1    3450 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 3900 3250 4100
 Wire Wire Line
 	3250 3400 3250 3250
 Text Notes 3750 4550 0    50   ~ 0
@@ -443,14 +395,7 @@ Wire Wire Line
 	3450 3400 3450 3500
 Connection ~ 3250 3400
 Wire Wire Line
-	3250 3900 3050 3900
-Wire Wire Line
 	3050 3900 3050 3800
-Wire Wire Line
-	3250 3900 3450 3900
-Wire Wire Line
-	3450 3900 3450 3800
-Connection ~ 3250 3900
 $Comp
 L Device:R R19
 U 1 1 5E378CB3
@@ -488,4 +433,151 @@ Wire Wire Line
 	5100 4100 4250 4100
 Wire Wire Line
 	5100 4100 5100 4400
+Connection ~ 3250 3900
+Wire Wire Line
+	3450 3900 3450 3800
+Wire Wire Line
+	3250 3900 3450 3900
+Wire Wire Line
+	3250 3900 3050 3900
+Wire Wire Line
+	3250 3900 3250 4100
+$Comp
+L Device:R R21
+U 1 1 5DD15CF4
+P 3450 3650
+F 0 "R21" H 3520 3696 50  0000 L CNN
+F 1 "560" H 3520 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3380 3650 50  0001 C CNN
+F 3 "~" H 3450 3650 50  0001 C CNN
+	1    3450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lafayette_Electric_Car_Internals:T9AS1D12 K2
+U 1 1 5DC131AA
+P 3750 4050
+F 0 "K2" H 3950 4225 50  0000 C CNN
+F 1 "T9AS1D12-48" H 3950 4134 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:T9AS1D12" H 3745 4050 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 3745 4050 50  0001 C CNN
+F 4 "TE Connectivity" H 3750 4050 50  0001 C CNN "Manufacturer"
+F 5 "T9AS1D12-48" H 3750 4050 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3750 4050 50  0001 C CNN "Vendor"
+F 7 "PB1013-ND" H 3750 4050 50  0001 C CNN "Vendor Part"
+	1    3750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5DC131A4
+P 3250 4250
+F 0 "D4" V 3204 4171 50  0000 R CNN
+F 1 "S1B" V 3295 4171 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3250 4250 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 3250 4250 50  0001 C CNN
+F 4 "Diodes Incorporated" H 3250 4250 50  0001 C CNN "Manufacturer"
+F 5 "S1B-13-F" H 3250 4250 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3250 4250 50  0001 C CNN "Vendor"
+F 7 "S1B-FDICT-ND" H 3250 4250 50  0001 C CNN "Vendor Part"
+	1    3250 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 4100 3250 4100
+Connection ~ 3250 4100
+Wire Wire Line
+	3250 4100 2850 4100
+$Comp
+L Lafayette_Electric_Car_Internals:T9AS1D12 K?
+U 1 1 5E16A033
+P 6900 1850
+F 0 "K?" H 7100 2025 50  0000 C CNN
+F 1 "T9AS1D12-24" H 7100 1934 50  0000 C CNN
+F 2 "" H 6895 1850 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 6895 1850 50  0001 C CNN
+	1    6900 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Lafayette_Electric_Car_Internals:T9AS1D12 K?
+U 1 1 5E16FA3F
+P 6900 1200
+F 0 "K?" H 7100 1375 50  0000 C CNN
+F 1 "T9AS1D12-24" H 7100 1284 50  0000 C CNN
+F 2 "" H 6895 1200 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 6895 1200 50  0001 C CNN
+	1    6900 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5E17314A
+P 7300 2050
+F 0 "D?" V 7254 1971 50  0000 R CNN
+F 1 "S1B" V 7345 1971 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 7300 2050 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 7300 2050 50  0001 C CNN
+F 4 "Diodes Incorporated" H 7300 2050 50  0001 C CNN "Manufacturer"
+F 5 "S1B-13-F" H 7300 2050 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 7300 2050 50  0001 C CNN "Vendor"
+F 7 "S1B-FDICT-ND" H 7300 2050 50  0001 C CNN "Vendor Part"
+	1    7300 2050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5E18B0A8
+P 7300 2500
+F 0 "Q?" H 7506 2546 50  0000 L CNN
+F 1 "2N7002" H 7506 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7500 2425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7300 2500 50  0001 L CNN
+	1    7300 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1550 7100 1550
+Wire Wire Line
+	7100 1550 7100 2200
+Wire Wire Line
+	7100 2200 7000 2200
+Text Label 7300 1150 0    50   ~ 0
+LV_24V
+Wire Wire Line
+	7200 1250 7000 1250
+Wire Wire Line
+	7000 1900 7200 1900
+Wire Wire Line
+	7200 1900 7200 1250
+Wire Wire Line
+	7200 1250 7300 1250
+Wire Wire Line
+	7300 1250 7300 1150
+Connection ~ 7200 1250
+Text Notes 6900 1550 1    50   ~ 0
+R=576
+Text Notes 6900 2200 1    50   ~ 0
+R=576
+Wire Wire Line
+	7200 1900 7300 1900
+Connection ~ 7200 1900
+Wire Wire Line
+	7100 2200 7200 2200
+Connection ~ 7100 2200
+Wire Wire Line
+	7200 2200 7200 2300
+Connection ~ 7200 2200
+Wire Wire Line
+	7200 2200 7300 2200
+Text Label 7600 2500 0    50   ~ 0
+CHRG_EN
+Wire Wire Line
+	7600 2500 7500 2500
+Text Label 7300 2800 0    50   ~ 0
+LV_RTN
+Wire Wire Line
+	7300 2800 7200 2800
+Wire Wire Line
+	7200 2800 7200 2700
 $EndSCHEMATC
