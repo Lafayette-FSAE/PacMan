@@ -258,32 +258,32 @@ Wire Wire Line
 Wire Wire Line
 	5100 3200 5100 3500
 $Comp
-L Lafayette_Electric_Car_Internals:T9AS1D12 K?
+L Lafayette_Electric_Car_Internals:T9AS1D12 K3
 U 1 1 5E16A033
 P 5550 2100
-F 0 "K?" H 5750 2275 50  0000 C CNN
+F 0 "K3" H 5750 2275 50  0000 C CNN
 F 1 "T9AS1D12-24" H 5750 2184 50  0000 C CNN
-F 2 "" H 5545 2100 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:T9AS1D12" H 5545 2100 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 5545 2100 50  0001 C CNN
 	1    5550 2100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Lafayette_Electric_Car_Internals:T9AS1D12 K?
+L Lafayette_Electric_Car_Internals:T9AS1D12 K2
 U 1 1 5E16FA3F
 P 5550 1450
-F 0 "K?" H 5750 1625 50  0000 C CNN
+F 0 "K2" H 5750 1625 50  0000 C CNN
 F 1 "T9AS1D12-24" H 5750 1534 50  0000 C CNN
-F 2 "" H 5545 1450 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:T9AS1D12" H 5545 1450 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 5545 1450 50  0001 C CNN
 	1    5550 1450
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
+L Device:D D4
 U 1 1 5E17314A
 P 5950 2300
-F 0 "D?" V 5904 2221 50  0000 R CNN
+F 0 "D4" V 5904 2221 50  0000 R CNN
 F 1 "S1B" V 5995 2221 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 5950 2300 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 5950 2300 50  0001 C CNN
@@ -295,10 +295,10 @@ F 7 "S1B-FDICT-ND" H 5950 2300 50  0001 C CNN "Vendor Part"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Transistor_FET:2N7002 Q?
+L Transistor_FET:2N7002 Q2
 U 1 1 5E18B0A8
 P 5950 2750
-F 0 "Q?" H 6156 2796 50  0000 L CNN
+F 0 "Q2" H 6156 2796 50  0000 L CNN
 F 1 "2N7002" H 6156 2705 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6150 2675 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5950 2750 50  0001 L CNN

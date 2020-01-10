@@ -20,27 +20,19 @@ Text HLabel 9550 1450 2    50   Input ~ 0
 SCL_GLV
 Text HLabel 9550 1200 2    50   Input ~ 0
 LV_RTN
-Text HLabel 1500 1200 0    50   Input ~ 0
+Text HLabel 1350 950  0    50   Input ~ 0
 TSV_RTN
-Text HLabel 1500 1100 0    50   Input ~ 0
+Text HLabel 1350 850  0    50   Input ~ 0
 TSV_5V
-Text HLabel 1500 1350 0    50   Input ~ 0
-SDA_TSV
-Text HLabel 1500 1450 0    50   Input ~ 0
-SCL_TSV
 Text Label 9450 1200 2    50   ~ 0
 LV_RTN
 Text Label 9450 1450 2    50   ~ 0
 SCL_GLV
 Text Label 9450 1350 2    50   ~ 0
 SDA_GLV
-Text Label 1600 1200 0    50   ~ 0
+Text Label 1450 950  0    50   ~ 0
 TSV_RTN
-Text Label 1600 1350 0    50   ~ 0
-SDA_TSV
-Text Label 1600 1450 0    50   ~ 0
-SCL_TSV
-Text Label 1600 1100 0    50   ~ 0
+Text Label 1450 850  0    50   ~ 0
 TSV_5V
 Text Label 9450 1100 2    50   ~ 0
 LV_5V
@@ -55,13 +47,9 @@ Wire Wire Line
 Wire Wire Line
 	9550 1100 9450 1100
 Wire Wire Line
-	1600 1100 1500 1100
+	1450 850  1350 850 
 Wire Wire Line
-	1500 1350 1600 1350
-Wire Wire Line
-	1600 1450 1500 1450
-Wire Wire Line
-	1500 1200 1600 1200
+	1350 950  1450 950 
 $Comp
 L Device:R R?
 U 1 1 5DE82D88
@@ -119,16 +107,16 @@ Wire Wire Line
 Wire Wire Line
 	4150 4800 4350 4800
 Wire Wire Line
-	1500 1600 1600 1600
+	1350 2150 1450 2150
 Wire Wire Line
-	1600 1700 1500 1700
-Text Label 1600 1700 0    50   ~ 0
+	1450 2250 1350 2250
+Text Label 1450 2250 0    50   ~ 0
 CHRG_DETECT-
-Text Label 1600 1600 0    50   ~ 0
+Text Label 1450 2150 0    50   ~ 0
 CHRG_DETECT+
-Text HLabel 1500 1700 0    50   Input ~ 0
+Text HLabel 1350 2250 0    50   Input ~ 0
 CHRG_DETECT-
-Text HLabel 1500 1600 0    50   Input ~ 0
+Text HLabel 1350 2150 0    50   Input ~ 0
 CHRG_DETECT+
 Wire Notes Line
 	5500 1500 5500 650 
@@ -259,30 +247,30 @@ Wire Wire Line
 	9450 1750 9550 1750
 Wire Wire Line
 	9550 1850 9450 1850
-Text Label 1600 1850 0    50   ~ 0
+Text Label 1450 2450 0    50   ~ 0
 TSV_5V_AMPS
-Text HLabel 1500 1850 0    50   Input ~ 0
+Text HLabel 1350 2450 0    50   Input ~ 0
 TSV_5V_AMPS
 Wire Wire Line
-	1500 1850 1600 1850
+	1350 2450 1450 2450
 $Comp
-L Lafayette_Electric_Car_Internals:Si8600AC U?
+L Lafayette_Electric_Car_Internals:Si8600AC U14
 U 1 1 5E15483A
 P 5850 1750
-F 0 "U?" H 6200 1917 50  0000 C CNN
+F 0 "U14" H 6200 1917 50  0000 C CNN
 F 1 "Si8600AC" H 6200 1826 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 1800 50  0001 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5700 1800 50  0001 C CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/Si860x.pdf" H 5700 1800 50  0001 C CNN
 	1    5850 1750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Lafayette_Electric_Car_Internals:Si8600AC U?
+L Lafayette_Electric_Car_Internals:Si8600AC U15
 U 1 1 5E162F9F
 P 5850 2650
-F 0 "U?" H 6200 2817 50  0000 C CNN
+F 0 "U15" H 6200 2817 50  0000 C CNN
 F 1 "Si8600AC" H 6200 2726 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 2700 50  0001 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5700 2700 50  0001 C CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/Si860x.pdf" H 5700 2700 50  0001 C CNN
 	1    5850 2650
 	-1   0    0    -1  
@@ -354,10 +342,10 @@ Wire Wire Line
 Wire Notes Line
 	5500 2400 5500 2300
 $Comp
-L Device:R R?
+L Device:R R21
 U 1 1 5E195C66
 P 3700 1800
-F 0 "R?" H 3770 1846 50  0000 L CNN
+F 0 "R21" H 3770 1846 50  0000 L CNN
 F 1 "4.7k" H 3770 1755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 1800 50  0001 C CNN
 F 3 "~" H 3700 1800 50  0001 C CNN
@@ -365,10 +353,10 @@ F 3 "~" H 3700 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R19
 U 1 1 5E195C70
 P 3400 1800
-F 0 "R?" H 3470 1846 50  0000 L CNN
+F 0 "R19" H 3470 1846 50  0000 L CNN
 F 1 "4.7k" H 3470 1755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3330 1800 50  0001 C CNN
 F 3 "~" H 3400 1800 50  0001 C CNN
@@ -399,10 +387,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 2050 3700 1950
 $Comp
-L Device:R R?
+L Device:R R22
 U 1 1 5E1998D5
 P 3700 2700
-F 0 "R?" H 3770 2746 50  0000 L CNN
+F 0 "R22" H 3770 2746 50  0000 L CNN
 F 1 "4.7k" H 3770 2655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 2700 50  0001 C CNN
 F 3 "~" H 3700 2700 50  0001 C CNN
@@ -410,10 +398,10 @@ F 3 "~" H 3700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R20
 U 1 1 5E1998DF
 P 3400 2700
-F 0 "R?" H 3470 2746 50  0000 L CNN
+F 0 "R20" H 3470 2746 50  0000 L CNN
 F 1 "4.7k" H 3470 2655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3330 2700 50  0001 C CNN
 F 3 "~" H 3400 2700 50  0001 C CNN
@@ -444,10 +432,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 2950 3700 2850
 $Comp
-L Device:C C?
+L Device:C C21
 U 1 1 5E1B6276
 P 7200 2800
-F 0 "C?" H 7315 2846 50  0000 L CNN
+F 0 "C21" H 7315 2846 50  0000 L CNN
 F 1 "0.1u/50V" H 7315 2755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7238 2650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 7200 2800 50  0001 C CNN
@@ -471,10 +459,10 @@ LV_RTN
 Text Label 7250 2600 0    50   ~ 0
 LV_5V
 $Comp
-L Device:C C?
+L Device:C C22
 U 1 1 5E1BAD60
 P 8100 2800
-F 0 "C?" H 8215 2846 50  0000 L CNN
+F 0 "C22" H 8215 2846 50  0000 L CNN
 F 1 "0.1u/50V" H 8215 2755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8138 2650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8100 2800 50  0001 C CNN
@@ -498,10 +486,10 @@ LV_RTN
 Text Label 8150 2600 0    50   ~ 0
 LV_5V
 $Comp
-L Device:C C?
+L Device:C C17
 U 1 1 5E1BF4FC
 P 3200 3500
-F 0 "C?" H 3315 3546 50  0000 L CNN
+F 0 "C17" H 3315 3546 50  0000 L CNN
 F 1 "0.1u/50V" H 3315 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3238 3350 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 3200 3500 50  0001 C CNN
@@ -525,10 +513,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 3700 3200 3650
 $Comp
-L Device:C C?
+L Device:C C20
 U 1 1 5E1C3ED5
 P 4150 3500
-F 0 "C?" H 4265 3546 50  0000 L CNN
+F 0 "C20" H 4265 3546 50  0000 L CNN
 F 1 "0.1u/50V" H 4265 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4188 3350 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 4150 3500 50  0001 C CNN
@@ -552,10 +540,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 3700 4150 3650
 $Comp
-L Device:R R?
+L Device:R R23
 U 1 1 5E1CF5A8
 P 7200 1800
-F 0 "R?" H 7270 1846 50  0000 L CNN
+F 0 "R23" H 7270 1846 50  0000 L CNN
 F 1 "4.7k" H 7270 1755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7130 1800 50  0001 C CNN
 F 3 "~" H 7200 1800 50  0001 C CNN
@@ -563,10 +551,10 @@ F 3 "~" H 7200 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R27
 U 1 1 5E1CF5B2
 P 7550 1800
-F 0 "R?" H 7620 1846 50  0000 L CNN
+F 0 "R27" H 7620 1846 50  0000 L CNN
 F 1 "4.7k" H 7620 1755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7480 1800 50  0001 C CNN
 F 3 "~" H 7550 1800 50  0001 C CNN
@@ -602,8 +590,8 @@ U 1 1 5E1E7B44
 P 5500 4200
 AR Path="/5DC1121D/5E1E7B44" Ref="ISO?"  Part="1" 
 AR Path="/5E1E7B44" Ref="ISO?"  Part="1" 
-AR Path="/5DCA6D60/5E1E7B44" Ref="ISO?"  Part="1" 
-F 0 "ISO?" H 5500 4525 50  0000 C CNN
+AR Path="/5DCA6D60/5E1E7B44" Ref="ISO2"  Part="1" 
+F 0 "ISO2" H 5500 4525 50  0000 C CNN
 F 1 "TLP293" H 5500 4434 50  0000 C CNN
 F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 5300 4000 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14419&prodName=TLP293" H 5500 4200 50  0001 L CNN
@@ -634,4 +622,52 @@ Wire Wire Line
 Connection ~ 4750 4800
 Wire Wire Line
 	4750 4800 4850 4800
+Text Label 1450 1150 0    50   ~ 0
+SEG1_5V
+Text Label 1450 1250 0    50   ~ 0
+SDA_SEG1
+Text Label 1450 1350 0    50   ~ 0
+SCL_SEG1
+Text Label 1450 1450 0    50   ~ 0
+SEG1_RTN
+Text Label 1450 1650 0    50   ~ 0
+SEG2_5V
+Text Label 1450 1750 0    50   ~ 0
+SDA_SEG2
+Text Label 1450 1850 0    50   ~ 0
+SCL_SEG2
+Text Label 1450 1950 0    50   ~ 0
+SEG2_RTN
+Wire Wire Line
+	1450 1150 1350 1150
+Wire Wire Line
+	1350 1250 1450 1250
+Wire Wire Line
+	1350 1350 1450 1350
+Wire Wire Line
+	1350 1450 1450 1450
+Wire Wire Line
+	1350 1650 1450 1650
+Wire Wire Line
+	1350 1750 1450 1750
+Wire Wire Line
+	1350 1850 1450 1850
+Wire Wire Line
+	1350 1950 1450 1950
+Text HLabel 1350 1150 0    50   Input ~ 0
+SEG1_5V
+Text HLabel 1350 1250 0    50   Input ~ 0
+SDA_SEG1
+Text HLabel 1350 1350 0    50   Input ~ 0
+SCL_SEG1
+Text HLabel 1350 1450 0    50   Input ~ 0
+SEG1_RTN
+Text HLabel 1350 1650 0    50   Input ~ 0
+SEG2_5V
+Text HLabel 1350 1750 0    50   Input ~ 0
+SDA_SEG2
+Text HLabel 1350 1850 0    50   Input ~ 0
+SCL_SEG2
+Text HLabel 1350 1950 0    50   Input ~ 0
+SEG2_RTN
 $EndSCHEMATC

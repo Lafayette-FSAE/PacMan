@@ -85,6 +85,8 @@ $Comp
 L Lafayette_Electric_Car_Internals:ESP32_TTGO_PSRAM U5
 U 1 1 5DD2C725
 P 5050 1200
+AR Path="/5DD2C725" Ref="U5"  Part="1" 
+AR Path="/5DC1F176/5DD2C725" Ref="U5"  Part="1" 
 F 0 "U5" H 5100 1400 50  0000 C CNN
 F 1 "ESP32_TTGO_PSRAM" H 5100 1300 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:ESP32TTGOT8" H 4800 1400 50  0001 C CNN

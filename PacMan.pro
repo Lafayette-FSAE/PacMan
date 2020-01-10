@@ -1,4 +1,4 @@
-update=Sun 05 Jan 2020 01:25:23 AM EST
+update=1/8/2020 6:18:57 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=PacMan.net
+LastNetListRead=PacMan_new.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
