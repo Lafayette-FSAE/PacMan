@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -949,17 +948,6 @@ Wire Notes Line
 Wire Wire Line
 	5600 3200 5600 4000
 $Comp
-L Regulator_Linear:AP2204K-5.0 U19
-U 1 1 5E42AD88
-P 9050 4550
-F 0 "U19" H 9050 4892 50  0000 C CNN
-F 1 "AP2204K-5.0" H 9050 4801 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9050 4875 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9050 4650 50  0001 C CNN
-	1    9050 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Regulator_Linear:AP2204K-5.0 U18
 U 1 1 5E42E32D
 P 9050 3650
@@ -974,17 +962,6 @@ Wire Wire Line
 	7800 4050 8350 4050
 Text Label 9550 4050 0    50   ~ 0
 SEG1_RTN
-$Comp
-L Device:C C31
-U 1 1 5E43851E
-P 8350 4700
-F 0 "C31" H 8465 4746 50  0000 L CNN
-F 1 "1u" H 8465 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 4550 50  0001 C CNN
-F 3 "~" H 8350 4700 50  0001 C CNN
-	1    8350 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8750 4550 8650 4550
 Wire Wire Line
@@ -1027,17 +1004,6 @@ F 1 "2.2u" H 9565 3755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9488 3650 50  0001 C CNN
 F 3 "~" H 9450 3800 50  0001 C CNN
 	1    9450 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C33
-U 1 1 5E472650
-P 9450 4700
-F 0 "C33" H 9565 4746 50  0000 L CNN
-F 1 "2.2u" H 9565 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9488 4550 50  0001 C CNN
-F 3 "~" H 9450 4700 50  0001 C CNN
-	1    9450 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

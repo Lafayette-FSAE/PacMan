@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -761,45 +760,4 @@ Wire Wire Line
 Wire Wire Line
 	5900 5350 6000 5350
 Connection ~ 5900 5350
-$Comp
-L Lafayette_Electric_Car_Internals:Si8600AC U20
-U 1 1 5E419115
-P 5850 1450
-F 0 "U20" H 6200 1617 50  0000 C CNN
-F 1 "Si8600AC" H 6200 1526 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5700 1500 50  0001 C CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/Si860x.pdf" H 5700 1500 50  0001 C CNN
-	1    5850 1450
-	-1   0    0    -1  
-$EndComp
-Text Label 6050 1650 0    50   ~ 0
-SDA_GLV
-Text Label 6050 1750 0    50   ~ 0
-SCL_GLV
-Wire Wire Line
-	6050 1850 5950 1850
-Wire Wire Line
-	5950 1750 6050 1750
-Wire Wire Line
-	6050 1650 5950 1650
-Wire Wire Line
-	5950 1550 6050 1550
-Text Label 6050 1850 0    50   ~ 0
-LV_RTN
-Text Label 6050 1550 0    50   ~ 0
-LV_5V
-Text Label 4950 1550 2    50   ~ 0
-TSV_5V
-Text Label 4950 1850 2    50   ~ 0
-TSV_RTN
-Wire Wire Line
-	4950 1850 5050 1850
-Wire Wire Line
-	5050 1750 4950 1750
-Wire Wire Line
-	4950 1650 5050 1650
-Wire Wire Line
-	5050 1550 4950 1550
-NoConn ~ 4950 1650
-NoConn ~ 4950 1750
 $EndSCHEMATC
