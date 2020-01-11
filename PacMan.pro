@@ -1,4 +1,4 @@
-update=1/8/2020 6:18:57 PM
+update=1/11/2020 12:47:50 AM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=PacMan_new.net
+LastNetListRead=PacMan.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -246,6 +246,17 @@ Enabled=0
 Name=Default
 Clearance=0.254
 TrackWidth=0.25
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=TSV Pre Fuse
+Clearance=3.2
+TrackWidth=5
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

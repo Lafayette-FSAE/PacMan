@@ -384,14 +384,12 @@ Wire Wire Line
 	5250 1850 5150 1850
 Text Label 5400 2350 2    50   ~ 0
 PACK_RTN
-Text Label 5500 2350 0    50   ~ 0
+Text Label 5600 2350 0    50   ~ 0
 TSV_RTN
-Wire Wire Line
-	5500 2350 5400 2350
 Text Label 5250 1650 0    50   ~ 0
-SDA_TSV
+SDA_SEG1
 Text Label 5250 1750 0    50   ~ 0
-SCL_TSV
+SCL_SEG1
 NoConn ~ 5150 1550
 Wire Wire Line
 	5250 1650 5150 1650
@@ -532,17 +530,17 @@ DCHRG_A2
 Text Label 1250 2200 0    50   ~ 0
 DCHRG_A1
 Text Label 1250 2450 0    50   ~ 0
-SDA_TSV
+SDA_SEG1
 Text Label 1250 2550 0    50   ~ 0
-SCL_TSV
+SCL_SEG1
 Text HLabel 1150 2200 0    50   Input ~ 0
 DCHRG_A1
 Text HLabel 1150 2300 0    50   Input ~ 0
 DCHRG_A2
 Text HLabel 1150 2450 0    50   Input ~ 0
-SDA_TSV
+SDA_SEG1
 Text HLabel 1150 2550 0    50   Input ~ 0
-SCL_TSV
+SCL_SEG1
 Wire Wire Line
 	1150 2450 1250 2450
 Wire Wire Line
@@ -624,10 +622,10 @@ Wire Wire Line
 NoConn ~ 6550 4700
 NoConn ~ 6550 3800
 $Comp
-L Lafayette_Electric_Car_Internals:TEC3-2419 U?
+L Lafayette_Electric_Car_Internals:TEC3-2419 U17
 U 1 1 5E25B287
 P 6650 4500
-F 0 "U?" H 7000 4667 50  0000 C CNN
+F 0 "U17" H 7000 4667 50  0000 C CNN
 F 1 "TEC3-2419" H 7000 4576 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:TEC3-2419" H 6150 4550 50  0001 C CNN
 F 3 "https://assets.tracopower.com/20200109160327/TEC3/documents/tec3-datasheet.pdf" H 6150 4550 50  0001 C CNN
@@ -635,10 +633,10 @@ F 3 "https://assets.tracopower.com/20200109160327/TEC3/documents/tec3-datasheet.
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lafayette_Electric_Car_Internals:TEC3-2419 U?
+L Lafayette_Electric_Car_Internals:TEC3-2419 U16
 U 1 1 5E25BF0C
 P 6650 3600
-F 0 "U?" H 7000 3767 50  0000 C CNN
+F 0 "U16" H 7000 3767 50  0000 C CNN
 F 1 "TEC3-2419" H 7000 3676 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:TEC3-2419" H 6150 3650 50  0001 C CNN
 F 3 "https://assets.tracopower.com/20200109160327/TEC3/documents/tec3-datasheet.pdf" H 6150 3650 50  0001 C CNN
@@ -646,10 +644,10 @@ F 3 "https://assets.tracopower.com/20200109160327/TEC3/documents/tec3-datasheet.
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lafayette_Electric_Car_Internals:VIFSD1-S24-S5-SIP U?
+L Lafayette_Electric_Car_Internals:VIFSD1-S24-S5-SIP U12
 U 1 1 5E261FD1
 P 6650 2800
-F 0 "U?" H 7000 2967 50  0000 C CNN
+F 0 "U12" H 7000 2967 50  0000 C CNN
 F 1 "VIFSD1-S24-S5-SIP" H 7000 2876 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:VIFSD1-S24-S5-SIP" H 6150 2800 50  0001 C CNN
 F 3 "https://www.cui.com/product/resource/vifsd1-sip-series.pdf" H 6150 2800 50  0001 C CNN
@@ -657,12 +655,12 @@ F 3 "https://www.cui.com/product/resource/vifsd1-sip-series.pdf" H 6150 2800 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C24
 U 1 1 5E263A2E
 P 5900 3000
-F 0 "C?" H 6015 3046 50  0000 L CNN
+F 0 "C24" H 6015 3046 50  0000 L CNN
 F 1 "4.7uF/50V" H 6015 2955 50  0000 L CNN
-F 2 "" H 5938 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 2850 50  0001 C CNN
 F 3 "~" H 5900 3000 50  0001 C CNN
 	1    5900 3000
 	1    0    0    -1  
@@ -690,12 +688,12 @@ Wire Wire Line
 	5900 2800 5500 2800
 Connection ~ 5900 2800
 $Comp
-L Device:C C?
+L Device:C C25
 U 1 1 5E2BC73F
 P 5900 3800
-F 0 "C?" H 6015 3846 50  0000 L CNN
+F 0 "C25" H 6015 3846 50  0000 L CNN
 F 1 "4.7uF/50V" H 6015 3755 50  0000 L CNN
-F 2 "" H 5938 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 3650 50  0001 C CNN
 F 3 "~" H 5900 3800 50  0001 C CNN
 	1    5900 3800
 	1    0    0    -1  
@@ -723,12 +721,12 @@ Wire Wire Line
 	5900 3600 5500 3600
 Connection ~ 5900 3600
 $Comp
-L Device:C C?
+L Device:C C26
 U 1 1 5E2C1D7C
 P 5900 4700
-F 0 "C?" H 6015 4746 50  0000 L CNN
+F 0 "C26" H 6015 4746 50  0000 L CNN
 F 1 "4.7uF/50V" H 6015 4655 50  0000 L CNN
-F 2 "" H 5938 4550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 4550 50  0001 C CNN
 F 3 "~" H 5900 4700 50  0001 C CNN
 	1    5900 4700
 	1    0    0    -1  
@@ -762,12 +760,12 @@ Connection ~ 5600 4900
 Wire Wire Line
 	5600 4900 5600 6250
 $Comp
-L Device:C C?
+L Device:C C27
 U 1 1 5E2CD46E
 P 7800 3000
-F 0 "C?" H 7915 3046 50  0000 L CNN
+F 0 "C27" H 7915 3046 50  0000 L CNN
 F 1 "4.7uF" H 7915 2955 50  0000 L CNN
-F 2 "" H 7838 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7838 2850 50  0001 C CNN
 F 3 "~" H 7800 3000 50  0001 C CNN
 	1    7800 3000
 	1    0    0    -1  
@@ -805,10 +803,10 @@ SEG1_5V
 Text Label 3600 7450 2    50   ~ 0
 SEG2_5V
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP12
 U 1 1 5E2FB52B
 P 3700 6950
-F 0 "TP?" H 3758 7068 50  0000 L CNN
+F 0 "TP12" H 3758 7068 50  0000 L CNN
 F 1 "SEG2_9V" H 3758 6977 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3900 6950 50  0001 C CNN
 F 3 "~" H 3900 6950 50  0001 C CNN
@@ -820,10 +818,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 7050 3700 6950
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 5E2FB53C
 P 3150 6950
-F 0 "TP?" H 3208 7068 50  0000 L CNN
+F 0 "TP3" H 3208 7068 50  0000 L CNN
 F 1 "SEG1_9V" H 3208 6977 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 6950 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3350 6950 50  0001 C CNN
@@ -839,10 +837,10 @@ Wire Wire Line
 Wire Wire Line
 	3150 7050 3150 6950
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP13
 U 1 1 5E30190A
 P 3700 7350
-F 0 "TP?" H 3758 7468 50  0000 L CNN
+F 0 "TP13" H 3758 7468 50  0000 L CNN
 F 1 "SEG2_5V" H 3758 7377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3900 7350 50  0001 C CNN
 F 3 "~" H 3900 7350 50  0001 C CNN
@@ -854,10 +852,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 7450 3700 7350
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP10
 U 1 1 5E30191A
 P 3150 7350
-F 0 "TP?" H 3208 7468 50  0000 L CNN
+F 0 "TP10" H 3208 7468 50  0000 L CNN
 F 1 "SEG1_5V" H 3208 7377 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 7350 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3350 7350 50  0001 C CNN
@@ -883,23 +881,23 @@ Wire Wire Line
 	8000 3200 7800 3200
 Connection ~ 7800 3200
 $Comp
-L Device:C C?
+L Device:C C28
 U 1 1 5E342B00
 P 7800 3800
-F 0 "C?" H 7915 3846 50  0000 L CNN
+F 0 "C28" H 7915 3846 50  0000 L CNN
 F 1 "10u" H 7915 3755 50  0000 L CNN
-F 2 "" H 7838 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7838 3650 50  0001 C CNN
 F 3 "~" H 7800 3800 50  0001 C CNN
 	1    7800 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C29
 U 1 1 5E343163
 P 7800 4700
-F 0 "C?" H 7915 4746 50  0000 L CNN
+F 0 "C29" H 7915 4746 50  0000 L CNN
 F 1 "10u" H 7915 4655 50  0000 L CNN
-F 2 "" H 7838 4550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7838 4550 50  0001 C CNN
 F 3 "~" H 7800 4700 50  0001 C CNN
 	1    7800 4700
 	1    0    0    -1  
@@ -951,10 +949,10 @@ Wire Notes Line
 Wire Wire Line
 	5600 3200 5600 4000
 $Comp
-L Regulator_Linear:AP2204K-5.0 U?
+L Regulator_Linear:AP2204K-5.0 U19
 U 1 1 5E42AD88
 P 9050 4550
-F 0 "U?" H 9050 4892 50  0000 C CNN
+F 0 "U19" H 9050 4892 50  0000 C CNN
 F 1 "AP2204K-5.0" H 9050 4801 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9050 4875 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9050 4650 50  0001 C CNN
@@ -962,10 +960,10 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9050 4650 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:AP2204K-5.0 U?
+L Regulator_Linear:AP2204K-5.0 U18
 U 1 1 5E42E32D
 P 9050 3650
-F 0 "U?" H 9050 3992 50  0000 C CNN
+F 0 "U18" H 9050 3992 50  0000 C CNN
 F 1 "AP2204K-5.0" H 9050 3901 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9050 3975 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9050 3750 50  0001 C CNN
@@ -977,12 +975,12 @@ Wire Wire Line
 Text Label 9550 4050 0    50   ~ 0
 SEG1_RTN
 $Comp
-L Device:C C?
+L Device:C C31
 U 1 1 5E43851E
 P 8350 4700
-F 0 "C?" H 8465 4746 50  0000 L CNN
+F 0 "C31" H 8465 4746 50  0000 L CNN
 F 1 "1u" H 8465 4655 50  0000 L CNN
-F 2 "" H 8388 4550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 4550 50  0001 C CNN
 F 3 "~" H 8350 4700 50  0001 C CNN
 	1    8350 4700
 	1    0    0    -1  
@@ -1010,34 +1008,34 @@ Wire Wire Line
 Wire Wire Line
 	9550 4450 9450 4450
 $Comp
-L Device:C C?
+L Device:C C30
 U 1 1 5E471D80
 P 8350 3800
-F 0 "C?" H 8465 3846 50  0000 L CNN
+F 0 "C30" H 8465 3846 50  0000 L CNN
 F 1 "1u" H 8465 3755 50  0000 L CNN
-F 2 "" H 8388 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 3650 50  0001 C CNN
 F 3 "~" H 8350 3800 50  0001 C CNN
 	1    8350 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C32
 U 1 1 5E47201C
 P 9450 3800
-F 0 "C?" H 9565 3846 50  0000 L CNN
+F 0 "C32" H 9565 3846 50  0000 L CNN
 F 1 "2.2u" H 9565 3755 50  0000 L CNN
-F 2 "" H 9488 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9488 3650 50  0001 C CNN
 F 3 "~" H 9450 3800 50  0001 C CNN
 	1    9450 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C33
 U 1 1 5E472650
 P 9450 4700
-F 0 "C?" H 9565 4746 50  0000 L CNN
+F 0 "C33" H 9565 4746 50  0000 L CNN
 F 1 "2.2u" H 9565 4655 50  0000 L CNN
-F 2 "" H 9488 4550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9488 4550 50  0001 C CNN
 F 3 "~" H 9450 4700 50  0001 C CNN
 	1    9450 4700
 	1    0    0    -1  
@@ -1096,10 +1094,10 @@ Connection ~ 5500 2800
 Wire Wire Line
 	5500 2800 5500 3600
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG03
 U 1 1 5E5F2A2C
 P 5400 2800
-F 0 "#FLG?" H 5400 2875 50  0001 C CNN
+F 0 "#FLG03" H 5400 2875 50  0001 C CNN
 F 1 "PWR_FLAG" V 5400 2927 50  0000 L CNN
 F 2 "" H 5400 2800 50  0001 C CNN
 F 3 "~" H 5400 2800 50  0001 C CNN
@@ -1170,10 +1168,10 @@ SEG1_RTN
 Text Label 3600 7850 2    50   ~ 0
 SEG2_RTN
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP14
 U 1 1 5E7AE30D
 P 3700 7750
-F 0 "TP?" H 3758 7868 50  0000 L CNN
+F 0 "TP14" H 3758 7868 50  0000 L CNN
 F 1 "SEG2_RTN" H 3758 7777 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3900 7750 50  0001 C CNN
 F 3 "~" H 3900 7750 50  0001 C CNN
@@ -1185,10 +1183,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 7850 3700 7750
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP11
 U 1 1 5E7AE31D
 P 3150 7750
-F 0 "TP?" H 3208 7868 50  0000 L CNN
+F 0 "TP11" H 3208 7868 50  0000 L CNN
 F 1 "SEG1_RTN" H 3208 7777 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 7750 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3350 7750 50  0001 C CNN
@@ -1207,4 +1205,6 @@ Text Notes 7050 4100 0    50   ~ 0
 333mA
 Text Notes 7050 5000 0    50   ~ 0
 333mA
+Wire Wire Line
+	5600 2350 5400 2350
 $EndSCHEMATC
