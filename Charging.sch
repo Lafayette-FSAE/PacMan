@@ -213,7 +213,7 @@ U 1 1 5DCEBF2A
 P 7300 1900
 F 0 "Q3" H 7506 1946 50  0000 L CNN
 F 1 "BSS123" H 7506 1855 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7500 2000 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7500 2000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30366.pdf" H 7300 1900 50  0001 C CNN
 F 4 "Diodes Incorporated" H 7300 1900 50  0001 C CNN "Manufacturer"
 F 5 "BSS123-7-F" H 7300 1900 50  0001 C CNN "Manufacturer Part"
@@ -284,7 +284,7 @@ U 1 1 5E18B0A8
 P 5950 2750
 F 0 "Q2" H 6156 2796 50  0000 L CNN
 F 1 "2N7002" H 6156 2705 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6150 2675 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6150 2675 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5950 2750 50  0001 L CNN
 	1    5950 2750
 	-1   0    0    -1  

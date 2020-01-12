@@ -75,21 +75,21 @@ TSV
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5DC0F40F
-P 1050 2450
-F 0 "J3" H 1050 2700 50  0000 C CNN
-F 1 "TSV IN" H 1050 2600 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 1050 2450 50  0001 C CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 1050 2450 50  0001 C CNN
-F 4 "Molex" H 1050 2450 50  0001 C CNN "Manufacturer"
-F 5 "1724470202" H 1050 2450 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 1050 2450 50  0001 C CNN "Vendor"
-F 7 "WM17931-ND" H 1050 2450 50  0001 C CNN "Vendor Part"
-	1    1050 2450
+P 1050 2300
+F 0 "J3" H 1050 2550 50  0000 C CNN
+F 1 "TSV IN" H 1050 2450 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 1050 2300 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 1050 2300 50  0001 C CNN
+F 4 "Molex" H 1050 2300 50  0001 C CNN "Manufacturer"
+F 5 "1724470202" H 1050 2300 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1050 2300 50  0001 C CNN "Vendor"
+F 7 "WM17931-ND" H 1050 2300 50  0001 C CNN "Vendor Part"
+	1    1050 2300
 	-1   0    0    -1  
 $EndComp
-Text Label 1350 2550 0    50   ~ 0
+Text Label 1350 2400 0    50   ~ 0
 TSV_VEHICLE+
-Text Label 1350 2450 0    50   ~ 0
+Text Label 1350 2300 0    50   ~ 0
 TSV_VEHICLE-
 $Sheet
 S 7250 800  1300 1700
@@ -157,7 +157,7 @@ F 7 "H10722-ND" H 1050 1350 50  0001 C CNN "Vendor Part"
 	1    1050 1350
 	-1   0    0    1   
 $EndComp
-Text Label 9650 5450 0    50   ~ 0
+Text Label 9650 5550 0    50   ~ 0
 TSV_LIVE
 Text Label 1350 1250 0    50   ~ 0
 PACK+
@@ -178,24 +178,24 @@ Text Label 4350 6000 2    50   ~ 0
 TSV_VEHICLE+
 Text Label 4350 6200 2    50   ~ 0
 TSV_VEHICLE-
-NoConn ~ 1700 6200
-NoConn ~ 1700 5700
-Text Label 1800 6100 0    50   ~ 0
+NoConn ~ 1700 6950
+NoConn ~ 1700 6450
+Text Label 1800 6850 0    50   ~ 0
 DCHRG_A2
-Text Label 1800 6000 0    50   ~ 0
+Text Label 1800 6750 0    50   ~ 0
 DCHRG_A1
-Text Label 1800 5900 0    50   ~ 0
+Text Label 1800 6650 0    50   ~ 0
 TSV_RTN
-Text Label 1800 5800 0    50   ~ 0
+Text Label 1800 6550 0    50   ~ 0
 TSV_5V_AMPS
 Wire Wire Line
-	1700 5800 1800 5800
+	1700 6550 1800 6550
 Wire Wire Line
-	1700 5900 1800 5900
+	1700 6650 1800 6650
 Wire Wire Line
-	1700 6000 1800 6000
+	1700 6750 1800 6750
 Wire Wire Line
-	1700 6100 1800 6100
+	1700 6850 1800 6850
 $Sheet
 S 4150 800  1700 1700
 U 5DD31136
@@ -224,22 +224,22 @@ $EndSheet
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5DDF48B0
-P 1050 3050
-F 0 "J4" H 1050 3300 50  0000 C CNN
-F 1 "Charge Detection" H 1050 3200 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 1050 3050 50  0001 C CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 1050 3050 50  0001 C CNN
-F 4 "Molex" H 1050 3050 50  0001 C CNN "Manufacturer"
-F 5 "1724470202" H 1050 3050 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 1050 3050 50  0001 C CNN "Vendor"
-F 7 "WM17931-ND" H 1050 3050 50  0001 C CNN "Vendor Part"
-	1    1050 3050
+P 1050 5850
+F 0 "J4" H 1050 6100 50  0000 C CNN
+F 1 "Charge Detection" H 1050 6000 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 1050 5850 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 1050 5850 50  0001 C CNN
+F 4 "Molex" H 1050 5850 50  0001 C CNN "Manufacturer"
+F 5 "1724470202" H 1050 5850 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1050 5850 50  0001 C CNN "Vendor"
+F 7 "WM17931-ND" H 1050 5850 50  0001 C CNN "Vendor Part"
+	1    1050 5850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 3150 1250 3150
+	1350 5950 1250 5950
 Wire Wire Line
-	1250 3050 1350 3050
+	1250 5850 1350 5850
 $Comp
 L Lafayette_Electric_Car_Internals:LittelfuseHolder F?
 U 1 1 5DCA8E1C
@@ -308,23 +308,23 @@ Text Label 8950 5750 2    50   ~ 0
 BTN_CENTER
 Text Label 9650 5350 0    50   ~ 0
 CHRG_LED
-Text Label 9650 5550 0    50   ~ 0
+Text Label 9650 5450 0    50   ~ 0
 LV_24V
 Text Label 9650 5650 0    50   ~ 0
 LV_3V3
 Text Label 9650 6250 0    50   ~ 0
 LV_RTN
-Text Label 8950 5950 2    50   ~ 0
-DISP_DIN
-Text Label 8950 6050 2    50   ~ 0
-DISP_CLK
-Text Label 8950 5850 2    50   ~ 0
-DISP_CS
 Text Label 8950 6150 2    50   ~ 0
-DISP_DC
+DISP_DIN
 Text Label 9650 5750 0    50   ~ 0
-DISP_RST
+DISP_CLK
 Text Label 8950 6250 2    50   ~ 0
+DISP_CS
+Text Label 8950 5950 2    50   ~ 0
+DISP_DC
+Text Label 8950 6050 2    50   ~ 0
+DISP_RST
+Text Label 8950 5850 2    50   ~ 0
 DISP_BUSY
 Text Label 9650 6150 0    50   ~ 0
 LV_RTN
@@ -347,18 +347,18 @@ F6 "CHRG_DETECT-" I L 4150 4300 50
 F7 "CHRG_DETECT+" I L 4150 4200 50 
 F8 "~CHRG_DETECT" I R 5850 4200 50 
 F9 "LV_RTN" I R 5850 4050 50 
-F10 "LV_5V" I R 5850 3950 50 
-F11 "AIRS+" I R 5850 4600 50 
-F12 "AIRS-" I R 5850 4700 50 
-F13 "TSV_5V_AMPS" I L 4150 5350 50 
-F14 "SEG1_5V" I L 4150 4450 50 
-F15 "SDA_SEG1" I L 4150 4550 50 
-F16 "SCL_SEG1" I L 4150 4650 50 
-F17 "SEG1_RTN" I L 4150 4750 50 
-F18 "SEG2_5V" I L 4150 4900 50 
-F19 "SDA_SEG2" I L 4150 5000 50 
-F20 "SCL_SEG2" I L 4150 5100 50 
-F21 "SEG2_RTN" I L 4150 5200 50 
+F10 "AIRS+" I R 5850 4600 50 
+F11 "AIRS-" I R 5850 4700 50 
+F12 "TSV_5V_AMPS" I L 4150 5350 50 
+F13 "SEG1_5V" I L 4150 4450 50 
+F14 "SDA_SEG1" I L 4150 4550 50 
+F15 "SCL_SEG1" I L 4150 4650 50 
+F16 "SEG1_RTN" I L 4150 4750 50 
+F17 "SEG2_5V" I L 4150 4900 50 
+F18 "SDA_SEG2" I L 4150 5000 50 
+F19 "SCL_SEG2" I L 4150 5100 50 
+F20 "SEG2_RTN" I L 4150 5200 50 
+F21 "LV_3V3" I R 5850 3950 50 
 $EndSheet
 Wire Notes Line
 	5000 3800 5000 3550
@@ -441,13 +441,13 @@ TSV_5V
 Wire Wire Line
 	4050 1100 4150 1100
 Wire Wire Line
-	1250 3700 1350 3700
+	1250 3950 1350 3950
 Wire Wire Line
-	1250 3800 1350 3800
+	1250 4050 1350 4050
 Wire Wire Line
-	1250 3900 1350 3900
+	1250 4150 1350 4150
 Wire Wire Line
-	1250 4000 1350 4000
+	1250 4250 1350 4250
 Text Label 8650 900  0    50   ~ 0
 SLOOP1_IN
 Wire Wire Line
@@ -603,7 +603,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 3100 5850 3100
 Text Label 5950 3950 0    50   ~ 0
-LV_5V
+LV_3V3
 Text Label 5950 4050 0    50   ~ 0
 LV_RTN
 Wire Wire Line
@@ -682,16 +682,16 @@ BTN_LEFT
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5DDC4F7E
-P 1050 1950
-F 0 "J2" H 1050 1650 50  0000 C CNN
-F 1 "POWER-" H 1050 1750 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:DF22-2P-7.92" H 1050 1950 50  0001 C CNN
-F 3 "https://www.hirose.com/product/document?clcode=CL0680-1074-0-00&productname=DF22AL-2EP-7.92C&series=DF22&documenttype=Catalog&lang=en&documentid=D31682_en" H 1050 1950 50  0001 C CNN
-F 4 "Hirose Electric Co" H 1050 1950 50  0001 C CNN "Manufacturer"
-F 5 "DF22R-2P-7.92DSA(05)" H 1050 1950 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 1050 1950 50  0001 C CNN "Vendor"
-F 7 "H10718-ND" H 1050 1950 50  0001 C CNN "Vendor Part"
-	1    1050 1950
+P 1050 1850
+F 0 "J2" H 1050 1550 50  0000 C CNN
+F 1 "POWER-" H 1050 1650 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:DF22-2P-7.92" H 1050 1850 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0680-1074-0-00&productname=DF22AL-2EP-7.92C&series=DF22&documenttype=Catalog&lang=en&documentid=D31682_en" H 1050 1850 50  0001 C CNN
+F 4 "Hirose Electric Co" H 1050 1850 50  0001 C CNN "Manufacturer"
+F 5 "DF22R-2P-7.92DSA(05)" H 1050 1850 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1050 1850 50  0001 C CNN "Vendor"
+F 7 "H10718-ND" H 1050 1850 50  0001 C CNN "Vendor Part"
+	1    1050 1850
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -741,33 +741,33 @@ Wire Wire Line
 Wire Wire Line
 	9100 3250 9000 3250
 Wire Wire Line
-	1350 1950 1250 1950
-Text Label 1350 1950 0    50   ~ 0
+	1350 1850 1250 1850
+Text Label 1350 1850 0    50   ~ 0
 CHRG_IN-
-Text Label 2000 1850 0    50   ~ 0
+Text Label 2000 1750 0    50   ~ 0
 PACK_RTN
 Wire Wire Line
-	2000 1850 1900 1850
+	2000 1750 1900 1750
 Wire Wire Line
-	1250 1850 1650 1850
+	1250 1750 1650 1750
 $Comp
 L Lafayette_Electric_Car_Internals:LittelfuseHolder F?
 U 1 1 5DCA8E12
-P 1750 1850
+P 1750 1750
 AR Path="/5DD31136/5DCA8E12" Ref="F?"  Part="1" 
 AR Path="/5DCA8E12" Ref="F2"  Part="1" 
-F 0 "F2" H 1800 1650 50  0000 C CNN
-F 1 "Pack-" H 1800 1750 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:0154.500DRL" H 1900 2150 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 2100 2000 50  0001 C CNN
-F 4 "Digikey" H 900 2050 50  0001 C CNN "Vendor"
-F 5 "F6776CT-ND" H 1050 2050 50  0001 C CNN "Vendor Part"
-F 6 "Littelfuse Inc." H 1050 2050 50  0001 C CNN "Manufacturer"
-F 7 "0154.500DRL" H 1050 2050 50  0001 C CNN "Manufacturer Part"
-	1    1750 1850
+F 0 "F2" H 1800 1550 50  0000 C CNN
+F 1 "Pack-" H 1800 1650 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:0154.500DRL" H 1900 2050 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 2100 1900 50  0001 C CNN
+F 4 "Digikey" H 900 1950 50  0001 C CNN "Vendor"
+F 5 "F6776CT-ND" H 1050 1950 50  0001 C CNN "Vendor Part"
+F 6 "Littelfuse Inc." H 1050 1950 50  0001 C CNN "Manufacturer"
+F 7 "0154.500DRL" H 1050 1950 50  0001 C CNN "Manufacturer Part"
+	1    1750 1750
 	1    0    0    1   
 $EndComp
-Text Label 1350 1850 0    50   ~ 0
+Text Label 1350 1750 0    50   ~ 0
 PACK-
 Text Label 8950 4800 2    50   ~ 0
 CAN_H
@@ -852,16 +852,16 @@ Wire Wire Line
 $Comp
 L Connector:RJ12 J6
 U 1 1 5DF5CB3C
-P 1300 6000
-F 0 "J6" H 1357 6567 50  0000 C CNN
-F 1 "RJ12" H 1357 6476 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:MOLEX_RJ11" V 1300 6025 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/855135002_sd.pdf" V 1300 6025 50  0001 C CNN
-F 4 "Molex" H 1300 6000 50  0001 C CNN "Manufacturer"
-F 5 "0855135002" H 1300 6000 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 1300 6000 50  0001 C CNN "Vendor"
-F 7 "WM3789CT-ND" H 1300 6000 50  0001 C CNN "Vendor Part"
-	1    1300 6000
+P 1300 6750
+F 0 "J6" H 1300 7350 50  0000 C CNN
+F 1 "BusBar Current Sensor" H 1300 7250 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:MOLEX_RJ11" V 1300 6775 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/855135002_sd.pdf" V 1300 6775 50  0001 C CNN
+F 4 "Molex" H 1300 6750 50  0001 C CNN "Manufacturer"
+F 5 "0855135002" H 1300 6750 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1300 6750 50  0001 C CNN "Vendor"
+F 7 "WM3789CT-ND" H 1300 6750 50  0001 C CNN "Vendor Part"
+	1    1300 6750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -870,7 +870,7 @@ U 1 1 5DF93323
 P 9250 3750
 F 0 "J8" H 9300 4067 50  0000 C CNN
 F 1 "SLOOP" H 9300 3976 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 9250 3750 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 9250 3750 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/1724470002_sd.pdf" H 9250 3750 50  0001 C CNN
 F 4 "Molex" H 9250 3750 50  0001 C CNN "Manufacturer"
 F 5 "1724470008" H 9250 3750 50  0001 C CNN "Manufacturer Part"
@@ -885,7 +885,7 @@ U 1 1 5DF9AFC0
 P 9250 4600
 F 0 "J9" H 9300 5017 50  0000 C CNN
 F 1 "GLV/CAN" H 9300 4926 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-12A2_2x06_P4.20mm_Vertical" H 9250 4600 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 9250 4600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/462070012_sd.pdf" H 9250 4600 50  0001 C CNN
 F 4 "Molex" H 9250 4600 50  0001 C CNN "Manufacturer"
 F 5 "0462070012" H 9250 4600 50  0001 C CNN "Manufacturer Part"
@@ -927,9 +927,9 @@ F 3 "~" H 4450 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 2450 1350 2450
+	1250 2300 1350 2300
 Wire Wire Line
-	1250 2550 1350 2550
+	1250 2400 1350 2400
 Connection ~ 4450 6000
 Wire Wire Line
 	4450 6000 4550 6000
@@ -938,9 +938,9 @@ Wire Wire Line
 Connection ~ 4450 6200
 Wire Wire Line
 	4450 6200 4550 6200
-Text Label 1350 3150 0    50   ~ 0
+Text Label 1350 5950 0    50   ~ 0
 CHRG_DETECT-
-Text Label 1350 3050 0    50   ~ 0
+Text Label 1350 5850 0    50   ~ 0
 CHRG_DETECT+
 Wire Wire Line
 	8550 1100 8650 1100
@@ -973,72 +973,72 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x06 J10
 U 1 1 5E8AF533
-P 1050 4800
-F 0 "J10" H 1050 5250 50  0000 C CNN
-F 1 "SEG2 CellMen" H 1050 5150 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 1050 4800 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 1050 4800 50  0001 C CNN
-F 4 "Amphenol ICC" H 1050 4800 50  0001 C CNN "Manufacturer"
-F 5 "75869-131LF" H 1050 4800 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 1050 4800 50  0001 C CNN "Vendor"
-F 7 "609-2845-ND" H 1050 4800 50  0001 C CNN "Vendor Part"
-	1    1050 4800
+P 1050 5100
+F 0 "J10" H 1050 5550 50  0000 C CNN
+F 1 "SEG2 CellMen" H 1050 5450 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 1050 5100 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 1050 5100 50  0001 C CNN
+F 4 "Amphenol ICC" H 1050 5100 50  0001 C CNN "Manufacturer"
+F 5 "75869-131LF" H 1050 5100 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1050 5100 50  0001 C CNN "Vendor"
+F 7 "609-2845-ND" H 1050 5100 50  0001 C CNN "Vendor Part"
+	1    1050 5100
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 4600 1350 4600
-Wire Wire Line
-	1250 4700 1350 4700
-Wire Wire Line
-	1250 4800 1350 4800
 Wire Wire Line
 	1250 4900 1350 4900
-$Comp
-L Connector_Generic:Conn_01x06 J5
-U 1 1 5DDD27D7
-P 1050 3900
-F 0 "J5" H 1050 4350 50  0000 C CNN
-F 1 "SEG1 CellMen" H 1050 4250 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 1050 3900 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 1050 3900 50  0001 C CNN
-F 4 "Amphenol ICC" H 1050 3900 50  0001 C CNN "Manufacturer"
-F 5 "75869-131LF" H 1050 3900 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 1050 3900 50  0001 C CNN "Vendor"
-F 7 "609-2845-ND" H 1050 3900 50  0001 C CNN "Vendor Part"
-	1    1050 3900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1250 5000 1350 5000
 Wire Wire Line
-	1350 5100 1250 5100
+	1250 5100 1350 5100
 Wire Wire Line
-	1350 4100 1250 4100
+	1250 5200 1350 5200
+$Comp
+L Connector_Generic:Conn_01x06 J5
+U 1 1 5DDD27D7
+P 1050 4150
+F 0 "J5" H 1050 4600 50  0000 C CNN
+F 1 "SEG1 CellMen" H 1050 4500 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 1050 4150 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 1050 4150 50  0001 C CNN
+F 4 "Amphenol ICC" H 1050 4150 50  0001 C CNN "Manufacturer"
+F 5 "75869-131LF" H 1050 4150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1050 4150 50  0001 C CNN "Vendor"
+F 7 "609-2845-ND" H 1050 4150 50  0001 C CNN "Vendor Part"
+	1    1050 4150
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
-	1350 4200 1250 4200
-Text Label 1350 3700 0    50   ~ 0
+	1250 5300 1350 5300
+Wire Wire Line
+	1350 5400 1250 5400
+Wire Wire Line
+	1350 4350 1250 4350
+Wire Wire Line
+	1350 4450 1250 4450
+Text Label 1350 3950 0    50   ~ 0
 SEG1_9V
-Text Label 1350 4200 0    50   ~ 0
+Text Label 1350 4450 0    50   ~ 0
 SEG1_9V
-Text Label 1350 4600 0    50   ~ 0
+Text Label 1350 4900 0    50   ~ 0
 SEG2_9V
-Text Label 1350 5100 0    50   ~ 0
+Text Label 1350 5400 0    50   ~ 0
 SEG2_9V
-Text Label 1350 3800 0    50   ~ 0
+Text Label 1350 4050 0    50   ~ 0
 SEG1_RTN
-Text Label 1350 4100 0    50   ~ 0
+Text Label 1350 4350 0    50   ~ 0
 SEG1_RTN
-Text Label 1350 4700 0    50   ~ 0
-SEG2_RTN
 Text Label 1350 5000 0    50   ~ 0
 SEG2_RTN
-Text Label 1350 3900 0    50   ~ 0
+Text Label 1350 5300 0    50   ~ 0
+SEG2_RTN
+Text Label 1350 4150 0    50   ~ 0
 SCL_SEG1
-Text Label 1350 4000 0    50   ~ 0
+Text Label 1350 4250 0    50   ~ 0
 SDA_SEG1
-Text Label 1350 4800 0    50   ~ 0
+Text Label 1350 5100 0    50   ~ 0
 SCL_SEG2
-Text Label 1350 4900 0    50   ~ 0
+Text Label 1350 5200 0    50   ~ 0
 SDA_SEG2
 Wire Wire Line
 	4050 4450 4150 4450
@@ -1091,4 +1091,96 @@ F 3 "" H 4150 5950 50  0001 C CNN
 	1    4650 5900
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5E1E2B76
+P 1050 2850
+F 0 "J11" H 1050 3100 50  0000 C CNN
+F 1 "SEG1 Balance" H 1050 3000 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 1050 2850 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 1050 2850 50  0001 C CNN
+F 4 "Molex" H 1050 2850 50  0001 C CNN "Manufacturer"
+F 5 "1724470202" H 1050 2850 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1050 2850 50  0001 C CNN "Vendor"
+F 7 "WM17931-ND" H 1050 2850 50  0001 C CNN "Vendor Part"
+	1    1050 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5E1EF7C1
+P 1050 3400
+F 0 "J12" H 1050 3650 50  0000 C CNN
+F 1 "SEG2 Balance" H 1050 3550 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 1050 3400 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 1050 3400 50  0001 C CNN
+F 4 "Molex" H 1050 3400 50  0001 C CNN "Manufacturer"
+F 5 "1724470202" H 1050 3400 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1050 3400 50  0001 C CNN "Vendor"
+F 7 "WM17931-ND" H 1050 3400 50  0001 C CNN "Vendor Part"
+	1    1050 3400
+	-1   0    0    -1  
+$EndComp
+Text Label 1350 2850 0    50   ~ 0
+BAL_SEG1+
+Text Label 1350 2950 0    50   ~ 0
+BAL_SEG1-
+Text Label 1350 3400 0    50   ~ 0
+BAL_SEG2+
+Text Label 1350 3500 0    50   ~ 0
+BAL_SEG2-
+Wire Wire Line
+	1250 2850 1350 2850
+Wire Wire Line
+	1250 2950 1350 2950
+Wire Wire Line
+	1250 3400 1350 3400
+Wire Wire Line
+	1250 3500 1350 3500
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 5E38A5DB
+P 2650 2850
+F 0 "J15" H 2650 3100 50  0000 C CNN
+F 1 "SEG1" H 2650 3000 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2650 2850 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 2650 2850 50  0001 C CNN
+F 4 "Molex" H 2650 2850 50  0001 C CNN "Manufacturer"
+F 5 "1724470202" H 2650 2850 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 2650 2850 50  0001 C CNN "Vendor"
+F 7 "WM17931-ND" H 2650 2850 50  0001 C CNN "Vendor Part"
+	1    2650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J16
+U 1 1 5E38AF66
+P 2650 3400
+F 0 "J16" H 2650 3650 50  0000 C CNN
+F 1 "SEG2" H 2650 3550 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2650 3400 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 2650 3400 50  0001 C CNN
+F 4 "Molex" H 2650 3400 50  0001 C CNN "Manufacturer"
+F 5 "1724470202" H 2650 3400 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 2650 3400 50  0001 C CNN "Vendor"
+F 7 "WM17931-ND" H 2650 3400 50  0001 C CNN "Vendor Part"
+	1    2650 3400
+	1    0    0    -1  
+$EndComp
+Text Label 2350 2850 2    50   ~ 0
+SEG1+
+Text Label 2350 2950 2    50   ~ 0
+SEG1-
+Wire Wire Line
+	2350 2850 2450 2850
+Wire Wire Line
+	2350 2950 2450 2950
+Text Label 2350 3400 2    50   ~ 0
+SEG2+
+Text Label 2350 3500 2    50   ~ 0
+SEG2-
+Wire Wire Line
+	2350 3400 2450 3400
+Wire Wire Line
+	2350 3500 2450 3500
 $EndSCHEMATC

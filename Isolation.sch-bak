@@ -33,18 +33,12 @@ Text Label 1450 950  0    50   ~ 0
 TSV_RTN
 Text Label 1450 850  0    50   ~ 0
 TSV_5V
-Text Label 9450 1100 2    50   ~ 0
-LV_5V
-Text HLabel 9550 1100 2    50   Input ~ 0
-LV_5V
 Wire Wire Line
 	9550 1200 9450 1200
 Wire Wire Line
 	9550 1450 9450 1450
 Wire Wire Line
 	9450 1350 9550 1350
-Wire Wire Line
-	9550 1100 9450 1100
 Wire Wire Line
 	1450 850  1350 850 
 Wire Wire Line
@@ -184,7 +178,7 @@ AR Path="/5DE0BD94" Ref="Q?"  Part="1"
 AR Path="/5DCA6D60/5DE0BD94" Ref="Q4"  Part="1" 
 F 0 "Q4" H 4106 6446 50  0000 L CNN
 F 1 "DMP10H4D2S" H 4106 6355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4100 6500 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 6500 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMP10H4D2S.pdf" H 3900 6400 50  0001 C CNN
 F 4 "Diodes Incorporated" H 3900 6400 50  0001 C CNN "Manufacturer"
 F 5 "DMP10H4D2S-7" H 3900 6400 50  0001 C CNN "Manufacturer Part"
@@ -368,7 +362,7 @@ Wire Wire Line
 Text Label 7500 3350 0    50   ~ 0
 LV_RTN
 Text Label 7500 2950 0    50   ~ 0
-LV_5V
+LV_3V3
 $Comp
 L Device:C C22
 U 1 1 5E1BAD60
@@ -395,7 +389,7 @@ Wire Wire Line
 Text Label 8400 3350 0    50   ~ 0
 LV_RTN
 Text Label 8400 2950 0    50   ~ 0
-LV_5V
+LV_3V3
 $Comp
 L Device:C C17
 U 1 1 5E1BF4FC
@@ -494,7 +488,7 @@ Wire Wire Line
 	7450 1900 7450 2000
 Connection ~ 7800 1900
 Text Label 7900 1900 0    50   ~ 0
-LV_5V
+LV_3V3
 $Comp
 L Isolator:TLP291 ISO?
 U 1 1 5E1E7B44
@@ -675,7 +669,7 @@ SDA_SEG1
 Text Label 4950 2300 2    50   ~ 0
 SEG1_5V
 Text Label 6050 3050 0    50   ~ 0
-LV_5V
+LV_3V3
 Text Label 6050 3350 0    50   ~ 0
 LV_RTN
 Wire Wire Line
@@ -691,7 +685,7 @@ SCL_GLV
 Text Label 6050 3150 0    50   ~ 0
 SDA_GLV
 Text Label 6050 2300 0    50   ~ 0
-LV_5V
+LV_3V3
 Text Label 6050 2600 0    50   ~ 0
 LV_RTN
 Wire Wire Line
@@ -733,7 +727,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 5350 5200 5350
 Text Label 5900 4850 0    50   ~ 0
-LV_5V
+LV_3V3
 Text Label 6000 5350 0    50   ~ 0
 ~CHRG_DETECT
 $Comp
@@ -760,4 +754,10 @@ Wire Wire Line
 Wire Wire Line
 	5900 5350 6000 5350
 Connection ~ 5900 5350
+Text Label 9450 1100 2    50   ~ 0
+LV_3V3
+Text HLabel 9550 1100 2    50   Input ~ 0
+LV_3V3
+Wire Wire Line
+	9550 1100 9450 1100
 $EndSCHEMATC

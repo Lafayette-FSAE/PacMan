@@ -950,12 +950,12 @@ Wire Wire Line
 $Comp
 L Regulator_Linear:AP2204K-5.0 U18
 U 1 1 5E42E32D
-P 9050 3650
-F 0 "U18" H 9050 3992 50  0000 C CNN
-F 1 "AP2204K-5.0" H 9050 3901 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9050 3975 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9050 3750 50  0001 C CNN
-	1    9050 3650
+P 9050 4550
+F 0 "U18" H 9050 4892 50  0000 C CNN
+F 1 "AP2204K-5.0" H 9050 4801 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9050 4875 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9050 4650 50  0001 C CNN
+	1    9050 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -984,28 +984,6 @@ Wire Wire Line
 	9350 3550 9450 3550
 Wire Wire Line
 	9550 4450 9450 4450
-$Comp
-L Device:C C30
-U 1 1 5E471D80
-P 8350 3800
-F 0 "C30" H 8465 3846 50  0000 L CNN
-F 1 "1u" H 8465 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 3650 50  0001 C CNN
-F 3 "~" H 8350 3800 50  0001 C CNN
-	1    8350 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C32
-U 1 1 5E47201C
-P 9450 3800
-F 0 "C32" H 9565 3846 50  0000 L CNN
-F 1 "2.2u" H 9565 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9488 3650 50  0001 C CNN
-F 3 "~" H 9450 3800 50  0001 C CNN
-	1    9450 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9450 4550 9450 4450
 Connection ~ 9450 4450
@@ -1173,4 +1151,26 @@ Text Notes 7050 5000 0    50   ~ 0
 333mA
 Wire Wire Line
 	5600 2350 5400 2350
+$Comp
+L Device:C C32
+U 1 1 5E47201C
+P 9450 4700
+F 0 "C32" H 9565 4746 50  0000 L CNN
+F 1 "2.2u" H 9565 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9488 4550 50  0001 C CNN
+F 3 "~" H 9450 4700 50  0001 C CNN
+	1    9450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C30
+U 1 1 5E471D80
+P 8350 4700
+F 0 "C30" H 8465 4746 50  0000 L CNN
+F 1 "1u" H 8465 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 4550 50  0001 C CNN
+F 3 "~" H 8350 4700 50  0001 C CNN
+	1    8350 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

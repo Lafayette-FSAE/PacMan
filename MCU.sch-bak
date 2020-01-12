@@ -93,7 +93,7 @@ F 3 "https://www.amazon.com/TTGO-ESP32-PSRAM-Antenna-Bluetooth/dp/B07B6NM1RY" H 
 	1    5050 1200
 	1    0    0    -1  
 $EndComp
-Text Label 6500 1700 0    50   ~ 0
+Text Label 6500 2300 0    50   ~ 0
 CHRG_EN
 Text Label 6500 1300 0    50   ~ 0
 WATCHDOG
@@ -116,8 +116,8 @@ LV_5V
 Text Label 1600 850  0    50   ~ 0
 LV_RTN
 Wire Wire Line
-	5800 1000 5800 1100
-Text Label 5800 1000 0    50   ~ 0
+	5800 950  5800 1100
+Text Label 5800 950  0    50   ~ 0
 LV_3V3
 Text HLabel 1500 1000 0    50   Input ~ 0
 GLV_24V
@@ -266,7 +266,7 @@ F 3 "~" H 7800 1050 50  0001 C CNN
 	1    7800 1050
 	0    -1   1    0   
 $EndComp
-Text Label 4850 1500 2    50   ~ 0
+Text Label 6500 1700 0    50   ~ 0
 ~CHRG_DETECT
 Text Label 1600 2450 0    50   ~ 0
 CAN_H
@@ -298,10 +298,10 @@ Wire Wire Line
 Wire Wire Line
 	5600 2800 5600 2700
 Connection ~ 5700 2800
-Text Label 5600 1000 2    50   ~ 0
+Text Label 5600 950  2    50   ~ 0
 LV_5V
 Wire Wire Line
-	5600 1000 5600 1100
+	5600 950  5600 1100
 Wire Wire Line
 	7550 1050 7650 1050
 Wire Wire Line
@@ -727,7 +727,7 @@ F 7 "MCP23008T-E/SSCT-ND" H 4300 5750 50  0001 C CNN "Vendor Part"
 	1    0    0    -1  
 $EndComp
 Text Label 4750 5400 0    50   ~ 0
-LV_5V
+LV_3V3
 Wire Wire Line
 	4750 5400 4650 5400
 Text Label 3850 6200 2    50   ~ 0
@@ -811,7 +811,7 @@ Text Notes 5600 4900 0    79   ~ 16
 Safety Loop Relay
 Wire Notes Line
 	5550 4750 5550 6450
-Text Notes 2850 5150 0    79   ~ 16
+Text Notes 2850 5100 0    79   ~ 16
 I/O Expander
 Text Label 2150 7550 0    50   ~ 0
 LV_RTN
@@ -856,7 +856,7 @@ F 7 "1276-1003-1-ND" H 3200 6000 50  0001 C CNN "Vendor Part"
 	-1   0    0    -1  
 $EndComp
 Text Label 3100 5750 2    50   ~ 0
-LV_5V
+LV_3V3
 Wire Wire Line
 	3200 5750 3200 5850
 Text Label 3100 6250 2    50   ~ 0
@@ -931,7 +931,7 @@ Wire Wire Line
 	2900 1400 3000 1400
 Wire Wire Line
 	3000 1300 2900 1300
-Text Label 6500 2300 0    50   ~ 0
+Text Label 4850 1500 2    50   ~ 0
 SDA_GLV
 Text Label 6500 2400 0    50   ~ 0
 SCL_GLV
@@ -1023,7 +1023,7 @@ BTN_CENTER
 Text Label 2050 6100 0    50   ~ 0
 LV_3V3
 Text Label 4400 3550 0    50   ~ 0
-LV_5V
+LV_3V3
 $Comp
 L Device:C C?
 U 1 1 5DD8982B
@@ -1136,7 +1136,7 @@ AR Path="/5DC1121D/5E21927F" Ref="Q?"  Part="1"
 AR Path="/5DC1F176/5E21927F" Ref="Q1"  Part="1" 
 F 0 "Q1" H 6506 6046 50  0000 L CNN
 F 1 "BSS123" H 6506 5955 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6500 6100 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 6100 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30366.pdf" H 6300 6000 50  0001 C CNN
 F 4 "Diodes Incorporated" H 6300 6000 50  0001 C CNN "Manufacturer"
 F 5 "BSS123-7-F" H 6300 6000 50  0001 C CNN "Manufacturer Part"
@@ -1159,9 +1159,9 @@ Wire Wire Line
 	7100 5300 7200 5300
 Wire Wire Line
 	7200 5600 7100 5600
-Text Label 7200 5600 0    50   ~ 0
-SLOOP1_OUT
 Text Label 7200 5300 0    50   ~ 0
+SLOOP1_OUT
+Text Label 7200 5600 0    50   ~ 0
 SLOOP1_IN
 Connection ~ 6400 5600
 Connection ~ 6400 5300
@@ -1574,4 +1574,10 @@ Wire Wire Line
 	9250 1050 9150 1050
 Wire Wire Line
 	9150 1050 9150 950 
+Text Notes 5850 1150 0    50   ~ 0
+1A Max 3V3 Current\n(~~500mA max given 5V limit)
+Text Notes 5250 5050 0    50   ~ 0
+1mA
+Text Notes 4650 3350 0    50   ~ 0
+1mA
 $EndSCHEMATC
