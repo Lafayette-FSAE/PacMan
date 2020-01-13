@@ -314,11 +314,11 @@ Text Label 9650 5650 0    50   ~ 0
 LV_3V3
 Text Label 9650 6250 0    50   ~ 0
 LV_RTN
-Text Label 8950 6150 2    50   ~ 0
+Text Label 8950 6250 2    50   ~ 0
 DISP_DIN
 Text Label 9650 5750 0    50   ~ 0
 DISP_CLK
-Text Label 8950 6250 2    50   ~ 0
+Text Label 8950 6150 2    50   ~ 0
 DISP_CS
 Text Label 8950 5950 2    50   ~ 0
 DISP_DC
@@ -724,17 +724,17 @@ F 7 "WM17931-ND" H 9300 3150 50  0001 C CNN "Vendor Part"
 	1    9300 3150
 	1    0    0    -1  
 $EndComp
-Text Label 9000 2900 2    50   ~ 0
-AIRS+
 Text Label 9000 3000 2    50   ~ 0
+AIRS+
+Text Label 9000 2900 2    50   ~ 0
 AIRS-
 Wire Wire Line
 	9000 2900 9100 2900
 Wire Wire Line
 	9100 3000 9000 3000
-Text Label 9000 3150 2    50   ~ 0
-AIRS+
 Text Label 9000 3250 2    50   ~ 0
+AIRS+
+Text Label 9000 3150 2    50   ~ 0
 AIRS-
 Wire Wire Line
 	9000 3150 9100 3150
@@ -821,17 +821,17 @@ Text Label 9650 3650 0    50   ~ 0
 SLOOP1_OUT
 Text Label 9650 3750 0    50   ~ 0
 SLOOP2
-Text Label 9650 3950 0    50   ~ 0
-AIRS+
 Text Label 9650 3850 0    50   ~ 0
+AIRS+
+Text Label 9650 3950 0    50   ~ 0
 AIRS-
 Text Label 8950 3950 2    50   ~ 0
 SLOOP1_IN
 Text Label 8950 3850 2    50   ~ 0
 SLOOP2
-Text Label 8950 3650 2    50   ~ 0
-AIRS+
 Text Label 8950 3750 2    50   ~ 0
+AIRS+
+Text Label 8950 3650 2    50   ~ 0
 AIRS-
 Wire Wire Line
 	8950 3950 9050 3950
@@ -938,9 +938,9 @@ Wire Wire Line
 Connection ~ 4450 6200
 Wire Wire Line
 	4450 6200 4550 6200
-Text Label 1350 5950 0    50   ~ 0
-CHRG_DETECT-
 Text Label 1350 5850 0    50   ~ 0
+CHRG_DETECT-
+Text Label 1350 5950 0    50   ~ 0
 CHRG_DETECT+
 Wire Wire Line
 	8550 1100 8650 1100

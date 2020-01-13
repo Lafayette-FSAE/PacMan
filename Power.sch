@@ -273,7 +273,7 @@ U 1 1 5DCA5C36
 P 4750 6950
 F 0 "TP5" H 4808 7068 50  0000 L CNN
 F 1 "LV_5V" H 4808 6977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4950 6950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4950 6950 50  0001 C CNN
 F 3 "~" H 4950 6950 50  0001 C CNN
 	1    4750 6950
 	1    0    0    -1  
@@ -296,7 +296,7 @@ U 1 1 5DCACD71
 P 4200 7350
 F 0 "TP6" H 4258 7468 50  0000 L CNN
 F 1 "LV_24V" H 4258 7377 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4400 7350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4400 7350 50  0001 C CNN
 F 3 "~" H 4400 7350 50  0001 C CNN
 	1    4200 7350
 	1    0    0    -1  
@@ -313,7 +313,7 @@ U 1 1 5DCAF4E1
 P 4750 7350
 F 0 "TP7" H 4808 7468 50  0000 L CNN
 F 1 "GLV_24V" H 4808 7377 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4950 7350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4950 7350 50  0001 C CNN
 F 3 "~" H 4950 7350 50  0001 C CNN
 	1    4750 7350
 	1    0    0    -1  
@@ -330,7 +330,7 @@ U 1 1 5DCB539A
 P 3700 6550
 F 0 "TP2" H 3758 6668 50  0000 L CNN
 F 1 "TSV_5V" H 3758 6577 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3900 6550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3900 6550 50  0001 C CNN
 F 3 "~" H 3900 6550 50  0001 C CNN
 	1    3700 6550
 	-1   0    0    -1  
@@ -789,7 +789,7 @@ Text Label 8000 3550 0    50   ~ 0
 SEG1_9V
 Text Label 8000 4450 0    50   ~ 0
 SEG2_9V
-Text Label 9550 3550 0    50   ~ 0
+Text Label 8000 2700 0    50   ~ 0
 SEG1_5V
 Text Label 9550 4450 0    50   ~ 0
 SEG2_5V
@@ -807,7 +807,7 @@ U 1 1 5E2FB52B
 P 3700 6950
 F 0 "TP12" H 3758 7068 50  0000 L CNN
 F 1 "SEG2_9V" H 3758 6977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3900 6950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3900 6950 50  0001 C CNN
 F 3 "~" H 3900 6950 50  0001 C CNN
 	1    3700 6950
 	-1   0    0    -1  
@@ -822,12 +822,12 @@ U 1 1 5E2FB53C
 P 3150 6950
 F 0 "TP3" H 3208 7068 50  0000 L CNN
 F 1 "SEG1_9V" H 3208 6977 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 6950 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3350 6950 50  0001 C CNN
-F 4 "TE Connectivity" H 3150 6950 50  0001 C CNN "Manufacturer"
-F 5 "RCT-0C" H 3150 6950 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3150 6950 50  0001 C CNN "Vendor"
-F 7 "A106144CT-ND" H 3150 6950 50  0001 C CNN "Vendor Part"
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3350 6950 50  0001 C CNN
+F 3 "" H 3350 6950 50  0001 C CNN
+F 4 "" H 3150 6950 50  0001 C CNN "Manufacturer"
+F 5 "" H 3150 6950 50  0001 C CNN "Manufacturer Part"
+F 6 "" H 3150 6950 50  0001 C CNN "Vendor"
+F 7 "" H 3150 6950 50  0001 C CNN "Vendor Part"
 	1    3150 6950
 	-1   0    0    -1  
 $EndComp
@@ -841,7 +841,7 @@ U 1 1 5E30190A
 P 3700 7350
 F 0 "TP13" H 3758 7468 50  0000 L CNN
 F 1 "SEG2_5V" H 3758 7377 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3900 7350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3900 7350 50  0001 C CNN
 F 3 "~" H 3900 7350 50  0001 C CNN
 	1    3700 7350
 	-1   0    0    -1  
@@ -856,12 +856,12 @@ U 1 1 5E30191A
 P 3150 7350
 F 0 "TP10" H 3208 7468 50  0000 L CNN
 F 1 "SEG1_5V" H 3208 7377 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 7350 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3350 7350 50  0001 C CNN
-F 4 "TE Connectivity" H 3150 7350 50  0001 C CNN "Manufacturer"
-F 5 "RCT-0C" H 3150 7350 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3150 7350 50  0001 C CNN "Vendor"
-F 7 "A106144CT-ND" H 3150 7350 50  0001 C CNN "Vendor Part"
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3350 7350 50  0001 C CNN
+F 3 "" H 3350 7350 50  0001 C CNN
+F 4 "" H 3150 7350 50  0001 C CNN "Manufacturer"
+F 5 "" H 3150 7350 50  0001 C CNN "Manufacturer Part"
+F 6 "" H 3150 7350 50  0001 C CNN "Vendor"
+F 7 "" H 3150 7350 50  0001 C CNN "Vendor Part"
 	1    3150 7350
 	-1   0    0    -1  
 $EndComp
@@ -874,10 +874,10 @@ TSV_5V
 Text Label 8000 3200 0    50   ~ 0
 TSV_RTN
 Wire Wire Line
-	7800 2800 8000 2800
+	7800 2800 7950 2800
 Connection ~ 7800 2800
 Wire Wire Line
-	8000 3200 7800 3200
+	8000 3200 7950 3200
 Connection ~ 7800 3200
 $Comp
 L Device:C C28
@@ -1117,8 +1117,12 @@ U 1 1 5E7AE30D
 P 3700 7750
 F 0 "TP14" H 3758 7868 50  0000 L CNN
 F 1 "SEG2_RTN" H 3758 7777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3900 7750 50  0001 C CNN
-F 3 "~" H 3900 7750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 7750 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3900 7750 50  0001 C CNN
+F 4 "TE Connectivity" H 3700 7750 50  0001 C CNN "Manufacturer"
+F 5 "RCT-0C" H 3700 7750 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3700 7750 50  0001 C CNN "Vendor"
+F 7 "A106144CT-ND" H 3700 7750 50  0001 C CNN "Vendor Part"
 	1    3700 7750
 	-1   0    0    -1  
 $EndComp
@@ -1173,4 +1177,20 @@ F 3 "~" H 8350 4700 50  0001 C CNN
 	1    8350 4700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8000 2700 7950 2700
+Wire Wire Line
+	7950 2700 7950 2800
+Connection ~ 7950 2800
+Wire Wire Line
+	7950 2800 8000 2800
+Text Label 8000 3300 0    50   ~ 0
+SEG1_RTN
+Wire Wire Line
+	8000 3300 7950 3300
+Wire Wire Line
+	7950 3300 7950 3200
+Connection ~ 7950 3200
+Wire Wire Line
+	7950 3200 7800 3200
 $EndSCHEMATC

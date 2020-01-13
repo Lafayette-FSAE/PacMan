@@ -789,7 +789,7 @@ Text Label 8000 3550 0    50   ~ 0
 SEG1_9V
 Text Label 8000 4450 0    50   ~ 0
 SEG2_9V
-Text Label 9550 3550 0    50   ~ 0
+Text Label 8000 2700 0    50   ~ 0
 SEG1_5V
 Text Label 9550 4450 0    50   ~ 0
 SEG2_5V
@@ -874,10 +874,10 @@ TSV_5V
 Text Label 8000 3200 0    50   ~ 0
 TSV_RTN
 Wire Wire Line
-	7800 2800 8000 2800
+	7800 2800 7950 2800
 Connection ~ 7800 2800
 Wire Wire Line
-	8000 3200 7800 3200
+	8000 3200 7950 3200
 Connection ~ 7800 3200
 $Comp
 L Device:C C28
@@ -1173,4 +1173,20 @@ F 3 "~" H 8350 4700 50  0001 C CNN
 	1    8350 4700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8000 2700 7950 2700
+Wire Wire Line
+	7950 2700 7950 2800
+Connection ~ 7950 2800
+Wire Wire Line
+	7950 2800 8000 2800
+Text Label 8000 3300 0    50   ~ 0
+SEG1_RTN
+Wire Wire Line
+	8000 3300 7950 3300
+Wire Wire Line
+	7950 3300 7950 3200
+Connection ~ 7950 3200
+Wire Wire Line
+	7950 3200 7800 3200
 $EndSCHEMATC

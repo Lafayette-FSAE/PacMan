@@ -1439,7 +1439,7 @@ U 1 1 5DEF7D45
 P 9100 2550
 F 0 "U3" H 9400 2717 50  0000 C CNN
 F 1 "ADM6320" H 9400 2626 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 9400 2000 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9400 2000 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM6316_6318_6319_6320_6321_6322.pdf" H 9200 2700 50  0001 C CNN
 F 4 "Analog Devices Inc." H 9100 2550 50  0001 C CNN "Manufacturer"
 F 5 "ADM6320CY29ARJZ-R7" H 9100 2550 50  0001 C CNN "Manufacturer Part"
@@ -1546,7 +1546,7 @@ U 1 1 5E29B771
 P 9150 950
 F 0 "TP8" H 9208 1068 50  0000 L CNN
 F 1 "SDA" H 9208 977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9350 950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9350 950 50  0001 C CNN
 F 3 "~" H 9350 950 50  0001 C CNN
 	1    9150 950 
 	1    0    0    -1  
@@ -1557,7 +1557,7 @@ U 1 1 5E29B90A
 P 9650 950
 F 0 "TP9" H 9708 1068 50  0000 L CNN
 F 1 "SCL" H 9708 977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9850 950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9850 950 50  0001 C CNN
 F 3 "~" H 9850 950 50  0001 C CNN
 	1    9650 950 
 	1    0    0    -1  
