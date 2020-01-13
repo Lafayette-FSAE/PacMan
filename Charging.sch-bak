@@ -361,4 +361,204 @@ Wire Wire Line
 	4950 2450 5050 2450
 Text Label 4950 2450 2    50   ~ 0
 CHRG_IN-
+$Comp
+L Analog_ADC:INA233 U19
+U 1 1 5E2A7645
+P 2400 4000
+F 0 "U19" H 2150 4600 50  0000 C CNN
+F 1 "INA233" H 2150 4500 50  0000 C CNN
+F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 3200 3550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina233.pdf" H 2750 3900 50  0001 C CNN
+	1    2400 4000
+	1    0    0    -1  
+$EndComp
+Text Label 1600 5500 2    50   ~ 0
+BAL_SEG2+
+Text Label 1600 4500 2    50   ~ 0
+SEG1+
+Text Label 1600 6400 2    50   ~ 0
+SEG2+
+$Comp
+L Device:R R36
+U 1 1 5E2AAB28
+P 1700 4150
+F 0 "R36" H 1631 4104 50  0000 R CNN
+F 1 "R" H 1631 4195 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 4150 50  0001 C CNN
+F 3 "~" H 1700 4150 50  0001 C CNN
+	1    1700 4150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2000 4100 1900 4100
+Wire Wire Line
+	1900 4100 1900 3900
+Wire Wire Line
+	1900 3900 1700 3900
+Wire Wire Line
+	1700 3900 1700 4000
+Wire Wire Line
+	2000 4200 1900 4200
+Wire Wire Line
+	1900 4200 1900 4400
+Wire Wire Line
+	1900 4400 1700 4400
+Wire Wire Line
+	1700 4400 1700 4300
+Wire Wire Line
+	2000 3700 1700 3700
+Wire Wire Line
+	1700 3700 1700 3900
+Connection ~ 1700 3900
+Text Label 1600 3600 2    50   ~ 0
+BAL_SEG1+
+Wire Wire Line
+	1700 3600 1700 3700
+Connection ~ 1700 3700
+Wire Wire Line
+	1600 4500 1700 4500
+Wire Wire Line
+	1700 4500 1700 4400
+Connection ~ 1700 4400
+Wire Wire Line
+	1600 3600 1700 3600
+$Comp
+L Device:R R37
+U 1 1 5E2B7C4E
+P 1700 6050
+F 0 "R37" H 1631 6004 50  0000 R CNN
+F 1 "R" H 1631 6095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 6050 50  0001 C CNN
+F 3 "~" H 1700 6050 50  0001 C CNN
+	1    1700 6050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2000 6000 1900 6000
+Wire Wire Line
+	1900 6000 1900 5800
+Wire Wire Line
+	1900 5800 1700 5800
+Wire Wire Line
+	1700 5800 1700 5900
+Wire Wire Line
+	2000 6100 1900 6100
+Wire Wire Line
+	1900 6100 1900 6300
+Wire Wire Line
+	1900 6300 1700 6300
+Wire Wire Line
+	1700 6300 1700 6200
+Wire Wire Line
+	2000 5600 1700 5600
+Wire Wire Line
+	1700 5600 1700 5800
+Connection ~ 1700 5800
+Wire Wire Line
+	1700 5500 1700 5600
+Connection ~ 1700 5600
+Wire Wire Line
+	1600 6400 1700 6400
+Wire Wire Line
+	1700 6400 1700 6300
+Connection ~ 1700 6300
+Wire Wire Line
+	1600 5500 1700 5500
+Text Label 2400 3300 2    50   ~ 0
+SEG1_5V
+Text Label 2500 4600 0    50   ~ 0
+SEG1_RTN
+Text Label 3000 5300 0    50   ~ 0
+SEG2_RTN
+Text Label 2400 5200 2    50   ~ 0
+SEG2_5V
+$Comp
+L Device:C C31
+U 1 1 5E2DA6ED
+P 2650 3400
+F 0 "C31" V 2398 3400 50  0000 C CNN
+F 1 "0.1u/50V" V 2489 3400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 3250 50  0001 C CNN
+F 3 "~" H 2650 3400 50  0001 C CNN
+	1    2650 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 3300 2400 3400
+Connection ~ 2400 3400
+Wire Wire Line
+	2400 3400 2400 3500
+Wire Wire Line
+	2400 4500 2400 4600
+Wire Wire Line
+	2400 4600 2500 4600
+NoConn ~ 2800 4300
+Text Label 3000 3400 0    50   ~ 0
+SEG1_RTN
+Wire Wire Line
+	3000 3400 2900 3400
+Wire Wire Line
+	2900 3400 2900 3700
+Wire Wire Line
+	2900 3700 2800 3700
+Connection ~ 2900 3400
+Wire Wire Line
+	2900 3400 2800 3400
+Wire Wire Line
+	2800 3800 2900 3800
+Wire Wire Line
+	2900 3800 2900 3700
+Connection ~ 2900 3700
+Wire Wire Line
+	2400 3400 2500 3400
+$Comp
+L Analog_ADC:INA233 U20
+U 1 1 5E3036A9
+P 2400 5900
+F 0 "U20" H 2150 6500 50  0000 C CNN
+F 1 "INA233" H 2150 6400 50  0000 C CNN
+F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 3200 5450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina233.pdf" H 2750 5800 50  0001 C CNN
+	1    2400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C33
+U 1 1 5E3036B5
+P 2650 5300
+F 0 "C33" V 2398 5300 50  0000 C CNN
+F 1 "0.1u/50V" V 2489 5300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 5150 50  0001 C CNN
+F 3 "~" H 2650 5300 50  0001 C CNN
+	1    2650 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 5200 2400 5300
+Connection ~ 2400 5300
+Wire Wire Line
+	2400 5300 2400 5400
+Wire Wire Line
+	2400 6400 2400 6500
+Wire Wire Line
+	2400 6500 2500 6500
+NoConn ~ 2800 6200
+Wire Wire Line
+	3000 5300 2900 5300
+Wire Wire Line
+	2900 5300 2900 5600
+Wire Wire Line
+	2900 5600 2800 5600
+Connection ~ 2900 5300
+Wire Wire Line
+	2900 5300 2800 5300
+Wire Wire Line
+	2800 5700 2900 5700
+Wire Wire Line
+	2900 5700 2900 5600
+Connection ~ 2900 5600
+Wire Wire Line
+	2400 5300 2500 5300
+Text Label 2500 6500 0    50   ~ 0
+SEG2_RTN
 $EndSCHEMATC

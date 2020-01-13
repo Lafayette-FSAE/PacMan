@@ -789,7 +789,7 @@ Text Label 8000 3550 0    50   ~ 0
 SEG1_9V
 Text Label 8000 4450 0    50   ~ 0
 SEG2_9V
-Text Label 8000 2700 0    50   ~ 0
+Text Label 8450 2700 0    50   ~ 0
 SEG1_5V
 Text Label 9550 4450 0    50   ~ 0
 SEG2_5V
@@ -797,8 +797,6 @@ Text Label 3050 7050 2    50   ~ 0
 SEG1_9V
 Text Label 3600 7050 2    50   ~ 0
 SEG2_9V
-Text Label 3050 7450 2    50   ~ 0
-SEG1_5V
 Text Label 3600 7450 2    50   ~ 0
 SEG2_5V
 $Comp
@@ -850,41 +848,20 @@ Wire Wire Line
 	3600 7450 3700 7450
 Wire Wire Line
 	3700 7450 3700 7350
-$Comp
-L Connector:TestPoint TP10
-U 1 1 5E30191A
-P 3150 7350
-F 0 "TP10" H 3208 7468 50  0000 L CNN
-F 1 "SEG1_5V" H 3208 7377 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3350 7350 50  0001 C CNN
-F 3 "" H 3350 7350 50  0001 C CNN
-F 4 "" H 3150 7350 50  0001 C CNN "Manufacturer"
-F 5 "" H 3150 7350 50  0001 C CNN "Manufacturer Part"
-F 6 "" H 3150 7350 50  0001 C CNN "Vendor"
-F 7 "" H 3150 7350 50  0001 C CNN "Vendor Part"
-	1    3150 7350
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 7450 3150 7450
-Wire Wire Line
-	3150 7450 3150 7350
-Text Label 8000 2800 0    50   ~ 0
+Text Label 8450 2800 0    50   ~ 0
 TSV_5V
-Text Label 8000 3200 0    50   ~ 0
+Text Label 8450 3200 0    50   ~ 0
 TSV_RTN
 Wire Wire Line
-	7800 2800 7950 2800
-Connection ~ 7800 2800
+	7800 2800 8300 2800
 Wire Wire Line
-	8000 3200 7950 3200
-Connection ~ 7800 3200
+	8450 3200 8400 3200
 $Comp
 L Device:C C28
 U 1 1 5E342B00
 P 7800 3800
 F 0 "C28" H 7915 3846 50  0000 L CNN
-F 1 "10u" H 7915 3755 50  0000 L CNN
+F 1 "10u/50V" H 7915 3755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7838 3650 50  0001 C CNN
 F 3 "~" H 7800 3800 50  0001 C CNN
 	1    7800 3800
@@ -895,7 +872,7 @@ L Device:C C29
 U 1 1 5E343163
 P 7800 4700
 F 0 "C29" H 7915 4746 50  0000 L CNN
-F 1 "10u" H 7915 4655 50  0000 L CNN
+F 1 "10u/50V" H 7915 4655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7838 4550 50  0001 C CNN
 F 3 "~" H 7800 4700 50  0001 C CNN
 	1    7800 4700
@@ -909,7 +886,6 @@ Wire Wire Line
 	7600 3550 7800 3550
 Wire Wire Line
 	7800 3550 7800 3650
-Connection ~ 7800 3550
 Wire Wire Line
 	7450 4600 7600 4600
 Wire Wire Line
@@ -958,9 +934,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9050 4650 50  0001 C
 	1    9050 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 4050 8350 4050
-Text Label 9550 4050 0    50   ~ 0
+Text Label 8000 4050 0    50   ~ 0
 SEG1_RTN
 Wire Wire Line
 	8750 4550 8650 4550
@@ -969,19 +943,8 @@ Wire Wire Line
 Wire Wire Line
 	8650 4450 8750 4450
 Wire Wire Line
-	8750 3650 8650 3650
-Wire Wire Line
-	8650 3650 8650 3550
-Wire Wire Line
-	8650 3550 8750 3550
-Wire Wire Line
-	7800 3550 8350 3550
-Connection ~ 8650 3550
-Wire Wire Line
 	7800 4450 8350 4450
 Connection ~ 8650 4450
-Wire Wire Line
-	9350 3550 9450 3550
 Wire Wire Line
 	9550 4450 9450 4450
 Wire Wire Line
@@ -989,16 +952,6 @@ Wire Wire Line
 Connection ~ 9450 4450
 Wire Wire Line
 	9450 4450 9350 4450
-Wire Wire Line
-	9450 3650 9450 3550
-Connection ~ 9450 3550
-Wire Wire Line
-	9450 3550 9550 3550
-Wire Wire Line
-	8350 3650 8350 3550
-Connection ~ 8350 3550
-Wire Wire Line
-	8350 3550 8650 3550
 Wire Wire Line
 	9550 4950 9450 4950
 Wire Wire Line
@@ -1019,21 +972,6 @@ Wire Wire Line
 Connection ~ 8350 4450
 Wire Wire Line
 	8350 4450 8650 4450
-Wire Wire Line
-	8350 4050 8350 3950
-Wire Wire Line
-	8350 4050 9050 4050
-Wire Wire Line
-	9050 4050 9050 3950
-Connection ~ 8350 4050
-Wire Wire Line
-	9050 4050 9450 4050
-Wire Wire Line
-	9450 4050 9450 3950
-Connection ~ 9050 4050
-Wire Wire Line
-	9550 4050 9450 4050
-Connection ~ 9450 4050
 Connection ~ 5500 2800
 Wire Wire Line
 	5500 2800 5500 3600
@@ -1107,8 +1045,6 @@ Wire Wire Line
 	1250 1950 1150 1950
 Wire Wire Line
 	1150 2050 1250 2050
-Text Label 3050 7850 2    50   ~ 0
-SEG1_RTN
 Text Label 3600 7850 2    50   ~ 0
 SEG2_RTN
 $Comp
@@ -1130,25 +1066,6 @@ Wire Wire Line
 	3600 7850 3700 7850
 Wire Wire Line
 	3700 7850 3700 7750
-$Comp
-L Connector:TestPoint TP11
-U 1 1 5E7AE31D
-P 3150 7750
-F 0 "TP11" H 3208 7868 50  0000 L CNN
-F 1 "SEG1_RTN" H 3208 7777 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 7750 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3350 7750 50  0001 C CNN
-F 4 "TE Connectivity" H 3150 7750 50  0001 C CNN "Manufacturer"
-F 5 "RCT-0C" H 3150 7750 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3150 7750 50  0001 C CNN "Vendor"
-F 7 "A106144CT-ND" H 3150 7750 50  0001 C CNN "Vendor Part"
-	1    3150 7750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 7850 3150 7850
-Wire Wire Line
-	3150 7850 3150 7750
 Text Notes 7050 4100 0    50   ~ 0
 333mA
 Text Notes 7050 5000 0    50   ~ 0
@@ -1162,7 +1079,11 @@ P 9450 4700
 F 0 "C32" H 9565 4746 50  0000 L CNN
 F 1 "2.2u" H 9565 4655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9488 4550 50  0001 C CNN
-F 3 "~" H 9450 4700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 9450 4700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9450 4700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 9450 4700 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9450 4700 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 9450 4700 50  0001 C CNN "Vendor Part"
 	1    9450 4700
 	1    0    0    -1  
 $EndComp
@@ -1178,19 +1099,47 @@ F 3 "~" H 8350 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 2700 7950 2700
+	8450 2700 8400 2700
 Wire Wire Line
-	7950 2700 7950 2800
-Connection ~ 7950 2800
+	8400 2700 8400 2800
+Connection ~ 8400 2800
 Wire Wire Line
-	7950 2800 8000 2800
-Text Label 8000 3300 0    50   ~ 0
+	8400 2800 8450 2800
+Text Label 8450 3300 0    50   ~ 0
 SEG1_RTN
 Wire Wire Line
-	8000 3300 7950 3300
+	8450 3300 8400 3300
 Wire Wire Line
-	7950 3300 7950 3200
-Connection ~ 7950 3200
+	8400 3300 8400 3200
+Connection ~ 8400 3200
 Wire Wire Line
-	7950 3200 7800 3200
+	7800 4050 8000 4050
+Wire Wire Line
+	8000 3550 7800 3550
+Connection ~ 7800 3550
+Wire Wire Line
+	7800 3200 8300 3200
+$Comp
+L Device:R R34
+U 1 1 5E239F19
+P 8300 3000
+F 0 "R34" H 8370 3046 50  0000 L CNN
+F 1 "500" H 8370 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8230 3000 50  0001 C CNN
+F 3 "~" H 8300 3000 50  0001 C CNN
+	1    8300 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7800 3200
+Connection ~ 7800 2800
+Wire Wire Line
+	8300 2850 8300 2800
+Connection ~ 8300 2800
+Wire Wire Line
+	8300 2800 8400 2800
+Wire Wire Line
+	8300 3150 8300 3200
+Connection ~ 8300 3200
+Wire Wire Line
+	8300 3200 8400 3200
 $EndSCHEMATC
