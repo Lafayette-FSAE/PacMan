@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title "PacMan: Charging"
 Date "2019-11-19"
 Rev "1.2"
@@ -204,35 +203,8 @@ Text HLabel 9600 1450 2    50   Input ~ 0
 CHRG_LED
 Wire Wire Line
 	9500 1450 9600 1450
-Text Label 7600 1900 0    50   ~ 0
-CHRG_EN
-Text Label 7200 1600 0    50   ~ 0
+Text Label 7150 2400 0    50   ~ 0
 CHRG_LED
-$Comp
-L Device:Q_NMOS_GSD Q3
-U 1 1 5DCEBF2A
-P 7300 1900
-F 0 "Q3" H 7506 1946 50  0000 L CNN
-F 1 "BSS123" H 7506 1855 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7500 2000 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30366.pdf" H 7300 1900 50  0001 C CNN
-F 4 "Diodes Incorporated" H 7300 1900 50  0001 C CNN "Manufacturer"
-F 5 "BSS123-7-F" H 7300 1900 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 7300 1900 50  0001 C CNN "Vendor"
-F 7 "BSS123-FDICT-ND" H 7300 1900 50  0001 C CNN "Vendor Part"
-	1    7300 1900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 1900 7500 1900
-Text Label 7300 2200 0    50   ~ 0
-LV_RTN
-Wire Wire Line
-	7300 2200 7200 2200
-Wire Wire Line
-	7200 2200 7200 2100
-Wire Wire Line
-	7200 1600 7200 1700
 Wire Wire Line
 	5200 4200 5200 4300
 Wire Wire Line
@@ -279,24 +251,13 @@ F 7 "S1B-FDICT-ND" H 5950 2300 50  0001 C CNN "Vendor Part"
 	1    5950 2300
 	0    -1   1    0   
 $EndComp
-$Comp
-L Transistor_FET:2N7002 Q2
-U 1 1 5E18B0A8
-P 5950 2750
-F 0 "Q2" H 6156 2796 50  0000 L CNN
-F 1 "2N7002" H 6156 2705 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6150 2675 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5950 2750 50  0001 L CNN
-	1    5950 2750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5650 1800 5750 1800
 Wire Wire Line
 	5750 1800 5750 2450
 Wire Wire Line
 	5750 2450 5650 2450
-Text Label 5950 1400 0    50   ~ 0
+Text Label 6500 1400 0    50   ~ 0
 LV_24V
 Wire Wire Line
 	5850 1500 5650 1500
@@ -304,11 +265,6 @@ Wire Wire Line
 	5650 2150 5850 2150
 Wire Wire Line
 	5850 2150 5850 1500
-Wire Wire Line
-	5850 1500 5950 1500
-Wire Wire Line
-	5950 1500 5950 1400
-Connection ~ 5850 1500
 Text Notes 5550 1800 1    50   ~ 0
 R=576
 Text Notes 5550 2450 1    50   ~ 0
@@ -316,24 +272,17 @@ R=576
 Wire Wire Line
 	5850 2150 5950 2150
 Connection ~ 5850 2150
-Wire Wire Line
-	5750 2450 5850 2450
 Connection ~ 5750 2450
-Wire Wire Line
-	5850 2450 5850 2550
-Connection ~ 5850 2450
-Wire Wire Line
-	5850 2450 5950 2450
-Text Label 6250 2750 0    50   ~ 0
+Text Label 6900 2850 0    50   ~ 0
 CHRG_EN
 Wire Wire Line
-	6250 2750 6150 2750
-Text Label 5950 3050 0    50   ~ 0
+	6900 2850 6800 2850
+Text Label 6600 3150 0    50   ~ 0
 LV_RTN
 Wire Wire Line
-	5950 3050 5850 3050
+	6600 3150 6500 3150
 Wire Wire Line
-	5850 3050 5850 2950
+	6500 3150 6500 3050
 Wire Wire Line
 	4250 1500 4350 1500
 Wire Wire Line
@@ -365,201 +314,352 @@ CHRG_IN-
 $Comp
 L Analog_ADC:INA233 U19
 U 1 1 5E2A7645
-P 2400 4000
-F 0 "U19" H 2150 4600 50  0000 C CNN
-F 1 "INA233" H 2150 4500 50  0000 C CNN
-F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 3200 3550 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ina233.pdf" H 2750 3900 50  0001 C CNN
-	1    2400 4000
+P 2750 4600
+F 0 "U19" H 2500 5200 50  0000 C CNN
+F 1 "INA233" H 2500 5100 50  0000 C CNN
+F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 3550 4150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina233.pdf" H 3100 4500 50  0001 C CNN
+	1    2750 4600
 	1    0    0    -1  
 $EndComp
-Text Label 1600 5500 2    50   ~ 0
+Text Label 1950 6100 2    50   ~ 0
 BAL_SEG2+
-Text Label 1600 4500 2    50   ~ 0
+Text Label 1950 5100 2    50   ~ 0
 SEG1+
-Text Label 1600 6400 2    50   ~ 0
+Text Label 1950 7000 2    50   ~ 0
 SEG2+
 $Comp
 L Device:R R36
 U 1 1 5E2AAB28
-P 1700 4150
-F 0 "R36" H 1631 4104 50  0000 R CNN
-F 1 "R" H 1631 4195 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 4150 50  0001 C CNN
-F 3 "~" H 1700 4150 50  0001 C CNN
-	1    1700 4150
+P 2050 4750
+F 0 "R36" H 1981 4704 50  0000 R CNN
+F 1 "R" H 1981 4795 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1980 4750 50  0001 C CNN
+F 3 "~" H 2050 4750 50  0001 C CNN
+	1    2050 4750
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	2000 4100 1900 4100
+	2350 4700 2250 4700
 Wire Wire Line
-	1900 4100 1900 3900
+	2250 4700 2250 4500
 Wire Wire Line
-	1900 3900 1700 3900
+	2250 4500 2050 4500
 Wire Wire Line
-	1700 3900 1700 4000
+	2050 4500 2050 4600
 Wire Wire Line
-	2000 4200 1900 4200
+	2350 4800 2250 4800
 Wire Wire Line
-	1900 4200 1900 4400
+	2250 4800 2250 5000
 Wire Wire Line
-	1900 4400 1700 4400
+	2250 5000 2050 5000
 Wire Wire Line
-	1700 4400 1700 4300
+	2050 5000 2050 4900
 Wire Wire Line
-	2000 3700 1700 3700
+	2350 4300 2050 4300
 Wire Wire Line
-	1700 3700 1700 3900
-Connection ~ 1700 3900
-Text Label 1600 3600 2    50   ~ 0
+	2050 4300 2050 4500
+Connection ~ 2050 4500
+Text Label 1950 4200 2    50   ~ 0
 BAL_SEG1+
 Wire Wire Line
-	1700 3600 1700 3700
-Connection ~ 1700 3700
+	2050 4200 2050 4300
+Connection ~ 2050 4300
 Wire Wire Line
-	1600 4500 1700 4500
+	1950 5100 2050 5100
 Wire Wire Line
-	1700 4500 1700 4400
-Connection ~ 1700 4400
+	2050 5100 2050 5000
+Connection ~ 2050 5000
 Wire Wire Line
-	1600 3600 1700 3600
+	1950 4200 2050 4200
 $Comp
 L Device:R R37
 U 1 1 5E2B7C4E
-P 1700 6050
-F 0 "R37" H 1631 6004 50  0000 R CNN
-F 1 "R" H 1631 6095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 6050 50  0001 C CNN
-F 3 "~" H 1700 6050 50  0001 C CNN
-	1    1700 6050
+P 2050 6650
+F 0 "R37" H 1981 6604 50  0000 R CNN
+F 1 "R" H 1981 6695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1980 6650 50  0001 C CNN
+F 3 "~" H 2050 6650 50  0001 C CNN
+	1    2050 6650
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	2000 6000 1900 6000
+	2350 6600 2250 6600
 Wire Wire Line
-	1900 6000 1900 5800
+	2250 6600 2250 6400
 Wire Wire Line
-	1900 5800 1700 5800
+	2250 6400 2050 6400
 Wire Wire Line
-	1700 5800 1700 5900
+	2050 6400 2050 6500
 Wire Wire Line
-	2000 6100 1900 6100
+	2350 6700 2250 6700
 Wire Wire Line
-	1900 6100 1900 6300
+	2250 6700 2250 6900
 Wire Wire Line
-	1900 6300 1700 6300
+	2250 6900 2050 6900
 Wire Wire Line
-	1700 6300 1700 6200
+	2050 6900 2050 6800
 Wire Wire Line
-	2000 5600 1700 5600
+	2350 6200 2050 6200
 Wire Wire Line
-	1700 5600 1700 5800
-Connection ~ 1700 5800
+	2050 6200 2050 6400
+Connection ~ 2050 6400
 Wire Wire Line
-	1700 5500 1700 5600
-Connection ~ 1700 5600
+	2050 6100 2050 6200
+Connection ~ 2050 6200
 Wire Wire Line
-	1600 6400 1700 6400
+	1950 7000 2050 7000
 Wire Wire Line
-	1700 6400 1700 6300
-Connection ~ 1700 6300
+	2050 7000 2050 6900
+Connection ~ 2050 6900
 Wire Wire Line
-	1600 5500 1700 5500
-Text Label 2400 3300 2    50   ~ 0
+	1950 6100 2050 6100
+Text Label 2750 3900 2    50   ~ 0
 SEG1_5V
-Text Label 2500 4600 0    50   ~ 0
+Text Label 2850 5200 0    50   ~ 0
 SEG1_RTN
-Text Label 3000 5300 0    50   ~ 0
+Text Label 3350 5900 0    50   ~ 0
 SEG2_RTN
-Text Label 2400 5200 2    50   ~ 0
+Text Label 2750 5800 2    50   ~ 0
 SEG2_5V
 $Comp
 L Device:C C31
 U 1 1 5E2DA6ED
-P 2650 3400
-F 0 "C31" V 2398 3400 50  0000 C CNN
-F 1 "0.1u/50V" V 2489 3400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 3250 50  0001 C CNN
-F 3 "~" H 2650 3400 50  0001 C CNN
-	1    2650 3400
+P 3000 4000
+F 0 "C31" V 2748 4000 50  0000 C CNN
+F 1 "0.1u/50V" V 2839 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 3850 50  0001 C CNN
+F 3 "~" H 3000 4000 50  0001 C CNN
+	1    3000 4000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2400 3300 2400 3400
-Connection ~ 2400 3400
+	2750 3900 2750 4000
+Connection ~ 2750 4000
 Wire Wire Line
-	2400 3400 2400 3500
+	2750 4000 2750 4100
 Wire Wire Line
-	2400 4500 2400 4600
+	2750 5100 2750 5200
 Wire Wire Line
-	2400 4600 2500 4600
-NoConn ~ 2800 4300
-Text Label 3000 3400 0    50   ~ 0
+	2750 5200 2850 5200
+NoConn ~ 3150 4900
+Text Label 3350 4000 0    50   ~ 0
 SEG1_RTN
 Wire Wire Line
-	3000 3400 2900 3400
+	3350 4000 3250 4000
 Wire Wire Line
-	2900 3400 2900 3700
+	3250 4000 3250 4300
 Wire Wire Line
-	2900 3700 2800 3700
-Connection ~ 2900 3400
+	3250 4300 3150 4300
+Connection ~ 3250 4000
 Wire Wire Line
-	2900 3400 2800 3400
+	3250 4000 3150 4000
 Wire Wire Line
-	2800 3800 2900 3800
+	3150 4400 3250 4400
 Wire Wire Line
-	2900 3800 2900 3700
-Connection ~ 2900 3700
+	3250 4400 3250 4300
+Connection ~ 3250 4300
 Wire Wire Line
-	2400 3400 2500 3400
+	2750 4000 2850 4000
 $Comp
 L Analog_ADC:INA233 U20
 U 1 1 5E3036A9
-P 2400 5900
-F 0 "U20" H 2150 6500 50  0000 C CNN
-F 1 "INA233" H 2150 6400 50  0000 C CNN
-F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 3200 5450 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ina233.pdf" H 2750 5800 50  0001 C CNN
-	1    2400 5900
+P 2750 6500
+F 0 "U20" H 2500 7100 50  0000 C CNN
+F 1 "INA233" H 2500 7000 50  0000 C CNN
+F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 3550 6050 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina233.pdf" H 3100 6400 50  0001 C CNN
+	1    2750 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C33
 U 1 1 5E3036B5
-P 2650 5300
-F 0 "C33" V 2398 5300 50  0000 C CNN
-F 1 "0.1u/50V" V 2489 5300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 5150 50  0001 C CNN
-F 3 "~" H 2650 5300 50  0001 C CNN
-	1    2650 5300
+P 3000 5900
+F 0 "C33" V 2748 5900 50  0000 C CNN
+F 1 "0.1u/50V" V 2839 5900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 5750 50  0001 C CNN
+F 3 "~" H 3000 5900 50  0001 C CNN
+	1    3000 5900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2400 5200 2400 5300
-Connection ~ 2400 5300
+	2750 5800 2750 5900
+Connection ~ 2750 5900
 Wire Wire Line
-	2400 5300 2400 5400
+	2750 5900 2750 6000
 Wire Wire Line
-	2400 6400 2400 6500
+	2750 7000 2750 7100
 Wire Wire Line
-	2400 6500 2500 6500
-NoConn ~ 2800 6200
+	2750 7100 2850 7100
+NoConn ~ 3150 6800
 Wire Wire Line
-	3000 5300 2900 5300
+	3350 5900 3250 5900
 Wire Wire Line
-	2900 5300 2900 5600
+	3250 5900 3250 6200
 Wire Wire Line
-	2900 5600 2800 5600
-Connection ~ 2900 5300
+	3250 6200 3150 6200
+Connection ~ 3250 5900
 Wire Wire Line
-	2900 5300 2800 5300
+	3250 5900 3150 5900
 Wire Wire Line
-	2800 5700 2900 5700
+	3150 6300 3250 6300
 Wire Wire Line
-	2900 5700 2900 5600
-Connection ~ 2900 5600
+	3250 6300 3250 6200
+Connection ~ 3250 6200
 Wire Wire Line
-	2400 5300 2500 5300
-Text Label 2500 6500 0    50   ~ 0
+	2750 5900 2850 5900
+Text Label 2850 7100 0    50   ~ 0
 SEG2_RTN
+Text Label 1350 2100 0    50   ~ 0
+SEG1_RTN
+Text Label 1350 2900 0    50   ~ 0
+SEG2_RTN
+Text Label 1350 1750 0    50   ~ 0
+BAL_SEG1
+Text Label 1350 1850 0    50   ~ 0
+SEG1+
+Text Label 1350 2550 0    50   ~ 0
+BAL_SEG2
+Text Label 1350 2650 0    50   ~ 0
+SEG2+
+Wire Wire Line
+	1350 1750 1250 1750
+Wire Wire Line
+	1350 1850 1250 1850
+Wire Wire Line
+	1350 2100 1250 2100
+Wire Wire Line
+	1350 2550 1250 2550
+Wire Wire Line
+	1350 2650 1250 2650
+Wire Wire Line
+	1350 2900 1250 2900
+Text Label 1350 2000 0    50   ~ 0
+SEG1_5V
+Wire Wire Line
+	1350 2000 1250 2000
+Text Label 1350 2800 0    50   ~ 0
+SEG2_5V
+Wire Wire Line
+	1350 2800 1250 2800
+Text HLabel 1250 2000 0    50   Input ~ 0
+SEG1_5V
+Text HLabel 1250 2100 0    50   Input ~ 0
+SEG1_RTN
+Text HLabel 1250 2800 0    50   Input ~ 0
+SEG2_5V
+Text HLabel 1250 2900 0    50   Input ~ 0
+SEG2_RTN
+$Comp
+L Device:R R41
+U 1 1 5E397331
+P 6500 1800
+F 0 "R41" H 6570 1846 50  0000 L CNN
+F 1 "R" H 6570 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 1800 50  0001 C CNN
+F 3 "~" H 6500 1800 50  0001 C CNN
+	1    6500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 5E397492
+P 6500 2200
+F 0 "D7" V 6539 2083 50  0000 R CNN
+F 1 "LED_CHRG" V 6448 2083 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 2200 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-99-0170/LTST-C171AKT.pdf" H 6500 2200 50  0001 C CNN
+F 4 "Lite-On Inc." H 6500 2200 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C171AKT" H 6500 2200 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 6500 2200 50  0001 C CNN "Vendor"
+F 7 "160-1419-1-ND" H 6500 2200 50  0001 C CNN "Vendor Part"
+	1    6500 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 1950 6500 2050
+Wire Wire Line
+	5750 2450 5850 2450
+Wire Wire Line
+	6500 2350 6500 2550
+Connection ~ 6500 2550
+Wire Wire Line
+	6500 2550 6500 2650
+Wire Wire Line
+	6500 2550 7150 2550
+Wire Wire Line
+	7150 2550 7150 2400
+Wire Wire Line
+	5850 2550 5850 2450
+Wire Wire Line
+	5850 2550 6500 2550
+Connection ~ 5850 2450
+Wire Wire Line
+	5850 2450 5950 2450
+Wire Wire Line
+	5850 1500 6500 1500
+Connection ~ 5850 1500
+Wire Wire Line
+	6500 1650 6500 1500
+Connection ~ 6500 1500
+Wire Wire Line
+	6500 1500 6500 1400
+$Comp
+L Device:Q_NMOS_GSD Q2
+U 1 1 5E3E9017
+P 6600 2850
+F 0 "Q2" H 6805 2896 50  0000 L CNN
+F 1 "DMN3730U" H 6805 2805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6800 2950 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN3730U.pdf" H 6600 2850 50  0001 C CNN
+	1    6600 2850
+	-1   0    0    -1  
+$EndComp
+Text Label 3250 6600 0    50   ~ 0
+SCL_SEG2
+Text Label 3250 6500 0    50   ~ 0
+SDA_SEG2
+Text Label 3250 4700 0    50   ~ 0
+SCL_SEG1
+Text Label 3250 4600 0    50   ~ 0
+SDA_SEG1
+Wire Wire Line
+	3250 4600 3150 4600
+Wire Wire Line
+	3150 4700 3250 4700
+Wire Wire Line
+	3250 6500 3150 6500
+Wire Wire Line
+	3150 6600 3250 6600
+Text Label 1350 2350 0    50   ~ 0
+SCL_SEG1
+Text Label 1350 2250 0    50   ~ 0
+SDA_SEG1
+Wire Wire Line
+	1350 2250 1250 2250
+Wire Wire Line
+	1250 2350 1350 2350
+Text Label 1350 3150 0    50   ~ 0
+SCL_SEG2
+Text Label 1350 3050 0    50   ~ 0
+SDA_SEG2
+Wire Wire Line
+	1350 3050 1250 3050
+Wire Wire Line
+	1250 3150 1350 3150
+Text HLabel 1250 2250 0    50   Input ~ 0
+SDA_SEG1
+Text HLabel 1250 2350 0    50   Input ~ 0
+SCL_SEG1
+Text HLabel 1250 3050 0    50   Input ~ 0
+SDA_SEG2
+Text HLabel 1250 3150 0    50   Input ~ 0
+SCL_SEG2
+Wire Notes Line
+	6600 1500 7150 1500
+Wire Notes Line
+	7150 1500 7150 2300
+Text Notes 7200 1900 0    50   ~ 0
+I/O Panel\nCharge LED
 $EndSCHEMATC
