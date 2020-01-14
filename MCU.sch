@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -324,35 +325,12 @@ Text Label 3900 7750 2    50   ~ 0
 LV_RTN
 Text Notes 10150 700  0    100  ~ 20
 GLV
-$Comp
-L Connector_Generic:Conn_01x06 U7
-U 1 1 5DC90143
-P 10100 1600
-F 0 "U7" H 10180 1592 50  0000 L CNN
-F 1 "RTC" H 10180 1501 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" H 10100 1600 50  0001 C CNN
-F 3 "~" H 10100 1600 50  0001 C CNN
-	1    10100 1600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9900 1400
-NoConn ~ 9900 1500
-Text Label 9800 1600 2    50   ~ 0
+Text Label 6250 3800 2    50   ~ 0
 SCL_GLV
-Text Label 9800 1700 2    50   ~ 0
+Text Label 6250 3900 2    50   ~ 0
 SDA_GLV
-Text Label 9800 1800 2    50   ~ 0
-LV_5V
-Text Label 9800 1900 2    50   ~ 0
+Text Label 6950 4500 0    50   ~ 0
 LV_RTN
-Wire Wire Line
-	9800 1600 9900 1600
-Wire Wire Line
-	9800 1700 9900 1700
-Wire Wire Line
-	9800 1800 9900 1800
-Wire Wire Line
-	9800 1900 9900 1900
 Wire Wire Line
 	1650 3700 1550 3700
 Connection ~ 1550 3700
@@ -787,16 +765,16 @@ Wire Notes Line
 	2700 6450 2700 3250
 Wire Notes Line
 	2700 3250 650  3250
-Text Notes 9500 1400 0    79   ~ 16
+Text Notes 5600 3250 0    79   ~ 16
 RTC
 Wire Notes Line
-	9450 1250 9450 2000
+	5550 3100 5550 4650
 Wire Notes Line
-	9450 2000 10350 2000
+	5550 4650 7750 4650
 Wire Notes Line
-	10350 2000 10350 1250
+	7750 4650 7750 3100
 Wire Notes Line
-	10350 1250 9450 1250
+	7750 3100 5550 3100
 Text Notes 700  6700 0    79   ~ 16
 CANBus Transceiver
 Wire Notes Line
@@ -1580,4 +1558,98 @@ Text Notes 5250 5050 0    50   ~ 0
 1mA
 Text Notes 4650 3350 0    50   ~ 0
 1mA
+$Comp
+L Timer_RTC:BQ32002 U?
+U 1 1 5E260365
+P 6850 4000
+F 0 "U?" H 6400 3600 50  0000 L CNN
+F 1 "BQ32002" H 6400 3500 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6850 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq32002.pdf" H 6850 4000 50  0001 C CNN
+	1    6850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3800 6350 3800
+Wire Wire Line
+	6250 3900 6350 3900
+NoConn ~ 7350 4000
+Wire Wire Line
+	6950 4500 6850 4500
+Wire Wire Line
+	6850 4500 6850 4400
+$Comp
+L Device:Crystal_Small Y?
+U 1 1 5E2B0CFB
+P 6100 4150
+F 0 "Y?" V 6050 3700 50  0000 L CNN
+F 1 "RTC_32K" V 6150 3700 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_MC405-2Pin_9.6x4.1mm_HandSoldering" H 6100 4150 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-405&lang=en" H 6100 4150 50  0001 C CNN
+F 4 "Seiko Epson" H 6100 4150 50  0001 C CNN "Manufacturer"
+F 5 "MC-405 32.7680K-A0:ROHS" H 6100 4150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 6100 4150 50  0001 C CNN "Vendor"
+F 7 "SER2405CT-ND" H 6100 4150 50  0001 C CNN "Vendor Part"
+	1    6100 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5E2E35CB
+P 7150 3500
+F 0 "BT?" V 7405 3550 50  0000 C CNN
+F 1 "BR1225" V 7314 3550 50  0000 C CNN
+F 2 "Battery:BatteryHolder_Keystone_103_1x20mm" V 7150 3560 50  0001 C CNN
+F 3 "~" V 7150 3560 50  0001 C CNN
+	1    7150 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 3500 6850 3600
+Text Label 7350 3500 0    50   ~ 0
+LV_RTN
+Wire Wire Line
+	7350 3500 7250 3500
+Wire Wire Line
+	6850 3500 6950 3500
+$Comp
+L Device:C C?
+U 1 1 5E36726C
+P 6250 3500
+F 0 "C?" V 5998 3500 50  0000 C CNN
+F 1 "1u/50V" V 6089 3500 50  0000 C CNN
+F 2 "" H 6288 3350 50  0001 C CNN
+F 3 "~" H 6250 3500 50  0001 C CNN
+	1    6250 3500
+	0    1    1    0   
+$EndComp
+Text Label 6000 3500 2    50   ~ 0
+LV_RTN
+Wire Wire Line
+	6000 3500 6100 3500
+Text Label 6750 3400 2    50   ~ 0
+LV_3V3
+Wire Wire Line
+	6750 3600 6750 3500
+Wire Wire Line
+	6750 3500 6400 3500
+Wire Wire Line
+	6750 3400 6750 3500
+Connection ~ 6750 3500
+Wire Wire Line
+	6350 4200 6250 4200
+Wire Wire Line
+	6250 4200 6250 4300
+Wire Wire Line
+	6250 4300 6100 4300
+Wire Wire Line
+	6100 4300 6100 4250
+Wire Wire Line
+	6350 4100 6250 4100
+Wire Wire Line
+	6250 4100 6250 4000
+Wire Wire Line
+	6250 4000 6100 4000
+Wire Wire Line
+	6100 4000 6100 4050
 $EndSCHEMATC

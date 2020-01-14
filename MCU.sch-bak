@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -324,35 +325,12 @@ Text Label 3900 7750 2    50   ~ 0
 LV_RTN
 Text Notes 10150 700  0    100  ~ 20
 GLV
-$Comp
-L Connector_Generic:Conn_01x06 U7
-U 1 1 5DC90143
-P 10100 1600
-F 0 "U7" H 10180 1592 50  0000 L CNN
-F 1 "RTC" H 10180 1501 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" H 10100 1600 50  0001 C CNN
-F 3 "~" H 10100 1600 50  0001 C CNN
-	1    10100 1600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9900 1400
-NoConn ~ 9900 1500
-Text Label 9800 1600 2    50   ~ 0
+Text Label 6300 3800 2    50   ~ 0
 SCL_GLV
-Text Label 9800 1700 2    50   ~ 0
+Text Label 6300 3900 2    50   ~ 0
 SDA_GLV
-Text Label 9800 1800 2    50   ~ 0
-LV_5V
-Text Label 9800 1900 2    50   ~ 0
+Text Label 7000 4500 0    50   ~ 0
 LV_RTN
-Wire Wire Line
-	9800 1600 9900 1600
-Wire Wire Line
-	9800 1700 9900 1700
-Wire Wire Line
-	9800 1800 9900 1800
-Wire Wire Line
-	9800 1900 9900 1900
 Wire Wire Line
 	1650 3700 1550 3700
 Connection ~ 1550 3700
@@ -787,16 +765,16 @@ Wire Notes Line
 	2700 6450 2700 3250
 Wire Notes Line
 	2700 3250 650  3250
-Text Notes 9500 1400 0    79   ~ 16
+Text Notes 5600 3250 0    79   ~ 16
 RTC
 Wire Notes Line
-	9450 1250 9450 2000
+	5550 3050 5550 4650
 Wire Notes Line
-	9450 2000 10350 2000
+	5550 4650 7750 4650
 Wire Notes Line
-	10350 2000 10350 1250
+	7750 4650 7750 3050
 Wire Notes Line
-	10350 1250 9450 1250
+	7750 3050 5550 3050
 Text Notes 700  6700 0    79   ~ 16
 CANBus Transceiver
 Wire Notes Line
@@ -1580,4 +1558,94 @@ Text Notes 5250 5050 0    50   ~ 0
 1mA
 Text Notes 4650 3350 0    50   ~ 0
 1mA
+$Comp
+L Timer_RTC:BQ32002 U?
+U 1 1 5E260365
+P 6900 4000
+F 0 "U?" H 6450 3600 50  0000 L CNN
+F 1 "BQ32002" H 6450 3500 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6900 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq32002.pdf" H 6900 4000 50  0001 C CNN
+	1    6900 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3800 6400 3800
+Wire Wire Line
+	6300 3900 6400 3900
+NoConn ~ 7400 4000
+Wire Wire Line
+	7000 4500 6900 4500
+Wire Wire Line
+	6900 4500 6900 4400
+$Comp
+L Device:Crystal_Small Y?
+U 1 1 5E2B0CFB
+P 6200 4150
+F 0 "Y?" V 6150 3600 50  0000 L CNN
+F 1 "RTC Crystal" V 6250 3600 50  0000 L CNN
+F 2 "" H 6200 4150 50  0001 C CNN
+F 3 "~" H 6200 4150 50  0001 C CNN
+	1    6200 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5E2E35CB
+P 7200 3500
+F 0 "BT?" V 6945 3550 50  0000 C CNN
+F 1 "Battery_Cell" V 7036 3550 50  0000 C CNN
+F 2 "" V 7200 3560 50  0001 C CNN
+F 3 "~" V 7200 3560 50  0001 C CNN
+	1    7200 3500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6900 3500 6900 3600
+Text Label 7400 3500 0    50   ~ 0
+LV_RTN
+Wire Wire Line
+	7400 3500 7300 3500
+Wire Wire Line
+	6900 3500 7000 3500
+$Comp
+L Device:C C?
+U 1 1 5E36726C
+P 6300 3500
+F 0 "C?" V 6048 3500 50  0000 C CNN
+F 1 "1u/50V" V 6139 3500 50  0000 C CNN
+F 2 "" H 6338 3350 50  0001 C CNN
+F 3 "~" H 6300 3500 50  0001 C CNN
+	1    6300 3500
+	0    1    1    0   
+$EndComp
+Text Label 6050 3500 2    50   ~ 0
+LV_RTN
+Wire Wire Line
+	6050 3500 6150 3500
+Text Label 6800 3400 2    50   ~ 0
+LV_3V3
+Wire Wire Line
+	6800 3600 6800 3500
+Wire Wire Line
+	6800 3500 6450 3500
+Wire Wire Line
+	6800 3400 6800 3500
+Connection ~ 6800 3500
+Wire Wire Line
+	6400 4200 6300 4200
+Wire Wire Line
+	6300 4200 6300 4300
+Wire Wire Line
+	6300 4300 6200 4300
+Wire Wire Line
+	6200 4300 6200 4250
+Wire Wire Line
+	6400 4100 6300 4100
+Wire Wire Line
+	6300 4100 6300 4000
+Wire Wire Line
+	6300 4000 6200 4000
+Wire Wire Line
+	6200 4000 6200 4050
 $EndSCHEMATC
