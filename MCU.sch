@@ -13,7 +13,7 @@ Comment2 "Jon Abel"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 4850 1800 2    50   ~ 0
+Text Label 4750 1950 2    50   ~ 0
 SLOOP_EN
 Text Label 1600 1250 0    50   ~ 0
 SLOOP1_IN
@@ -80,25 +80,8 @@ F 3 "~" H 7800 1450 50  0001 C CNN
 	1    7800 1450
 	0    -1   1    0   
 $EndComp
-$Comp
-L Lafayette_Electric_Car_Internals:ESP32_TTGO_PSRAM U5
-U 1 1 5DD2C725
-P 5050 1200
-AR Path="/5DD2C725" Ref="U5"  Part="1" 
-AR Path="/5DC1F176/5DD2C725" Ref="U5"  Part="1" 
-F 0 "U5" H 5100 1400 50  0000 C CNN
-F 1 "ESP32_TTGO_PSRAM" H 5100 1300 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:ESP32TTGOT8" H 4800 1400 50  0001 C CNN
-F 3 "https://www.amazon.com/TTGO-ESP32-PSRAM-Antenna-Bluetooth/dp/B07B6NM1RY" H 4800 1400 50  0001 C CNN
-	1    5050 1200
-	1    0    0    -1  
-$EndComp
-Text Label 6500 2300 0    50   ~ 0
-CHRG_EN
-Text Label 6500 1300 0    50   ~ 0
+Text Label 6550 2050 0    50   ~ 0
 WATCHDOG
-Text Label 6500 1500 0    50   ~ 0
-CHRG_CURRENT
 Text Label 7550 1050 2    50   ~ 0
 LED1
 Text Label 7550 1450 2    50   ~ 0
@@ -115,9 +98,7 @@ Text Label 1600 750  0    50   ~ 0
 LV_5V
 Text Label 1600 850  0    50   ~ 0
 LV_RTN
-Wire Wire Line
-	5800 950  5800 1100
-Text Label 5800 950  0    50   ~ 0
+Text Label 4750 950  2    50   ~ 0
 LV_3V3
 Text HLabel 1500 1000 0    50   Input ~ 0
 GLV_24V
@@ -163,9 +144,9 @@ Wire Wire Line
 	1500 1850 1600 1850
 Wire Wire Line
 	1600 1950 1500 1950
-Text Label 4850 1600 2    50   ~ 0
+Text Label 4750 1750 2    50   ~ 0
 CANTX
-Text Label 4850 1700 2    50   ~ 0
+Text Label 4750 1850 2    50   ~ 0
 CANRX
 $Comp
 L Interface_CAN_LIN:MCP2551-I-SN U4
@@ -266,8 +247,6 @@ F 3 "~" H 7800 1050 50  0001 C CNN
 	1    7800 1050
 	0    -1   1    0   
 $EndComp
-Text Label 6500 1700 0    50   ~ 0
-~CHRG_DETECT
 Text Label 1600 2450 0    50   ~ 0
 CAN_H
 Text Label 1600 2550 0    50   ~ 0
@@ -280,28 +259,10 @@ Wire Wire Line
 	1500 2450 1600 2450
 Wire Wire Line
 	1600 2550 1500 2550
-Text Label 4850 2500 2    50   ~ 0
+Text Label 4750 1050 2    50   ~ 0
 ~RESET
-Wire Wire Line
-	4850 2500 4950 2500
-Wire Wire Line
-	5900 2800 5800 2800
-Wire Wire Line
-	5800 2800 5800 2700
-Wire Wire Line
-	5800 2800 5700 2800
-Wire Wire Line
-	5700 2800 5700 2700
-Connection ~ 5800 2800
-Wire Wire Line
-	5700 2800 5600 2800
-Wire Wire Line
-	5600 2800 5600 2700
-Connection ~ 5700 2800
-Text Label 5600 950  2    50   ~ 0
+Text Label 4750 2750 2    50   ~ 0
 LV_5V
-Wire Wire Line
-	5600 950  5600 1100
 Wire Wire Line
 	7550 1050 7650 1050
 Wire Wire Line
@@ -318,7 +279,7 @@ Text Label 8450 1450 0    50   ~ 0
 LV_RTN
 Text Label 8450 1050 0    50   ~ 0
 LV_RTN
-Text Label 5900 2800 0    50   ~ 0
+Text Label 4750 2250 2    50   ~ 0
 LV_RTN
 Text Label 3900 7750 2    50   ~ 0
 LV_RTN
@@ -559,21 +520,21 @@ F 3 "~" H 1800 6250 50  0001 C CNN
 	1    1800 6250
 	0    1    -1   0   
 $EndComp
-Text Label 6500 2000 0    50   ~ 0
+Text Label 4750 2350 2    50   ~ 0
 DISP_DIN
-Text Label 6500 2100 0    50   ~ 0
+Text Label 4750 2050 2    50   ~ 0
 DISP_CLK
-Text Label 6500 2200 0    50   ~ 0
+Text Label 6550 2450 0    50   ~ 0
 DISP_CS
-Text Label 4850 1400 2    50   ~ 0
+Text Label 6550 1150 0    50   ~ 0
 DISP_DC
-Text Label 4850 1300 2    50   ~ 0
+Text Label 6550 1450 0    50   ~ 0
 DISP_RST
-Text Label 6500 1800 0    50   ~ 0
+Text Label 6550 1850 0    50   ~ 0
 DISP_BUSY
-Text Label 6500 1400 0    50   ~ 0
+Text Label 6550 1650 0    50   ~ 0
 LED1
-Text Label 6500 1600 0    50   ~ 0
+Text Label 6550 1750 0    50   ~ 0
 LED2
 $Comp
 L Device:C C4
@@ -908,10 +869,6 @@ Wire Wire Line
 	2900 1400 3000 1400
 Wire Wire Line
 	3000 1300 2900 1300
-Text Label 4850 1500 2    50   ~ 0
-SDA_GLV
-Text Label 6500 2400 0    50   ~ 0
-SCL_GLV
 Text Label 3850 5500 2    50   ~ 0
 SDA_GLV
 Text Label 3850 5400 2    50   ~ 0
@@ -923,41 +880,25 @@ Wire Wire Line
 Text HLabel 1500 2650 0    50   Input ~ 0
 CAN_SHIELD
 Wire Wire Line
-	6500 2000 6400 2000
+	4750 2350 4850 2350
 Wire Wire Line
-	6400 2100 6500 2100
+	4850 2050 4750 2050
 Wire Wire Line
-	6500 2200 6400 2200
+	6550 2450 6450 2450
 Wire Wire Line
-	4950 1400 4850 1400
+	6450 1150 6550 1150
 Wire Wire Line
-	4850 1300 4950 1300
+	6550 1450 6450 1450
 Wire Wire Line
-	6400 1800 6500 1800
+	6450 1850 6550 1850
 Wire Wire Line
-	6500 2400 6400 2400
+	6450 1650 6550 1650
 Wire Wire Line
-	6400 1400 6500 1400
+	6550 1950 6450 1950
 Wire Wire Line
-	6500 1700 6400 1700
+	6450 1750 6550 1750
 Wire Wire Line
-	6400 1600 6500 1600
-Wire Wire Line
-	6500 1500 6400 1500
-Wire Wire Line
-	4950 1500 4850 1500
-Wire Wire Line
-	4850 1900 4950 1900
-Wire Wire Line
-	4950 2000 4850 2000
-Wire Wire Line
-	4850 2100 4950 2100
-Wire Wire Line
-	4950 2200 4850 2200
-Wire Wire Line
-	4850 2300 4950 2300
-Wire Wire Line
-	4950 2400 4850 2400
+	6550 2150 6450 2150
 Text Label 1600 650  0    50   ~ 0
 LV_3V3
 Text HLabel 1500 650  0    50   Input ~ 0
@@ -977,15 +918,15 @@ Text HLabel 2900 850  0    50   Input ~ 0
 BTN_RIGHT
 Text HLabel 2900 750  0    50   Input ~ 0
 BTN_LEFT
-Text Label 4850 2300 2    50   ~ 0
+Text Label 4750 1450 2    50   ~ 0
 BTN_LEFT_MCU
-Text Label 4850 2400 2    50   ~ 0
+Text Label 4750 1550 2    50   ~ 0
 BTN_RIGHT_MCU
-Text Label 4850 2100 2    50   ~ 0
+Text Label 4750 1250 2    50   ~ 0
 BTN_UP_MCU
-Text Label 4850 2200 2    50   ~ 0
+Text Label 4750 1350 2    50   ~ 0
 BTN_DOWN_MCU
-Text Label 4850 2000 2    50   ~ 0
+Text Label 4750 1150 2    50   ~ 0
 BTN_CENTER_MCU
 Text Label 2050 3850 0    50   ~ 0
 BTN_LEFT
@@ -1502,20 +1443,14 @@ SLOOP1_STATUS
 Text Label 4750 6000 0    50   ~ 0
 SLOOP2_STATUS
 Wire Wire Line
-	4950 1800 4850 1800
+	4850 1950 4750 1950
 Wire Wire Line
-	4950 1700 4850 1700
+	4850 1850 4750 1850
 Wire Wire Line
-	4950 1600 4850 1600
+	4850 1750 4750 1750
 Wire Wire Line
-	6400 1300 6500 1300
-Wire Wire Line
-	6400 1900 6500 1900
-Wire Wire Line
-	6400 2300 6500 2300
-NoConn ~ 6500 1900
+	6450 2050 6550 2050
 NoConn ~ 4750 5800
-NoConn ~ 4850 1900
 NoConn ~ 4750 6200
 $Comp
 L Connector:TestPoint TP8
@@ -1551,8 +1486,6 @@ Wire Wire Line
 	9250 1050 9150 1050
 Wire Wire Line
 	9150 1050 9150 950 
-Text Notes 5850 1150 0    50   ~ 0
-1A Max 3V3 Current\n(~~500mA max given 5V limit)
 Text Notes 5250 5050 0    50   ~ 0
 1mA
 Text Notes 4650 3350 0    50   ~ 0
@@ -1665,4 +1598,65 @@ $EndComp
 Wire Wire Line
 	6800 3400 6800 3500
 Connection ~ 6800 3500
+$Comp
+L Lafayette_Electric_Car_Internals:ESP32_DEVKITC U5
+U 1 1 5E21D3A6
+P 5050 850
+F 0 "U5" H 5650 1017 50  0000 C CNN
+F 1 "ESP32_DEVKITC" H 5650 926 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:MODULE_ESP32-DEVKITC-32D" H 4800 1050 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 4800 1050 50  0001 C CNN
+	1    5050 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 950  4850 950 
+Wire Wire Line
+	4750 2750 4850 2750
+Text Label 6550 950  0    50   ~ 0
+LV_RTN
+Text Label 6550 1550 0    50   ~ 0
+LV_RTN
+Wire Wire Line
+	6550 1550 6450 1550
+Wire Wire Line
+	6550 950  6450 950 
+Wire Wire Line
+	4750 2250 4850 2250
+Wire Wire Line
+	4750 1050 4850 1050
+NoConn ~ 6450 2750
+NoConn ~ 6450 2650
+NoConn ~ 6450 2550
+NoConn ~ 4850 2650
+NoConn ~ 4850 2550
+NoConn ~ 4850 2450
+Wire Wire Line
+	6550 1350 6450 1350
+Wire Wire Line
+	6450 1250 6550 1250
+Text Label 6550 1250 0    50   ~ 0
+SDA_GLV
+Text Label 6550 1350 0    50   ~ 0
+SCL_GLV
+Wire Wire Line
+	4750 1150 4850 1150
+Wire Wire Line
+	4750 1250 4850 1250
+Wire Wire Line
+	4750 1350 4850 1350
+Wire Wire Line
+	4750 1450 4850 1450
+Wire Wire Line
+	4750 1550 4850 1550
+Wire Wire Line
+	6450 2350 6550 2350
+Text Label 6550 2350 0    50   ~ 0
+CHRG_EN
+Text Notes 5000 850  2    50   ~ 0
+1A Max 3V3 Current\n(~~500mA max given 5V limit)
+Text Label 6550 1950 0    50   ~ 0
+~CHRG_DETECT
+Text Label 6550 2150 0    50   ~ 0
+CHRG_CURRENT
 $EndSCHEMATC
