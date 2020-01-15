@@ -233,6 +233,10 @@ F 0 "K2" H 5750 1625 50  0000 C CNN
 F 1 "T9AS1D12-24" H 5750 1534 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:T9AS1D12" H 5545 1450 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 5545 1450 50  0001 C CNN
+F 4 "TE Connectivity" H 5550 1450 50  0001 C CNN "Manufacturer"
+F 5 "T9AS1D12-24" H 5550 1450 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5550 1450 50  0001 C CNN "Vendor"
+F 7 "PB303-ND" H 5550 1450 50  0001 C CNN "Vendor Part"
 	1    5550 1450
 	-1   0    0    -1  
 $EndComp
@@ -304,6 +308,10 @@ F 0 "K3" H 5750 2275 50  0000 C CNN
 F 1 "T9AS1D12-24" H 5750 2184 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:T9AS1D12" H 5545 2100 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English" H 5545 2100 50  0001 C CNN
+F 4 "TE Connectivity" H 5550 2100 50  0001 C CNN "Manufacturer"
+F 5 "T9AS1D12-24" H 5550 2100 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5550 2100 50  0001 C CNN "Vendor"
+F 7 "PB303-ND" H 5550 2100 50  0001 C CNN "Vendor Part"
 	1    5550 2100
 	-1   0    0    -1  
 $EndComp
@@ -319,6 +327,10 @@ F 0 "U19" H 2500 5200 50  0000 C CNN
 F 1 "INA233" H 2500 5100 50  0000 C CNN
 F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 3550 4150 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ina233.pdf" H 3100 4500 50  0001 C CNN
+F 4 "Texas Instruments" H 2750 4600 50  0001 C CNN "Manufacturer"
+F 5 "INA233AIDGST" H 2750 4600 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 2750 4600 50  0001 C CNN "Vendor"
+F 7 "296-47776-1-ND" H 2750 4600 50  0001 C CNN "Vendor Part"
 	1    2750 4600
 	1    0    0    -1  
 $EndComp
@@ -429,7 +441,11 @@ P 3000 4000
 F 0 "C31" V 2748 4000 50  0000 C CNN
 F 1 "0.1u/50V" V 2839 4000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 3850 50  0001 C CNN
-F 3 "~" H 3000 4000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 3000 4000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3000 4000 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 3000 4000 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3000 4000 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 3000 4000 50  0001 C CNN "Vendor Part"
 	1    3000 4000
 	0    1    1    0   
 $EndComp
@@ -469,6 +485,10 @@ F 0 "U20" H 2500 7100 50  0000 C CNN
 F 1 "INA233" H 2500 7000 50  0000 C CNN
 F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 3550 6050 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ina233.pdf" H 3100 6400 50  0001 C CNN
+F 4 "Texas Instruments" H 2750 6500 50  0001 C CNN "Manufacturer"
+F 5 "INA233AIDGST" H 2750 6500 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 2750 6500 50  0001 C CNN "Vendor"
+F 7 "296-47776-1-ND" H 2750 6500 50  0001 C CNN "Vendor Part"
 	1    2750 6500
 	1    0    0    -1  
 $EndComp
@@ -479,7 +499,11 @@ P 3000 5900
 F 0 "C33" V 2748 5900 50  0000 C CNN
 F 1 "0.1u/50V" V 2839 5900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 5750 50  0001 C CNN
-F 3 "~" H 3000 5900 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 3000 5900 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3000 5900 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 3000 5900 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3000 5900 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 3000 5900 50  0001 C CNN "Vendor Part"
 	1    3000 5900
 	0    1    1    0   
 $EndComp
@@ -516,7 +540,7 @@ SEG1_RTN
 Text Label 1350 2900 0    50   ~ 0
 SEG2_RTN
 Text Label 1350 1750 0    50   ~ 0
-BAL_SEG1
+BAL_SEG1+
 Text Label 1350 1850 0    50   ~ 0
 SEG1+
 Text Label 1350 2550 0    50   ~ 0
@@ -613,6 +637,10 @@ F 0 "Q2" H 6805 2896 50  0000 L CNN
 F 1 "DMN3730U" H 6805 2805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6800 2950 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMN3730U.pdf" H 6600 2850 50  0001 C CNN
+F 4 "Diodes Incorporated" H 6600 2850 50  0001 C CNN "Manufacturer"
+F 5 "DMN3730U-7" H 6600 2850 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 6600 2850 50  0001 C CNN "Vendor"
+F 7 "DMN3730U-7DICT-ND" H 6600 2850 50  0001 C CNN "Vendor Part"
 	1    6600 2850
 	-1   0    0    -1  
 $EndComp
@@ -662,4 +690,12 @@ Wire Notes Line
 	7150 1500 7150 2300
 Text Notes 7200 1900 0    50   ~ 0
 I/O Panel\nCharge LED
+Text HLabel 1250 1750 0    50   Input ~ 0
+BAL_SEG1+
+Text HLabel 1250 1850 0    50   Input ~ 0
+SEG1+
+Text HLabel 1250 2550 0    50   Input ~ 0
+BAL_SEG2+
+Text HLabel 1250 2650 0    50   Input ~ 0
+SEG2+
 $EndSCHEMATC

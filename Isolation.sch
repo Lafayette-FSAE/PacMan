@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 5 5
+Sheet 4 5
 Title "PacMan: I2C Isolation"
 Date "2019-11-19"
 Rev "1.2"
@@ -19,30 +19,18 @@ Text HLabel 9550 1450 2    50   Input ~ 0
 SCL_GLV
 Text HLabel 9550 1200 2    50   Input ~ 0
 LV_RTN
-Text HLabel 1350 950  0    50   Input ~ 0
-TSV_RTN
-Text HLabel 1350 850  0    50   Input ~ 0
-TSV_5V
 Text Label 9450 1200 2    50   ~ 0
 LV_RTN
 Text Label 9450 1450 2    50   ~ 0
 SCL_GLV
 Text Label 9450 1350 2    50   ~ 0
 SDA_GLV
-Text Label 1450 950  0    50   ~ 0
-TSV_RTN
-Text Label 1450 850  0    50   ~ 0
-TSV_5V
 Wire Wire Line
 	9550 1200 9450 1200
 Wire Wire Line
 	9550 1450 9450 1450
 Wire Wire Line
 	9450 1350 9550 1350
-Wire Wire Line
-	1450 850  1350 850 
-Wire Wire Line
-	1350 950  1450 950 
 $Comp
 L Device:R R?
 U 1 1 5DE82D88
@@ -93,8 +81,6 @@ Text Label 3200 4900 2    50   ~ 0
 CHRG_DETECT+
 Text Label 3200 5400 2    50   ~ 0
 CHRG_DETECT-
-Text Label 3900 5400 0    50   ~ 0
-TSV_RTN
 Wire Wire Line
 	3200 4900 3400 4900
 Wire Wire Line
@@ -112,7 +98,7 @@ CHRG_DETECT-
 Text HLabel 1350 2150 0    50   Input ~ 0
 CHRG_DETECT+
 Wire Notes Line
-	5500 1200 5500 600 
+	5500 1950 5500 600 
 Wire Notes Line
 	5500 5650 5500 6100
 Text Label 9450 1600 2    50   ~ 0
@@ -166,8 +152,6 @@ Wire Wire Line
 	6300 6600 5800 6600
 Wire Wire Line
 	5900 6400 5800 6400
-Text Label 5100 6600 2    50   ~ 0
-TSV_RTN
 Wire Wire Line
 	5200 6600 5100 6600
 $Comp
@@ -188,13 +172,11 @@ F 7 "DMP10H4D2S-7DICT-ND" H 3900 6400 50  0001 C CNN "Vendor Part"
 	-1   0    0    -1  
 $EndComp
 Text Label 3700 6700 2    50   ~ 0
-TSV_5V_AMPS
+AMPS_PWR
 Wire Wire Line
 	3700 6700 3800 6700
 Wire Wire Line
 	3800 6700 3800 6600
-Text Label 3800 5800 2    50   ~ 0
-TSV_5V
 Text Label 4300 6400 0    50   ~ 0
 EN_AMPS
 $Comp
@@ -241,9 +223,9 @@ Wire Wire Line
 Wire Wire Line
 	9550 1850 9450 1850
 Text Label 1450 2450 0    50   ~ 0
-TSV_5V_AMPS
+AMPS_PWR
 Text HLabel 1350 2450 0    50   Input ~ 0
-TSV_5V_AMPS
+AMPS_PWR
 Wire Wire Line
 	1350 2450 1450 2450
 $Comp
@@ -605,12 +587,8 @@ F 3 "~" H 4950 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5100 5550 5200 5550
-Text Label 4700 5550 2    50   ~ 0
-TSV_RTN
 Wire Wire Line
 	4700 5550 4800 5550
-Text Label 4800 4350 0    50   ~ 0
-TSV_5V
 Wire Wire Line
 	4800 4350 4800 4450
 $Comp
@@ -708,6 +686,10 @@ F 0 "U15" H 6200 3117 50  0000 C CNN
 F 1 "Si8600AC" H 6200 3026 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5700 3000 50  0001 C CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/Si860x.pdf" H 5700 3000 50  0001 C CNN
+F 4 "Silicon Labs" H 5850 2950 50  0001 C CNN "Manufacturer"
+F 5 "SI8600AC-B-ISR" H 5850 2950 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5850 2950 50  0001 C CNN "Vendor"
+F 7 "SI8600AC-B-ISRCT-ND" H 5850 2950 50  0001 C CNN "Vendor Part"
 	1    5850 2950
 	-1   0    0    -1  
 $EndComp
@@ -719,6 +701,10 @@ F 0 "U14" H 6200 2367 50  0000 C CNN
 F 1 "Si8600AC" H 6200 2276 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5700 2250 50  0001 C CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/Si860x.pdf" H 5700 2250 50  0001 C CNN
+F 4 "Silicon Labs" H 5850 2200 50  0001 C CNN "Manufacturer"
+F 5 "SI8600AC-B-ISR" H 5850 2200 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5850 2200 50  0001 C CNN "Vendor"
+F 7 "SI8600AC-B-ISRCT-ND" H 5850 2200 50  0001 C CNN "Vendor Part"
 	1    5850 2200
 	-1   0    0    -1  
 $EndComp
@@ -760,4 +746,14 @@ Text HLabel 9550 1100 2    50   Input ~ 0
 LV_3V3
 Wire Wire Line
 	9550 1100 9450 1100
+Text Label 4800 4350 0    50   ~ 0
+SEG1_5V
+Text Label 4700 5550 2    50   ~ 0
+SEG1_RTN
+Text Label 3900 5400 0    50   ~ 0
+SEG1_RTN
+Text Label 5100 6600 2    50   ~ 0
+SEG1_RTN
+Text Label 3800 5800 2    50   ~ 0
+SEG1_5V
 $EndSCHEMATC

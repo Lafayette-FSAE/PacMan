@@ -1,15 +1,11 @@
 To do:
 
-Verify resistor and capacitor values in schematic with what is on board
-ESP32 footprint outer size
 Spec new capacitors for back of board and fix the footprints
-Increase capacitor sizing for bulk caps on power supplies
 Confirm with Connor what the 6 pins are
 Time delay for safety loop in the event of a firmware crash - could probably be RC circuit at gate of FET driver
 QRCode to GitHub project
-Include a mounting hole for RTC and mounting hardware
 Include RTC battery in BOM
-Include right angle headers for RTC and straight headers for Micro on BOM
+Include straight headers for Micro on BOM
 
 
 
