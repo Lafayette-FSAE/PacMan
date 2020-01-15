@@ -530,9 +530,9 @@ Text Label 6550 1450 0    50   ~ 0
 DISP_RST
 Text Label 6550 2050 0    50   ~ 0
 DISP_BUSY
-Text Label 6550 1650 0    50   ~ 0
+Text Label 6550 1850 0    50   ~ 0
 LED1
-Text Label 6550 1750 0    50   ~ 0
+Text Label 4750 1650 2    50   ~ 0
 LED2
 $Comp
 L Device:C C4
@@ -890,11 +890,11 @@ Wire Wire Line
 Wire Wire Line
 	6450 2050 6550 2050
 Wire Wire Line
-	6450 1650 6550 1650
+	6450 1850 6550 1850
 Wire Wire Line
-	6550 2250 6450 2250
+	6550 1950 6450 1950
 Wire Wire Line
-	6450 1750 6550 1750
+	4850 1650 4750 1650
 Wire Wire Line
 	6550 2150 6450 2150
 Text Label 1600 650  0    50   ~ 0
@@ -1621,12 +1621,12 @@ NoConn ~ 4850 2650
 NoConn ~ 4850 2550
 NoConn ~ 4850 2450
 Wire Wire Line
-	6550 1350 6450 1350
+	6550 1750 6450 1750
 Wire Wire Line
-	6450 1250 6550 1250
-Text Label 6550 1250 0    50   ~ 0
+	6450 1650 6550 1650
+Text Label 6550 1650 0    50   ~ 0
 SDA_GLV
-Text Label 6550 1350 0    50   ~ 0
+Text Label 6550 1750 0    50   ~ 0
 SCL_GLV
 Wire Wire Line
 	4750 1150 4850 1150
@@ -1644,7 +1644,7 @@ Text Label 6550 2350 0    50   ~ 0
 CHRG_EN
 Text Notes 5200 750  2    50   ~ 0
 1A Max 3V3 Current\n(~~500mA max given 5V limit)
-Text Label 6550 2250 0    50   ~ 0
+Text Label 6550 1950 0    50   ~ 0
 ~CHRG_DETECT
 $Comp
 L power:PWR_FLAG #FLG0104
@@ -1665,10 +1665,7 @@ Wire Wire Line
 	6450 1050 6550 1050
 Text Label 6550 1050 0    50   ~ 0
 WATCHDOG
-NoConn ~ 6450 1950
 NoConn ~ 4850 2150
-NoConn ~ 4850 1650
-NoConn ~ 6450 1850
 $Comp
 L Device:Q_NMOS_GSD Q?
 U 1 1 5EA0506F
@@ -1686,4 +1683,7 @@ F 7 "DMN3730U-7DICT-ND" H 6300 6000 50  0001 C CNN "Vendor Part"
 	1    6300 6000
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6450 2250
+NoConn ~ 6450 1250
+NoConn ~ 6450 1350
 $EndSCHEMATC

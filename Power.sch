@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 5
+Sheet 4 5
 Title "PacMan: Power"
 Date "2019-11-19"
 Rev "1.2"
@@ -36,14 +36,10 @@ Wire Wire Line
 	5200 4000 5400 4000
 Text Label 4700 6250 2    50   ~ 0
 GLV_RTN
-Text Label 1600 4300 2    50   ~ 0
-PACK_RTN
 Text Label 1600 4000 2    50   ~ 0
 PACK_FUSED
 Text HLabel 1150 1000 0    50   Input ~ 0
 PACK_FUSED
-Text HLabel 1150 1100 0    50   Input ~ 0
-PACK_RTN
 Text HLabel 10050 5750 2    50   Input ~ 0
 LV_RTN
 Text HLabel 10050 5900 2    50   Input ~ 0
@@ -64,10 +60,6 @@ Wire Wire Line
 	9950 5750 10050 5750
 Text Label 1250 1000 0    50   ~ 0
 PACK_FUSED
-Text Label 1250 1100 0    50   ~ 0
-PACK_RTN
-Wire Wire Line
-	1250 1100 1150 1100
 Wire Wire Line
 	1150 1000 1250 1000
 $Comp
@@ -329,8 +321,6 @@ F 7 "LTC4151IMS#TRPBFCT-ND" H 4250 1350 50  0001 C CNN "Vendor Part"
 $EndComp
 Wire Wire Line
 	5250 1850 5150 1850
-Text Label 5400 2350 2    50   ~ 0
-PACK_RTN
 Text Label 5250 1650 0    50   ~ 0
 SDA_SEG1
 Text Label 5250 1750 0    50   ~ 0
@@ -462,30 +452,6 @@ Connection ~ 2650 4000
 Connection ~ 2650 4300
 Wire Wire Line
 	2650 4300 3500 4300
-Text Label 1250 2050 0    50   ~ 0
-DCHRG_A2
-Text Label 1250 1950 0    50   ~ 0
-DCHRG_A1
-Text Label 1250 2200 0    50   ~ 0
-SDA_SEG1
-Text Label 1250 2300 0    50   ~ 0
-SCL_SEG1
-Text HLabel 1150 1950 0    50   Input ~ 0
-DCHRG_A1
-Text HLabel 1150 2050 0    50   Input ~ 0
-DCHRG_A2
-Text HLabel 1150 2200 0    50   Input ~ 0
-SDA_SEG1
-Text HLabel 1150 2300 0    50   Input ~ 0
-SCL_SEG1
-Wire Wire Line
-	1150 2200 1250 2200
-Wire Wire Line
-	1250 2300 1150 2300
-Wire Wire Line
-	1150 2050 1250 2050
-Wire Wire Line
-	1250 1950 1150 1950
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5E948870
@@ -979,42 +945,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 3050 1700 3500
 Connection ~ 4050 1750
-Text HLabel 1150 1250 0    50   Input ~ 0
-SEG1_9V
-Text HLabel 1150 1450 0    50   Input ~ 0
-SEG1_RTN
-Text HLabel 1150 1600 0    50   Input ~ 0
-SEG2_9V
-Text HLabel 1150 1800 0    50   Input ~ 0
-SEG2_RTN
-Text Label 1250 1250 0    50   ~ 0
-SEG1_9V
-Text Label 1250 1600 0    50   ~ 0
-SEG2_9V
-Text HLabel 1150 1350 0    50   Input ~ 0
-SEG1_5V
-Text HLabel 1150 1700 0    50   Input ~ 0
-SEG2_5V
-Text Label 1250 1350 0    50   ~ 0
-SEG1_5V
-Text Label 1250 1450 0    50   ~ 0
-SEG1_RTN
-Text Label 1250 1700 0    50   ~ 0
-SEG2_5V
-Text Label 1250 1800 0    50   ~ 0
-SEG2_RTN
-Wire Wire Line
-	1250 1250 1150 1250
-Wire Wire Line
-	1150 1350 1250 1350
-Wire Wire Line
-	1250 1450 1150 1450
-Wire Wire Line
-	1150 1600 1250 1600
-Wire Wire Line
-	1250 1700 1150 1700
-Wire Wire Line
-	1150 1800 1250 1800
 Text Label 3600 7850 2    50   ~ 0
 SEG2_RTN
 $Comp
@@ -1040,8 +970,6 @@ Text Notes 7050 4100 0    50   ~ 0
 333mA
 Text Notes 7050 5000 0    50   ~ 0
 333mA
-Wire Wire Line
-	5600 2350 5400 2350
 $Comp
 L Device:C C32
 U 1 1 5E47201C
@@ -1112,10 +1040,108 @@ Text Label 7100 1850 0    50   ~ 0
 SEG1_RTN
 Text Label 7100 1050 0    50   ~ 0
 SEG1_RTN
-Text Label 5600 2350 0    50   ~ 0
-SEG1_RTN
 Text Label 5250 1850 0    50   ~ 0
 SEG1_RTN
 Text Label 3950 1550 2    50   ~ 0
+SEG1_RTN
+Text Label 1250 2050 0    50   ~ 0
+DCHRG_A2
+Text Label 1250 1950 0    50   ~ 0
+DCHRG_A1
+Text Label 1250 2200 0    50   ~ 0
+SDA_SEG1
+Text Label 1250 2300 0    50   ~ 0
+SCL_SEG1
+Text HLabel 1150 1950 0    50   Input ~ 0
+DCHRG_A1
+Text HLabel 1150 2050 0    50   Input ~ 0
+DCHRG_A2
+Text HLabel 1150 2200 0    50   Input ~ 0
+SDA_SEG1
+Text HLabel 1150 2300 0    50   Input ~ 0
+SCL_SEG1
+Wire Wire Line
+	1150 2200 1250 2200
+Wire Wire Line
+	1250 2300 1150 2300
+Wire Wire Line
+	1150 2050 1250 2050
+Wire Wire Line
+	1250 1950 1150 1950
+Text HLabel 1150 1250 0    50   Input ~ 0
+SEG1_9V
+Text HLabel 1150 1450 0    50   Input ~ 0
+SEG1_RTN
+Text HLabel 1150 1600 0    50   Input ~ 0
+SEG2_9V
+Text HLabel 1150 1800 0    50   Input ~ 0
+SEG2_RTN
+Text Label 1250 1250 0    50   ~ 0
+SEG1_9V
+Text Label 1250 1600 0    50   ~ 0
+SEG2_9V
+Text HLabel 1150 1350 0    50   Input ~ 0
+SEG1_5V
+Text HLabel 1150 1700 0    50   Input ~ 0
+SEG2_5V
+Text Label 1250 1350 0    50   ~ 0
+SEG1_5V
+Text Label 1250 1450 0    50   ~ 0
+SEG1_RTN
+Text Label 1250 1700 0    50   ~ 0
+SEG2_5V
+Text Label 1250 1800 0    50   ~ 0
+SEG2_RTN
+Wire Wire Line
+	1250 1250 1150 1250
+Wire Wire Line
+	1150 1350 1250 1350
+Wire Wire Line
+	1250 1450 1150 1450
+Wire Wire Line
+	1150 1600 1250 1600
+Wire Wire Line
+	1250 1700 1150 1700
+Wire Wire Line
+	1150 1800 1250 1800
+Text Label 3000 7450 2    50   ~ 0
+SEG1_5V
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5EDC9A00
+P 3100 7350
+F 0 "TP1" H 3158 7468 50  0000 L CNN
+F 1 "SEG2_5V" H 3158 7377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3300 7350 50  0001 C CNN
+F 3 "~" H 3300 7350 50  0001 C CNN
+	1    3100 7350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 7450 3100 7450
+Wire Wire Line
+	3100 7450 3100 7350
+Text Label 3000 7850 2    50   ~ 0
+SEG1_RTN
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5EDC9A11
+P 3100 7750
+F 0 "TP2" H 3158 7868 50  0000 L CNN
+F 1 "SEG2_RTN" H 3158 7777 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 7750 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3300 7750 50  0001 C CNN
+F 4 "TE Connectivity" H 3100 7750 50  0001 C CNN "Manufacturer"
+F 5 "RCT-0C" H 3100 7750 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3100 7750 50  0001 C CNN "Vendor"
+F 7 "A106144CT-ND" H 3100 7750 50  0001 C CNN "Vendor Part"
+	1    3100 7750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 7850 3100 7850
+Wire Wire Line
+	3100 7850 3100 7750
+Text Label 1600 4300 2    50   ~ 0
 SEG1_RTN
 $EndSCHEMATC

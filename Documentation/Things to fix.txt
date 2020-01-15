@@ -1,6 +1,5 @@
 To do:
 
-Spec new capacitors for back of board and fix the footprints
 Confirm with Connor what the 6 pins are
 Time delay for safety loop in the event of a firmware crash - could probably be RC circuit at gate of FET driver
 QRCode to GitHub project

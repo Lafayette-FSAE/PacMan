@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 5 5
+Sheet 3 5
 Title "PacMan: Charging"
 Date "2019-11-19"
 Rev "1.2"
@@ -529,9 +529,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 6300 3250 6300
 Wire Wire Line
-	3250 6300 3250 6200
-Connection ~ 3250 6200
-Wire Wire Line
 	2750 5900 2850 5900
 Text Label 2850 7100 0    50   ~ 0
 SEG2_RTN
@@ -698,4 +695,10 @@ Text HLabel 1250 2550 0    50   Input ~ 0
 BAL_SEG2+
 Text HLabel 1250 2650 0    50   Input ~ 0
 SEG2+
+Text Label 3250 6300 0    50   ~ 0
+SEG2_5V
+Text Notes 3300 4400 0    50   ~ 0
+I2C Address:\n1000000
+Text Notes 3300 6200 0    50   ~ 0
+I2C Address:\n1000001
 $EndSCHEMATC
