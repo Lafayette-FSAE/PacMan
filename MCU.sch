@@ -110,7 +110,7 @@ Text Label 1600 1100 0    50   ~ 0
 GLV_RTN
 Wire Wire Line
 	1500 1100 1600 1100
-Text Label 4750 6100 0    50   ~ 0
+Text Label 4800 6100 0    50   ~ 0
 AIRS_STATUS
 Text Label 1600 2100 0    50   ~ 0
 CHRG_EN
@@ -650,69 +650,68 @@ Wire Wire Line
 $Comp
 L Lafayette_Electric_Car_Internals:MCP23008 U6
 U 1 1 5DE655B5
-P 4300 5750
-F 0 "U6" H 4300 6367 50  0000 C CNN
-F 1 "MCP23008" H 4300 6276 50  0000 C CNN
-F 2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" H 4450 6250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/268/21919b-65915.pdf" H 4450 6250 50  0001 C CNN
-F 4 "Microchip Technology" H 4300 5750 50  0001 C CNN "Manufacturer"
-F 5 "MCP23008T-E/SS" H 4300 5750 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 4300 5750 50  0001 C CNN "Vendor"
-F 7 "MCP23008T-E/SSCT-ND" H 4300 5750 50  0001 C CNN "Vendor Part"
-	1    4300 5750
+P 4350 5750
+F 0 "U6" H 4350 6367 50  0000 C CNN
+F 1 "MCP23008" H 4350 6276 50  0000 C CNN
+F 2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" H 4500 6250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/268/21919b-65915.pdf" H 4500 6250 50  0001 C CNN
+F 4 "Microchip Technology" H 4350 5750 50  0001 C CNN "Manufacturer"
+F 5 "MCP23008T-E/SS" H 4350 5750 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 4350 5750 50  0001 C CNN "Vendor"
+F 7 "MCP23008T-E/SSCT-ND" H 4350 5750 50  0001 C CNN "Vendor Part"
+	1    4350 5750
 	1    0    0    -1  
 $EndComp
-Text Label 4750 5400 0    50   ~ 0
+Text Label 4800 5400 0    50   ~ 0
 LV_3V3
 Wire Wire Line
-	4750 5400 4650 5400
-Text Label 3850 6200 2    50   ~ 0
+	4800 5400 4700 5400
+Text Label 3900 6200 2    50   ~ 0
 LV_RTN
 Wire Wire Line
-	3850 6200 3950 6200
+	3900 6200 4000 6200
 Wire Wire Line
-	4750 6200 4650 6200
+	4800 6200 4700 6200
 Wire Wire Line
-	4650 6100 4750 6100
+	4700 6100 4800 6100
 Wire Wire Line
-	4750 6000 4650 6000
+	4800 6000 4700 6000
 Wire Wire Line
-	4650 5900 4750 5900
+	4700 5900 4800 5900
 Wire Wire Line
-	4750 5800 4650 5800
+	4800 5800 4700 5800
 Wire Wire Line
-	4750 5600 4650 5600
+	4800 5600 4700 5600
 Wire Wire Line
-	4650 5500 4750 5500
-Text Label 3750 5800 2    50   ~ 0
+	4700 5500 4800 5500
+Text Label 3800 5800 2    50   ~ 0
 LV_RTN
 Wire Wire Line
-	3750 5800 3850 5800
+	3800 5800 3900 5800
 Wire Wire Line
-	3950 5700 3850 5700
+	4000 5700 3900 5700
 Wire Wire Line
-	3850 5700 3850 5800
-Connection ~ 3850 5800
+	3900 5700 3900 5800
+Connection ~ 3900 5800
 Wire Wire Line
-	3850 5800 3950 5800
+	3900 5800 4000 5800
 Wire Wire Line
-	3950 5600 3850 5600
+	4000 5600 3900 5600
 Wire Wire Line
-	3850 5600 3850 5700
-Connection ~ 3850 5700
-Text Notes 3800 5700 2    50   ~ 0
+	3900 5600 3900 5700
+Connection ~ 3900 5700
+Text Notes 3850 5700 2    50   ~ 0
 I2C Address:\n0100000
 Wire Wire Line
-	3850 5500 3950 5500
+	3900 5500 4000 5500
 Wire Wire Line
-	3850 5400 3950 5400
-Text Label 3750 5900 2    50   ~ 0
+	3900 5400 4000 5400
+Text Label 3800 5900 2    50   ~ 0
 ~RESET
 Wire Wire Line
-	3750 5900 3950 5900
-NoConn ~ 3950 6100
+	3800 5900 4000 5900
 Wire Wire Line
-	4750 5700 4650 5700
+	4800 5700 4700 5700
 Text Notes 700  3400 0    79   ~ 16
 Button Filtering
 Wire Notes Line
@@ -779,30 +778,30 @@ $EndComp
 $Comp
 L Device:C C6
 U 1 1 5E06C3B6
-P 3200 6000
-F 0 "C6" H 3085 6046 50  0000 R CNN
-F 1 "0.1u/50V" H 3085 5955 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3238 5850 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 3200 6000 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3200 6000 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 3200 6000 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3200 6000 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 3200 6000 50  0001 C CNN "Vendor Part"
-	1    3200 6000
+P 3200 5950
+F 0 "C6" H 3085 5996 50  0000 R CNN
+F 1 "0.1u/50V" H 3085 5905 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3238 5800 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 3200 5950 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3200 5950 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 3200 5950 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3200 5950 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 3200 5950 50  0001 C CNN "Vendor Part"
+	1    3200 5950
 	-1   0    0    -1  
 $EndComp
-Text Label 3100 5750 2    50   ~ 0
+Text Label 3100 5700 2    50   ~ 0
 LV_3V3
 Wire Wire Line
-	3200 5750 3200 5850
-Text Label 3100 6250 2    50   ~ 0
+	3200 5700 3200 5800
+Text Label 3100 6200 2    50   ~ 0
 LV_RTN
 Wire Wire Line
-	3100 6250 3200 6250
+	3100 6200 3200 6200
 Wire Wire Line
-	3200 6250 3200 6150
+	3200 6200 3200 6100
 Wire Wire Line
-	3100 5750 3200 5750
+	3100 5700 3200 5700
 Wire Notes Line
 	2800 6450 5450 6450
 Wire Notes Line
@@ -867,9 +866,9 @@ Wire Wire Line
 	2900 1400 3000 1400
 Wire Wire Line
 	3000 1300 2900 1300
-Text Label 3850 5500 2    50   ~ 0
+Text Label 3900 5500 2    50   ~ 0
 SDA_GLV
-Text Label 3850 5400 2    50   ~ 0
+Text Label 3900 5400 2    50   ~ 0
 SCL_GLV
 Text Label 1600 2650 0    50   ~ 0
 CAN_SHIELD
@@ -903,9 +902,9 @@ Text HLabel 1500 650  0    50   Input ~ 0
 LV_3V3
 Wire Wire Line
 	1500 650  1600 650 
-NoConn ~ 4750 5500
-NoConn ~ 4750 5600
-NoConn ~ 4750 5700
+NoConn ~ 4800 5500
+NoConn ~ 4800 5600
+NoConn ~ 4800 5700
 Text HLabel 2900 1150 0    50   Input ~ 0
 BTN_CENTER
 Text HLabel 2900 1050 0    50   Input ~ 0
@@ -1419,9 +1418,9 @@ Text Label 1600 1450 0    50   ~ 0
 SLOOP2
 Wire Wire Line
 	1600 1450 1500 1450
-Text Label 4750 5900 0    50   ~ 0
+Text Label 4800 5900 0    50   ~ 0
 SLOOP1_STATUS
-Text Label 4750 6000 0    50   ~ 0
+Text Label 4800 6000 0    50   ~ 0
 SLOOP2_STATUS
 Wire Wire Line
 	4850 1950 4750 1950
@@ -1429,8 +1428,8 @@ Wire Wire Line
 	4850 1850 4750 1850
 Wire Wire Line
 	4850 1750 4750 1750
-NoConn ~ 4750 5800
-NoConn ~ 4750 6200
+NoConn ~ 4800 5800
+NoConn ~ 4800 6200
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5E29B771
@@ -1665,7 +1664,6 @@ Wire Wire Line
 	6450 1050 6550 1050
 Text Label 6550 1050 0    50   ~ 0
 WATCHDOG
-NoConn ~ 4850 2150
 $Comp
 L Device:Q_NMOS_GSD Q?
 U 1 1 5EA0506F
@@ -1686,4 +1684,12 @@ $EndComp
 NoConn ~ 6450 2250
 NoConn ~ 6450 1250
 NoConn ~ 6450 1350
+Text Label 4750 2150 2    50   ~ 0
+IO_INT
+Wire Wire Line
+	4750 2150 4850 2150
+Text Label 3900 6100 2    50   ~ 0
+IO_INT
+Wire Wire Line
+	3900 6100 4000 6100
 $EndSCHEMATC
