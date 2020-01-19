@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 5
+Sheet 5 5
 Title "PacMan: Power"
 Date "2019-11-19"
 Rev "1.2"
@@ -322,9 +322,9 @@ $EndComp
 Wire Wire Line
 	5250 1850 5150 1850
 Text Label 5250 1650 0    50   ~ 0
-SDA_SEG1
+SDA_TSV
 Text Label 5250 1750 0    50   ~ 0
-SCL_SEG1
+SCL_TSV
 NoConn ~ 5150 1550
 Wire Wire Line
 	5250 1650 5150 1650
@@ -445,7 +445,7 @@ Connection ~ 4650 4300
 Wire Wire Line
 	4650 4300 5300 4300
 Wire Wire Line
-	1600 4300 2650 4300
+	1600 4300 1700 4300
 Wire Wire Line
 	2100 4000 2650 4000
 Connection ~ 2650 4000
@@ -721,10 +721,8 @@ Text Label 8000 3550 0    50   ~ 0
 SEG1_9V
 Text Label 8000 4450 0    50   ~ 0
 SEG2_9V
-Text Label 9550 4450 0    50   ~ 0
+Text Label 9650 4450 0    50   ~ 0
 SEG2_5V
-Text Label 3050 7050 2    50   ~ 0
-SEG1_9V
 Text Label 3600 7050 2    50   ~ 0
 SEG2_9V
 Text Label 3600 7450 2    50   ~ 0
@@ -744,25 +742,6 @@ Wire Wire Line
 	3600 7050 3700 7050
 Wire Wire Line
 	3700 7050 3700 6950
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5E2FB53C
-P 3150 6950
-F 0 "TP3" H 3208 7068 50  0000 L CNN
-F 1 "SEG1_9V" H 3208 6977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3350 6950 50  0001 C CNN
-F 3 "" H 3350 6950 50  0001 C CNN
-F 4 "" H 3150 6950 50  0001 C CNN "Manufacturer"
-F 5 "" H 3150 6950 50  0001 C CNN "Manufacturer Part"
-F 6 "" H 3150 6950 50  0001 C CNN "Vendor"
-F 7 "" H 3150 6950 50  0001 C CNN "Vendor Part"
-	1    3150 6950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 7050 3150 7050
-Wire Wire Line
-	3150 7050 3150 6950
 $Comp
 L Connector:TestPoint TP13
 U 1 1 5E30190A
@@ -845,9 +824,9 @@ Wire Wire Line
 Wire Wire Line
 	7800 4950 7800 4850
 Wire Wire Line
-	7800 4950 8350 4950
+	7800 4950 8450 4950
 Connection ~ 7800 4950
-Text Label 9550 4950 0    50   ~ 0
+Text Label 9650 4950 0    50   ~ 0
 SEG2_RTN
 Wire Notes Line
 	7000 4250 7000 4050
@@ -858,56 +837,56 @@ Wire Wire Line
 $Comp
 L Regulator_Linear:AP2204K-5.0 U18
 U 1 1 5E42E32D
-P 9050 4550
-F 0 "U18" H 9050 4892 50  0000 C CNN
-F 1 "AP2204K-5.0" H 9050 4801 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9050 4875 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9050 4650 50  0001 C CNN
-F 4 "Diodes Incorporated" H 9050 4550 50  0001 C CNN "Manufacturer"
-F 5 "AP2204K-5.0TRG1" H 9050 4550 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9050 4550 50  0001 C CNN "Vendor"
-F 7 "AP2204K-5.0TRG1DICT-ND" H 9050 4550 50  0001 C CNN "Vendor Part"
-	1    9050 4550
+P 9150 4550
+F 0 "U18" H 9150 4892 50  0000 C CNN
+F 1 "AP2204K-5.0" H 9150 4801 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9150 4875 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9150 4650 50  0001 C CNN
+F 4 "Diodes Incorporated" H 9150 4550 50  0001 C CNN "Manufacturer"
+F 5 "AP2204K-5.0TRG1" H 9150 4550 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9150 4550 50  0001 C CNN "Vendor"
+F 7 "AP2204K-5.0TRG1DICT-ND" H 9150 4550 50  0001 C CNN "Vendor Part"
+	1    9150 4550
 	1    0    0    -1  
 $EndComp
-Text Label 8000 4050 0    50   ~ 0
+Text Label 9650 4050 0    50   ~ 0
 SEG1_RTN
 Wire Wire Line
-	8750 4550 8650 4550
+	8850 4550 8750 4550
 Wire Wire Line
-	8650 4550 8650 4450
+	8750 4550 8750 4450
 Wire Wire Line
-	8650 4450 8750 4450
+	8750 4450 8850 4450
 Wire Wire Line
-	7800 4450 8350 4450
-Connection ~ 8650 4450
+	7800 4450 8450 4450
+Connection ~ 8750 4450
+Wire Wire Line
+	9650 4450 9550 4450
+Wire Wire Line
+	9550 4550 9550 4450
+Connection ~ 9550 4450
 Wire Wire Line
 	9550 4450 9450 4450
 Wire Wire Line
-	9450 4550 9450 4450
-Connection ~ 9450 4450
+	9650 4950 9550 4950
 Wire Wire Line
-	9450 4450 9350 4450
+	9550 4950 9550 4850
 Wire Wire Line
-	9550 4950 9450 4950
+	9550 4950 9150 4950
 Wire Wire Line
-	9450 4950 9450 4850
+	8450 4950 8450 4850
+Connection ~ 9550 4950
 Wire Wire Line
-	9450 4950 9050 4950
+	9150 4850 9150 4950
+Connection ~ 9150 4950
 Wire Wire Line
-	8350 4950 8350 4850
-Connection ~ 9450 4950
+	9150 4950 8450 4950
+Connection ~ 8450 4950
 Wire Wire Line
-	9050 4850 9050 4950
-Connection ~ 9050 4950
+	8450 4550 8450 4450
+Connection ~ 8450 4450
 Wire Wire Line
-	9050 4950 8350 4950
-Connection ~ 8350 4950
-Wire Wire Line
-	8350 4550 8350 4450
-Connection ~ 8350 4450
-Wire Wire Line
-	8350 4450 8650 4450
+	8450 4450 8750 4450
 Connection ~ 5500 2800
 Wire Wire Line
 	5500 2800 5500 3600
@@ -973,39 +952,39 @@ Text Notes 7050 5000 0    50   ~ 0
 $Comp
 L Device:C C32
 U 1 1 5E47201C
-P 9450 4700
-F 0 "C32" H 9565 4746 50  0000 L CNN
-F 1 "2.2u/25V" H 9565 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9488 4550 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B225KAFNFNE-19.pdf" H 9450 4700 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 9450 4700 50  0001 C CNN "Manufacturer"
-F 5 "CL21B225KAFNFNE" H 9450 4700 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9450 4700 50  0001 C CNN "Vendor"
-F 7 "1276-2953-1-ND" H 9450 4700 50  0001 C CNN "Vendor Part"
-	1    9450 4700
+P 9550 4700
+F 0 "C32" H 9665 4746 50  0000 L CNN
+F 1 "2.2u/25V" H 9665 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9588 4550 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B225KAFNFNE-19.pdf" H 9550 4700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9550 4700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B225KAFNFNE" H 9550 4700 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9550 4700 50  0001 C CNN "Vendor"
+F 7 "1276-2953-1-ND" H 9550 4700 50  0001 C CNN "Vendor Part"
+	1    9550 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C30
 U 1 1 5E471D80
-P 8350 4700
-F 0 "C30" H 8465 4746 50  0000 L CNN
-F 1 "1u/50V" H 8465 4655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 4550 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B105KBFNNNG-19.pdf" H 8350 4700 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 8350 4700 50  0001 C CNN "Manufacturer"
-F 5 "CL21B105KBFNNNG" H 8350 4700 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 8350 4700 50  0001 C CNN "Vendor"
-F 7 "1276-6470-1-ND" H 8350 4700 50  0001 C CNN "Vendor Part"
-	1    8350 4700
+P 8450 4700
+F 0 "C30" H 8565 4746 50  0000 L CNN
+F 1 "1u/50V" H 8565 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8488 4550 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B105KBFNNNG-19.pdf" H 8450 4700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8450 4700 50  0001 C CNN "Manufacturer"
+F 5 "CL21B105KBFNNNG" H 8450 4700 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8450 4700 50  0001 C CNN "Vendor"
+F 7 "1276-6470-1-ND" H 8450 4700 50  0001 C CNN "Vendor Part"
+	1    8450 4700
 	1    0    0    -1  
 $EndComp
 Text Label 8600 3200 0    50   ~ 0
-SEG1_RTN
+TSV_RTN
 Wire Wire Line
-	7800 4050 8000 4050
+	7800 4050 8450 4050
 Wire Wire Line
-	8000 3550 7800 3550
+	8450 3550 7800 3550
 Connection ~ 7800 3550
 Wire Wire Line
 	7800 3200 8400 3200
@@ -1033,77 +1012,67 @@ Wire Wire Line
 Wire Wire Line
 	8400 3200 8600 3200
 Text Label 8600 2800 0    50   ~ 0
-SEG1_5V
-Text Label 6600 950  2    50   ~ 0
-SEG1_5V
-Text Label 7100 1850 0    50   ~ 0
-SEG1_RTN
-Text Label 7100 1050 0    50   ~ 0
-SEG1_RTN
-Text Label 5250 1850 0    50   ~ 0
-SEG1_RTN
-Text Label 3950 1550 2    50   ~ 0
-SEG1_RTN
-Text Label 1250 2050 0    50   ~ 0
-DCHRG_A2
-Text Label 1250 1950 0    50   ~ 0
-DCHRG_A1
-Text Label 1250 2200 0    50   ~ 0
-SDA_SEG1
+TSV_5V
 Text Label 1250 2300 0    50   ~ 0
-SCL_SEG1
-Text HLabel 1150 1950 0    50   Input ~ 0
-DCHRG_A1
-Text HLabel 1150 2050 0    50   Input ~ 0
 DCHRG_A2
+Text Label 1250 2200 0    50   ~ 0
+DCHRG_A1
+Text Label 1250 2450 0    50   ~ 0
+SDA_TSV
+Text Label 1250 2550 0    50   ~ 0
+SCL_TSV
 Text HLabel 1150 2200 0    50   Input ~ 0
-SDA_SEG1
+DCHRG_A1
 Text HLabel 1150 2300 0    50   Input ~ 0
-SCL_SEG1
+DCHRG_A2
+Text HLabel 1150 2450 0    50   Input ~ 0
+SDA_TSV
+Text HLabel 1150 2550 0    50   Input ~ 0
+SCL_TSV
 Wire Wire Line
-	1150 2200 1250 2200
+	1150 2450 1250 2450
 Wire Wire Line
-	1250 2300 1150 2300
+	1250 2550 1150 2550
 Wire Wire Line
-	1150 2050 1250 2050
+	1150 2300 1250 2300
 Wire Wire Line
-	1250 1950 1150 1950
-Text HLabel 1150 1250 0    50   Input ~ 0
+	1250 2200 1150 2200
+Text HLabel 1150 1500 0    50   Input ~ 0
 SEG1_9V
-Text HLabel 1150 1450 0    50   Input ~ 0
-SEG1_RTN
-Text HLabel 1150 1600 0    50   Input ~ 0
-SEG2_9V
-Text HLabel 1150 1800 0    50   Input ~ 0
-SEG2_RTN
-Text Label 1250 1250 0    50   ~ 0
-SEG1_9V
-Text Label 1250 1600 0    50   ~ 0
-SEG2_9V
-Text HLabel 1150 1350 0    50   Input ~ 0
-SEG1_5V
 Text HLabel 1150 1700 0    50   Input ~ 0
-SEG2_5V
-Text Label 1250 1350 0    50   ~ 0
-SEG1_5V
-Text Label 1250 1450 0    50   ~ 0
 SEG1_RTN
-Text Label 1250 1700 0    50   ~ 0
+Text HLabel 1150 1850 0    50   Input ~ 0
+SEG2_9V
+Text HLabel 1150 2050 0    50   Input ~ 0
+SEG2_RTN
+Text Label 1250 1500 0    50   ~ 0
+SEG1_9V
+Text Label 1250 1850 0    50   ~ 0
+SEG2_9V
+Text HLabel 1150 1600 0    50   Input ~ 0
+SEG1_5V
+Text HLabel 1150 1950 0    50   Input ~ 0
 SEG2_5V
-Text Label 1250 1800 0    50   ~ 0
+Text Label 1250 1600 0    50   ~ 0
+SEG1_5V
+Text Label 1250 1700 0    50   ~ 0
+SEG1_RTN
+Text Label 1250 1950 0    50   ~ 0
+SEG2_5V
+Text Label 1250 2050 0    50   ~ 0
 SEG2_RTN
 Wire Wire Line
-	1250 1250 1150 1250
-Wire Wire Line
-	1150 1350 1250 1350
-Wire Wire Line
-	1250 1450 1150 1450
+	1250 1500 1150 1500
 Wire Wire Line
 	1150 1600 1250 1600
 Wire Wire Line
 	1250 1700 1150 1700
 Wire Wire Line
-	1150 1800 1250 1800
+	1150 1850 1250 1850
+Wire Wire Line
+	1250 1950 1150 1950
+Wire Wire Line
+	1150 2050 1250 2050
 Text Label 3000 7450 2    50   ~ 0
 SEG1_5V
 $Comp
@@ -1143,5 +1112,197 @@ Wire Wire Line
 Wire Wire Line
 	3100 7850 3100 7750
 Text Label 1600 4300 2    50   ~ 0
-SEG1_RTN
+PACK_RTN
+Text Label 9650 3550 0    50   ~ 0
+SEG1_5V
+$Comp
+L Regulator_Linear:AP2204K-5.0 U22
+U 1 1 5E26A149
+P 9150 3650
+F 0 "U22" H 9150 3992 50  0000 C CNN
+F 1 "AP2204K-5.0" H 9150 3901 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9150 3975 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9150 3750 50  0001 C CNN
+F 4 "Diodes Incorporated" H 9150 3650 50  0001 C CNN "Manufacturer"
+F 5 "AP2204K-5.0TRG1" H 9150 3650 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9150 3650 50  0001 C CNN "Vendor"
+F 7 "AP2204K-5.0TRG1DICT-ND" H 9150 3650 50  0001 C CNN "Vendor Part"
+	1    9150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3650 8750 3650
+Wire Wire Line
+	8750 3650 8750 3550
+Wire Wire Line
+	8750 3550 8850 3550
+Connection ~ 8750 3550
+Wire Wire Line
+	9650 3550 9550 3550
+Wire Wire Line
+	9550 3650 9550 3550
+Connection ~ 9550 3550
+Wire Wire Line
+	9550 3550 9450 3550
+Wire Wire Line
+	9650 4050 9550 4050
+Wire Wire Line
+	9550 4050 9550 3950
+Wire Wire Line
+	9550 4050 9150 4050
+Wire Wire Line
+	8450 4050 8450 3950
+Connection ~ 9550 4050
+Wire Wire Line
+	9150 3950 9150 4050
+Connection ~ 9150 4050
+Wire Wire Line
+	9150 4050 8450 4050
+Wire Wire Line
+	8450 3650 8450 3550
+Wire Wire Line
+	8450 3550 8750 3550
+$Comp
+L Device:C C37
+U 1 1 5E26A16C
+P 9550 3800
+F 0 "C37" H 9665 3846 50  0000 L CNN
+F 1 "2.2u/25V" H 9665 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9588 3650 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B225KAFNFNE-19.pdf" H 9550 3800 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9550 3800 50  0001 C CNN "Manufacturer"
+F 5 "CL21B225KAFNFNE" H 9550 3800 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9550 3800 50  0001 C CNN "Vendor"
+F 7 "1276-2953-1-ND" H 9550 3800 50  0001 C CNN "Vendor Part"
+	1    9550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C36
+U 1 1 5E26A17A
+P 8450 3800
+F 0 "C36" H 8565 3846 50  0000 L CNN
+F 1 "1u/50V" H 8565 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8488 3650 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B105KBFNNNG-19.pdf" H 8450 3800 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8450 3800 50  0001 C CNN "Manufacturer"
+F 5 "CL21B105KBFNNNG" H 8450 3800 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8450 3800 50  0001 C CNN "Vendor"
+F 7 "1276-6470-1-ND" H 8450 3800 50  0001 C CNN "Vendor Part"
+	1    8450 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 8450 4050
+Connection ~ 8450 3550
+Text Label 7100 1850 0    50   ~ 0
+TSV_RTN
+Text Label 5250 1850 0    50   ~ 0
+TSV_RTN
+Text Label 3950 1550 2    50   ~ 0
+TSV_RTN
+Text Label 7100 1050 0    50   ~ 0
+TSV_RTN
+Text Label 6600 950  2    50   ~ 0
+TSV_5V
+Text Label 5400 2350 2    50   ~ 0
+PACK_RTN
+Text Label 5500 2350 0    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	5500 2350 5400 2350
+Wire Wire Line
+	3100 7050 3100 6950
+Wire Wire Line
+	3000 7050 3100 7050
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5E2FB53C
+P 3100 6950
+F 0 "TP3" H 3158 7068 50  0000 L CNN
+F 1 "SEG1_9V" H 3158 6977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3300 6950 50  0001 C CNN
+F 3 "" H 3300 6950 50  0001 C CNN
+F 4 "" H 3100 6950 50  0001 C CNN "Manufacturer"
+F 5 "" H 3100 6950 50  0001 C CNN "Manufacturer Part"
+F 6 "" H 3100 6950 50  0001 C CNN "Vendor"
+F 7 "" H 3100 6950 50  0001 C CNN "Vendor Part"
+	1    3100 6950
+	-1   0    0    -1  
+$EndComp
+Text Label 3000 7050 2    50   ~ 0
+SEG1_9V
+Text Label 2400 7450 2    50   ~ 0
+TSV_RTN
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5E3054E5
+P 2500 7350
+F 0 "TP11" H 2558 7468 50  0000 L CNN
+F 1 "TSV_RTN" H 2558 7377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2700 7350 50  0001 C CNN
+F 3 "~" H 2700 7350 50  0001 C CNN
+	1    2500 7350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 7450 2500 7450
+Wire Wire Line
+	2500 7450 2500 7350
+Wire Wire Line
+	2500 7050 2500 6950
+Wire Wire Line
+	2400 7050 2500 7050
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5E305508
+P 2500 6950
+F 0 "TP10" H 2558 7068 50  0000 L CNN
+F 1 "TSV_5V" H 2558 6977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2700 6950 50  0001 C CNN
+F 3 "" H 2700 6950 50  0001 C CNN
+F 4 "" H 2500 6950 50  0001 C CNN "Manufacturer"
+F 5 "" H 2500 6950 50  0001 C CNN "Manufacturer Part"
+F 6 "" H 2500 6950 50  0001 C CNN "Vendor"
+F 7 "" H 2500 6950 50  0001 C CNN "Vendor Part"
+	1    2500 6950
+	-1   0    0    -1  
+$EndComp
+Text Label 2400 7050 2    50   ~ 0
+TSV_5V
+Text Label 1250 1100 0    50   ~ 0
+PACK_RTN
+Text HLabel 1150 1100 0    50   Input ~ 0
+PACK_RTN
+Wire Wire Line
+	1150 1100 1250 1100
+Text HLabel 1150 1250 0    50   Input ~ 0
+TSV_5V
+Text Label 1250 1250 0    50   ~ 0
+TSV_5V
+Text HLabel 1150 1350 0    50   Input ~ 0
+TSV_RTN
+Text Label 1250 1350 0    50   ~ 0
+TSV_RTN
+Wire Wire Line
+	1250 1250 1150 1250
+Wire Wire Line
+	1150 1350 1250 1350
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 5E54315E
+P 1600 4450
+F 0 "#FLG04" H 1600 4525 50  0001 C CNN
+F 1 "PWR_FLAG" V 1600 4577 50  0000 L CNN
+F 2 "" H 1600 4450 50  0001 C CNN
+F 3 "~" H 1600 4450 50  0001 C CNN
+	1    1600 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 4300 1700 4450
+Wire Wire Line
+	1700 4450 1600 4450
+Connection ~ 1700 4300
+Wire Wire Line
+	1700 4300 2650 4300
 $EndSCHEMATC
