@@ -18,7 +18,7 @@ L Mechanical:MountingHole_Pad H1
 U 1 1 5DB7AEB3
 P 4450 7800
 F 0 "H1" V 4600 7800 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4550 7758 50  0001 L CNN
+F 1 "MountingHole_Pad_#4" H 4550 7758 50  0001 L CNN
 F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_Pad" H 4450 7800 50  0001 C CNN
 F 3 "~" H 4450 7800 50  0001 C CNN
 	1    4450 7800
@@ -29,7 +29,7 @@ L Mechanical:MountingHole_Pad H3
 U 1 1 5DB7B312
 P 5250 7800
 F 0 "H3" V 5400 7800 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5350 7758 50  0001 L CNN
+F 1 "MountingHole_Pad_#4" H 5350 7758 50  0001 L CNN
 F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_Pad" H 5250 7800 50  0001 C CNN
 F 3 "~" H 5250 7800 50  0001 C CNN
 	1    5250 7800
@@ -40,7 +40,7 @@ L Mechanical:MountingHole_Pad H2
 U 1 1 5DB7B4D8
 P 4750 7800
 F 0 "H2" V 4600 7900 50  0000 R CNN
-F 1 "MountingHole_Pad" H 4850 7758 50  0001 L CNN
+F 1 "MountingHole_Pad_#4" H 4850 7758 50  0001 L CNN
 F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_Pad" H 4750 7800 50  0001 C CNN
 F 3 "~" H 4750 7800 50  0001 C CNN
 	1    4750 7800
@@ -51,7 +51,7 @@ L Mechanical:MountingHole_Pad H4
 U 1 1 5DB7B6E5
 P 5550 7800
 F 0 "H4" V 5400 7900 50  0000 R CNN
-F 1 "MountingHole_Pad" H 5650 7758 50  0001 L CNN
+F 1 "MountingHole_Pad_#4" H 5650 7758 50  0001 L CNN
 F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_Pad" H 5550 7800 50  0001 C CNN
 F 3 "~" H 5550 7800 50  0001 C CNN
 	1    5550 7800
