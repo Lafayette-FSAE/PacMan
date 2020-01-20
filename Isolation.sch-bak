@@ -749,9 +749,9 @@ Wire Wire Line
 Text Label 4800 4350 0    50   ~ 0
 TSV_5V
 Text Label 4700 5550 2    50   ~ 0
-TSV_5V
+TSV_RTN
 Text Label 3900 5400 0    50   ~ 0
-TSV_5V
+TSV_RTN
 Text Label 5100 6600 2    50   ~ 0
 TSV_RTN
 Text Label 3800 5800 2    50   ~ 0

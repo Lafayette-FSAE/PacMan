@@ -1080,7 +1080,7 @@ L Connector:TestPoint TP1
 U 1 1 5EDC9A00
 P 3100 7350
 F 0 "TP1" H 3158 7468 50  0000 L CNN
-F 1 "SEG2_5V" H 3158 7377 50  0000 L CNN
+F 1 "SEG1_5V" H 3158 7377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3300 7350 50  0001 C CNN
 F 3 "~" H 3300 7350 50  0001 C CNN
 	1    3100 7350
@@ -1097,7 +1097,7 @@ L Connector:TestPoint TP2
 U 1 1 5EDC9A11
 P 3100 7750
 F 0 "TP2" H 3158 7868 50  0000 L CNN
-F 1 "SEG2_RTN" H 3158 7777 50  0000 L CNN
+F 1 "SEG1_RTN" H 3158 7777 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 7750 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3300 7750 50  0001 C CNN
 F 4 "TE Connectivity" H 3100 7750 50  0001 C CNN "Manufacturer"
@@ -1231,43 +1231,43 @@ F 7 "" H 3100 6950 50  0001 C CNN "Vendor Part"
 $EndComp
 Text Label 3000 7050 2    50   ~ 0
 SEG1_9V
-Text Label 2400 7450 2    50   ~ 0
+Text Label 2400 7850 2    50   ~ 0
 TSV_RTN
 $Comp
 L Connector:TestPoint TP11
 U 1 1 5E3054E5
-P 2500 7350
-F 0 "TP11" H 2558 7468 50  0000 L CNN
-F 1 "TSV_RTN" H 2558 7377 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2700 7350 50  0001 C CNN
-F 3 "~" H 2700 7350 50  0001 C CNN
-	1    2500 7350
+P 2500 7750
+F 0 "TP11" H 2558 7868 50  0000 L CNN
+F 1 "TSV_RTN" H 2558 7777 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2700 7750 50  0001 C CNN
+F 3 "~" H 2700 7750 50  0001 C CNN
+	1    2500 7750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 7450 2500 7450
+	2400 7850 2500 7850
+Wire Wire Line
+	2500 7850 2500 7750
 Wire Wire Line
 	2500 7450 2500 7350
 Wire Wire Line
-	2500 7050 2500 6950
-Wire Wire Line
-	2400 7050 2500 7050
+	2400 7450 2500 7450
 $Comp
 L Connector:TestPoint TP10
 U 1 1 5E305508
-P 2500 6950
-F 0 "TP10" H 2558 7068 50  0000 L CNN
-F 1 "TSV_5V" H 2558 6977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2700 6950 50  0001 C CNN
-F 3 "" H 2700 6950 50  0001 C CNN
-F 4 "" H 2500 6950 50  0001 C CNN "Manufacturer"
-F 5 "" H 2500 6950 50  0001 C CNN "Manufacturer Part"
-F 6 "" H 2500 6950 50  0001 C CNN "Vendor"
-F 7 "" H 2500 6950 50  0001 C CNN "Vendor Part"
-	1    2500 6950
+P 2500 7350
+F 0 "TP10" H 2558 7468 50  0000 L CNN
+F 1 "TSV_5V" H 2558 7377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2700 7350 50  0001 C CNN
+F 3 "" H 2700 7350 50  0001 C CNN
+F 4 "" H 2500 7350 50  0001 C CNN "Manufacturer"
+F 5 "" H 2500 7350 50  0001 C CNN "Manufacturer Part"
+F 6 "" H 2500 7350 50  0001 C CNN "Vendor"
+F 7 "" H 2500 7350 50  0001 C CNN "Vendor Part"
+	1    2500 7350
 	-1   0    0    -1  
 $EndComp
-Text Label 2400 7050 2    50   ~ 0
+Text Label 2400 7450 2    50   ~ 0
 TSV_5V
 Text Label 1250 1100 0    50   ~ 0
 PACK_RTN
