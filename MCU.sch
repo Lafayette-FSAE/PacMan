@@ -1428,7 +1428,6 @@ Wire Wire Line
 	4850 1850 4750 1850
 Wire Wire Line
 	4850 1750 4750 1750
-NoConn ~ 4800 5800
 NoConn ~ 4800 6200
 $Comp
 L Connector:TestPoint TP8
@@ -1692,4 +1691,12 @@ Text Label 3900 6100 2    50   ~ 0
 IO_INT
 Wire Wire Line
 	3900 6100 4000 6100
+Text HLabel 2900 1950 0    50   Input ~ 0
+RST_GLV
+Wire Wire Line
+	2900 1950 3000 1950
+Text Label 3000 1950 0    50   ~ 0
+RST_GLV
+Text Label 4800 5800 0    50   ~ 0
+RST_GLV
 $EndSCHEMATC
