@@ -899,4 +899,31 @@ Text Label 1450 750  0    50   ~ 0
 SDA_TSV
 Text Label 1450 650  0    50   ~ 0
 TSV_5V
+$Comp
+L Device:C C31
+U 1 1 5E4D837F
+P 9200 3150
+F 0 "C31" H 9315 3196 50  0000 L CNN
+F 1 "0.1u/50V" H 9315 3105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9238 3000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 9200 3150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9200 3150 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 9200 3150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9200 3150 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 9200 3150 50  0001 C CNN "Vendor Part"
+	1    9200 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2950 9200 2950
+Wire Wire Line
+	9200 2950 9200 3000
+Wire Wire Line
+	9250 3350 9200 3350
+Wire Wire Line
+	9200 3350 9200 3300
+Text Label 9250 3350 0    50   ~ 0
+LV_RTN
+Text Label 9250 2950 0    50   ~ 0
+LV_3V3
 $EndSCHEMATC

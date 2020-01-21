@@ -49,12 +49,10 @@ Wire Wire Line
 	9600 1850 9500 1850
 Text Label 9500 1850 2    50   ~ 0
 LV_RTN
-Text Label 4950 1800 2    50   ~ 0
+Text Label 4950 1500 2    50   ~ 0
 CHRG_IN+
-Text Label 4250 1500 2    50   ~ 0
+Text Label 4250 1800 2    50   ~ 0
 CurrentSensor+
-Wire Wire Line
-	4950 1800 5050 1800
 Wire Wire Line
 	4950 2150 5050 2150
 Text Label 4950 2150 2    50   ~ 0
@@ -74,7 +72,7 @@ F 7 "516-4081-ND" H 5350 3900 50  0001 C CNN "Vendor Part"
 	1    5350 3900
 	1    0    0    -1  
 $EndComp
-Text Label 5000 4300 2    50   ~ 0
+Text Label 5000 3500 2    50   ~ 0
 CHRG_OUT+
 $Comp
 L Device:C C12
@@ -206,25 +204,14 @@ Wire Wire Line
 Text Label 7150 2400 0    50   ~ 0
 CHRG_LED
 Wire Wire Line
-	5200 4200 5200 4300
+	5200 3600 5200 3500
 Wire Wire Line
-	5200 4300 5100 4300
+	5200 3500 5100 3500
 Wire Wire Line
-	5100 4200 5100 4300
+	5100 3600 5100 3500
 Wire Wire Line
-	5100 3500 5200 3500
-Wire Wire Line
-	5200 3500 5200 3600
+	5000 3500 5100 3500
 Connection ~ 5100 3500
-Wire Wire Line
-	5100 3500 5100 3600
-Wire Wire Line
-	5000 4300 5100 4300
-Connection ~ 5100 4300
-Wire Wire Line
-	5100 3200 4350 3200
-Wire Wire Line
-	5100 3200 5100 3500
 $Comp
 L Lafayette_Electric_Car_Internals:T9AS1D12 K2
 U 1 1 5E16FA3F
@@ -287,13 +274,6 @@ Wire Wire Line
 	6600 3150 6500 3150
 Wire Wire Line
 	6500 3150 6500 3050
-Wire Wire Line
-	4250 1500 4350 1500
-Wire Wire Line
-	4350 3200 4350 1500
-Connection ~ 4350 1500
-Wire Wire Line
-	4350 1500 5050 1500
 Text Label 9500 1650 2    50   ~ 0
 LV_24V
 Wire Wire Line
@@ -319,259 +299,6 @@ Wire Wire Line
 	4950 2450 5050 2450
 Text Label 4950 2450 2    50   ~ 0
 CHRG_IN-
-$Comp
-L Analog_ADC:INA233 U19
-U 1 1 5E2A7645
-P 2750 4600
-F 0 "U19" H 2500 5200 50  0000 C CNN
-F 1 "INA233" H 2500 5100 50  0000 C CNN
-F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 3550 4150 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ina233.pdf" H 3100 4500 50  0001 C CNN
-F 4 "Texas Instruments" H 2750 4600 50  0001 C CNN "Manufacturer"
-F 5 "INA233AIDGST" H 2750 4600 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 2750 4600 50  0001 C CNN "Vendor"
-F 7 "296-47776-1-ND" H 2750 4600 50  0001 C CNN "Vendor Part"
-	1    2750 4600
-	1    0    0    -1  
-$EndComp
-Text Label 1950 6100 2    50   ~ 0
-BAL_SEG2+
-Text Label 1950 5100 2    50   ~ 0
-SEG1+
-Text Label 1950 7000 2    50   ~ 0
-SEG2+
-$Comp
-L Device:R R36
-U 1 1 5E2AAB28
-P 2050 4750
-F 0 "R36" H 1981 4704 50  0000 R CNN
-F 1 "R" H 1981 4795 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1980 4750 50  0001 C CNN
-F 3 "~" H 2050 4750 50  0001 C CNN
-	1    2050 4750
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	2350 4700 2250 4700
-Wire Wire Line
-	2250 4700 2250 4500
-Wire Wire Line
-	2250 4500 2050 4500
-Wire Wire Line
-	2050 4500 2050 4600
-Wire Wire Line
-	2350 4800 2250 4800
-Wire Wire Line
-	2250 4800 2250 5000
-Wire Wire Line
-	2250 5000 2050 5000
-Wire Wire Line
-	2050 5000 2050 4900
-Wire Wire Line
-	2350 4300 2050 4300
-Wire Wire Line
-	2050 4300 2050 4500
-Connection ~ 2050 4500
-Text Label 1950 4200 2    50   ~ 0
-BAL_SEG1+
-Wire Wire Line
-	2050 4200 2050 4300
-Connection ~ 2050 4300
-Wire Wire Line
-	1950 5100 2050 5100
-Wire Wire Line
-	2050 5100 2050 5000
-Connection ~ 2050 5000
-Wire Wire Line
-	1950 4200 2050 4200
-$Comp
-L Device:R R37
-U 1 1 5E2B7C4E
-P 2050 6650
-F 0 "R37" H 1981 6604 50  0000 R CNN
-F 1 "R" H 1981 6695 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1980 6650 50  0001 C CNN
-F 3 "~" H 2050 6650 50  0001 C CNN
-	1    2050 6650
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	2350 6600 2250 6600
-Wire Wire Line
-	2250 6600 2250 6400
-Wire Wire Line
-	2250 6400 2050 6400
-Wire Wire Line
-	2050 6400 2050 6500
-Wire Wire Line
-	2350 6700 2250 6700
-Wire Wire Line
-	2250 6700 2250 6900
-Wire Wire Line
-	2250 6900 2050 6900
-Wire Wire Line
-	2050 6900 2050 6800
-Wire Wire Line
-	2350 6200 2050 6200
-Wire Wire Line
-	2050 6200 2050 6400
-Connection ~ 2050 6400
-Wire Wire Line
-	2050 6100 2050 6200
-Connection ~ 2050 6200
-Wire Wire Line
-	1950 7000 2050 7000
-Wire Wire Line
-	2050 7000 2050 6900
-Connection ~ 2050 6900
-Wire Wire Line
-	1950 6100 2050 6100
-Text Label 2750 3900 2    50   ~ 0
-SEG1_5V
-Text Label 2850 5200 0    50   ~ 0
-SEG1_RTN
-Text Label 3350 5900 0    50   ~ 0
-SEG2_RTN
-Text Label 2750 5800 2    50   ~ 0
-SEG2_5V
-$Comp
-L Device:C C31
-U 1 1 5E2DA6ED
-P 3000 4000
-F 0 "C31" V 2748 4000 50  0000 C CNN
-F 1 "0.1u/50V" V 2839 4000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 3850 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 3000 4000 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3000 4000 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 3000 4000 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3000 4000 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 3000 4000 50  0001 C CNN "Vendor Part"
-	1    3000 4000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2750 3900 2750 4000
-Connection ~ 2750 4000
-Wire Wire Line
-	2750 4000 2750 4100
-Wire Wire Line
-	2750 5100 2750 5200
-Wire Wire Line
-	2750 5200 2850 5200
-NoConn ~ 3150 4900
-Text Label 3350 4000 0    50   ~ 0
-SEG1_RTN
-Wire Wire Line
-	3350 4000 3250 4000
-Wire Wire Line
-	3250 4000 3250 4300
-Wire Wire Line
-	3250 4300 3150 4300
-Connection ~ 3250 4000
-Wire Wire Line
-	3250 4000 3150 4000
-Wire Wire Line
-	3150 4400 3250 4400
-Wire Wire Line
-	3250 4400 3250 4300
-Connection ~ 3250 4300
-Wire Wire Line
-	2750 4000 2850 4000
-$Comp
-L Analog_ADC:INA233 U20
-U 1 1 5E3036A9
-P 2750 6500
-F 0 "U20" H 2500 7100 50  0000 C CNN
-F 1 "INA233" H 2500 7000 50  0000 C CNN
-F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 3550 6050 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ina233.pdf" H 3100 6400 50  0001 C CNN
-F 4 "Texas Instruments" H 2750 6500 50  0001 C CNN "Manufacturer"
-F 5 "INA233AIDGST" H 2750 6500 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 2750 6500 50  0001 C CNN "Vendor"
-F 7 "296-47776-1-ND" H 2750 6500 50  0001 C CNN "Vendor Part"
-	1    2750 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C33
-U 1 1 5E3036B5
-P 3000 5900
-F 0 "C33" V 2748 5900 50  0000 C CNN
-F 1 "0.1u/50V" V 2839 5900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 5750 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 3000 5900 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3000 5900 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 3000 5900 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3000 5900 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 3000 5900 50  0001 C CNN "Vendor Part"
-	1    3000 5900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2750 5800 2750 5900
-Connection ~ 2750 5900
-Wire Wire Line
-	2750 5900 2750 6000
-Wire Wire Line
-	2750 7000 2750 7100
-Wire Wire Line
-	2750 7100 2850 7100
-NoConn ~ 3150 6800
-Wire Wire Line
-	3350 5900 3250 5900
-Wire Wire Line
-	3250 5900 3250 6200
-Wire Wire Line
-	3250 6200 3150 6200
-Connection ~ 3250 5900
-Wire Wire Line
-	3250 5900 3150 5900
-Wire Wire Line
-	3150 6300 3250 6300
-Wire Wire Line
-	2750 5900 2850 5900
-Text Label 2850 7100 0    50   ~ 0
-SEG2_RTN
-Text Label 1350 2100 0    50   ~ 0
-SEG1_RTN
-Text Label 1350 2900 0    50   ~ 0
-SEG2_RTN
-Text Label 1350 1750 0    50   ~ 0
-BAL_SEG1+
-Text Label 1350 1850 0    50   ~ 0
-SEG1+
-Text Label 1350 2550 0    50   ~ 0
-BAL_SEG2
-Text Label 1350 2650 0    50   ~ 0
-SEG2+
-Wire Wire Line
-	1350 1750 1250 1750
-Wire Wire Line
-	1350 1850 1250 1850
-Wire Wire Line
-	1350 2100 1250 2100
-Wire Wire Line
-	1350 2550 1250 2550
-Wire Wire Line
-	1350 2650 1250 2650
-Wire Wire Line
-	1350 2900 1250 2900
-Text Label 1350 2000 0    50   ~ 0
-SEG1_5V
-Wire Wire Line
-	1350 2000 1250 2000
-Text Label 1350 2800 0    50   ~ 0
-SEG2_5V
-Wire Wire Line
-	1350 2800 1250 2800
-Text HLabel 1250 2000 0    50   Input ~ 0
-SEG1_5V
-Text HLabel 1250 2100 0    50   Input ~ 0
-SEG1_RTN
-Text HLabel 1250 2800 0    50   Input ~ 0
-SEG2_5V
-Text HLabel 1250 2900 0    50   Input ~ 0
-SEG2_RTN
 $Comp
 L Device:R R41
 U 1 1 5E397331
@@ -641,64 +368,28 @@ F 7 "DMN3730U-7DICT-ND" H 6600 2850 50  0001 C CNN "Vendor Part"
 	1    6600 2850
 	-1   0    0    -1  
 $EndComp
-Text Label 3250 6600 0    50   ~ 0
-SCL_SEG2
-Text Label 3250 6500 0    50   ~ 0
-SDA_SEG2
-Text Label 3250 4700 0    50   ~ 0
-SCL_SEG1
-Text Label 3250 4600 0    50   ~ 0
-SDA_SEG1
-Wire Wire Line
-	3250 4600 3150 4600
-Wire Wire Line
-	3150 4700 3250 4700
-Wire Wire Line
-	3250 6500 3150 6500
-Wire Wire Line
-	3150 6600 3250 6600
-Text Label 1350 2350 0    50   ~ 0
-SCL_SEG1
-Text Label 1350 2250 0    50   ~ 0
-SDA_SEG1
-Wire Wire Line
-	1350 2250 1250 2250
-Wire Wire Line
-	1250 2350 1350 2350
-Text Label 1350 3150 0    50   ~ 0
-SCL_SEG2
-Text Label 1350 3050 0    50   ~ 0
-SDA_SEG2
-Wire Wire Line
-	1350 3050 1250 3050
-Wire Wire Line
-	1250 3150 1350 3150
-Text HLabel 1250 2250 0    50   Input ~ 0
-SDA_SEG1
-Text HLabel 1250 2350 0    50   Input ~ 0
-SCL_SEG1
-Text HLabel 1250 3050 0    50   Input ~ 0
-SDA_SEG2
-Text HLabel 1250 3150 0    50   Input ~ 0
-SCL_SEG2
 Wire Notes Line
 	6600 1500 7150 1500
 Wire Notes Line
 	7150 1500 7150 2300
 Text Notes 7200 1900 0    50   ~ 0
 I/O Panel\nCharge LED
-Text HLabel 1250 1750 0    50   Input ~ 0
-BAL_SEG1+
-Text HLabel 1250 1850 0    50   Input ~ 0
-SEG1+
-Text HLabel 1250 2550 0    50   Input ~ 0
-BAL_SEG2+
-Text HLabel 1250 2650 0    50   Input ~ 0
-SEG2+
-Text Label 3250 6300 0    50   ~ 0
-SEG2_5V
-Text Notes 3300 4400 0    50   ~ 0
-I2C Address:\n1000000
-Text Notes 3300 6200 0    50   ~ 0
-I2C Address:\n1000001
+Wire Wire Line
+	4950 1500 5050 1500
+Wire Wire Line
+	4350 1800 5050 1800
+Wire Wire Line
+	4250 1800 4350 1800
+Connection ~ 4350 1800
+Wire Wire Line
+	4350 4300 5100 4300
+Wire Wire Line
+	5100 4300 5100 4200
+Wire Wire Line
+	4350 1800 4350 4300
+Wire Wire Line
+	5100 4300 5200 4300
+Wire Wire Line
+	5200 4300 5200 4200
+Connection ~ 5100 4300
 $EndSCHEMATC
