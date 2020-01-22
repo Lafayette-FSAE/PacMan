@@ -844,7 +844,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9150 4875 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9150 4650 50  0001 C CNN
 F 4 "Diodes Incorporated" H 9150 4550 50  0001 C CNN "Manufacturer"
 F 5 "AP2204K-5.0TRG1" H 9150 4550 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9150 4550 50  0001 C CNN "Vendor"
+F 6 "Digikey" H 9150 4550 50  0001 C CNN "Vendor"
 F 7 "AP2204K-5.0TRG1DICT-ND" H 9150 4550 50  0001 C CNN "Vendor Part"
 	1    9150 4550
 	1    0    0    -1  
@@ -933,11 +933,11 @@ P 3700 7750
 F 0 "TP14" H 3758 7868 50  0000 L CNN
 F 1 "SEG2_RTN" H 3758 7777 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 7750 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3900 7750 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3900 7750 50  0001 C CNN
 F 4 "TE Connectivity" H 3700 7750 50  0001 C CNN "Manufacturer"
 F 5 "RCT-0C" H 3700 7750 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 3700 7750 50  0001 C CNN "Vendor"
-F 7 "A106144CT-ND" H 3700 7750 50  0001 C CNN "Vendor Part"
+F 7 "A106144CT-ND" H 3700 7750 50  0001 C CNN "Vendor Part"
 	1    3700 7750
 	-1   0    0    -1  
 $EndComp
@@ -1099,11 +1099,11 @@ P 3100 7750
 F 0 "TP2" H 3158 7868 50  0000 L CNN
 F 1 "SEG1_RTN" H 3158 7777 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 7750 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3300 7750 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3300 7750 50  0001 C CNN
 F 4 "TE Connectivity" H 3100 7750 50  0001 C CNN "Manufacturer"
 F 5 "RCT-0C" H 3100 7750 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 3100 7750 50  0001 C CNN "Vendor"
-F 7 "A106144CT-ND" H 3100 7750 50  0001 C CNN "Vendor Part"
+F 7 "A106144CT-ND" H 3100 7750 50  0001 C CNN "Vendor Part"
 	1    3100 7750
 	-1   0    0    -1  
 $EndComp
@@ -1125,7 +1125,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9150 3975 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 9150 3750 50  0001 C CNN
 F 4 "Diodes Incorporated" H 9150 3650 50  0001 C CNN "Manufacturer"
 F 5 "AP2204K-5.0TRG1" H 9150 3650 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9150 3650 50  0001 C CNN "Vendor"
+F 6 "Digikey" H 9150 3650 50  0001 C CNN "Vendor"
 F 7 "AP2204K-5.0TRG1DICT-ND" H 9150 3650 50  0001 C CNN "Vendor Part"
 	1    9150 3650
 	1    0    0    -1  
