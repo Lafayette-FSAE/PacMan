@@ -1752,4 +1752,6 @@ F 7 "1276-1829-1-ND" H 6050 4350 50  0001 C CNN "Vendor Part"
 	1    6050 4350
 	1    0    0    -1  
 $EndComp
+Text Notes 7700 4600 2    50   ~ 0
+I2C Address:\n1101000
 $EndSCHEMATC
