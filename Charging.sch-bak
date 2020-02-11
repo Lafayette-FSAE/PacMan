@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 5
 Title "PacMan: Charging"
-Date "2020-01-22"
+Date "2020-02-10"
 Rev "1.2"
 Comp "Lafayette College"
 Comment1 "Charging: Controls charging relays and measure charging current"
@@ -304,7 +304,7 @@ L Device:R R41
 U 1 1 5E397331
 P 6500 1900
 F 0 "R41" H 6570 1946 50  0000 L CNN
-F 1 "R" H 6570 1855 50  0000 L CNN
+F 1 "1k" H 6570 1855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 1900 50  0001 C CNN
 F 3 "~" H 6500 1900 50  0001 C CNN
 	1    6500 1900

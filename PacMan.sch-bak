@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 5
 Title "PacMan"
-Date "2020-01-22"
+Date "2020-02-10"
 Rev "1.2"
 Comp "Lafayette College"
 Comment1 "PacMan accumulator management board"
@@ -18,8 +18,8 @@ L Mechanical:MountingHole_Pad H1
 U 1 1 5DB7AEB3
 P 4800 6100
 F 0 "H1" H 4750 6300 50  0000 L CNN
-F 1 "MountingHole_Pad_#4" H 4900 6058 50  0001 L CNN
-F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_Pad" H 4800 6100 50  0001 C CNN
+F 1 "MountingHole_NoPad_#4" H 4900 6058 50  0001 L CNN
+F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_NoPad" H 4800 6100 50  0001 C CNN
 F 3 "~" H 4800 6100 50  0001 C CNN
 	1    4800 6100
 	1    0    0    -1  
@@ -40,8 +40,8 @@ L Mechanical:MountingHole_Pad H2
 U 1 1 5DB7B4D8
 P 4800 6400
 F 0 "H2" H 4850 6600 50  0000 R CNN
-F 1 "MountingHole_Pad_#4" H 4900 6358 50  0001 L CNN
-F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_Pad" H 4800 6400 50  0001 C CNN
+F 1 "MountingHole_NoPad_#4" H 4900 6358 50  0001 L CNN
+F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_NoPad" H 4800 6400 50  0001 C CNN
 F 3 "~" H 4800 6400 50  0001 C CNN
 	1    4800 6400
 	-1   0    0    1   

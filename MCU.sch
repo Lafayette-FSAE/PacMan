@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 5
 Title "PacMan: MCU, SLOOP, CANBus"
-Date "2020-01-22"
+Date "2020-02-10"
 Rev "1.2"
 Comp "Lafayette College"
 Comment1 "MCU, SLOOP, CANBus: Contains the controlling MCU, SLOOP relay, and CAN tranceiver"
@@ -1145,7 +1145,7 @@ L Device:R R38
 U 1 1 5E1DB424
 P 8600 5000
 F 0 "R38" V 8393 5000 50  0000 C CNN
-F 1 "4.7k" V 8484 5000 50  0000 C CNN
+F 1 "5.1k" V 8484 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 5000 50  0001 C CNN
 F 3 "~" H 8600 5000 50  0001 C CNN
 	1    8600 5000
@@ -1221,7 +1221,7 @@ L Device:R R5
 U 1 1 5E13562B
 P 8600 4050
 F 0 "R5" V 8393 4050 50  0000 C CNN
-F 1 "4.7k" V 8484 4050 50  0000 C CNN
+F 1 "5.1k" V 8484 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 4050 50  0001 C CNN
 F 3 "~" H 8600 4050 50  0001 C CNN
 	1    8600 4050
@@ -1383,7 +1383,7 @@ L Device:R R2
 U 1 1 5DD3CFF4
 P 8600 6100
 F 0 "R2" V 8393 6100 50  0000 C CNN
-F 1 "4.7k" V 8484 6100 50  0000 C CNN
+F 1 "5.1k" V 8484 6100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 6100 50  0001 C CNN
 F 3 "~" H 8600 6100 50  0001 C CNN
 	1    8600 6100

@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 4 5
 Title "PacMan: Power"
-Date "2020-01-22"
+Date "2020-02-10"
 Rev "1.2"
 Comp "Lafayette College"
 Comment1 "Power: Creates the necessary power rails for PacMan and CellMen"
