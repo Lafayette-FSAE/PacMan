@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5DB7AEB3
-P 4800 6100
-F 0 "H1" H 4750 6300 50  0000 L CNN
-F 1 "MountingHole_NoPad_#4" H 4900 6058 50  0001 L CNN
-F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_NoPad" H 4800 6100 50  0001 C CNN
-F 3 "~" H 4800 6100 50  0001 C CNN
-	1    4800 6100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5DB7B312
 P 5250 6100
@@ -34,17 +23,6 @@ F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_Pad" H 5250 6100 50  0001
 F 3 "~" H 5250 6100 50  0001 C CNN
 	1    5250 6100
 	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5DB7B4D8
-P 4800 6400
-F 0 "H2" H 4850 6600 50  0000 R CNN
-F 1 "MountingHole_NoPad_#4" H 4900 6358 50  0001 L CNN
-F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_NoPad" H 4800 6400 50  0001 C CNN
-F 3 "~" H 4800 6400 50  0001 C CNN
-	1    4800 6400
-	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
@@ -735,8 +713,6 @@ F 7 "WM3805-ND" H 8300 4600 50  0001 C CNN "Vendor Part"
 	1    8300 4600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4800 6200
-NoConn ~ 4800 6300
 Text Notes 7550 6500 0    50   ~ 0
 Manufacturer/Digikey P/N for receptacle:\n71600-020LF, 609-1741-ND
 $Comp
@@ -1039,4 +1015,26 @@ RST_GLV
 NoConn ~ 1600 3400
 NoConn ~ 1600 4050
 NoConn ~ 8600 5550
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E496365
+P 4750 6050
+F 0 "H1" H 4700 6200 50  0000 L CNN
+F 1 "MountingHole_NoPad_#4" H 4850 6005 50  0001 L CNN
+F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_NoPad" H 4750 6050 50  0001 C CNN
+F 3 "~" H 4750 6050 50  0001 C CNN
+	1    4750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E4966D8
+P 4750 6450
+F 0 "H2" H 4700 6300 50  0000 L CNN
+F 1 "MountingHole_NoPad_#4" H 4850 6405 50  0001 L CNN
+F 2 "Lafayette_Electric_Car_Footprints:MountingHole_#4_NoPad" H 4750 6450 50  0001 C CNN
+F 3 "~" H 4750 6450 50  0001 C CNN
+	1    4750 6450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

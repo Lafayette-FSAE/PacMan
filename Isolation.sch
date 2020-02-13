@@ -169,7 +169,7 @@ F 5 "DMP10H4D2S-7" H 3950 4900 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 3950 4900 50  0001 C CNN "Vendor"
 F 7 "DMP10H4D2S-7DICT-ND" H 3950 4900 50  0001 C CNN "Vendor Part"
 	1    3950 4900
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 3750 5200 2    50   ~ 0
 AMPS_PWR
@@ -572,7 +572,7 @@ F 5 "DMP10H4D2S-7" H 4550 3700 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 4550 3700 50  0001 C CNN "Vendor"
 F 7 "DMP10H4D2S-7DICT-ND" H 4550 3700 50  0001 C CNN "Vendor Part"
 	1    4550 3700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R31
