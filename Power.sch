@@ -5,8 +5,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 4 5
 Title "PacMan: Power"
-Date "2020-02-10"
-Rev "1.2"
+Date "2020-02-20"
+Rev "1.3"
 Comp "Lafayette College"
 Comment1 "Power: Creates the necessary power rails for PacMan and CellMen"
 Comment2 "Jon Abel"
@@ -340,7 +340,7 @@ Connection ~ 4050 1550
 Wire Wire Line
 	4050 1550 4150 1550
 Text Notes 3950 1450 2    50   ~ 0
-I2C Address:\n1101111
+I2C Address:\n1101111 (111)
 Text HLabel 10050 5550 2    50   Input ~ 0
 LV_24V
 Text Label 9950 5550 2    50   ~ 0
@@ -560,7 +560,7 @@ U 1 1 5E261FD1
 P 6650 2800
 F 0 "U12" H 7000 2967 50  0000 C CNN
 F 1 "MEF1S2405SP3C" H 7000 2876 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:VIFSD1-S24-S5-SIP" H 6150 2800 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:MEF1S2405SP3C" H 6150 2800 50  0001 C CNN
 F 3 "https://power.murata.com/pub/data/power/ncl/kdc_mef1.pdf" H 6150 2800 50  0001 C CNN
 F 4 "Murata Power Solutions Inc." H 6650 2800 50  0001 C CNN "Manufacturer"
 F 5 "MEF1S2405SP3C" H 6650 2800 50  0001 C CNN "Manufacturer Part"
@@ -718,21 +718,17 @@ Wire Wire Line
 Wire Wire Line
 	7800 3200 7800 3150
 Text Label 8000 3550 0    50   ~ 0
-SEG1_9V
+9V_SEG-
 Text Label 8000 4450 0    50   ~ 0
-SEG2_9V
+9V_SEG+
 Text Label 9650 4450 0    50   ~ 0
-SEG2_5V
-Text Label 3600 7050 2    50   ~ 0
-SEG2_9V
-Text Label 3600 7450 2    50   ~ 0
-SEG2_5V
+5V_SEG+
 $Comp
 L Connector:TestPoint TP12
 U 1 1 5E2FB52B
 P 3700 6950
 F 0 "TP12" H 3758 7068 50  0000 L CNN
-F 1 "SEG2_9V" H 3758 6977 50  0000 L CNN
+F 1 "9V_SEG+" H 3758 6977 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3900 6950 50  0001 C CNN
 F 3 "~" H 3900 6950 50  0001 C CNN
 	1    3700 6950
@@ -747,7 +743,7 @@ L Connector:TestPoint TP13
 U 1 1 5E30190A
 P 3700 7350
 F 0 "TP13" H 3758 7468 50  0000 L CNN
-F 1 "SEG2_5V" H 3758 7377 50  0000 L CNN
+F 1 "5V_SEG+" H 3758 7377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3900 7350 50  0001 C CNN
 F 3 "~" H 3900 7350 50  0001 C CNN
 	1    3700 7350
@@ -827,7 +823,7 @@ Wire Wire Line
 	7800 4950 8450 4950
 Connection ~ 7800 4950
 Text Label 9650 4950 0    50   ~ 0
-SEG2_RTN
+RTN_SEG+
 Wire Notes Line
 	7000 4250 7000 4050
 Wire Notes Line
@@ -850,7 +846,7 @@ F 7 "AP2204K-5.0TRG1DICT-ND" H 9150 4550 50  0001 C CNN "Vendor Part"
 	1    0    0    -1  
 $EndComp
 Text Label 9650 4050 0    50   ~ 0
-SEG1_RTN
+RTN_SEG-
 Wire Wire Line
 	8850 4550 8750 4550
 Wire Wire Line
@@ -924,14 +920,12 @@ Wire Wire Line
 Wire Wire Line
 	1700 3050 1700 3500
 Connection ~ 4050 1750
-Text Label 3600 7850 2    50   ~ 0
-SEG2_RTN
 $Comp
 L Connector:TestPoint TP14
 U 1 1 5E7AE30D
 P 3700 7750
 F 0 "TP14" H 3758 7868 50  0000 L CNN
-F 1 "SEG2_RTN" H 3758 7777 50  0000 L CNN
+F 1 "RTN_SEG+" H 3758 7777 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 7750 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3900 7750 50  0001 C CNN
 F 4 "TE Connectivity" H 3700 7750 50  0001 C CNN "Manufacturer"
@@ -979,8 +973,6 @@ F 7 "1276-6470-1-ND" H 8450 4700 50  0001 C CNN "Vendor Part"
 	1    8450 4700
 	1    0    0    -1  
 $EndComp
-Text Label 8600 3200 0    50   ~ 0
-TSV_RTN
 Wire Wire Line
 	7800 4050 8450 4050
 Wire Wire Line
@@ -1011,8 +1003,6 @@ Wire Wire Line
 	8400 2800 8600 2800
 Wire Wire Line
 	8400 3200 8600 3200
-Text Label 8600 2800 0    50   ~ 0
-TSV_5V
 Text Label 1250 2300 0    50   ~ 0
 DCHRG_A2
 Text Label 1250 2200 0    50   ~ 0
@@ -1037,50 +1027,48 @@ Wire Wire Line
 	1150 2300 1250 2300
 Wire Wire Line
 	1250 2200 1150 2200
-Text HLabel 1150 1500 0    50   Input ~ 0
-SEG1_9V
-Text HLabel 1150 1700 0    50   Input ~ 0
-SEG1_RTN
 Text HLabel 1150 1850 0    50   Input ~ 0
-SEG2_9V
+9V_SEG-
 Text HLabel 1150 2050 0    50   Input ~ 0
-SEG2_RTN
-Text Label 1250 1500 0    50   ~ 0
-SEG1_9V
+RTN_SEG-
+Text HLabel 1150 1500 0    50   Input ~ 0
+9V_SEG+
+Text HLabel 1150 1700 0    50   Input ~ 0
+RTN_SEG+
 Text Label 1250 1850 0    50   ~ 0
-SEG2_9V
-Text HLabel 1150 1600 0    50   Input ~ 0
-SEG1_5V
+9V_SEG-
+Text Label 1250 1500 0    50   ~ 0
+9V_SEG+
 Text HLabel 1150 1950 0    50   Input ~ 0
-SEG2_5V
-Text Label 1250 1600 0    50   ~ 0
-SEG1_5V
-Text Label 1250 1700 0    50   ~ 0
-SEG1_RTN
+5V_SEG-
+Text HLabel 1150 1600 0    50   Input ~ 0
+5V_SEG+
 Text Label 1250 1950 0    50   ~ 0
-SEG2_5V
+5V_SEG-
 Text Label 1250 2050 0    50   ~ 0
-SEG2_RTN
+RTN_SEG-
+Text Label 1250 1600 0    50   ~ 0
+5V_SEG+
+Text Label 1250 1700 0    50   ~ 0
+RTN_SEG+
 Wire Wire Line
-	1250 1500 1150 1500
+	1250 1850 1150 1850
 Wire Wire Line
-	1150 1600 1250 1600
+	1150 1950 1250 1950
 Wire Wire Line
-	1250 1700 1150 1700
+	1250 2050 1150 2050
 Wire Wire Line
-	1150 1850 1250 1850
+	1150 1500 1250 1500
 Wire Wire Line
-	1250 1950 1150 1950
+	1250 1600 1150 1600
 Wire Wire Line
-	1150 2050 1250 2050
-Text Label 3000 7450 2    50   ~ 0
-SEG1_5V
+	1150 1700 1250 1700
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5EDC9A00
 P 3100 7350
 F 0 "TP1" H 3158 7468 50  0000 L CNN
-F 1 "SEG1_5V" H 3158 7377 50  0000 L CNN
+F 1 "5V_SEG-" H 3158 7377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3300 7350 50  0001 C CNN
 F 3 "~" H 3300 7350 50  0001 C CNN
 	1    3100 7350
@@ -1090,14 +1078,12 @@ Wire Wire Line
 	3000 7450 3100 7450
 Wire Wire Line
 	3100 7450 3100 7350
-Text Label 3000 7850 2    50   ~ 0
-SEG1_RTN
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5EDC9A11
 P 3100 7750
 F 0 "TP2" H 3158 7868 50  0000 L CNN
-F 1 "SEG1_RTN" H 3158 7777 50  0000 L CNN
+F 1 "RTN_SEG-" H 3158 7777 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 7750 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3300 7750 50  0001 C CNN
 F 4 "TE Connectivity" H 3100 7750 50  0001 C CNN "Manufacturer"
@@ -1114,7 +1100,7 @@ Wire Wire Line
 Text Label 1600 4300 2    50   ~ 0
 PACK_RTN
 Text Label 9650 3550 0    50   ~ 0
-SEG1_5V
+5V_SEG-
 $Comp
 L Regulator_Linear:AP2204K-5.0 U22
 U 1 1 5E26A149
@@ -1194,20 +1180,18 @@ F 7 "1276-6470-1-ND" H 8450 3800 50  0001 C CNN "Vendor Part"
 $EndComp
 Connection ~ 8450 4050
 Connection ~ 8450 3550
-Text Label 7100 1850 0    50   ~ 0
-TSV_RTN
 Text Label 5250 1850 0    50   ~ 0
-TSV_RTN
+RTN_TSV
 Text Label 3950 1550 2    50   ~ 0
-TSV_RTN
+RTN_TSV
 Text Label 7100 1050 0    50   ~ 0
-TSV_RTN
+RTN_TSV
 Text Label 6600 950  2    50   ~ 0
-TSV_5V
+5V_TSV
 Text Label 5400 2350 2    50   ~ 0
 PACK_RTN
 Text Label 5500 2350 0    50   ~ 0
-TSV_RTN
+RTN_TSV
 Wire Wire Line
 	5500 2350 5400 2350
 Wire Wire Line
@@ -1219,7 +1203,7 @@ L Connector:TestPoint TP3
 U 1 1 5E2FB53C
 P 3100 6950
 F 0 "TP3" H 3158 7068 50  0000 L CNN
-F 1 "SEG1_9V" H 3158 6977 50  0000 L CNN
+F 1 "9V_SEG-" H 3158 6977 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3300 6950 50  0001 C CNN
 F 3 "" H 3300 6950 50  0001 C CNN
 F 4 "" H 3100 6950 50  0001 C CNN "Manufacturer"
@@ -1229,16 +1213,12 @@ F 7 "" H 3100 6950 50  0001 C CNN "Vendor Part"
 	1    3100 6950
 	-1   0    0    -1  
 $EndComp
-Text Label 3000 7050 2    50   ~ 0
-SEG1_9V
-Text Label 2400 7850 2    50   ~ 0
-TSV_RTN
 $Comp
 L Connector:TestPoint TP11
 U 1 1 5E3054E5
 P 2500 7750
 F 0 "TP11" H 2558 7868 50  0000 L CNN
-F 1 "TSV_RTN" H 2558 7777 50  0000 L CNN
+F 1 "RTN_TSV" H 2558 7777 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2700 7750 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 2700 7750 50  0001 C CNN
 F 4 "TE Connectivity" H 2500 7750 50  0001 C CNN "Manufacturer"
@@ -1261,7 +1241,7 @@ L Connector:TestPoint TP10
 U 1 1 5E305508
 P 2500 7350
 F 0 "TP10" H 2558 7468 50  0000 L CNN
-F 1 "TSV_5V" H 2558 7377 50  0000 L CNN
+F 1 "5V_TSV" H 2558 7377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2700 7350 50  0001 C CNN
 F 3 "" H 2700 7350 50  0001 C CNN
 F 4 "" H 2500 7350 50  0001 C CNN "Manufacturer"
@@ -1271,8 +1251,6 @@ F 7 "" H 2500 7350 50  0001 C CNN "Vendor Part"
 	1    2500 7350
 	-1   0    0    -1  
 $EndComp
-Text Label 2400 7450 2    50   ~ 0
-TSV_5V
 Text Label 1250 1100 0    50   ~ 0
 PACK_RTN
 Text HLabel 1150 1100 0    50   Input ~ 0
@@ -1280,13 +1258,13 @@ PACK_RTN
 Wire Wire Line
 	1150 1100 1250 1100
 Text HLabel 1150 1250 0    50   Input ~ 0
-TSV_5V
+5V_TSV
 Text Label 1250 1250 0    50   ~ 0
-TSV_5V
+5V_TSV
 Text HLabel 1150 1350 0    50   Input ~ 0
-TSV_RTN
+RTN_TSV
 Text Label 1250 1350 0    50   ~ 0
-TSV_RTN
+RTN_TSV
 Wire Wire Line
 	1250 1250 1150 1250
 Wire Wire Line
@@ -1322,4 +1300,26 @@ F 3 "~" H 7200 6350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 6350 7200 6250
+Text Label 7100 1850 0    50   ~ 0
+RTN_TSV
+Text Label 8600 2800 0    50   ~ 0
+5V_TSV
+Text Label 8600 3200 0    50   ~ 0
+RTN_TSV
+Text Label 3000 7050 2    50   ~ 0
+9V_SEG-
+Text Label 3600 7050 2    50   ~ 0
+9V_SEG+
+Text Label 3000 7450 2    50   ~ 0
+5V_SEG-
+Text Label 3000 7850 2    50   ~ 0
+RTN_SEG-
+Text Label 3600 7450 2    50   ~ 0
+5V_SEG+
+Text Label 3600 7850 2    50   ~ 0
+RTN_SEG+
+Text Label 2400 7450 2    50   ~ 0
+5V_TSV
+Text Label 2400 7850 2    50   ~ 0
+RTN_TSV
 $EndSCHEMATC

@@ -5,15 +5,15 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 5
 Title "PacMan: MCU, SLOOP, CANBus"
-Date "2020-02-10"
-Rev "1.2"
+Date "2020-02-20"
+Rev "1.3"
 Comp "Lafayette College"
 Comment1 "MCU, SLOOP, CANBus: Contains the controlling MCU, SLOOP relay, and CAN tranceiver"
 Comment2 "Jon Abel"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 4750 1950 2    50   ~ 0
+Text Label 4750 2150 2    50   ~ 0
 SLOOP_EN
 Text Label 1600 1250 0    50   ~ 0
 SLOOP1_IN
@@ -233,7 +233,7 @@ Wire Wire Line
 	3400 7450 3500 7450
 NoConn ~ 3500 7350
 Text Notes 4500 7700 0    50   ~ 0
-Do not populate 120 Ohm resistor!\nFootprint is left open for debugging.
+Do not populate 120 Ohm resistor!\nFootprint is included for debugging.
 $Comp
 L Device:R R7
 U 1 1 5DCA488F
@@ -701,7 +701,7 @@ Wire Wire Line
 	3900 5600 3900 5700
 Connection ~ 3900 5700
 Text Notes 3850 5700 2    50   ~ 0
-I2C Address:\n0100000
+I2C Address:\n0100000 (32)
 Wire Wire Line
 	3900 5500 4000 5500
 Wire Wire Line
@@ -904,7 +904,6 @@ Wire Wire Line
 	1500 650  1600 650 
 NoConn ~ 4800 5500
 NoConn ~ 4800 5600
-NoConn ~ 4800 5700
 Text HLabel 2900 1150 0    50   Input ~ 0
 BTN_CENTER
 Text HLabel 2900 1050 0    50   Input ~ 0
@@ -991,8 +990,8 @@ Wire Wire Line
 Wire Wire Line
 	3300 4750 3800 4750
 Connection ~ 3800 4750
-Text Notes 3350 4200 2    50   ~ 0
-I2C Address:\n0011000
+Text Notes 3400 4200 2    50   ~ 0
+I2C Address:\n0011000 (24)
 $Comp
 L Sensor_Temperature:MCP9804_MSOP U?
 U 1 1 5DD89849
@@ -1024,7 +1023,7 @@ Wire Wire Line
 	4400 3550 4300 3550
 Connection ~ 4300 3550
 Text Notes 2850 3400 0    79   ~ 16
-Temp Sensor
+GLV Temp Sensor
 Wire Notes Line
 	4850 4850 4850 3250
 Wire Notes Line
@@ -1048,9 +1047,9 @@ Wire Wire Line
 Wire Wire Line
 	6300 6300 6400 6300
 Text Label 6300 6300 2    50   ~ 0
-GLV_RTN
+LV_RTN
 Text Label 6400 5100 2    50   ~ 0
-GLV_24V
+LV_24V
 Text Label 6000 6000 2    50   ~ 0
 SLOOP_EN
 Wire Wire Line
@@ -1463,10 +1462,10 @@ Wire Wire Line
 	8600 950  8500 950 
 Wire Wire Line
 	8500 950  8500 850 
-Text Notes 5250 5050 0    50   ~ 0
-1mA
-Text Notes 4650 3350 0    50   ~ 0
-1mA
+Text Notes 5400 5050 2    50   ~ 0
+1mA draw
+Text Notes 4800 3350 2    50   ~ 0
+1mA draw
 $Comp
 L Timer_RTC:BQ32002 U7
 U 1 1 5E260365
@@ -1687,7 +1686,7 @@ $EndComp
 NoConn ~ 6450 2250
 NoConn ~ 6450 1250
 NoConn ~ 6450 1350
-Text Label 4750 2150 2    50   ~ 0
+Text Label 4750 1950 2    50   ~ 0
 IO_INT
 Wire Wire Line
 	4750 2150 4850 2150
@@ -1695,14 +1694,12 @@ Text Label 3900 6100 2    50   ~ 0
 IO_INT
 Wire Wire Line
 	3900 6100 4000 6100
-Text HLabel 2900 1950 0    50   Input ~ 0
-RST_GLV
+Text HLabel 2900 2050 0    50   Input ~ 0
+RST_GLV_SEG-
 Wire Wire Line
-	2900 1950 3000 1950
-Text Label 3000 1950 0    50   ~ 0
-RST_GLV
+	2900 2050 3000 2050
 Text Label 4800 5800 0    50   ~ 0
-RST_GLV
+RST_GLV_SEG-
 Connection ~ 6050 4200
 Connection ~ 6050 3900
 Text Label 6150 4550 0    50   ~ 0
@@ -1753,5 +1750,15 @@ F 7 "1276-1829-1-ND" H 6050 4350 50  0001 C CNN "Vendor Part"
 	1    0    0    -1  
 $EndComp
 Text Notes 7700 4600 2    50   ~ 0
-I2C Address:\n1101000
+I2C Address:\n1101000 (104)
+Text Label 4800 5700 0    50   ~ 0
+RST_GLV_SEG+
+Text Label 3000 1950 0    50   ~ 0
+RST_GLV_SEG+
+Text Label 3000 2050 0    50   ~ 0
+RST_GLV_SEG-
+Text HLabel 2900 1950 0    50   Input ~ 0
+RST_GLV_SEG+
+Wire Wire Line
+	2900 1950 3000 1950
 $EndSCHEMATC

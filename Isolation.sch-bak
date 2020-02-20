@@ -5,8 +5,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 5 5
 Title "PacMan: I2C Isolation"
-Date "2020-02-10"
-Rev "1.2"
+Date "2020-02-20"
+Rev "1.3"
 Comp "Lafayette College"
 Comment1 "I2C Isolation: Isolates the I2C bus between GLV and TSV"
 Comment2 "Jon Abel"
@@ -86,16 +86,16 @@ Wire Wire Line
 Wire Wire Line
 	3250 4200 3450 4200
 Wire Wire Line
-	1350 2150 1450 2150
+	1350 2100 1450 2100
 Wire Wire Line
-	1450 2250 1350 2250
-Text Label 1450 2250 0    50   ~ 0
+	1450 2200 1350 2200
+Text Label 1450 2200 0    50   ~ 0
 CHRG_DETECT-
-Text Label 1450 2150 0    50   ~ 0
+Text Label 1450 2100 0    50   ~ 0
 CHRG_DETECT+
-Text HLabel 1350 2250 0    50   Input ~ 0
+Text HLabel 1350 2200 0    50   Input ~ 0
 CHRG_DETECT-
-Text HLabel 1350 2150 0    50   Input ~ 0
+Text HLabel 1350 2100 0    50   Input ~ 0
 CHRG_DETECT+
 Wire Notes Line
 	5500 900  5500 550 
@@ -222,12 +222,12 @@ Wire Wire Line
 	9450 1750 9550 1750
 Wire Wire Line
 	9550 1850 9450 1850
-Text Label 1450 2450 0    50   ~ 0
+Text Label 1450 2350 0    50   ~ 0
 AMPS_PWR
-Text HLabel 1350 2450 0    50   Input ~ 0
+Text HLabel 1350 2350 0    50   Input ~ 0
 AMPS_PWR
 Wire Wire Line
-	1350 2450 1450 2450
+	1350 2350 1450 2350
 $Comp
 L Device:R R21
 U 1 1 5E195C66
@@ -251,11 +251,9 @@ F 3 "~" H 3500 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3400 2250 2    50   ~ 0
-SDA_SEG1
+SDA_SEG-
 Text Label 3900 2250 0    50   ~ 0
-SCL_SEG1
-Text Label 3400 1750 2    50   ~ 0
-SEG1_5V
+SCL_SEG-
 Wire Wire Line
 	3400 1750 3500 1750
 Wire Wire Line
@@ -296,11 +294,9 @@ F 3 "~" H 3500 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3400 3150 2    50   ~ 0
-SDA_SEG2
+SDA_SEG+
 Text Label 3900 3150 0    50   ~ 0
-SCL_SEG2
-Text Label 3400 2650 2    50   ~ 0
-SEG2_5V
+SCL_SEG+
 Wire Wire Line
 	3400 2650 3500 2650
 Wire Wire Line
@@ -387,10 +383,6 @@ F 7 "1276-1003-1-ND" H 2850 2000 50  0001 C CNN "Vendor Part"
 	1    2850 2000
 	-1   0    0    -1  
 $EndComp
-Text Label 2800 2200 2    50   ~ 0
-SEG1_RTN
-Text Label 2800 1800 2    50   ~ 0
-SEG1_5V
 Wire Wire Line
 	2800 1800 2850 1800
 Wire Wire Line
@@ -414,10 +406,6 @@ F 7 "1276-1003-1-ND" H 2850 2900 50  0001 C CNN "Vendor Part"
 	1    2850 2900
 	-1   0    0    -1  
 $EndComp
-Text Label 2800 3100 2    50   ~ 0
-SEG2_RTN
-Text Label 2800 2700 2    50   ~ 0
-SEG2_5V
 Wire Wire Line
 	2800 2700 2850 2700
 Wire Wire Line
@@ -509,54 +497,30 @@ Wire Wire Line
 Connection ~ 3850 4200
 Wire Wire Line
 	3850 4200 4250 4200
-Text Label 1450 1150 0    50   ~ 0
-SEG1_5V
-Text Label 1450 1250 0    50   ~ 0
-SDA_SEG1
-Text Label 1450 1350 0    50   ~ 0
-SCL_SEG1
-Text Label 1450 1450 0    50   ~ 0
-SEG1_RTN
-Text Label 1450 1650 0    50   ~ 0
-SEG2_5V
 Text Label 1450 1750 0    50   ~ 0
-SDA_SEG2
+SDA_SEG-
 Text Label 1450 1850 0    50   ~ 0
-SCL_SEG2
-Text Label 1450 1950 0    50   ~ 0
-SEG2_RTN
-Wire Wire Line
-	1450 1150 1350 1150
-Wire Wire Line
-	1350 1250 1450 1250
-Wire Wire Line
-	1350 1350 1450 1350
-Wire Wire Line
-	1350 1450 1450 1450
-Wire Wire Line
-	1350 1650 1450 1650
+SCL_SEG-
+Text Label 1450 1300 0    50   ~ 0
+SDA_SEG+
+Text Label 1450 1400 0    50   ~ 0
+SCL_SEG+
 Wire Wire Line
 	1350 1750 1450 1750
 Wire Wire Line
 	1350 1850 1450 1850
 Wire Wire Line
-	1350 1950 1450 1950
-Text HLabel 1350 1150 0    50   Input ~ 0
-SEG1_5V
-Text HLabel 1350 1250 0    50   Input ~ 0
-SDA_SEG1
-Text HLabel 1350 1350 0    50   Input ~ 0
-SCL_SEG1
-Text HLabel 1350 1450 0    50   Input ~ 0
-SEG1_RTN
-Text HLabel 1350 1650 0    50   Input ~ 0
-SEG2_5V
+	1350 1300 1450 1300
+Wire Wire Line
+	1350 1400 1450 1400
 Text HLabel 1350 1750 0    50   Input ~ 0
-SDA_SEG2
+SDA_SEG-
 Text HLabel 1350 1850 0    50   Input ~ 0
-SCL_SEG2
-Text HLabel 1350 1950 0    50   Input ~ 0
-SEG2_RTN
+SCL_SEG-
+Text HLabel 1350 1300 0    50   Input ~ 0
+SDA_SEG+
+Text HLabel 1350 1400 0    50   Input ~ 0
+SCL_SEG+
 $Comp
 L Device:Q_PMOS_GSD Q?
 U 1 1 5E1C0412
@@ -618,14 +582,10 @@ Wire Wire Line
 	5050 2950 4950 2950
 Wire Wire Line
 	4950 3050 5050 3050
-Text Label 4950 3050 2    50   ~ 0
-SEG2_RTN
 Text Label 4950 2950 2    50   ~ 0
-SCL_SEG2
+SCL_SEG+
 Text Label 4950 2850 2    50   ~ 0
-SDA_SEG2
-Text Label 4950 2750 2    50   ~ 0
-SEG2_5V
+SDA_SEG+
 Wire Wire Line
 	5050 2000 4950 2000
 Wire Wire Line
@@ -634,14 +594,10 @@ Wire Wire Line
 	5050 2200 4950 2200
 Wire Wire Line
 	4950 2300 5050 2300
-Text Label 4950 2300 2    50   ~ 0
-SEG1_RTN
 Text Label 4950 2200 2    50   ~ 0
-SCL_SEG1
+SCL_SEG-
 Text Label 4950 2100 2    50   ~ 0
-SDA_SEG1
-Text Label 4950 2000 2    50   ~ 0
-SEG1_5V
+SDA_SEG-
 Text Label 6050 2750 0    50   ~ 0
 LV_3V3
 Text Label 6050 3050 0    50   ~ 0
@@ -742,14 +698,6 @@ Text HLabel 9550 1100 2    50   Input ~ 0
 LV_3V3
 Wire Wire Line
 	9550 1100 9450 1100
-Text Label 4750 3300 0    50   ~ 0
-TSV_5V
-Text Label 4350 4300 0    50   ~ 0
-TSV_RTN
-Text Label 5100 5100 2    50   ~ 0
-TSV_RTN
-Text Label 3750 4500 2    50   ~ 0
-TSV_5V
 Wire Wire Line
 	5050 1250 4950 1250
 Wire Wire Line
@@ -758,14 +706,10 @@ Wire Wire Line
 	5050 1450 4950 1450
 Wire Wire Line
 	4950 1550 5050 1550
-Text Label 4950 1550 2    50   ~ 0
-TSV_RTN
 Text Label 4950 1450 2    50   ~ 0
 SCL_TSV
 Text Label 4950 1350 2    50   ~ 0
 SDA_TSV
-Text Label 4950 1250 2    50   ~ 0
-TSV_5V
 Text Label 6050 1250 0    50   ~ 0
 LV_3V3
 Text Label 6050 1550 0    50   ~ 0
@@ -823,8 +767,6 @@ Text Label 3400 1350 2    50   ~ 0
 SDA_TSV
 Text Label 3900 1350 0    50   ~ 0
 SCL_TSV
-Text Label 3400 850  2    50   ~ 0
-TSV_5V
 Wire Wire Line
 	3400 850  3500 850 
 Wire Wire Line
@@ -850,10 +792,6 @@ Wire Wire Line
 	2850 900  2850 950 
 Wire Wire Line
 	2800 900  2850 900 
-Text Label 2800 900  2    50   ~ 0
-TSV_5V
-Text Label 2800 1300 2    50   ~ 0
-TSV_RTN
 $Comp
 L Device:C C35
 U 1 1 5E33E616
@@ -870,29 +808,17 @@ F 7 "1276-1003-1-ND" H 2850 1100 50  0001 C CNN "Vendor Part"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 650  1350 650 
-Wire Wire Line
-	1350 750  1450 750 
-Wire Wire Line
 	1350 850  1450 850 
 Wire Wire Line
 	1350 950  1450 950 
-Text HLabel 1350 650  0    50   Input ~ 0
-TSV_5V
-Text HLabel 1350 750  0    50   Input ~ 0
-SDA_TSV
 Text HLabel 1350 850  0    50   Input ~ 0
-SCL_TSV
-Text HLabel 1350 950  0    50   Input ~ 0
-TSV_RTN
-Text Label 1450 950  0    50   ~ 0
-TSV_RTN
-Text Label 1450 850  0    50   ~ 0
-SCL_TSV
-Text Label 1450 750  0    50   ~ 0
 SDA_TSV
-Text Label 1450 650  0    50   ~ 0
-TSV_5V
+Text HLabel 1350 950  0    50   Input ~ 0
+SCL_TSV
+Text Label 1450 950  0    50   ~ 0
+SCL_TSV
+Text Label 1450 850  0    50   ~ 0
+SDA_TSV
 $Comp
 L Device:C C31
 U 1 1 5E4D837F
@@ -960,7 +886,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 5600 6300 5600
 Text Label 6300 5600 0    50   ~ 0
-RST_GLV
+RST_GLV_SEG-
 $Comp
 L Device:R R36
 U 1 1 5E42AA4A
@@ -975,16 +901,16 @@ $EndComp
 Wire Wire Line
 	5100 5600 5200 5600
 Text Label 4600 5450 2    50   ~ 0
-SEG1_5V
+5V_SEG-
 Text Label 4600 5800 2    50   ~ 0
-SEG1_RTN
+RTN_SEG-
 Wire Wire Line
 	4600 5800 5200 5800
 Wire Wire Line
 	4600 5600 5100 5600
 Connection ~ 5100 5600
 Text Label 4600 5600 2    50   ~ 0
-RST_SEG1
+RST_SEG-
 Wire Wire Line
 	5000 5450 5100 5450
 Wire Wire Line
@@ -1031,7 +957,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 6350 6300 6350
 Text Label 6300 6350 0    50   ~ 0
-RST_GLV
+RST_GLV_SEG+
 $Comp
 L Device:R R37
 U 1 1 5E555374
@@ -1046,16 +972,16 @@ $EndComp
 Wire Wire Line
 	5100 6350 5200 6350
 Text Label 4600 6200 2    50   ~ 0
-SEG2_5V
+5V_SEG+
 Text Label 4600 6550 2    50   ~ 0
-SEG2_RTN
+RTN_SEG+
 Wire Wire Line
 	4600 6550 5200 6550
 Wire Wire Line
 	4600 6350 5100 6350
 Connection ~ 5100 6350
 Text Label 4600 6350 2    50   ~ 0
-RST_SEG2
+RST_SEG+
 Wire Wire Line
 	5000 6200 5100 6200
 Wire Wire Line
@@ -1076,21 +1002,101 @@ Wire Notes Line
 Wire Notes Line
 	5500 6650 5500 7950
 Text Label 1450 2600 0    50   ~ 0
-RST_SEG1
-Text Label 1450 2700 0    50   ~ 0
-RST_SEG2
+RST_SEG-
+Text Label 1450 2500 0    50   ~ 0
+RST_SEG+
 Wire Wire Line
 	1450 2600 1350 2600
 Wire Wire Line
-	1350 2700 1450 2700
+	1350 2500 1450 2500
 Text HLabel 1350 2600 0    50   Input ~ 0
-RST_SEG1
-Text HLabel 1350 2700 0    50   Input ~ 0
-RST_SEG2
+RST_SEG-
+Text HLabel 1350 2500 0    50   Input ~ 0
+RST_SEG+
 Text Label 9450 2000 2    50   ~ 0
-RST_GLV
+RST_GLV_SEG-
 Wire Wire Line
 	9450 2000 9550 2000
 Text HLabel 9550 2000 2    50   Input ~ 0
-RST_GLV
+RST_GLV_SEG-
+Text Label 9450 2100 2    50   ~ 0
+RST_GLV_SEG+
+Wire Wire Line
+	9450 2100 9550 2100
+Text HLabel 9550 2100 2    50   Input ~ 0
+RST_GLV_SEG+
+Text HLabel 1350 1950 0    50   Input ~ 0
+RTN_SEG-
+Text HLabel 1350 1650 0    50   Input ~ 0
+5V_SEG-
+Text Label 1450 1650 0    50   ~ 0
+5V_SEG-
+Text Label 1450 1950 0    50   ~ 0
+RTN_SEG-
+Wire Wire Line
+	1350 1650 1450 1650
+Wire Wire Line
+	1450 1950 1350 1950
+Text HLabel 1350 1500 0    50   Input ~ 0
+RTN_SEG+
+Text HLabel 1350 1200 0    50   Input ~ 0
+5V_SEG+
+Text Label 1450 1200 0    50   ~ 0
+5V_SEG+
+Text Label 1450 1500 0    50   ~ 0
+RTN_SEG+
+Wire Wire Line
+	1450 1200 1350 1200
+Wire Wire Line
+	1350 1500 1450 1500
+Text HLabel 1350 750  0    50   Input ~ 0
+5V_TSV
+Text Label 1450 750  0    50   ~ 0
+5V_TSV
+Text HLabel 1350 1050 0    50   Input ~ 0
+RTN_TSV
+Text Label 1450 1050 0    50   ~ 0
+RTN_TSV
+Wire Wire Line
+	1450 750  1350 750 
+Wire Wire Line
+	1350 1050 1450 1050
+Text Label 2800 900  2    50   ~ 0
+5V_TSV
+Text Label 3400 850  2    50   ~ 0
+5V_TSV
+Text Label 4950 1250 2    50   ~ 0
+5V_TSV
+Text Label 2800 1300 2    50   ~ 0
+RTN_TSV
+Text Label 4950 1550 2    50   ~ 0
+RTN_TSV
+Text Label 4950 2000 2    50   ~ 0
+5V_SEG-
+Text Label 4950 2300 2    50   ~ 0
+RTN_SEG-
+Text Label 4950 2750 2    50   ~ 0
+5V_SEG+
+Text Label 4950 3050 2    50   ~ 0
+RTN_SEG+
+Text Label 3400 1750 2    50   ~ 0
+5V_SEG-
+Text Label 2800 1800 2    50   ~ 0
+5V_SEG-
+Text Label 2800 2200 2    50   ~ 0
+RTN_SEG-
+Text Label 3400 2650 2    50   ~ 0
+5V_SEG+
+Text Label 2800 2700 2    50   ~ 0
+5V_SEG+
+Text Label 2800 3100 2    50   ~ 0
+RTN_SEG+
+Text Label 4750 3300 0    50   ~ 0
+5V_TSV
+Text Label 4350 4300 0    50   ~ 0
+RTN_TSV
+Text Label 3750 4500 2    50   ~ 0
+5V_TSV
+Text Label 5100 5100 2    50   ~ 0
+RTN_TSV
 $EndSCHEMATC
