@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 5
+Sheet 3 5
 Title "PacMan: Power"
 Date "2020-02-20"
 Rev "1.3"
@@ -555,7 +555,7 @@ F 7 "1951-1481-ND" H 6650 3600 50  0001 C CNN "Vendor Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lafayette_Electric_Car_Internals:VIFSD1-S24-S5-SIP U12
+L Lafayette_Electric_Car_Internals:MEF1S2405SP3C U12
 U 1 1 5E261FD1
 P 6650 2800
 F 0 "U12" H 7000 2967 50  0000 C CNN
