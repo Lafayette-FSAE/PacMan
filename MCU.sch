@@ -15,127 +15,127 @@ Comment4 ""
 $EndDescr
 Text Label 4750 2150 2    50   ~ 0
 SLOOP_EN
-Text Label 1600 1100 0    50   ~ 0
+Text Label 1350 1350 0    50   ~ 0
 SLOOP1_IN
-Text Label 1600 1200 0    50   ~ 0
+Text Label 1350 1450 0    50   ~ 0
 SLOOP1_OUT
-Text Label 1600 1450 0    50   ~ 0
+Text Label 1350 1700 0    50   ~ 0
 AIRS+
-Text Label 1600 1550 0    50   ~ 0
+Text Label 1350 1800 0    50   ~ 0
 AIRS-
-Text HLabel 1500 1100 0    50   Input ~ 0
+Text HLabel 1250 1350 0    50   Input ~ 0
 SLOOP1_IN
-Text HLabel 1500 1200 0    50   Input ~ 0
+Text HLabel 1250 1450 0    50   Input ~ 0
 SLOOP1_OUT
-Text HLabel 1500 1450 0    50   Input ~ 0
+Text HLabel 1250 1700 0    50   Input ~ 0
 AIRS+
-Text HLabel 1500 1550 0    50   Input ~ 0
+Text HLabel 1250 1800 0    50   Input ~ 0
 AIRS-
 Wire Wire Line
-	1600 1550 1500 1550
+	1350 1800 1250 1800
 Wire Wire Line
-	1600 1450 1500 1450
+	1350 1700 1250 1700
 Wire Wire Line
-	1600 1200 1500 1200
+	1350 1450 1250 1450
 Wire Wire Line
-	1600 1100 1500 1100
+	1350 1350 1250 1350
 $Comp
 L Device:LED D2
 U 1 1 5DCA44E3
-P 9050 1400
-F 0 "D2" H 9043 1616 50  0000 C CNN
-F 1 "LED_GREEN" H 9043 1525 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9050 1400 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C170GKT.pdf" H 9050 1400 50  0001 C CNN
-F 4 "Lite-On Inc." H 9050 1400 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C170GKT" H 9050 1400 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9050 1400 50  0001 C CNN "Vendor"
-F 7 "160-1179-1-ND" H 9050 1400 50  0001 C CNN "Vendor Part"
-	1    9050 1400
+P 3700 2500
+F 0 "D2" H 3693 2716 50  0000 C CNN
+F 1 "LED_GREEN" H 3693 2625 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 2500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C170GKT.pdf" H 3700 2500 50  0001 C CNN
+F 4 "Lite-On Inc." H 3700 2500 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C170GKT" H 3700 2500 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3700 2500 50  0001 C CNN "Vendor"
+F 7 "160-1179-1-ND" H 3700 2500 50  0001 C CNN "Vendor Part"
+	1    3700 2500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:LED D3
 U 1 1 5DCA4657
-P 9050 1800
-F 0 "D3" H 9043 2016 50  0000 C CNN
-F 1 "LED_ORANGE" H 9043 1925 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9050 1800 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-99-0170/LTST-C171AKT.pdf" H 9050 1800 50  0001 C CNN
-F 4 "Lite-On Inc." H 9050 1800 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C171AKT" H 9050 1800 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9050 1800 50  0001 C CNN "Vendor"
-F 7 "160-1419-1-ND" H 9050 1800 50  0001 C CNN "Vendor Part"
-	1    9050 1800
+P 3700 2900
+F 0 "D3" H 3693 3116 50  0000 C CNN
+F 1 "LED_ORANGE" H 3693 3025 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 2900 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-99-0170/LTST-C171AKT.pdf" H 3700 2900 50  0001 C CNN
+F 4 "Lite-On Inc." H 3700 2900 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C171AKT" H 3700 2900 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3700 2900 50  0001 C CNN "Vendor"
+F 7 "160-1419-1-ND" H 3700 2900 50  0001 C CNN "Vendor Part"
+	1    3700 2900
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 5DCA4D97
-P 8650 1800
-F 0 "R8" V 8443 1800 50  0000 C CNN
-F 1 "270" V 8534 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8580 1800 50  0001 C CNN
-F 3 "~" H 8650 1800 50  0001 C CNN
-	1    8650 1800
+P 3300 2900
+F 0 "R8" V 3093 2900 50  0000 C CNN
+F 1 "270" V 3184 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3230 2900 50  0001 C CNN
+F 3 "~" H 3300 2900 50  0001 C CNN
+	1    3300 2900
 	0    -1   1    0   
 $EndComp
-Text Label 8400 1400 2    50   ~ 0
+Text Label 3050 2500 2    50   ~ 0
 LED1
-Text Label 8400 1800 2    50   ~ 0
+Text Label 3050 2900 2    50   ~ 0
 LED2
-Text HLabel 1500 850  0    50   Input ~ 0
+Text HLabel 1250 1100 0    50   Input ~ 0
 LV_5V
-Text HLabel 1500 950  0    50   Input ~ 0
+Text HLabel 1250 1200 0    50   Input ~ 0
 LV_RTN
 Wire Wire Line
-	1500 950  1600 950 
+	1250 1200 1350 1200
 Wire Wire Line
-	1500 850  1600 850 
-Text Label 1600 850  0    50   ~ 0
+	1250 1100 1350 1100
+Text Label 1350 1100 0    50   ~ 0
 LV_5V
-Text Label 1600 950  0    50   ~ 0
+Text Label 1350 1200 0    50   ~ 0
 LV_RTN
 Text Label 4750 950  2    50   ~ 0
 LV_3V3
-Text HLabel 1500 650  0    50   Input ~ 0
+Text HLabel 1250 900  0    50   Input ~ 0
 LV_24V
 Wire Wire Line
-	1500 650  1600 650 
-Text Label 1600 650  0    50   ~ 0
+	1250 900  1350 900 
+Text Label 1350 900  0    50   ~ 0
 LV_24V
-Text Label 4800 6100 0    50   ~ 0
+Text Label 4800 6200 0    50   ~ 0
 AIRS_STATUS
-Text Label 1600 1950 0    50   ~ 0
+Text Label 1350 2200 0    50   ~ 0
 CHRG_EN
-Text Label 1600 2050 0    50   ~ 0
+Text Label 1350 2300 0    50   ~ 0
 ~CHRG_DETECT
-Text Label 1600 2150 0    50   ~ 0
+Text Label 1350 2400 0    50   ~ 0
 CHRG_CURRENT
-Text Label 1600 1700 0    50   ~ 0
+Text Label 1350 1950 0    50   ~ 0
 SDA_GLV
-Text Label 1600 1800 0    50   ~ 0
+Text Label 1350 2050 0    50   ~ 0
 SCL_GLV
-Text HLabel 1500 1950 0    50   Input ~ 0
+Text HLabel 1250 2200 0    50   Input ~ 0
 CHRG_EN
-Text HLabel 1500 2050 0    50   Input ~ 0
+Text HLabel 1250 2300 0    50   Input ~ 0
 ~CHRG_DETECT
-Text HLabel 1500 2150 0    50   Input ~ 0
+Text HLabel 1250 2400 0    50   Input ~ 0
 CHRG_CURRENT
-Text HLabel 1500 1700 0    50   Input ~ 0
+Text HLabel 1250 1950 0    50   Input ~ 0
 SDA_GLV
-Text HLabel 1500 1800 0    50   Input ~ 0
+Text HLabel 1250 2050 0    50   Input ~ 0
 SCL_GLV
 Wire Wire Line
-	1600 1950 1500 1950
+	1350 2200 1250 2200
 Wire Wire Line
-	1500 2050 1600 2050
+	1250 2300 1350 2300
 Wire Wire Line
-	1600 2150 1500 2150
+	1350 2400 1250 2400
 Wire Wire Line
-	1500 1700 1600 1700
+	1250 1950 1350 1950
 Wire Wire Line
-	1600 1800 1500 1800
+	1350 2050 1250 2050
 Text Label 4750 1750 2    50   ~ 0
 CANTX
 Text Label 4750 1850 2    50   ~ 0
@@ -231,45 +231,45 @@ Do not populate 120 Ohm resistor!\nFootprint is included for debugging.
 $Comp
 L Device:R R7
 U 1 1 5DCA488F
-P 8650 1400
-F 0 "R7" V 8443 1400 50  0000 C CNN
-F 1 "270" V 8534 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8580 1400 50  0001 C CNN
-F 3 "~" H 8650 1400 50  0001 C CNN
-	1    8650 1400
+P 3300 2500
+F 0 "R7" V 3093 2500 50  0000 C CNN
+F 1 "270" V 3184 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3230 2500 50  0001 C CNN
+F 3 "~" H 3300 2500 50  0001 C CNN
+	1    3300 2500
 	0    -1   1    0   
 $EndComp
-Text Label 1600 2300 0    50   ~ 0
+Text Label 1350 2550 0    50   ~ 0
 CAN_H
-Text Label 1600 2400 0    50   ~ 0
+Text Label 1350 2650 0    50   ~ 0
 CAN_L
-Text HLabel 1500 2300 0    50   Input ~ 0
+Text HLabel 1250 2550 0    50   Input ~ 0
 CAN_H
-Text HLabel 1500 2400 0    50   Input ~ 0
+Text HLabel 1250 2650 0    50   Input ~ 0
 CAN_L
 Wire Wire Line
-	1500 2300 1600 2300
+	1250 2550 1350 2550
 Wire Wire Line
-	1600 2400 1500 2400
+	1350 2650 1250 2650
 Text Label 4750 1050 2    50   ~ 0
 ~RESET
 Text Label 4750 2750 2    50   ~ 0
 LV_5V
 Wire Wire Line
-	8400 1400 8500 1400
+	3050 2500 3150 2500
 Wire Wire Line
-	8400 1800 8500 1800
+	3050 2900 3150 2900
 Wire Wire Line
-	8800 1800 8900 1800
+	3450 2900 3550 2900
 Wire Wire Line
-	8800 1400 8900 1400
+	3450 2500 3550 2500
 Wire Wire Line
-	9200 1400 9300 1400
+	3850 2500 3950 2500
 Wire Wire Line
-	9200 1800 9300 1800
-Text Label 9300 1800 0    50   ~ 0
+	3850 2900 3950 2900
+Text Label 3950 2900 0    50   ~ 0
 LV_RTN
-Text Label 9300 1400 0    50   ~ 0
+Text Label 3950 2500 0    50   ~ 0
 LV_RTN
 Text Label 4750 2250 2    50   ~ 0
 LV_RTN
@@ -804,71 +804,71 @@ Wire Notes Line
 	5450 4950 2800 4950
 Wire Notes Line
 	2800 4950 2800 6450
-Text Label 3000 750  0    50   ~ 0
+Text Label 2850 650  0    50   ~ 0
 BTN_LEFT
-Text Label 3000 850  0    50   ~ 0
+Text Label 2850 750  0    50   ~ 0
 BTN_RIGHT
-Text Label 3000 950  0    50   ~ 0
+Text Label 2850 850  0    50   ~ 0
 BTN_UP
-Text Label 3000 1050 0    50   ~ 0
+Text Label 2850 950  0    50   ~ 0
 BTN_DOWN
-Text Label 3000 1150 0    50   ~ 0
+Text Label 2850 1050 0    50   ~ 0
 BTN_CENTER
 Wire Wire Line
-	2900 1150 3000 1150
+	2750 1050 2850 1050
 Wire Wire Line
-	3000 1050 2900 1050
+	2850 950  2750 950 
 Wire Wire Line
-	2900 950  3000 950 
+	2750 850  2850 850 
 Wire Wire Line
-	3000 850  2900 850 
+	2850 750  2750 750 
 Wire Wire Line
-	2900 750  3000 750 
-Text Label 3000 1300 0    50   ~ 0
+	2750 650  2850 650 
+Text Label 2850 1200 0    50   ~ 0
 DISP_DIN
-Text Label 3000 1400 0    50   ~ 0
+Text Label 2850 1300 0    50   ~ 0
 DISP_CLK
-Text Label 3000 1500 0    50   ~ 0
+Text Label 2850 1400 0    50   ~ 0
 DISP_CS
-Text Label 3000 1600 0    50   ~ 0
+Text Label 2850 1500 0    50   ~ 0
 DISP_DC
-Text Label 3000 1700 0    50   ~ 0
+Text Label 2850 1600 0    50   ~ 0
 DISP_RST
-Text Label 3000 1800 0    50   ~ 0
+Text Label 2850 1700 0    50   ~ 0
 DISP_BUSY
-Text HLabel 2900 1300 0    50   Input ~ 0
+Text HLabel 2750 1200 0    50   Input ~ 0
 DISP_DIN
-Text HLabel 2900 1400 0    50   Input ~ 0
+Text HLabel 2750 1300 0    50   Input ~ 0
 DISP_CLK
-Text HLabel 2900 1500 0    50   Input ~ 0
+Text HLabel 2750 1400 0    50   Input ~ 0
 DISP_CS
-Text HLabel 2900 1600 0    50   Input ~ 0
+Text HLabel 2750 1500 0    50   Input ~ 0
 DISP_DC
-Text HLabel 2900 1700 0    50   Input ~ 0
+Text HLabel 2750 1600 0    50   Input ~ 0
 DISP_RST
-Text HLabel 2900 1800 0    50   Input ~ 0
+Text HLabel 2750 1700 0    50   Input ~ 0
 DISP_BUSY
 Wire Wire Line
-	2900 1800 3000 1800
+	2750 1700 2850 1700
 Wire Wire Line
-	3000 1700 2900 1700
+	2850 1600 2750 1600
 Wire Wire Line
-	2900 1600 3000 1600
+	2750 1500 2850 1500
 Wire Wire Line
-	3000 1500 2900 1500
+	2850 1400 2750 1400
 Wire Wire Line
-	2900 1400 3000 1400
+	2750 1300 2850 1300
 Wire Wire Line
-	3000 1300 2900 1300
+	2850 1200 2750 1200
 Text Label 3900 5500 2    50   ~ 0
 SDA_GLV
 Text Label 3900 5400 2    50   ~ 0
 SCL_GLV
-Text Label 1600 2500 0    50   ~ 0
+Text Label 1350 2750 0    50   ~ 0
 CAN_SHIELD
 Wire Wire Line
-	1600 2500 1500 2500
-Text HLabel 1500 2500 0    50   Input ~ 0
+	1350 2750 1250 2750
+Text HLabel 1250 2750 0    50   Input ~ 0
 CAN_SHIELD
 Wire Wire Line
 	4750 2350 4850 2350
@@ -890,23 +890,23 @@ Wire Wire Line
 	4850 1650 4750 1650
 Wire Wire Line
 	6550 2150 6450 2150
-Text Label 1600 750  0    50   ~ 0
+Text Label 1350 1000 0    50   ~ 0
 LV_3V3
-Text HLabel 1500 750  0    50   Input ~ 0
+Text HLabel 1250 1000 0    50   Input ~ 0
 LV_3V3
 Wire Wire Line
-	1500 750  1600 750 
+	1250 1000 1350 1000
 NoConn ~ 4800 5500
 NoConn ~ 4800 5600
-Text HLabel 2900 1150 0    50   Input ~ 0
+Text HLabel 2750 1050 0    50   Input ~ 0
 BTN_CENTER
-Text HLabel 2900 1050 0    50   Input ~ 0
+Text HLabel 2750 950  0    50   Input ~ 0
 BTN_DOWN
-Text HLabel 2900 950  0    50   Input ~ 0
+Text HLabel 2750 850  0    50   Input ~ 0
 BTN_UP
-Text HLabel 2900 850  0    50   Input ~ 0
+Text HLabel 2750 750  0    50   Input ~ 0
 BTN_RIGHT
-Text HLabel 2900 750  0    50   Input ~ 0
+Text HLabel 2750 650  0    50   Input ~ 0
 BTN_LEFT
 Text Label 4750 1150 2    50   ~ 0
 BTN_LEFT_MCU
@@ -1099,321 +1099,180 @@ F 7 "Z224-ND" H 6600 5250 50  0001 C CNN "Vendor Part"
 	1    6600 5250
 	1    0    0    -1  
 $EndComp
-Text Label 9550 4500 0    50   ~ 0
-LV_3V3
-Connection ~ 9550 5000
-Wire Wire Line
-	9650 5000 9550 5000
-Text Label 9650 5000 0    50   ~ 0
+Text Label 9650 4850 0    50   ~ 0
 SLOOP2_STATUS
 Wire Wire Line
-	9550 5000 9550 4900
-Wire Wire Line
-	9550 4500 9550 4600
-Wire Wire Line
-	9450 5000 9550 5000
-Wire Wire Line
-	9650 5200 9450 5200
-Text Label 9650 5200 0    50   ~ 0
+	9650 5050 9400 5050
+Text Label 9650 5050 0    50   ~ 0
 LV_RTN
 $Comp
 L Device:R R40
 U 1 1 5E1DB431
-P 9550 4750
-F 0 "R40" H 9480 4704 50  0000 R CNN
-F 1 "10k" H 9480 4795 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 4750 50  0001 C CNN
-F 3 "~" H 9550 4750 50  0001 C CNN
-	1    9550 4750
+P 9300 3550
+F 0 "R40" H 9230 3504 50  0000 R CNN
+F 1 "10k" H 9230 3595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9230 3550 50  0001 C CNN
+F 3 "~" H 9300 3550 50  0001 C CNN
+	1    9300 3550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8750 5000 8850 5000
+	8700 4850 8800 4850
 Wire Wire Line
-	8350 5200 8850 5200
+	8300 5050 8800 5050
 Wire Wire Line
-	8350 5000 8450 5000
+	8300 4850 8400 4850
 $Comp
 L Device:R R38
 U 1 1 5E1DB424
-P 8600 5000
-F 0 "R38" V 8393 5000 50  0000 C CNN
-F 1 "5.1k" V 8484 5000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 5000 50  0001 C CNN
-F 3 "~" H 8600 5000 50  0001 C CNN
-	1    8600 5000
+P 8550 4850
+F 0 "R38" V 8343 4850 50  0000 C CNN
+F 1 "5.1k" V 8434 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8480 4850 50  0001 C CNN
+F 3 "~" H 8550 4850 50  0001 C CNN
+	1    8550 4850
 	0    1    1    0   
 $EndComp
-$Comp
-L Isolator:TLP291 ISO?
-U 1 1 5E1DB41A
-P 9150 5100
-AR Path="/5DC1121D/5E1DB41A" Ref="ISO?"  Part="1" 
-AR Path="/5DC1F176/5E1DB41A" Ref="ISO6"  Part="1" 
-F 0 "ISO6" H 9150 5425 50  0000 C CNN
-F 1 "TLP293" H 9150 5334 50  0000 C CNN
-F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 8950 4900 50  0001 L CIN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14419&prodName=TLP293" H 9150 5100 50  0001 L CNN
-F 4 "Toshiba Semiconductor" H 9150 5100 50  0001 C CNN "Manufacturer"
-F 5 "TLP293(GR-TPL,E" H 9150 5100 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9150 5100 50  0001 C CNN "Vendor"
-F 7 "TLP293(GR-TPLECT-ND" H 9150 5100 50  0001 C CNN "Vendor Part"
-	1    9150 5100
-	1    0    0    -1  
-$EndComp
-Text Label 8350 5200 2    50   ~ 0
+Text Label 8300 5050 2    50   ~ 0
 LV_RTN
-Text Label 8350 5000 2    50   ~ 0
+Text Label 8300 4850 2    50   ~ 0
 SLOOP2
 Wire Notes Line
-	7850 3400 7850 5350
+	7850 3000 7850 6450
 Wire Notes Line
-	10350 3400 7850 3400
+	10350 3000 7850 3000
 Wire Notes Line
-	10350 5350 10350 3400
+	10350 6450 10350 3000
 Wire Notes Line
-	7850 5350 10350 5350
-Text Notes 7900 3550 0    79   ~ 16
-SLOOP Status
-Text Label 9550 3550 0    50   ~ 0
-LV_3V3
-Connection ~ 9550 4050
-Wire Wire Line
-	9650 4050 9550 4050
-Text Label 9650 4050 0    50   ~ 0
+	7850 6450 10350 6450
+Text Notes 7900 3150 0    79   ~ 16
+GLV/SLOOP Status
+Text Label 9650 5450 0    50   ~ 0
 SLOOP1_STATUS
 Wire Wire Line
-	9550 4050 9550 3950
-Wire Wire Line
-	9550 3550 9550 3650
-Wire Wire Line
-	9450 4050 9550 4050
-Wire Wire Line
-	9650 4250 9450 4250
-Text Label 9650 4250 0    50   ~ 0
+	9650 5650 9400 5650
+Text Label 9650 5650 0    50   ~ 0
 LV_RTN
-$Comp
-L Device:R R39
-U 1 1 5E135638
-P 9550 3800
-F 0 "R39" H 9480 3754 50  0000 R CNN
-F 1 "10k" H 9480 3845 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 3800 50  0001 C CNN
-F 3 "~" H 9550 3800 50  0001 C CNN
-	1    9550 3800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	8750 4050 8850 4050
+	8700 5450 8800 5450
 Wire Wire Line
-	8350 4250 8850 4250
+	8300 5650 8800 5650
 Wire Wire Line
-	8350 4050 8450 4050
+	8300 5450 8400 5450
 $Comp
 L Device:R R5
 U 1 1 5E13562B
-P 8600 4050
-F 0 "R5" V 8393 4050 50  0000 C CNN
-F 1 "5.1k" V 8484 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 4050 50  0001 C CNN
-F 3 "~" H 8600 4050 50  0001 C CNN
-	1    8600 4050
+P 8550 5450
+F 0 "R5" V 8343 5450 50  0000 C CNN
+F 1 "5.1k" V 8434 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8480 5450 50  0001 C CNN
+F 3 "~" H 8550 5450 50  0001 C CNN
+	1    8550 5450
 	0    1    1    0   
 $EndComp
-$Comp
-L Isolator:TLP291 ISO?
-U 1 1 5E135621
-P 9150 4150
-AR Path="/5DC1121D/5E135621" Ref="ISO?"  Part="1" 
-AR Path="/5DC1F176/5E135621" Ref="ISO5"  Part="1" 
-F 0 "ISO5" H 9150 4475 50  0000 C CNN
-F 1 "TLP293" H 9150 4384 50  0000 C CNN
-F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 8950 3950 50  0001 L CIN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14419&prodName=TLP293" H 9150 4150 50  0001 L CNN
-F 4 "Toshiba Semiconductor" H 9150 4150 50  0001 C CNN "Manufacturer"
-F 5 "TLP293(GR-TPL,E" H 9150 4150 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9150 4150 50  0001 C CNN "Vendor"
-F 7 "TLP293(GR-TPLECT-ND" H 9150 4150 50  0001 C CNN "Vendor Part"
-	1    9150 4150
-	1    0    0    -1  
-$EndComp
-Text Label 8350 4250 2    50   ~ 0
+Text Label 8300 5650 2    50   ~ 0
 LV_RTN
-Text Label 8350 4050 2    50   ~ 0
+Text Label 8300 5450 2    50   ~ 0
 SLOOP1_IN
 $Comp
 L Device:C C2
 U 1 1 5DEF81CF
-P 8400 2700
-F 0 "C2" H 8515 2746 50  0000 L CNN
-F 1 "0.1u/50V" H 8515 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8438 2550 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8400 2700 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 8400 2700 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 8400 2700 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 8400 2700 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 8400 2700 50  0001 C CNN "Vendor Part"
-	1    8400 2700
+P 8400 1600
+F 0 "C2" H 8515 1646 50  0000 L CNN
+F 1 "0.1u/50V" H 8515 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8438 1450 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8400 1600 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8400 1600 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 8400 1600 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8400 1600 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 8400 1600 50  0001 C CNN "Vendor Part"
+	1    8400 1600
 	-1   0    0    -1  
 $EndComp
-Text Label 8400 2450 0    50   ~ 0
+Text Label 8400 1350 0    50   ~ 0
 LV_3V3
 Wire Wire Line
-	8400 2450 8400 2550
-Text Label 8300 2950 2    50   ~ 0
+	8400 1350 8400 1450
+Text Label 8300 1850 2    50   ~ 0
 LV_RTN
 Wire Wire Line
-	8300 2950 8400 2950
+	8300 1850 8400 1850
 Wire Wire Line
-	8400 2850 8400 2950
-Connection ~ 8400 2950
+	8400 1750 8400 1850
+Connection ~ 8400 1850
 Wire Wire Line
-	8400 2950 8500 2950
+	8400 1850 8500 1850
 Wire Notes Line
-	7850 5450 7850 6450
+	10350 1000 7850 1000
 Wire Notes Line
-	10350 5450 7850 5450
+	10350 2200 10350 1000
 Wire Notes Line
-	10350 6450 10350 5450
+	7850 2200 10350 2200
 Wire Notes Line
-	7850 6450 10350 6450
-Text Notes 7900 5600 0    79   ~ 16
-AIRs Status
-Text Label 9550 5600 0    50   ~ 0
-LV_3V3
-Wire Notes Line
-	10350 2100 7850 2100
-Wire Notes Line
-	10350 3300 10350 2100
-Wire Notes Line
-	7850 3300 10350 3300
-Wire Notes Line
-	7850 2100 7850 3300
-Text Notes 7900 2250 0    79   ~ 16
+	7850 1000 7850 2200
+Text Notes 7900 1150 0    79   ~ 16
 Watchdog
 $Comp
 L Device:C C3
 U 1 1 5DF2261A
-P 8650 2950
-F 0 "C3" V 8800 2950 50  0000 C CNN
-F 1 "0.1u/50V" V 8900 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8688 2800 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8650 2950 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 8650 2950 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 8650 2950 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 8650 2950 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 8650 2950 50  0001 C CNN "Vendor Part"
-	1    8650 2950
+P 8650 1850
+F 0 "C3" V 8800 1850 50  0000 C CNN
+F 1 "0.1u/50V" V 8900 1850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8688 1700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8650 1850 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8650 1850 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 8650 1850 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8650 1850 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 8650 1850 50  0001 C CNN "Vendor Part"
+	1    8650 1850
 	0    1    1    0   
 $EndComp
-Text Label 9900 2650 0    50   ~ 0
+Text Label 9900 1550 0    50   ~ 0
 LV_3V3
 Wire Wire Line
-	8900 2650 9000 2650
-Text Label 8900 2650 2    50   ~ 0
+	8900 1550 9000 1550
+Text Label 8900 1550 2    50   ~ 0
 ~RESET
 Wire Wire Line
-	9900 2950 9800 2950
-Text Label 9900 2950 0    50   ~ 0
+	9900 1850 9800 1850
+Text Label 9900 1850 0    50   ~ 0
 WATCHDOG
 Wire Wire Line
-	9900 2650 9800 2650
+	9900 1550 9800 1550
 Wire Wire Line
-	8900 2800 9000 2800
-Text Label 8900 2800 2    50   ~ 0
+	8900 1700 9000 1700
+Text Label 8900 1700 2    50   ~ 0
 LV_RTN
 Wire Wire Line
-	8800 2950 9000 2950
+	8800 1850 9000 1850
 $Comp
 L Lafayette_Electric_Car_Internals:ADM6320 U3
 U 1 1 5DEF7D45
-P 9100 2550
-F 0 "U3" H 9400 2717 50  0000 C CNN
-F 1 "ADM6320" H 9400 2626 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9400 2000 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM6316_6318_6319_6320_6321_6322.pdf" H 9200 2700 50  0001 C CNN
-F 4 "Analog Devices Inc." H 9100 2550 50  0001 C CNN "Manufacturer"
-F 5 "ADM6320CY29ARJZ-R7" H 9100 2550 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9100 2550 50  0001 C CNN "Vendor"
-F 7 "ADM6320CY29ARJZ-R7CT-ND" H 9100 2550 50  0001 C CNN "Vendor Part"
-	1    9100 2550
+P 9100 1450
+F 0 "U3" H 9400 1617 50  0000 C CNN
+F 1 "ADM6320" H 9400 1526 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9400 900 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM6316_6318_6319_6320_6321_6322.pdf" H 9200 1600 50  0001 C CNN
+F 4 "Analog Devices Inc." H 9100 1450 50  0001 C CNN "Manufacturer"
+F 5 "ADM6320CY29ARJZ-R7" H 9100 1450 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9100 1450 50  0001 C CNN "Vendor"
+F 7 "ADM6320CY29ARJZ-R7CT-ND" H 9100 1450 50  0001 C CNN "Vendor Part"
+	1    9100 1450
 	1    0    0    -1  
 $EndComp
-Connection ~ 9550 6100
 Wire Wire Line
-	9650 6100 9550 6100
-Text Label 9650 6100 0    50   ~ 0
-AIRS_STATUS
-Wire Wire Line
-	9550 6100 9550 6000
-Wire Wire Line
-	9550 5600 9550 5700
-Wire Wire Line
-	9450 6100 9550 6100
-Wire Wire Line
-	9650 6300 9450 6300
-Text Label 9650 6300 0    50   ~ 0
-LV_RTN
-$Comp
-L Device:R R3
-U 1 1 5DD3DF88
-P 9550 5850
-F 0 "R3" H 9480 5804 50  0000 R CNN
-F 1 "10k" H 9480 5895 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 5850 50  0001 C CNN
-F 3 "~" H 9550 5850 50  0001 C CNN
-	1    9550 5850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8750 6100 8850 6100
-Wire Wire Line
-	8350 6300 8850 6300
-Wire Wire Line
-	8350 6100 8450 6100
-$Comp
-L Device:R R2
-U 1 1 5DD3CFF4
-P 8600 6100
-F 0 "R2" V 8393 6100 50  0000 C CNN
-F 1 "5.1k" V 8484 6100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 6100 50  0001 C CNN
-F 3 "~" H 8600 6100 50  0001 C CNN
-	1    8600 6100
-	0    1    1    0   
-$EndComp
-$Comp
-L Isolator:TLP291 ISO?
-U 1 1 5DD3CA83
-P 9150 6200
-AR Path="/5DC1121D/5DD3CA83" Ref="ISO?"  Part="1" 
-AR Path="/5DC1F176/5DD3CA83" Ref="ISO1"  Part="1" 
-F 0 "ISO1" H 9150 6525 50  0000 C CNN
-F 1 "TLP293" H 9150 6434 50  0000 C CNN
-F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 8950 6000 50  0001 L CIN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14419&prodName=TLP293" H 9150 6200 50  0001 L CNN
-F 4 "Toshiba Semiconductor" H 9150 6200 50  0001 C CNN "Manufacturer"
-F 5 "TLP293(GR-TPL,E" H 9150 6200 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9150 6200 50  0001 C CNN "Vendor"
-F 7 "TLP293(GR-TPLECT-ND" H 9150 6200 50  0001 C CNN "Vendor Part"
-	1    9150 6200
-	1    0    0    -1  
-$EndComp
-Text Label 8350 6300 2    50   ~ 0
-AIRS-
-Text Label 8350 6100 2    50   ~ 0
-AIRS+
+	8700 4250 8800 4250
 Wire Wire Line
 	3000 7450 3100 7450
-Text HLabel 1500 1300 0    50   Input ~ 0
+Text HLabel 1250 1550 0    50   Input ~ 0
 SLOOP2
-Text Label 1600 1300 0    50   ~ 0
+Text Label 1350 1550 0    50   ~ 0
 SLOOP2
 Wire Wire Line
-	1600 1300 1500 1300
-Text Label 4800 5900 0    50   ~ 0
-SLOOP1_STATUS
+	1350 1550 1250 1550
 Text Label 4800 6000 0    50   ~ 0
+SLOOP1_STATUS
+Text Label 4800 6100 0    50   ~ 0
 SLOOP2_STATUS
 Wire Wire Line
 	4850 1950 4750 1950
@@ -1421,41 +1280,40 @@ Wire Wire Line
 	4850 1850 4750 1850
 Wire Wire Line
 	4850 1750 4750 1750
-NoConn ~ 4800 6200
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5E29B771
-P 8500 850
-F 0 "TP8" H 8558 968 50  0000 L CNN
-F 1 "SDA" H 8558 877 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8700 850 50  0001 C CNN
-F 3 "~" H 8700 850 50  0001 C CNN
-	1    8500 850 
+P 2300 2800
+F 0 "TP8" H 2358 2918 50  0000 L CNN
+F 1 "SDA" H 2358 2827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2500 2800 50  0001 C CNN
+F 3 "~" H 2500 2800 50  0001 C CNN
+	1    2300 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5E29B90A
-P 9000 850
-F 0 "TP9" H 9058 968 50  0000 L CNN
-F 1 "SCL" H 9058 877 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9200 850 50  0001 C CNN
-F 3 "~" H 9200 850 50  0001 C CNN
-	1    9000 850 
+P 2300 2400
+F 0 "TP9" H 2358 2518 50  0000 L CNN
+F 1 "SCL" H 2358 2427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2500 2400 50  0001 C CNN
+F 3 "~" H 2500 2400 50  0001 C CNN
+	1    2300 2400
 	1    0    0    -1  
 $EndComp
-Text Label 8600 950  0    50   ~ 0
+Text Label 2400 2900 0    50   ~ 0
 SDA_GLV
-Text Label 9100 950  0    50   ~ 0
+Text Label 2400 2500 0    50   ~ 0
 SCL_GLV
 Wire Wire Line
-	9100 950  9000 950 
+	2400 2500 2300 2500
 Wire Wire Line
-	9000 950  9000 850 
+	2300 2500 2300 2400
 Wire Wire Line
-	8600 950  8500 950 
+	2400 2900 2300 2900
 Wire Wire Line
-	8500 950  8500 850 
+	2300 2900 2300 2800
 Text Notes 5400 5050 2    50   ~ 0
 1mA draw
 Text Notes 4800 3350 2    50   ~ 0
@@ -1688,10 +1546,10 @@ Text Label 3900 6100 2    50   ~ 0
 IO_INT
 Wire Wire Line
 	3900 6100 4000 6100
-Text HLabel 2900 2050 0    50   Input ~ 0
+Text HLabel 2750 1950 0    50   Input ~ 0
 RST_GLV_SEG-
 Wire Wire Line
-	2900 2050 3000 2050
+	2750 1950 2850 1950
 Text Label 4800 5800 0    50   ~ 0
 RST_GLV_SEG-
 Connection ~ 6050 4200
@@ -1747,12 +1605,228 @@ Text Notes 7700 4600 2    50   ~ 0
 I2C Address:\n1101000 (104)
 Text Label 4800 5700 0    50   ~ 0
 RST_GLV_SEG+
-Text Label 3000 1950 0    50   ~ 0
+Text Label 2850 1850 0    50   ~ 0
 RST_GLV_SEG+
-Text Label 3000 2050 0    50   ~ 0
+Text Label 2850 1950 0    50   ~ 0
 RST_GLV_SEG-
-Text HLabel 2900 1950 0    50   Input ~ 0
+Text HLabel 2750 1850 0    50   Input ~ 0
 RST_GLV_SEG+
 Wire Wire Line
-	2900 1950 3000 1950
+	2750 1850 2850 1850
+Wire Wire Line
+	8700 6050 8800 6050
+Wire Wire Line
+	8300 6250 8800 6250
+Wire Wire Line
+	8300 6050 8400 6050
+$Comp
+L Device:R R46
+U 1 1 5E578F61
+P 8550 6050
+F 0 "R46" V 8343 6050 50  0000 C CNN
+F 1 "5.1k" V 8434 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8480 6050 50  0001 C CNN
+F 3 "~" H 8550 6050 50  0001 C CNN
+	1    8550 6050
+	0    1    1    0   
+$EndComp
+Text Label 8300 6250 2    50   ~ 0
+GLV_RTN
+Text Label 8300 6050 2    50   ~ 0
+GLV_24V
+$Comp
+L Isolator:TLP291-4 U19
+U 2 1 5E57114A
+P 9100 4950
+F 0 "U19" H 9100 5275 50  0000 C CNN
+F 1 "TLP293-4" H 9100 5184 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 8900 4750 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=15287&prodName=TLP293-4" H 9100 4950 50  0001 L CNN
+F 4 "Toshiba Semiconductor" H 9100 4950 50  0001 C CNN "Manufacturer"
+F 5 "TLP293-4" H 9100 4950 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9100 4950 50  0001 C CNN "Vendor"
+	2    9100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP291-4 U19
+U 3 1 5E571DE7
+P 9100 5550
+F 0 "U19" H 9100 5875 50  0000 C CNN
+F 1 "TLP293-4" H 9100 5784 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 8900 5350 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=15287&prodName=TLP293-4" H 9100 5550 50  0001 L CNN
+F 4 "Toshiba Semiconductor" H 9100 5550 50  0001 C CNN "Manufacturer"
+F 5 "TLP293-4" H 9100 5550 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9100 5550 50  0001 C CNN "Vendor"
+	3    9100 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 5E135638
+P 9000 3550
+F 0 "R39" H 8930 3504 50  0000 R CNN
+F 1 "10k" H 8930 3595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8930 3550 50  0001 C CNN
+F 3 "~" H 9000 3550 50  0001 C CNN
+	1    9000 3550
+	-1   0    0    1   
+$EndComp
+Text Label 9650 3350 0    50   ~ 0
+LV_3V3
+$Comp
+L Isolator:TLP291-4 U19
+U 1 1 5E56F8AA
+P 9100 4350
+F 0 "U19" H 9100 4675 50  0000 C CNN
+F 1 "TLP293-4" H 9100 4584 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 8900 4150 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=15287&prodName=TLP293-4" H 9100 4350 50  0001 L CNN
+F 4 "Toshiba Semiconductor" H 9100 4350 50  0001 C CNN "Manufacturer"
+F 5 "TLP293-4" H 9100 4350 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9100 4350 50  0001 C CNN "Vendor"
+	1    9100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 6250 9400 6250
+Text Label 9650 6250 0    50   ~ 0
+LV_RTN
+Text Label 9650 6050 0    50   ~ 0
+GLV_STATUS
+$Comp
+L Device:R R47
+U 1 1 5E578F54
+P 8700 3550
+F 0 "R47" H 8630 3504 50  0000 R CNN
+F 1 "10k" H 8630 3595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8630 3550 50  0001 C CNN
+F 3 "~" H 8700 3550 50  0001 C CNN
+	1    8700 3550
+	-1   0    0    1   
+$EndComp
+Text Label 9650 4250 0    50   ~ 0
+AIRS_STATUS
+Wire Wire Line
+	9650 4450 9400 4450
+Text Label 9650 4450 0    50   ~ 0
+LV_RTN
+$Comp
+L Device:R R3
+U 1 1 5DD3DF88
+P 9600 3550
+F 0 "R3" H 9530 3504 50  0000 R CNN
+F 1 "10k" H 9530 3595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9530 3550 50  0001 C CNN
+F 3 "~" H 9600 3550 50  0001 C CNN
+	1    9600 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Isolator:TLP291-4 U19
+U 4 1 5E5731D4
+P 9100 6150
+F 0 "U19" H 9100 6475 50  0000 C CNN
+F 1 "TLP293-4" H 9100 6384 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 8900 5950 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=15287&prodName=TLP293-4" H 9100 6150 50  0001 L CNN
+F 4 "Toshiba Semiconductor" H 9100 6150 50  0001 C CNN "Manufacturer"
+F 5 "TLP293-4" H 9100 6150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9100 6150 50  0001 C CNN "Vendor"
+	4    9100 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3350 9600 3350
+Wire Wire Line
+	8700 3350 8700 3400
+Wire Wire Line
+	9000 3400 9000 3350
+Connection ~ 9000 3350
+Wire Wire Line
+	9000 3350 8700 3350
+Wire Wire Line
+	9300 3400 9300 3350
+Connection ~ 9300 3350
+Wire Wire Line
+	9300 3350 9000 3350
+Wire Wire Line
+	9600 3400 9600 3350
+Connection ~ 9600 3350
+Wire Wire Line
+	9600 3350 9300 3350
+Text Label 8300 4250 2    50   ~ 0
+AIRS+
+Text Label 8300 4450 2    50   ~ 0
+AIRS-
+$Comp
+L Device:R R2
+U 1 1 5DD3CFF4
+P 8550 4250
+F 0 "R2" V 8343 4250 50  0000 C CNN
+F 1 "5.1k" V 8434 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8480 4250 50  0001 C CNN
+F 3 "~" H 8550 4250 50  0001 C CNN
+	1    8550 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 4250 8400 4250
+Wire Wire Line
+	8300 4450 8800 4450
+Wire Wire Line
+	8700 3700 8700 3850
+Wire Wire Line
+	8700 3850 9450 3850
+Wire Wire Line
+	9000 3700 9000 3800
+Wire Wire Line
+	9000 3800 9500 3800
+Wire Wire Line
+	9300 3700 9300 3750
+Wire Wire Line
+	9300 3750 9550 3750
+Wire Wire Line
+	9400 4850 9550 4850
+Wire Wire Line
+	9400 5450 9500 5450
+Wire Wire Line
+	9400 6050 9450 6050
+Wire Wire Line
+	9400 4250 9600 4250
+Wire Wire Line
+	9450 3850 9450 6050
+Connection ~ 9450 6050
+Wire Wire Line
+	9450 6050 9650 6050
+Wire Wire Line
+	9500 5450 9500 3800
+Connection ~ 9500 5450
+Wire Wire Line
+	9500 5450 9650 5450
+Wire Wire Line
+	9550 3750 9550 4850
+Connection ~ 9550 4850
+Wire Wire Line
+	9550 4850 9650 4850
+Wire Wire Line
+	9600 3700 9600 4250
+Connection ~ 9600 4250
+Wire Wire Line
+	9600 4250 9650 4250
+Text HLabel 1250 650  0    50   Input ~ 0
+GLV_24V
+Wire Wire Line
+	1250 650  1350 650 
+Text Label 1350 650  0    50   ~ 0
+GLV_24V
+Text Label 1350 750  0    50   ~ 0
+GLV_RTN
+Text HLabel 1250 750  0    50   Input ~ 0
+GLV_RTN
+Wire Wire Line
+	1250 750  1350 750 
+Text Label 4800 5900 0    50   ~ 0
+GLV_STATUS
 $EndSCHEMATC
