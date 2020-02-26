@@ -104,7 +104,7 @@ Wire Wire Line
 	1250 900  1350 900 
 Text Label 1350 900  0    50   ~ 0
 LV_24V
-Text Label 4800 6100 0    50   ~ 0
+Text Label 4800 6200 0    50   ~ 0
 AIRS_STATUS
 Text Label 1350 2200 0    50   ~ 0
 CHRG_EN
@@ -1270,9 +1270,9 @@ Text Label 1350 1550 0    50   ~ 0
 SLOOP2
 Wire Wire Line
 	1350 1550 1250 1550
-Text Label 4800 5900 0    50   ~ 0
-SLOOP1_STATUS
 Text Label 4800 6000 0    50   ~ 0
+SLOOP1_STATUS
+Text Label 4800 6100 0    50   ~ 0
 SLOOP2_STATUS
 Wire Wire Line
 	4850 1950 4750 1950
@@ -1280,7 +1280,6 @@ Wire Wire Line
 	4850 1850 4750 1850
 Wire Wire Line
 	4850 1750 4750 1750
-NoConn ~ 4800 6200
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5E29B771
@@ -1828,4 +1827,6 @@ Text HLabel 1250 750  0    50   Input ~ 0
 GLV_RTN
 Wire Wire Line
 	1250 750  1350 750 
+Text Label 4800 5900 0    50   ~ 0
+GLV_STATUS
 $EndSCHEMATC

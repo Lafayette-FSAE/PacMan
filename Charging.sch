@@ -154,7 +154,7 @@ Wire Wire Line
 	7250 4550 7250 4750
 Connection ~ 7250 4750
 Wire Wire Line
-	7250 4750 7350 4750
+	7250 4750 7750 4750
 Wire Wire Line
 	6850 4150 5800 4150
 Wire Wire Line
@@ -165,9 +165,9 @@ Wire Wire Line
 	6700 4050 6700 3950
 Connection ~ 6700 4050
 Wire Wire Line
-	7250 4150 7350 4150
+	7250 4150 7750 4150
 Connection ~ 7250 4150
-Text Label 7350 4150 0    50   ~ 0
+Text Label 7850 4150 0    50   ~ 0
 CHRG_CURRENT
 Text Notes 5450 850  0    100  ~ 20
 GLV
@@ -191,7 +191,7 @@ Wire Notes Line
 	5350 1200 5350 600 
 Wire Notes Line
 	5350 4450 5350 7850
-Text Label 7350 4750 0    50   ~ 0
+Text Label 7850 4750 0    50   ~ 0
 LV_RTN
 Text Label 6700 3950 2    50   ~ 0
 LV_5V
@@ -394,4 +394,25 @@ Wire Wire Line
 Connection ~ 5100 4600
 Wire Notes Line
 	5350 2050 5350 1900
+$Comp
+L Device:C C40
+U 1 1 5E57E215
+P 7750 4400
+F 0 "C40" H 7865 4446 50  0000 L CNN
+F 1 "C" H 7865 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7788 4250 50  0001 C CNN
+F 3 "~" H 7750 4400 50  0001 C CNN
+	1    7750 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4150 7750 4250
+Wire Wire Line
+	7750 4550 7750 4750
+Connection ~ 7750 4750
+Wire Wire Line
+	7750 4750 7850 4750
+Wire Wire Line
+	7850 4150 7750 4150
+Connection ~ 7750 4150
 $EndSCHEMATC
