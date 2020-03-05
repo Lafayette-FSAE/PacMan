@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -86,17 +87,17 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5DDF48B0
-P 1700 4700
-F 0 "J4" H 1700 4950 50  0000 C CNN
-F 1 "Charge Detection" H 1700 4850 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 1700 4700 50  0001 C CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 1700 4700 50  0001 C CNN
-F 4 "Molex" H 1700 4700 50  0001 C CNN "Manufacturer"
-F 5 "1724470202" H 1700 4700 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 1700 4700 50  0001 C CNN "Vendor"
-F 7 "WM17931-ND" H 1700 4700 50  0001 C CNN "Vendor Part"
-	1    1700 4700
-	-1   0    0    -1  
+P 1700 4800
+F 0 "J4" H 1700 4450 50  0000 C CNN
+F 1 "Charge Detection" H 1700 4550 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 1700 4800 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 1700 4800 50  0001 C CNN
+F 4 "Molex" H 1700 4800 50  0001 C CNN "Manufacturer"
+F 5 "1724470202" H 1700 4800 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 1700 4800 50  0001 C CNN "Vendor"
+F 7 "WM17931-ND" H 1700 4800 50  0001 C CNN "Vendor Part"
+	1    1700 4800
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2000 4800 1900 4800
