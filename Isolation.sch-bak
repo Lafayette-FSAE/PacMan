@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -318,56 +317,56 @@ Wire Wire Line
 $Comp
 L Device:C C21
 U 1 1 5E1B6276
-P 7450 3150
-F 0 "C21" H 7565 3196 50  0000 L CNN
-F 1 "0.1u/50V" H 7565 3105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7488 3000 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 7450 3150 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 7450 3150 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 7450 3150 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 7450 3150 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 7450 3150 50  0001 C CNN "Vendor Part"
-	1    7450 3150
+P 7050 1350
+F 0 "C21" H 7165 1396 50  0000 L CNN
+F 1 "0.1u/50V" H 7165 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7088 1200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 7050 1350 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7050 1350 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 7050 1350 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 7050 1350 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 7050 1350 50  0001 C CNN "Vendor Part"
+	1    7050 1350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7500 2950 7450 2950
+	7100 1150 7050 1150
 Wire Wire Line
-	7450 2950 7450 3000
+	7050 1150 7050 1200
 Wire Wire Line
-	7500 3350 7450 3350
+	7100 1550 7050 1550
 Wire Wire Line
-	7450 3350 7450 3300
-Text Label 7500 3350 0    50   ~ 0
+	7050 1550 7050 1500
+Text Label 7100 1550 0    50   ~ 0
 LV_RTN
-Text Label 7500 2950 0    50   ~ 0
+Text Label 7100 1150 0    50   ~ 0
 LV_3V3
 $Comp
 L Device:C C22
 U 1 1 5E1BAD60
-P 8350 3150
-F 0 "C22" H 8465 3196 50  0000 L CNN
-F 1 "0.1u/50V" H 8465 3105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 3000 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8350 3150 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 8350 3150 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 8350 3150 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 8350 3150 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 8350 3150 50  0001 C CNN "Vendor Part"
-	1    8350 3150
+P 7050 2100
+F 0 "C22" H 7165 2146 50  0000 L CNN
+F 1 "0.1u/50V" H 7165 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7088 1950 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 7050 2100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7050 2100 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 7050 2100 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 7050 2100 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 7050 2100 50  0001 C CNN "Vendor Part"
+	1    7050 2100
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 2950 8350 2950
+	7100 1900 7050 1900
 Wire Wire Line
-	8350 2950 8350 3000
+	7050 1900 7050 1950
 Wire Wire Line
-	8400 3350 8350 3350
+	7100 2300 7050 2300
 Wire Wire Line
-	8350 3350 8350 3300
-Text Label 8400 3350 0    50   ~ 0
+	7050 2300 7050 2250
+Text Label 7100 2300 0    50   ~ 0
 LV_RTN
-Text Label 8400 2950 0    50   ~ 0
+Text Label 7100 1900 0    50   ~ 0
 LV_3V3
 $Comp
 L Device:C C17
@@ -418,47 +417,47 @@ Wire Wire Line
 $Comp
 L Device:R R23
 U 1 1 5E1CF5A8
-P 7450 2150
-F 0 "R23" H 7520 2196 50  0000 L CNN
-F 1 "3.3k" H 7520 2105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7380 2150 50  0001 C CNN
-F 3 "~" H 7450 2150 50  0001 C CNN
-	1    7450 2150
+P 8500 3000
+F 0 "R23" H 8570 3046 50  0000 L CNN
+F 1 "3.3k" H 8570 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8430 3000 50  0001 C CNN
+F 3 "~" H 8500 3000 50  0001 C CNN
+	1    8500 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R27
 U 1 1 5E1CF5B2
-P 7800 2150
-F 0 "R27" H 7870 2196 50  0000 L CNN
-F 1 "3.3k" H 7870 2105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7730 2150 50  0001 C CNN
-F 3 "~" H 7800 2150 50  0001 C CNN
-	1    7800 2150
+P 8850 3000
+F 0 "R27" H 8920 3046 50  0000 L CNN
+F 1 "3.3k" H 8920 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8780 3000 50  0001 C CNN
+F 3 "~" H 8850 3000 50  0001 C CNN
+	1    8850 3000
 	1    0    0    -1  
 $EndComp
-Text Label 7350 2400 2    50   ~ 0
+Text Label 8400 3250 2    50   ~ 0
 SDA_GLV
-Text Label 7900 2400 0    50   ~ 0
+Text Label 8950 3250 0    50   ~ 0
 SCL_GLV
 Wire Wire Line
-	7900 2400 7800 2400
+	8950 3250 8850 3250
 Wire Wire Line
-	7800 2400 7800 2300
+	8850 3250 8850 3150
 Wire Wire Line
-	7350 2400 7450 2400
+	8400 3250 8500 3250
 Wire Wire Line
-	7450 2400 7450 2300
+	8500 3250 8500 3150
 Wire Wire Line
-	7900 1900 7800 1900
+	8950 2750 8850 2750
 Wire Wire Line
-	7800 1900 7800 2000
+	8850 2750 8850 2850
 Wire Wire Line
-	7800 1900 7450 1900
+	8850 2750 8500 2750
 Wire Wire Line
-	7450 1900 7450 2000
-Connection ~ 7800 1900
-Text Label 7900 1900 0    50   ~ 0
+	8500 2750 8500 2850
+Connection ~ 8850 2750
+Text Label 8950 2750 0    50   ~ 0
 LV_3V3
 $Comp
 L Isolator:TLP291 ISO?
@@ -667,7 +666,7 @@ Wire Wire Line
 	4650 4000 5200 4000
 Text Label 5900 3500 0    50   ~ 0
 LV_3V3
-Text Label 6000 4000 0    50   ~ 0
+Text Label 6800 4000 0    50   ~ 0
 ~CHRG_DETECT
 $Comp
 L Device:R R33
@@ -690,9 +689,6 @@ Text Label 5900 4200 0    50   ~ 0
 LV_RTN
 Wire Wire Line
 	5900 4200 5800 4200
-Wire Wire Line
-	5900 4000 6000 4000
-Connection ~ 5900 4000
 Text Label 9450 1100 2    50   ~ 0
 LV_3V3
 Text HLabel 9550 1100 2    50   Input ~ 0
@@ -823,29 +819,29 @@ SDA_TSV
 $Comp
 L Device:C C31
 U 1 1 5E4D837F
-P 9200 3150
-F 0 "C31" H 9315 3196 50  0000 L CNN
-F 1 "0.1u/50V" H 9315 3105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9238 3000 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 9200 3150 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 9200 3150 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 9200 3150 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9200 3150 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 9200 3150 50  0001 C CNN "Vendor Part"
-	1    9200 3150
+P 7050 2850
+F 0 "C31" H 7165 2896 50  0000 L CNN
+F 1 "0.1u/50V" H 7165 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7088 2700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 7050 2850 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7050 2850 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 7050 2850 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 7050 2850 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 7050 2850 50  0001 C CNN "Vendor Part"
+	1    7050 2850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 2950 9200 2950
+	7100 2650 7050 2650
 Wire Wire Line
-	9200 2950 9200 3000
+	7050 2650 7050 2700
 Wire Wire Line
-	9250 3350 9200 3350
+	7100 3050 7050 3050
 Wire Wire Line
-	9200 3350 9200 3300
-Text Label 9250 3350 0    50   ~ 0
+	7050 3050 7050 3000
+Text Label 7100 3050 0    50   ~ 0
 LV_RTN
-Text Label 9250 2950 0    50   ~ 0
+Text Label 7100 2650 0    50   ~ 0
 LV_3V3
 $Comp
 L Isolator:TLP291 ISO?
@@ -1100,4 +1096,42 @@ Text Label 3750 4500 2    50   ~ 0
 5V_TSV
 Text Label 5100 5100 2    50   ~ 0
 RTN_TSV
+$Comp
+L Device:C C42
+U 1 1 5E694C1C
+P 6700 4250
+F 0 "C42" H 6815 4296 50  0000 L CNN
+F 1 "C" H 6815 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6738 4100 50  0001 C CNN
+F 3 "~" H 6700 4250 50  0001 C CNN
+	1    6700 4250
+	1    0    0    -1  
+$EndComp
+Text Label 6800 4500 0    50   ~ 0
+LV_RTN
+Wire Wire Line
+	6800 4500 6700 4500
+Wire Wire Line
+	6700 4500 6700 4400
+Wire Wire Line
+	6800 4000 6700 4000
+Wire Wire Line
+	6700 4000 6700 4100
+$Comp
+L Device:R R48
+U 1 1 5E6CD033
+P 6450 4000
+F 0 "R48" V 6243 4000 50  0000 C CNN
+F 1 "R" V 6334 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 4000 50  0001 C CNN
+F 3 "~" H 6450 4000 50  0001 C CNN
+	1    6450 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 4000 6700 4000
+Connection ~ 6700 4000
+Wire Wire Line
+	6300 4000 5900 4000
+Connection ~ 5900 4000
 $EndSCHEMATC

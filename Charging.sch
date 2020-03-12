@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -202,8 +201,6 @@ Text HLabel 9600 1450 2    50   Input ~ 0
 CHRG_LED
 Wire Wire Line
 	9500 1450 9600 1450
-Text Label 7150 2600 0    50   ~ 0
-CHRG_LED
 Wire Wire Line
 	5200 3900 5200 3800
 Wire Wire Line
@@ -249,8 +246,6 @@ Wire Wire Line
 	5750 1800 5750 2650
 Wire Wire Line
 	5750 2650 5650 2650
-Text Label 6500 1400 0    50   ~ 0
-LV_24V
 Wire Wire Line
 	5850 1500 5650 1500
 Wire Wire Line
@@ -265,10 +260,6 @@ Wire Wire Line
 	5850 2350 5950 2350
 Connection ~ 5850 2350
 Connection ~ 5750 2650
-Text Label 6900 3050 0    50   ~ 0
-CHRG_EN
-Wire Wire Line
-	6900 3050 6800 3050
 Text Label 6600 3350 0    50   ~ 0
 LV_RTN
 Wire Wire Line
@@ -336,10 +327,6 @@ Connection ~ 6500 2750
 Wire Wire Line
 	6500 2750 6500 2850
 Wire Wire Line
-	6500 2750 7150 2750
-Wire Wire Line
-	7150 2750 7150 2600
-Wire Wire Line
 	5850 2750 5850 2650
 Wire Wire Line
 	5850 2750 6500 2750
@@ -351,9 +338,6 @@ Wire Wire Line
 Connection ~ 5850 1500
 Wire Wire Line
 	6500 1750 6500 1500
-Connection ~ 6500 1500
-Wire Wire Line
-	6500 1500 6500 1400
 $Comp
 L Device:Q_NMOS_GSD Q2
 U 1 1 5E3E9017
@@ -369,12 +353,6 @@ F 7 "DMN3730U-7DICT-ND" H 6600 3050 50  0001 C CNN "Vendor Part"
 	1    6600 3050
 	-1   0    0    -1  
 $EndComp
-Wire Notes Line
-	6600 1500 7150 1500
-Wire Notes Line
-	7150 1500 7150 2500
-Text Notes 7200 2000 0    50   ~ 0
-I/O Panel\nCharge LED
 Wire Wire Line
 	4950 1500 5050 1500
 Wire Wire Line
@@ -416,4 +394,101 @@ Wire Wire Line
 Wire Wire Line
 	7850 4150 7750 4150
 Connection ~ 7750 4150
+Wire Notes Line
+	7528 2814 7578 2814
+Wire Notes Line
+	7513 2789 7593 2789
+Wire Notes Line
+	7498 2764 7608 2764
+Wire Notes Line
+	7550 2700 7550 2750
+Connection ~ 6500 1500
+Wire Wire Line
+	6500 1500 6500 1400
+Text Label 6500 1400 0    50   ~ 0
+LV_24V
+Connection ~ 7150 1500
+Wire Wire Line
+	7550 1500 7550 1850
+Wire Wire Line
+	7150 1500 7550 1500
+Wire Wire Line
+	7150 1500 7150 1650
+Wire Wire Line
+	6500 1500 7150 1500
+Wire Wire Line
+	7150 2050 7250 2050
+Wire Wire Line
+	7150 1950 7150 2050
+Wire Wire Line
+	7550 2350 7550 2250
+Wire Wire Line
+	7650 2350 7550 2350
+$Comp
+L Device:R R?
+U 1 1 5E6BF929
+P 7150 1800
+AR Path="/5DCA6D60/5E6BF929" Ref="R?"  Part="1" 
+AR Path="/5DC1121D/5E6BF929" Ref="R49"  Part="1" 
+F 0 "R49" H 7220 1846 50  0000 L CNN
+F 1 "R" H 7220 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7080 1800 50  0001 C CNN
+F 3 "~" H 7150 1800 50  0001 C CNN
+	1    7150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E6BF923
+P 7450 2050
+AR Path="/5E6BF923" Ref="Q?"  Part="1" 
+AR Path="/5DCA6D60/5E6BF923" Ref="Q?"  Part="1" 
+AR Path="/5DC1121D/5E6BF923" Ref="Q3"  Part="1" 
+F 0 "Q3" H 7656 2096 50  0000 L CNN
+F 1 "DMP10H4D2S" H 7656 2005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7650 2150 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMP10H4D2S.pdf" H 7450 2050 50  0001 C CNN
+F 4 "Diodes Incorporated" H 7450 2050 50  0001 C CNN "Manufacturer"
+F 5 "DMP10H4D2S-7" H 7450 2050 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 7450 2050 50  0001 C CNN "Vendor"
+F 7 "DMP10H4D2S-7DICT-ND" H 7450 2050 50  0001 C CNN "Vendor Part"
+	1    7450 2050
+	1    0    0    1   
+$EndComp
+Text Label 7650 2350 0    50   ~ 0
+CHRG_LED
+Wire Wire Line
+	6900 3050 6800 3050
+Text Label 6900 3050 0    50   ~ 0
+CHRG_EN
+Connection ~ 7150 2050
+Wire Wire Line
+	7150 2050 7150 2150
+Wire Wire Line
+	6500 2750 7150 2750
+Wire Wire Line
+	7150 2450 7150 2750
+$Comp
+L Device:R R?
+U 1 1 5E6F49A8
+P 7150 2300
+AR Path="/5DCA6D60/5E6F49A8" Ref="R?"  Part="1" 
+AR Path="/5DC1121D/5E6F49A8" Ref="R50"  Part="1" 
+F 0 "R50" H 7220 2346 50  0000 L CNN
+F 1 "R" H 7220 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7080 2300 50  0001 C CNN
+F 3 "~" H 7150 2300 50  0001 C CNN
+	1    7150 2300
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7750 2350 8150 2350
+Text Notes 7950 2600 0    50   ~ 0
+I/O Panel\nCharge LED
+Wire Notes Line
+	8150 2350 8150 2400
+Wire Notes Line
+	8150 2650 8150 2700
+Wire Notes Line
+	7550 2700 8150 2700
 $EndSCHEMATC

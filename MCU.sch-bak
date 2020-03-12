@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -1173,92 +1172,6 @@ Text Label 8300 5650 2    50   ~ 0
 LV_RTN
 Text Label 8300 5450 2    50   ~ 0
 SLOOP1_IN
-$Comp
-L Device:C C2
-U 1 1 5DEF81CF
-P 8400 1600
-F 0 "C2" H 8515 1646 50  0000 L CNN
-F 1 "0.1u/50V" H 8515 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8438 1450 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8400 1600 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 8400 1600 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 8400 1600 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 8400 1600 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 8400 1600 50  0001 C CNN "Vendor Part"
-	1    8400 1600
-	-1   0    0    -1  
-$EndComp
-Text Label 8400 1350 0    50   ~ 0
-LV_3V3
-Wire Wire Line
-	8400 1350 8400 1450
-Text Label 8300 1850 2    50   ~ 0
-LV_RTN
-Wire Wire Line
-	8300 1850 8400 1850
-Wire Wire Line
-	8400 1750 8400 1850
-Connection ~ 8400 1850
-Wire Wire Line
-	8400 1850 8500 1850
-Wire Notes Line
-	10350 1000 7850 1000
-Wire Notes Line
-	10350 2200 10350 1000
-Wire Notes Line
-	7850 2200 10350 2200
-Wire Notes Line
-	7850 1000 7850 2200
-Text Notes 7900 1150 0    79   ~ 16
-Watchdog
-$Comp
-L Device:C C3
-U 1 1 5DF2261A
-P 8650 1850
-F 0 "C3" V 8800 1850 50  0000 C CNN
-F 1 "0.1u/50V" V 8900 1850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8688 1700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8650 1850 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 8650 1850 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 8650 1850 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 8650 1850 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 8650 1850 50  0001 C CNN "Vendor Part"
-	1    8650 1850
-	0    1    1    0   
-$EndComp
-Text Label 9900 1550 0    50   ~ 0
-LV_3V3
-Wire Wire Line
-	8900 1550 9000 1550
-Text Label 8900 1550 2    50   ~ 0
-~RESET
-Wire Wire Line
-	9900 1850 9800 1850
-Text Label 9900 1850 0    50   ~ 0
-WATCHDOG
-Wire Wire Line
-	9900 1550 9800 1550
-Wire Wire Line
-	8900 1700 9000 1700
-Text Label 8900 1700 2    50   ~ 0
-LV_RTN
-Wire Wire Line
-	8800 1850 9000 1850
-$Comp
-L Lafayette_Electric_Car_Internals:ADM6320 U3
-U 1 1 5DEF7D45
-P 9100 1450
-F 0 "U3" H 9400 1617 50  0000 C CNN
-F 1 "ADM6320" H 9400 1526 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9400 900 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM6316_6318_6319_6320_6321_6322.pdf" H 9200 1600 50  0001 C CNN
-F 4 "Analog Devices Inc." H 9100 1450 50  0001 C CNN "Manufacturer"
-F 5 "ADM6320CY29ARJZ-R7" H 9100 1450 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 9100 1450 50  0001 C CNN "Vendor"
-F 7 "ADM6320CY29ARJZ-R7CT-ND" H 9100 1450 50  0001 C CNN "Vendor Part"
-	1    9100 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8700 4250 8800 4250
 Wire Wire Line
@@ -1852,4 +1765,90 @@ Text Label 4150 1150 2    50   ~ 0
 LV_3V3
 Wire Wire Line
 	4150 1150 4150 1250
+$Comp
+L Device:C C2
+U 1 1 5DEF81CF
+P 8400 2300
+F 0 "C2" H 8515 2346 50  0000 L CNN
+F 1 "0.1u/50V" H 8515 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8438 2150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8400 2300 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8400 2300 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 8400 2300 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8400 2300 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 8400 2300 50  0001 C CNN "Vendor Part"
+	1    8400 2300
+	-1   0    0    -1  
+$EndComp
+Text Label 8400 2050 0    50   ~ 0
+LV_3V3
+Wire Wire Line
+	8400 2050 8400 2150
+Text Label 8300 2550 2    50   ~ 0
+LV_RTN
+Wire Wire Line
+	8300 2550 8400 2550
+Wire Wire Line
+	8400 2450 8400 2550
+Connection ~ 8400 2550
+Wire Wire Line
+	8400 2550 8500 2550
+Wire Notes Line
+	10350 1700 7850 1700
+Wire Notes Line
+	10350 2900 10350 1700
+Wire Notes Line
+	7850 2900 10350 2900
+Wire Notes Line
+	7850 1700 7850 2900
+Text Notes 7900 1850 0    79   ~ 16
+Watchdog
+$Comp
+L Device:C C3
+U 1 1 5DF2261A
+P 8650 2550
+F 0 "C3" V 8800 2550 50  0000 C CNN
+F 1 "0.1u/50V" V 8900 2550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8688 2400 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 8650 2550 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8650 2550 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 8650 2550 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 8650 2550 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 8650 2550 50  0001 C CNN "Vendor Part"
+	1    8650 2550
+	0    1    1    0   
+$EndComp
+Text Label 9900 2250 0    50   ~ 0
+LV_3V3
+Wire Wire Line
+	8900 2250 9000 2250
+Text Label 8900 2250 2    50   ~ 0
+~RESET
+Wire Wire Line
+	9900 2550 9800 2550
+Text Label 9900 2550 0    50   ~ 0
+WATCHDOG
+Wire Wire Line
+	9900 2250 9800 2250
+Wire Wire Line
+	8900 2400 9000 2400
+Text Label 8900 2400 2    50   ~ 0
+LV_RTN
+Wire Wire Line
+	8800 2550 9000 2550
+$Comp
+L Lafayette_Electric_Car_Internals:ADM6320 U3
+U 1 1 5DEF7D45
+P 9100 2150
+F 0 "U3" H 9400 2317 50  0000 C CNN
+F 1 "ADM6320" H 9400 2226 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9400 1600 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM6316_6318_6319_6320_6321_6322.pdf" H 9200 2300 50  0001 C CNN
+F 4 "Analog Devices Inc." H 9100 2150 50  0001 C CNN "Manufacturer"
+F 5 "ADM6320CY29ARJZ-R7" H 9100 2150 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 9100 2150 50  0001 C CNN "Vendor"
+F 7 "ADM6320CY29ARJZ-R7CT-ND" H 9100 2150 50  0001 C CNN "Vendor Part"
+	1    9100 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

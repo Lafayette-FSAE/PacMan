@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -202,7 +201,7 @@ Text HLabel 9600 1450 2    50   Input ~ 0
 CHRG_LED
 Wire Wire Line
 	9500 1450 9600 1450
-Text Label 7150 2600 0    50   ~ 0
+Text Label 7650 2350 0    50   ~ 0
 CHRG_LED
 Wire Wire Line
 	5200 3900 5200 3800
@@ -338,7 +337,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2750 7150 2750
 Wire Wire Line
-	7150 2750 7150 2600
+	7150 2750 7150 2050
 Wire Wire Line
 	5850 2750 5850 2650
 Wire Wire Line
@@ -370,10 +369,8 @@ F 7 "DMN3730U-7DICT-ND" H 6600 3050 50  0001 C CNN "Vendor Part"
 	-1   0    0    -1  
 $EndComp
 Wire Notes Line
-	6600 1500 7150 1500
-Wire Notes Line
-	7150 1500 7150 2500
-Text Notes 7200 2000 0    50   ~ 0
+	7750 2350 8300 2350
+Text Notes 8100 2600 0    50   ~ 0
 I/O Panel\nCharge LED
 Wire Wire Line
 	4950 1500 5050 1500
@@ -416,4 +413,66 @@ Wire Wire Line
 Wire Wire Line
 	7850 4150 7750 4150
 Connection ~ 7750 4150
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E6BF923
+P 7450 2050
+AR Path="/5E6BF923" Ref="Q?"  Part="1" 
+AR Path="/5DCA6D60/5E6BF923" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7656 2096 50  0000 L CNN
+F 1 "DMP10H4D2S" H 7656 2005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7650 2150 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMP10H4D2S.pdf" H 7450 2050 50  0001 C CNN
+F 4 "Diodes Incorporated" H 7450 2050 50  0001 C CNN "Manufacturer"
+F 5 "DMP10H4D2S-7" H 7450 2050 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 7450 2050 50  0001 C CNN "Vendor"
+F 7 "DMP10H4D2S-7DICT-ND" H 7450 2050 50  0001 C CNN "Vendor Part"
+	1    7450 2050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E6BF929
+P 7150 1800
+AR Path="/5DCA6D60/5E6BF929" Ref="R?"  Part="1" 
+AR Path="/5DC1121D/5E6BF929" Ref="R?"  Part="1" 
+F 0 "R?" H 7220 1846 50  0000 L CNN
+F 1 "10k" H 7220 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7080 1800 50  0001 C CNN
+F 3 "~" H 7150 1800 50  0001 C CNN
+	1    7150 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2350 7550 2350
+Wire Wire Line
+	7550 2350 7550 2250
+Wire Wire Line
+	7150 1950 7150 2050
+Wire Wire Line
+	7150 2050 7250 2050
+Connection ~ 7150 2050
+Wire Wire Line
+	6500 1500 7150 1500
+Wire Wire Line
+	7150 1500 7150 1650
+Wire Wire Line
+	7150 1500 7550 1500
+Wire Wire Line
+	7550 1500 7550 1850
+Connection ~ 7150 1500
+Wire Notes Line
+	8300 2350 8300 2400
+Wire Notes Line
+	8300 2650 8300 2700
+Wire Notes Line
+	7550 2700 7550 2750
+Wire Notes Line
+	7550 2700 8300 2700
+Wire Notes Line
+	7498 2764 7608 2764
+Wire Notes Line
+	7513 2789 7593 2789
+Wire Notes Line
+	7528 2814 7578 2814
 $EndSCHEMATC
