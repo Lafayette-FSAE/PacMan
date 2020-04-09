@@ -1748,11 +1748,11 @@ AR Path="/5DC1F176/5E6BB30B" Ref="C41"  Part="1"
 F 0 "C41" H 4415 1446 50  0000 L CNN
 F 1 "1u/50V" H 4415 1355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4338 1250 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 4300 1400 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B105KBFNNNG-19.pdf" H 4300 1400 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 4300 1400 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 4300 1400 50  0001 C CNN "Manufacturer Part"
+F 5 "CL21B105KBFNNNG" H 4300 1400 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 4300 1400 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 4300 1400 50  0001 C CNN "Vendor Part"
+F 7 "1276-6470-1-ND" H 4300 1400 50  0001 C CNN "Vendor Part"
 	1    4300 1400
 	-1   0    0    -1  
 $EndComp

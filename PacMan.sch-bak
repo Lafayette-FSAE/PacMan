@@ -153,8 +153,6 @@ Text Label 9250 5700 2    50   ~ 0
 BTN_CENTER
 Text Label 9950 5300 0    50   ~ 0
 CHRG_LED
-Text Label 9950 5400 0    50   ~ 0
-LV_24V
 Text Label 9950 5600 0    50   ~ 0
 LV_3V3
 Text Label 9950 6200 0    50   ~ 0
@@ -335,8 +333,6 @@ Wire Wire Line
 	9950 5700 9850 5700
 Wire Wire Line
 	9850 5600 9950 5600
-Wire Wire Line
-	9850 5400 9950 5400
 Wire Wire Line
 	9950 5300 9850 5300
 Wire Wire Line
@@ -1230,4 +1226,5 @@ F18 "5V_SEG+" I L 4250 2350 50
 F19 "5V_TSV" I L 4250 1550 50 
 F20 "RTN_TSV" I L 4250 1650 50 
 $EndSheet
+NoConn ~ 9850 5400
 $EndSCHEMATC
