@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -8,9 +9,9 @@ Title "PacMan: I2C Isolation"
 Date "2020-02-20"
 Rev "1.3"
 Comp "Lafayette College"
-Comment1 "I2C Isolation: Isolates the I2C bus between GLV and TSV"
-Comment2 "Jon Abel"
-Comment3 ""
+Comment1 "Formula Electric Racecar Team"
+Comment2 "PacMan accumulator management board"
+Comment3 "Jon Abel, abeljon@lafayette.edu"
 Comment4 ""
 $EndDescr
 Text HLabel 9550 1350 2    50   Input ~ 0
@@ -97,9 +98,9 @@ Text HLabel 1350 2200 0    50   Input ~ 0
 CHRG_DETECT-
 Text HLabel 1350 2100 0    50   Input ~ 0
 CHRG_DETECT+
-Wire Notes Line
+Wire Notes Line width 12 style solid
 	5500 900  5500 550 
-Wire Notes Line
+Wire Notes Line width 12 style solid
 	5500 4300 5500 4600
 Text Label 9450 1600 2    50   ~ 0
 ~CHRG_DETECT
@@ -208,7 +209,7 @@ Wire Wire Line
 Connection ~ 3850 4500
 Wire Wire Line
 	4250 4900 5200 4900
-Wire Notes Line
+Wire Notes Line width 12 style solid
 	5500 5200 5500 5300
 Text Label 9450 1750 2    50   ~ 0
 AIRS+
@@ -417,47 +418,47 @@ Wire Wire Line
 $Comp
 L Device:R R23
 U 1 1 5E1CF5A8
-P 8500 3000
-F 0 "R23" H 8570 3046 50  0000 L CNN
-F 1 "3.3k" H 8570 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8430 3000 50  0001 C CNN
-F 3 "~" H 8500 3000 50  0001 C CNN
-	1    8500 3000
+P 8200 2850
+F 0 "R23" H 8270 2896 50  0000 L CNN
+F 1 "3.3k" H 8270 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8130 2850 50  0001 C CNN
+F 3 "~" H 8200 2850 50  0001 C CNN
+	1    8200 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R27
 U 1 1 5E1CF5B2
-P 8850 3000
-F 0 "R27" H 8920 3046 50  0000 L CNN
-F 1 "3.3k" H 8920 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8780 3000 50  0001 C CNN
-F 3 "~" H 8850 3000 50  0001 C CNN
-	1    8850 3000
+P 8550 2850
+F 0 "R27" H 8620 2896 50  0000 L CNN
+F 1 "3.3k" H 8620 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8480 2850 50  0001 C CNN
+F 3 "~" H 8550 2850 50  0001 C CNN
+	1    8550 2850
 	1    0    0    -1  
 $EndComp
-Text Label 8400 3250 2    50   ~ 0
+Text Label 8100 3100 2    50   ~ 0
 SDA_GLV
-Text Label 8950 3250 0    50   ~ 0
+Text Label 8650 3100 0    50   ~ 0
 SCL_GLV
 Wire Wire Line
-	8950 3250 8850 3250
+	8650 3100 8550 3100
 Wire Wire Line
-	8850 3250 8850 3150
+	8550 3100 8550 3000
 Wire Wire Line
-	8400 3250 8500 3250
+	8100 3100 8200 3100
 Wire Wire Line
-	8500 3250 8500 3150
+	8200 3100 8200 3000
 Wire Wire Line
-	8950 2750 8850 2750
+	8650 2600 8550 2600
 Wire Wire Line
-	8850 2750 8850 2850
+	8550 2600 8550 2700
 Wire Wire Line
-	8850 2750 8500 2750
+	8550 2600 8200 2600
 Wire Wire Line
-	8500 2750 8500 2850
-Connection ~ 8850 2750
-Text Label 8950 2750 0    50   ~ 0
+	8200 2600 8200 2700
+Connection ~ 8550 2600
+Text Label 8650 2600 0    50   ~ 0
 LV_3V3
 $Comp
 L Isolator:TLP291 ISO?
@@ -477,7 +478,7 @@ F 7 "TLP293(GR-TPLECT-ND" H 5500 4100 50  0001 C CNN "Vendor Part"
 	1    5500 4100
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
+Wire Notes Line width 12 style solid
 	5500 3200 5500 3700
 Wire Wire Line
 	3750 4200 3850 4200
@@ -994,9 +995,9 @@ Wire Wire Line
 Wire Wire Line
 	4250 4200 4800 4200
 Connection ~ 4250 4200
-Wire Notes Line
+Wire Notes Line width 12 style solid
 	5500 5900 5500 6050
-Wire Notes Line
+Wire Notes Line width 12 style solid
 	5500 6650 5500 7950
 Text Label 1450 2600 0    50   ~ 0
 RST_SEG-
@@ -1134,4 +1135,12 @@ Connection ~ 6700 4000
 Wire Wire Line
 	6300 4000 5900 4000
 Connection ~ 5900 4000
+Text Notes 3150 5000 2    50   ~ 0
+PMOS switch only sends power\nto busbar current sensor when\nthe AIRs are closed
+Text Notes 3000 4000 2    50   ~ 0
+When charge detect nets are shorted,\npull ~CHRG_DETECT low
+Text Notes 7250 4400 0    50   ~ 0
+Lowpass filter to elminate\npossible connector bouncing\n(can leave unpopulated if not\nnecessary)
+Text Notes 9100 2950 0    50   ~ 0
+Consider lower value\npull-up resistors if I2C\nFast-mode is unstable
 $EndSCHEMATC

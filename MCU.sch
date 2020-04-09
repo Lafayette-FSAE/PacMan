@@ -1,19 +1,20 @@
 EESchema Schematic File Version 4
+LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 5 5
+Sheet 3 5
 Title "PacMan: MCU, SLOOP, CANBus"
 Date "2020-02-20"
 Rev "1.3"
 Comp "Lafayette College"
-Comment1 "MCU, SLOOP, CANBus: Contains the controlling MCU, SLOOP relay, and CAN tranceiver"
-Comment2 "Jon Abel"
-Comment3 ""
+Comment1 "Formula Electric Racecar Team"
+Comment2 "PacMan accumulator management board"
+Comment3 "Jon Abel, abeljon@lafayette.edu"
 Comment4 ""
 $EndDescr
-Text Label 5000 2150 2    50   ~ 0
+Text Label 5150 2150 2    50   ~ 0
 SLOOP_EN
 Text Label 1350 1350 0    50   ~ 0
 SLOOP1_IN
@@ -42,48 +43,46 @@ Wire Wire Line
 $Comp
 L Device:LED D2
 U 1 1 5DCA44E3
-P 3750 2550
-F 0 "D2" H 3743 2766 50  0000 C CNN
-F 1 "LED_GREEN" H 3743 2675 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 2550 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C170GKT.pdf" H 3750 2550 50  0001 C CNN
-F 4 "Lite-On Inc." H 3750 2550 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C170GKT" H 3750 2550 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3750 2550 50  0001 C CNN "Vendor"
-F 7 "160-1179-1-ND" H 3750 2550 50  0001 C CNN "Vendor Part"
-	1    3750 2550
+P 3850 2550
+F 0 "D2" H 3843 2766 50  0000 C CNN
+F 1 "LED_GREEN" H 3843 2675 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3850 2550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C170GKT.pdf" H 3850 2550 50  0001 C CNN
+F 4 "Lite-On Inc." H 3850 2550 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C170GKT" H 3850 2550 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3850 2550 50  0001 C CNN "Vendor"
+F 7 "160-1179-1-ND" H 3850 2550 50  0001 C CNN "Vendor Part"
+	1    3850 2550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:LED D3
 U 1 1 5DCA4657
-P 3750 2950
-F 0 "D3" H 3743 3166 50  0000 C CNN
-F 1 "LED_ORANGE" H 3743 3075 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 2950 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-99-0170/LTST-C171AKT.pdf" H 3750 2950 50  0001 C CNN
-F 4 "Lite-On Inc." H 3750 2950 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C171AKT" H 3750 2950 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 3750 2950 50  0001 C CNN "Vendor"
-F 7 "160-1419-1-ND" H 3750 2950 50  0001 C CNN "Vendor Part"
-	1    3750 2950
+P 3850 2950
+F 0 "D3" H 3843 3166 50  0000 C CNN
+F 1 "LED_ORANGE" H 3843 3075 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3850 2950 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-99-0170/LTST-C171AKT.pdf" H 3850 2950 50  0001 C CNN
+F 4 "Lite-On Inc." H 3850 2950 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C171AKT" H 3850 2950 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 3850 2950 50  0001 C CNN "Vendor"
+F 7 "160-1419-1-ND" H 3850 2950 50  0001 C CNN "Vendor Part"
+	1    3850 2950
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 5DCA4D97
-P 3350 2950
-F 0 "R8" V 3143 2950 50  0000 C CNN
-F 1 "270" V 3234 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3280 2950 50  0001 C CNN
-F 3 "~" H 3350 2950 50  0001 C CNN
-	1    3350 2950
+P 3450 2950
+F 0 "R8" V 3243 2950 50  0000 C CNN
+F 1 "270" V 3334 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3380 2950 50  0001 C CNN
+F 3 "~" H 3450 2950 50  0001 C CNN
+	1    3450 2950
 	0    -1   1    0   
 $EndComp
-Text Label 3100 2550 2    50   ~ 0
-LED1
-Text Label 3100 2950 2    50   ~ 0
-LED2
+Text Label 3200 2950 2    50   ~ 0
+LED_O
 Text HLabel 1250 1100 0    50   Input ~ 0
 LV_5V
 Text HLabel 1250 1200 0    50   Input ~ 0
@@ -96,7 +95,7 @@ Text Label 1350 1100 0    50   ~ 0
 LV_5V
 Text Label 1350 1200 0    50   ~ 0
 LV_RTN
-Text Label 5000 950  2    50   ~ 0
+Text Label 5150 950  2    50   ~ 0
 LV_3V3
 Text HLabel 1250 900  0    50   Input ~ 0
 LV_24V
@@ -136,9 +135,9 @@ Wire Wire Line
 	1250 1950 1350 1950
 Wire Wire Line
 	1350 2050 1250 2050
-Text Label 5000 1750 2    50   ~ 0
+Text Label 5150 1750 2    50   ~ 0
 CANTX
-Text Label 5000 1850 2    50   ~ 0
+Text Label 5150 1850 2    50   ~ 0
 CANRX
 $Comp
 L Interface_CAN_LIN:MCP2551-I-SN U4
@@ -231,12 +230,12 @@ Do not populate 120 Ohm resistor!\nFootprint is included for debugging.
 $Comp
 L Device:R R7
 U 1 1 5DCA488F
-P 3350 2550
-F 0 "R7" V 3143 2550 50  0000 C CNN
-F 1 "270" V 3234 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3280 2550 50  0001 C CNN
-F 3 "~" H 3350 2550 50  0001 C CNN
-	1    3350 2550
+P 3450 2550
+F 0 "R7" V 3243 2550 50  0000 C CNN
+F 1 "270" V 3334 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3380 2550 50  0001 C CNN
+F 3 "~" H 3450 2550 50  0001 C CNN
+	1    3450 2550
 	0    -1   1    0   
 $EndComp
 Text Label 1350 2550 0    50   ~ 0
@@ -251,27 +250,27 @@ Wire Wire Line
 	1250 2550 1350 2550
 Wire Wire Line
 	1350 2650 1250 2650
-Text Label 5000 1050 2    50   ~ 0
+Text Label 5150 1050 2    50   ~ 0
 ~RESET
-Text Label 5000 2750 2    50   ~ 0
+Text Label 5150 2750 2    50   ~ 0
 LV_5V
 Wire Wire Line
-	3100 2550 3200 2550
+	3200 2550 3300 2550
 Wire Wire Line
-	3100 2950 3200 2950
+	3200 2950 3300 2950
 Wire Wire Line
-	3500 2950 3600 2950
+	3600 2950 3700 2950
 Wire Wire Line
-	3500 2550 3600 2550
+	3600 2550 3700 2550
 Wire Wire Line
-	3900 2550 4000 2550
+	4000 2550 4100 2550
 Wire Wire Line
-	3900 2950 4000 2950
-Text Label 4000 2950 0    50   ~ 0
+	4000 2950 4100 2950
+Text Label 4100 2950 0    50   ~ 0
 LV_RTN
-Text Label 4000 2550 0    50   ~ 0
+Text Label 4100 2550 0    50   ~ 0
 LV_RTN
-Text Label 5000 2250 2    50   ~ 0
+Text Label 5150 2250 2    50   ~ 0
 LV_RTN
 Text Label 3900 7750 2    50   ~ 0
 LV_RTN
@@ -512,22 +511,22 @@ F 3 "~" H 1800 6250 50  0001 C CNN
 	1    1800 6250
 	0    1    -1   0   
 $EndComp
-Text Label 5000 2350 2    50   ~ 0
+Text Label 5150 2350 2    50   ~ 0
 DISP_DIN
-Text Label 5000 2050 2    50   ~ 0
+Text Label 5150 2050 2    50   ~ 0
 DISP_CLK
-Text Label 6800 2450 0    50   ~ 0
+Text Label 6950 2450 0    50   ~ 0
 DISP_CS
-Text Label 6800 1150 0    50   ~ 0
+Text Label 6950 1150 0    50   ~ 0
 DISP_DC
-Text Label 6800 1450 0    50   ~ 0
+Text Label 6950 1450 0    50   ~ 0
 DISP_RST
-Text Label 6800 2050 0    50   ~ 0
+Text Label 6950 2050 0    50   ~ 0
 DISP_BUSY
 Text Label 4800 5500 0    50   ~ 0
-LED1
+LED_G
 Text Label 4800 5600 0    50   ~ 0
-LED2
+LED_O
 $Comp
 L Device:C C4
 U 1 1 5DCC133F
@@ -871,25 +870,25 @@ Wire Wire Line
 Text HLabel 1250 2750 0    50   Input ~ 0
 CAN_SHIELD
 Wire Wire Line
-	5000 2350 5100 2350
+	5150 2350 5250 2350
 Wire Wire Line
-	5100 2050 5000 2050
+	5250 2050 5150 2050
 Wire Wire Line
-	6800 2450 6700 2450
+	6950 2450 6850 2450
 Wire Wire Line
-	6700 1150 6800 1150
+	6850 1150 6950 1150
 Wire Wire Line
-	6800 1450 6700 1450
+	6950 1450 6850 1450
 Wire Wire Line
-	6700 2050 6800 2050
+	6850 2050 6950 2050
 Wire Wire Line
-	6700 1850 6800 1850
+	6850 1850 6950 1850
 Wire Wire Line
-	6800 1950 6700 1950
+	6950 1950 6850 1950
 Wire Wire Line
-	5100 1650 5000 1650
+	5250 1650 5150 1650
 Wire Wire Line
-	6800 2150 6700 2150
+	6950 2150 6850 2150
 Text Label 1350 1000 0    50   ~ 0
 LV_3V3
 Text HLabel 1250 1000 0    50   Input ~ 0
@@ -906,15 +905,15 @@ Text HLabel 2750 750  0    50   Input ~ 0
 BTN_RIGHT
 Text HLabel 2750 650  0    50   Input ~ 0
 BTN_LEFT
-Text Label 6800 1850 0    50   ~ 0
+Text Label 6950 1850 0    50   ~ 0
 BTN_LEFT_MCU
-Text Label 5000 1350 2    50   ~ 0
+Text Label 5150 1350 2    50   ~ 0
 BTN_RIGHT_MCU
-Text Label 5000 1450 2    50   ~ 0
+Text Label 5150 1450 2    50   ~ 0
 BTN_UP_MCU
-Text Label 5000 1550 2    50   ~ 0
+Text Label 5150 1550 2    50   ~ 0
 BTN_DOWN_MCU
-Text Label 5000 1650 2    50   ~ 0
+Text Label 5150 1650 2    50   ~ 0
 BTN_CENTER_MCU
 Text Label 2050 3850 0    50   ~ 0
 BTN_LEFT
@@ -1072,8 +1071,8 @@ F 7 "S1B-FDICT-ND" H 6400 5450 50  0001 C CNN "Vendor Part"
 	1    6400 5450
 	0    1    1    0   
 $EndComp
-Text Notes 6650 5750 0    50   ~ 0
-R=2880
+Text Notes 6650 5850 0    50   ~ 0
+R=2880\nI=8.33mA
 Wire Wire Line
 	6400 5300 6500 5300
 Wire Wire Line
@@ -1187,49 +1186,49 @@ SLOOP1_STATUS
 Text Label 4800 6100 0    50   ~ 0
 SLOOP2_STATUS
 Wire Wire Line
-	5100 1950 5000 1950
+	5250 1950 5150 1950
 Wire Wire Line
-	5100 1850 5000 1850
+	5250 1850 5150 1850
 Wire Wire Line
-	5100 1750 5000 1750
+	5250 1750 5150 1750
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5E29B771
-P 2350 2850
-F 0 "TP8" H 2408 2968 50  0000 L CNN
-F 1 "SDA" H 2408 2877 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2550 2850 50  0001 C CNN
-F 3 "~" H 2550 2850 50  0001 C CNN
-	1    2350 2850
+P 2450 2850
+F 0 "TP8" H 2508 2968 50  0000 L CNN
+F 1 "SDA" H 2508 2877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2650 2850 50  0001 C CNN
+F 3 "~" H 2650 2850 50  0001 C CNN
+	1    2450 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5E29B90A
-P 2350 2450
-F 0 "TP9" H 2408 2568 50  0000 L CNN
-F 1 "SCL" H 2408 2477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2550 2450 50  0001 C CNN
-F 3 "~" H 2550 2450 50  0001 C CNN
-	1    2350 2450
+P 2450 2450
+F 0 "TP9" H 2508 2568 50  0000 L CNN
+F 1 "SCL" H 2508 2477 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2650 2450 50  0001 C CNN
+F 3 "~" H 2650 2450 50  0001 C CNN
+	1    2450 2450
 	1    0    0    -1  
 $EndComp
-Text Label 2450 2950 0    50   ~ 0
+Text Label 2550 2950 0    50   ~ 0
 SDA_GLV
-Text Label 2450 2550 0    50   ~ 0
+Text Label 2550 2550 0    50   ~ 0
 SCL_GLV
 Wire Wire Line
-	2450 2550 2350 2550
+	2550 2550 2450 2550
 Wire Wire Line
-	2350 2550 2350 2450
+	2450 2550 2450 2450
 Wire Wire Line
-	2450 2950 2350 2950
+	2550 2950 2450 2950
 Wire Wire Line
-	2350 2950 2350 2850
+	2450 2950 2450 2850
 Text Notes 5400 5050 2    50   ~ 0
-1mA draw
+~~1mA draw
 Text Notes 4800 3350 2    50   ~ 0
-1mA draw
+~~1mA draw
 $Comp
 L Timer_RTC:BQ32002 U7
 U 1 1 5E260365
@@ -1353,78 +1352,78 @@ Connection ~ 6800 3400
 $Comp
 L Lafayette_Electric_Car_Internals:ESP32_DEVKITC U5
 U 1 1 5E21D3A6
-P 5300 850
-F 0 "U5" H 5900 1017 50  0000 C CNN
-F 1 "ESP32_DEVKITC" H 5900 926 50  0000 C CNN
-F 2 "Lafayette_Electric_Car_Footprints:MODULE_ESP32-DEVKITC-32D" H 5050 1050 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 5050 1050 50  0001 C CNN
-F 4 "Espressif Systems" H 5300 850 50  0001 C CNN "Manufacturer"
-F 5 "ESP32-DEVKITC-32D" H 5300 850 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 5300 850 50  0001 C CNN "Vendor"
-F 7 "1965-1000-ND" H 5300 850 50  0001 C CNN "Vendor Part"
-	1    5300 850 
+P 5450 850
+F 0 "U5" H 6050 1017 50  0000 C CNN
+F 1 "ESP32_DEVKITC" H 6050 926 50  0000 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:MODULE_ESP32-DEVKITC-32D" H 5200 1050 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 5200 1050 50  0001 C CNN
+F 4 "Espressif Systems" H 5450 850 50  0001 C CNN "Manufacturer"
+F 5 "ESP32-DEVKITC-32D" H 5450 850 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 5450 850 50  0001 C CNN "Vendor"
+F 7 "1965-1000-ND" H 5450 850 50  0001 C CNN "Vendor Part"
+	1    5450 850 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 2750 5100 2750
-Text Label 6800 950  0    50   ~ 0
+	5150 2750 5250 2750
+Text Label 6950 950  0    50   ~ 0
 LV_RTN
-Text Label 6800 1550 0    50   ~ 0
+Text Label 6950 1550 0    50   ~ 0
 LV_RTN
 Wire Wire Line
-	6800 1550 6700 1550
+	6950 1550 6850 1550
 Wire Wire Line
-	6800 950  6700 950 
+	6950 950  6850 950 
 Wire Wire Line
-	5000 2250 5100 2250
+	5150 2250 5250 2250
 Wire Wire Line
-	5000 1050 5100 1050
-NoConn ~ 6700 2750
-NoConn ~ 6700 2650
-NoConn ~ 6700 2550
-NoConn ~ 5100 2650
-NoConn ~ 5100 2550
-NoConn ~ 5100 2450
+	5150 1050 5250 1050
+NoConn ~ 6850 2750
+NoConn ~ 6850 2650
+NoConn ~ 6850 2550
+NoConn ~ 5250 2650
+NoConn ~ 5250 2550
+NoConn ~ 5250 2450
 Wire Wire Line
-	6800 1750 6700 1750
+	6950 1750 6850 1750
 Wire Wire Line
-	6700 1650 6800 1650
-Text Label 6800 1650 0    50   ~ 0
+	6850 1650 6950 1650
+Text Label 6950 1650 0    50   ~ 0
 SDA_GLV
-Text Label 6800 1750 0    50   ~ 0
+Text Label 6950 1750 0    50   ~ 0
 SCL_GLV
 Wire Wire Line
-	5000 1350 5100 1350
+	5150 1350 5250 1350
 Wire Wire Line
-	5000 1450 5100 1450
+	5150 1450 5250 1450
 Wire Wire Line
-	5000 1550 5100 1550
+	5150 1550 5250 1550
 Wire Wire Line
-	6700 2350 6800 2350
-Text Label 6800 2350 0    50   ~ 0
+	6850 2350 6950 2350
+Text Label 6950 2350 0    50   ~ 0
 CHRG_EN
-Text Notes 5450 750  2    50   ~ 0
-1A Max 3V3 Current\n(~~500mA max given 5V limit)
-Text Label 6800 1950 0    50   ~ 0
+Text Notes 5650 750  2    50   ~ 0
+1A Max 3V3 Current Output\n(~~500mA max due to 5V regulator limit)
+Text Label 6950 1950 0    50   ~ 0
 ~CHRG_DETECT
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 5E24059D
-P 4650 950
-F 0 "#FLG0104" H 4650 1025 50  0001 C CNN
-F 1 "PWR_FLAG" V 4650 1077 50  0000 L CNN
-F 2 "" H 4650 950 50  0001 C CNN
-F 3 "~" H 4650 950 50  0001 C CNN
-	1    4650 950 
+P 4800 950
+F 0 "#FLG0104" H 4800 1025 50  0001 C CNN
+F 1 "PWR_FLAG" V 4800 1077 50  0000 L CNN
+F 2 "" H 4800 950 50  0001 C CNN
+F 3 "~" H 4800 950 50  0001 C CNN
+	1    4800 950 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4650 950  5100 950 
-Text Label 6800 2150 0    50   ~ 0
+	4800 950  5250 950 
+Text Label 6950 2150 0    50   ~ 0
 CHRG_CURRENT
 Wire Wire Line
-	6700 1050 6800 1050
-Text Label 6800 1050 0    50   ~ 0
+	6850 1050 6950 1050
+Text Label 6950 1050 0    50   ~ 0
 WATCHDOG
 $Comp
 L Device:Q_NMOS_GSD Q?
@@ -1443,13 +1442,13 @@ F 7 "DMN3730U-7DICT-ND" H 6300 6000 50  0001 C CNN "Vendor Part"
 	1    6300 6000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6700 2250
-NoConn ~ 6700 1250
-NoConn ~ 6700 1350
-Text Label 5000 1950 2    50   ~ 0
+NoConn ~ 6850 2250
+NoConn ~ 6850 1250
+NoConn ~ 6850 1350
+Text Label 5150 1950 2    50   ~ 0
 IO_INT
 Wire Wire Line
-	5000 2150 5100 2150
+	5150 2150 5250 2150
 Text Label 3900 6100 2    50   ~ 0
 IO_INT
 Wire Wire Line
@@ -1737,34 +1736,34 @@ Wire Wire Line
 	1250 750  1350 750 
 Text Label 4800 5900 0    50   ~ 0
 GLV_STATUS
-NoConn ~ 5100 1150
-NoConn ~ 5100 1250
+NoConn ~ 5250 1150
+NoConn ~ 5250 1250
 $Comp
 L Device:C C?
 U 1 1 5E6BB30B
-P 4150 1400
+P 4300 1400
 AR Path="/5DC814A3/5E6BB30B" Ref="C?"  Part="1" 
 AR Path="/5E6BB30B" Ref="C?"  Part="1" 
 AR Path="/5DC1F176/5E6BB30B" Ref="C41"  Part="1" 
-F 0 "C41" H 4265 1446 50  0000 L CNN
-F 1 "0.1u/50V" H 4265 1355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4188 1250 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 4150 1400 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 4150 1400 50  0001 C CNN "Manufacturer"
-F 5 "CL21B104KBCNNNC" H 4150 1400 50  0001 C CNN "Manufacturer Part"
-F 6 "Digikey" H 4150 1400 50  0001 C CNN "Vendor"
-F 7 "1276-1003-1-ND" H 4150 1400 50  0001 C CNN "Vendor Part"
-	1    4150 1400
+F 0 "C41" H 4415 1446 50  0000 L CNN
+F 1 "1u/50V" H 4415 1355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4338 1250 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B104KBCNNNC-19.pdf" H 4300 1400 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4300 1400 50  0001 C CNN "Manufacturer"
+F 5 "CL21B104KBCNNNC" H 4300 1400 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 4300 1400 50  0001 C CNN "Vendor"
+F 7 "1276-1003-1-ND" H 4300 1400 50  0001 C CNN "Vendor Part"
+	1    4300 1400
 	-1   0    0    -1  
 $EndComp
-Text Label 4150 1650 2    50   ~ 0
+Text Label 4300 1650 2    50   ~ 0
 LV_RTN
 Wire Wire Line
-	4150 1550 4150 1650
-Text Label 4150 1150 2    50   ~ 0
+	4300 1550 4300 1650
+Text Label 4300 1150 2    50   ~ 0
 LV_3V3
 Wire Wire Line
-	4150 1150 4150 1250
+	4300 1150 4300 1250
 $Comp
 L Device:C C2
 U 1 1 5DEF81CF
@@ -1851,4 +1850,10 @@ F 7 "ADM6320CY29ARJZ-R7CT-ND" H 9100 2150 50  0001 C CNN "Vendor Part"
 	1    9100 2150
 	1    0    0    -1  
 $EndComp
+Text Notes 7700 3100 2    50   ~ 0
+~~100uA draw
+Text Label 3200 2550 2    50   ~ 0
+LED_G
+Text Notes 10300 1800 2    50   ~ 0
+~~10uA draw
 $EndSCHEMATC

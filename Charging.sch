@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -8,9 +9,9 @@ Title "PacMan: Charging"
 Date "2020-02-20"
 Rev "1.3"
 Comp "Lafayette College"
-Comment1 "Charging: Controls charging relays and measure charging current"
-Comment2 "Jon Abel"
-Comment3 ""
+Comment1 "Formula Electric Racecar Team"
+Comment2 "PacMan accumulator management board"
+Comment3 "Jon Abel, abeljon@lafayette.edu"
 Comment4 ""
 $EndDescr
 Text HLabel 1250 1200 0    50   Input ~ 0
@@ -185,11 +186,11 @@ Text Label 9500 1750 2    50   ~ 0
 LV_5V
 Wire Wire Line
 	9500 1750 9600 1750
-Wire Notes Line
+Wire Notes Line width 12 style solid
 	5350 3950 5350 2750
-Wire Notes Line
+Wire Notes Line width 12 style solid
 	5350 1200 5350 600 
-Wire Notes Line
+Wire Notes Line width 12 style solid
 	5350 4450 5350 7850
 Text Label 7850 4750 0    50   ~ 0
 LV_RTN
@@ -252,10 +253,8 @@ Wire Wire Line
 	5650 2350 5850 2350
 Wire Wire Line
 	5850 2350 5850 1500
-Text Notes 5550 1800 1    50   ~ 0
-R=576
-Text Notes 5550 2650 1    50   ~ 0
-R=576
+Text Notes 5400 2050 0    50   ~ 0
+R=576\nI=42mA
 Wire Wire Line
 	5850 2350 5950 2350
 Connection ~ 5850 2350
@@ -371,19 +370,8 @@ Wire Wire Line
 Wire Wire Line
 	5200 4600 5200 4500
 Connection ~ 5100 4600
-Wire Notes Line
+Wire Notes Line width 12 style solid
 	5350 2050 5350 1900
-$Comp
-L Device:C C40
-U 1 1 5E57E215
-P 7750 4400
-F 0 "C40" H 7865 4446 50  0000 L CNN
-F 1 "C" H 7865 4355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7788 4250 50  0001 C CNN
-F 3 "~" H 7750 4400 50  0001 C CNN
-	1    7750 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7750 4150 7750 4250
 Wire Wire Line
@@ -431,7 +419,7 @@ P 7150 1800
 AR Path="/5DCA6D60/5E6BF929" Ref="R?"  Part="1" 
 AR Path="/5DC1121D/5E6BF929" Ref="R49"  Part="1" 
 F 0 "R49" H 7220 1846 50  0000 L CNN
-F 1 "R" H 7220 1755 50  0000 L CNN
+F 1 "4.7k" H 7220 1755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7080 1800 50  0001 C CNN
 F 3 "~" H 7150 1800 50  0001 C CNN
 	1    7150 1800
@@ -461,26 +449,8 @@ Wire Wire Line
 	6900 3050 6800 3050
 Text Label 6900 3050 0    50   ~ 0
 CHRG_EN
-Connection ~ 7150 2050
-Wire Wire Line
-	7150 2050 7150 2150
 Wire Wire Line
 	6500 2750 7150 2750
-Wire Wire Line
-	7150 2450 7150 2750
-$Comp
-L Device:R R?
-U 1 1 5E6F49A8
-P 7150 2300
-AR Path="/5DCA6D60/5E6F49A8" Ref="R?"  Part="1" 
-AR Path="/5DC1121D/5E6F49A8" Ref="R50"  Part="1" 
-F 0 "R50" H 7220 2346 50  0000 L CNN
-F 1 "R" H 7220 2255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7080 2300 50  0001 C CNN
-F 3 "~" H 7150 2300 50  0001 C CNN
-	1    7150 2300
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	7750 2350 8150 2350
 Text Notes 7950 2600 0    50   ~ 0
@@ -491,4 +461,45 @@ Wire Notes Line
 	8150 2650 8150 2700
 Wire Notes Line
 	7550 2700 8150 2700
+Text Notes 5400 2900 0    50   ~ 0
+R=576\nI=42mA
+Text Notes 7250 3950 0    50   ~ 0
+Gain of 0.6875\nACHS-7122 outputs 0.5-4.5V,\ncorresponding to 0.34-3.1V,\nsuitable for microcontroller\n
+Text Notes 8300 4450 0    50   ~ 0
+<- should help to filter out noise above ~~25Hz
+$Comp
+L Device:C C40
+U 1 1 5F52144D
+P 7750 4400
+F 0 "C40" H 7865 4446 50  0000 L CNN
+F 1 "1u/50V" H 7865 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7788 4250 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL21B105KBFNNNG-19.pdf" H 7750 4400 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7750 4400 50  0001 C CNN "Manufacturer"
+F 5 "CL21B105KBFNNNG" H 7750 4400 50  0001 C CNN "Manufacturer Part"
+F 6 "Digikey" H 7750 4400 50  0001 C CNN "Vendor"
+F 7 "1276-6470-1-ND" H 7750 4400 50  0001 C CNN "Vendor Part"
+	1    7750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F5234E4
+P 7150 2300
+AR Path="/5DCA6D60/5F5234E4" Ref="R?"  Part="1" 
+AR Path="/5DC1121D/5F5234E4" Ref="R50"  Part="1" 
+F 0 "R50" H 7220 2346 50  0000 L CNN
+F 1 "4.7k" H 7220 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7080 2300 50  0001 C CNN
+F 3 "~" H 7150 2300 50  0001 C CNN
+	1    7150 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2050 7150 2150
+Connection ~ 7150 2050
+Wire Wire Line
+	7150 2450 7150 2750
+Text Notes 7650 1750 0    50   ~ 0
+12V gate to source voltage\nwhen conducting, doesn't\nexceed 20V absolute max
 $EndSCHEMATC
