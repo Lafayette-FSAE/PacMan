@@ -44,6 +44,7 @@ F 4 "Anderson Power" H 1050 1750 50  0001 C CNN "Manufacturer"
 F 5 "1327FP" H 1050 1750 50  0001 C CNN "Manufacturer Part"
 F 6 "Powerwerx" H 1050 1750 50  0001 C CNN "Vendor"
 F 7 "1327FP" H 1050 1750 50  0001 C CNN "Vendor Part"
+F 8 "1327FP" H 1050 1750 50  0001 C CNN "Mates With"
 	1    1050 1750
 	-1   0    0    -1  
 $EndComp
@@ -77,6 +78,7 @@ F 4 "Molex" H 2250 4800 50  0001 C CNN "Manufacturer"
 F 5 "1724470202" H 2250 4800 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 2250 4800 50  0001 C CNN "Vendor"
 F 7 "WM17931-ND" H 2250 4800 50  0001 C CNN "Vendor Part"
+F 8 "0469920210" H 2250 4800 50  0001 C CNN "Mates With"
 	1    2250 4800
 	-1   0    0    1   
 $EndComp
@@ -448,6 +450,7 @@ F 4 "Anderson Power" H 1050 2350 50  0001 C CNN "Manufacturer"
 F 5 "1327G6FP" H 1050 2350 50  0001 C CNN "Manufacturer Part"
 F 6 "Powerwerx" H 1050 2350 50  0001 C CNN "Vendor"
 F 7 "1327G6FP" H 1050 2350 50  0001 C CNN "Vendor Part"
+F 8 "1327G6FP" H 1050 2350 50  0001 C CNN "Mates With"
 	1    1050 2350
 	-1   0    0    -1  
 $EndComp
@@ -463,6 +466,7 @@ F 4 "Molex" H 8100 6100 50  0001 C CNN "Manufacturer"
 F 5 "1724470202" H 8100 6100 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 8100 6100 50  0001 C CNN "Vendor"
 F 7 "WM17931-ND" H 8100 6100 50  0001 C CNN "Vendor Part"
+F 8 "0469920210" H 8100 6100 50  0001 C CNN "Mates With"
 	1    8100 6100
 	1    0    0    -1  
 $EndComp
@@ -478,6 +482,7 @@ F 4 "Molex" H 8100 6400 50  0001 C CNN "Manufacturer"
 F 5 "1724470202" H 8100 6400 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 8100 6400 50  0001 C CNN "Vendor"
 F 7 "WM17931-ND" H 8100 6400 50  0001 C CNN "Vendor Part"
+F 8 "0469920210" H 8100 6400 50  0001 C CNN "Mates With"
 	1    8100 6400
 	1    0    0    -1  
 $EndComp
@@ -629,6 +634,7 @@ F 4 "Molex" H 9450 3600 50  0001 C CNN "Manufacturer"
 F 5 "0039281083" H 9450 3600 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 9450 3600 50  0001 C CNN "Vendor"
 F 7 "WM3803-ND" H 9450 3600 50  0001 C CNN "Vendor Part"
+F 8 "0039012080" H 9450 3600 50  0001 C CNN "Mates With"
 	1    9450 3600
 	1    0    0    -1  
 $EndComp
@@ -644,6 +650,7 @@ F 4 "Molex" H 9450 4450 50  0001 C CNN "Manufacturer"
 F 5 "0039281123" H 9450 4450 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 9450 4450 50  0001 C CNN "Vendor"
 F 7 "WM3805-ND" H 9450 4450 50  0001 C CNN "Vendor Part"
+F 8 "0039012120" H 9450 4450 50  0001 C CNN "Mates With"
 	1    9450 4450
 	1    0    0    -1  
 $EndComp
@@ -661,6 +668,7 @@ F 4 "Amphenol ICC" H 9550 5700 50  0001 C CNN "Manufacturer"
 F 5 "75869-304LF" H 9550 5700 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 9550 5700 50  0001 C CNN "Vendor"
 F 7 "609-5118-ND" H 9550 5700 50  0001 C CNN "Vendor Part"
+F 8 "71600-020LF" H 9550 5700 50  0001 C CNN "Mates With"
 	1    9550 5700
 	1    0    0    -1  
 $EndComp
@@ -696,6 +704,7 @@ F 4 "Amphenol ICC" H 2350 3300 50  0001 C CNN "Manufacturer"
 F 5 "75869-131LF" H 2350 3300 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 2350 3300 50  0001 C CNN "Vendor"
 F 7 "609-2845-ND" H 2350 3300 50  0001 C CNN "Vendor Part"
+F 8 "71600-006LF" H 2350 3300 50  0001 C CNN "Mates With"
 	1    2350 3300
 	1    0    0    -1  
 $EndComp
@@ -719,6 +728,7 @@ F 4 "Amphenol ICC" H 2350 3950 50  0001 C CNN "Manufacturer"
 F 5 "75869-131LF" H 2350 3950 50  0001 C CNN "Manufacturer Part"
 F 6 "Digikey" H 2350 3950 50  0001 C CNN "Vendor"
 F 7 "609-2845-ND" H 2350 3950 50  0001 C CNN "Vendor Part"
+F 8 "71600-006LF" H 2350 3950 50  0001 C CNN "Mates With"
 	1    2350 3950
 	1    0    0    -1  
 $EndComp
