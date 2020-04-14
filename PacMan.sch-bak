@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -624,7 +623,7 @@ U 1 1 5DF93323
 P 9450 3600
 F 0 "J8" H 9500 3917 50  0000 C CNN
 F 1 "SLOOP" H 9500 3826 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 9450 3600 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 9450 3600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/1724470002_sd.pdf" H 9450 3600 50  0001 C CNN
 F 4 "Molex" H 9450 3600 50  0001 C CNN "Manufacturer"
 F 5 "0039281083" H 9450 3600 50  0001 C CNN "Manufacturer Part"
@@ -639,7 +638,7 @@ U 1 1 5DF9AFC0
 P 9450 4450
 F 0 "J9" H 9500 4867 50  0000 C CNN
 F 1 "GLV/CAN" H 9500 4776 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 9450 4450 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 9450 4450 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/462070012_sd.pdf" H 9450 4450 50  0001 C CNN
 F 4 "Molex" H 9450 4450 50  0001 C CNN "Manufacturer"
 F 5 "0039281123" H 9450 4450 50  0001 C CNN "Manufacturer Part"

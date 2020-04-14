@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PacMan-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -67,10 +66,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 7450 4050 7450
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector_Generic:Conn_01x02 J5
 U 1 1 5DDF48B0
 P 2250 4800
-F 0 "J4" H 2250 4450 50  0000 C CNN
+F 0 "J5" H 2250 4450 50  0000 C CNN
 F 1 "Charge Detection" H 2250 4550 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2250 4800 50  0001 C CNN
 F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 2250 4800 50  0001 C CNN
@@ -453,10 +452,10 @@ F 7 "1327G6FP" H 1050 2350 50  0001 C CNN "Vendor Part"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J13
+L Connector_Generic:Conn_01x02 J8
 U 1 1 5DE1A059
 P 8100 6100
-F 0 "J13" H 8180 6092 50  0000 L CNN
+F 0 "J8" H 8180 6092 50  0000 L CNN
 F 1 "AIR Left" H 8180 6001 50  0000 L CNN
 F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8100 6100 50  0001 C CNN
 F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 8100 6100 50  0001 C CNN
@@ -468,10 +467,10 @@ F 7 "WM17931-ND" H 8100 6100 50  0001 C CNN "Vendor Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J14
+L Connector_Generic:Conn_01x02 J9
 U 1 1 5DE1A7ED
 P 8100 6400
-F 0 "J14" H 8180 6392 50  0000 L CNN
+F 0 "J9" H 8180 6392 50  0000 L CNN
 F 1 "AIR Right" H 8180 6301 50  0000 L CNN
 F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8100 6400 50  0001 C CNN
 F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/1724470202_PCB_HEADERS.pdf" H 8100 6400 50  0001 C CNN
@@ -619,12 +618,12 @@ F 7 "WM3789CT-ND" H 3550 7350 50  0001 C CNN "Vendor Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J8
+L Connector_Generic:Conn_02x04_Counter_Clockwise J10
 U 1 1 5DF93323
 P 9450 3600
-F 0 "J8" H 9500 3917 50  0000 C CNN
+F 0 "J10" H 9500 3917 50  0000 C CNN
 F 1 "SLOOP" H 9500 3826 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 9450 3600 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 9450 3600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/1724470002_sd.pdf" H 9450 3600 50  0001 C CNN
 F 4 "Molex" H 9450 3600 50  0001 C CNN "Manufacturer"
 F 5 "0039281083" H 9450 3600 50  0001 C CNN "Manufacturer Part"
@@ -634,12 +633,12 @@ F 7 "WM3803-ND" H 9450 3600 50  0001 C CNN "Vendor Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Counter_Clockwise J9
+L Connector_Generic:Conn_02x06_Counter_Clockwise J7
 U 1 1 5DF9AFC0
 P 9450 4450
-F 0 "J9" H 9500 4867 50  0000 C CNN
+F 0 "J7" H 9500 4867 50  0000 C CNN
 F 1 "GLV/CAN" H 9500 4776 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 9450 4450 50  0001 C CNN
+F 2 "Lafayette_Electric_Car_Footprints:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 9450 4450 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/462070012_sd.pdf" H 9450 4450 50  0001 C CNN
 F 4 "Molex" H 9450 4450 50  0001 C CNN "Manufacturer"
 F 5 "0039281123" H 9450 4450 50  0001 C CNN "Manufacturer Part"
@@ -651,10 +650,10 @@ $EndComp
 Text Notes 9000 6550 0    50   ~ 0
 Ribbon cable to I/O side panel\nP/N for mating receptacle:\nAmphenol 71600-020LF
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J7
+L Connector_Generic:Conn_02x10_Odd_Even J11
 U 1 1 5DD804E2
 P 9550 5700
-F 0 "J7" H 9600 6317 50  0000 C CNN
+F 0 "J11" H 9600 6317 50  0000 C CNN
 F 1 "Panel" H 9600 6226 50  0000 C CNN
 F 2 "Lafayette_Electric_Car_Footprints:Amphenol_IDC-Header_2x10_P2.54mm_Vertical" H 9550 5700 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 9550 5700 50  0001 C CNN
@@ -686,10 +685,10 @@ RTN_SEG-
 Wire Wire Line
 	4150 2850 4250 2850
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J10
+L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 5E8AF533
 P 2350 3300
-F 0 "J10" H 2400 3650 50  0000 C CNN
+F 0 "J3" H 2400 3650 50  0000 C CNN
 F 1 "SEG+ CellMen" H 2400 3550 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 2350 3300 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 2350 3300 50  0001 C CNN
@@ -709,10 +708,10 @@ Wire Wire Line
 Wire Wire Line
 	2650 3300 2750 3300
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J5
+L Connector_Generic:Conn_02x03_Odd_Even J4
 U 1 1 5DDD27D7
 P 2350 3950
-F 0 "J5" H 2400 4300 50  0000 C CNN
+F 0 "J4" H 2400 4300 50  0000 C CNN
 F 1 "SEG- CellMen" H 2400 4200 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 2350 3950 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 2350 3950 50  0001 C CNN
